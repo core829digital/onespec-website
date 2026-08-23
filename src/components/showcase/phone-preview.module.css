@@ -1,0 +1,72 @@
+.phone {
+  width: 200px;
+  height: 400px;
+  background-color: #0b0c0e;
+  border-radius: 28px;
+  position: relative;
+  box-shadow: 0 30px 60px -20px rgba(0, 0, 0, 0.35);
+}
+
+.screen {
+  position: absolute;
+  inset: 5px 4px 4px 4px;
+  border-radius: 24px;
+  background: linear-gradient(165deg, #e3f9f2 0%, #ffffff 30%, #eaf6f1 55%, #d7f2e8 78%, #0fbf8f 100%);
+  overflow: hidden;
+}
+
+.notch {
+  width: 76px;
+  height: 20px;
+  background-color: #0b0c0e;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 20px;
+  z-index: 2;
+}
+
+.content {
+  position: absolute;
+  inset: 44px 14px 20px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bar {
+  height: 10px;
+  border-radius: 6px;
+  background: rgba(29, 29, 31, 0.12);
+}
+
+.bar:nth-child(1) {
+  width: 60%;
+}
+
+.bar:nth-child(2) {
+  width: 85%;
+}
+
+.tiles {
+  margin-top: 6px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.tile {
+  height: 62px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(15, 191, 143, 0.35);
+  box-shadow: 0 6px 16px -8px rgba(15, 191, 143, 0.35);
+}
+
+.cta {
+  margin-top: auto;
+  height: 34px;
+  border-radius: 999px;
+  background: #0b0c0e;
+}

@@ -1,0 +1,164 @@
+.card {
+  --width: 190px;
+  --height: 300px;
+  --perforation-size: 12px;
+  --cutouts-adjust: 64px;
+
+  position: relative;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 0.75rem;
+  width: var(--width);
+  height: var(--height);
+  padding: var(--perforation-size) 0;
+  user-select: none;
+  overflow: hidden;
+  filter: drop-shadow(0 2px 1px rgba(0, 0, 0, 0.1)) drop-shadow(0 10px 14px rgba(0, 0, 0, 0.1))
+    drop-shadow(0 24px 24px rgba(0, 0, 0, 0.08));
+  animation: hover 3.4s ease infinite;
+  will-change: transform, filter;
+}
+
+@keyframes hover {
+  50% {
+    filter: drop-shadow(0 4px 3px rgba(0, 0, 0, 0.06)) drop-shadow(0 16px 14px rgba(0, 0, 0, 0.06))
+      drop-shadow(0 36px 36px rgba(0, 0, 0, 0.05));
+    transform: translateY(-6px) scale(1.015);
+  }
+}
+
+.bg {
+  position: absolute;
+  inset: 0;
+  border-radius: 18px;
+  background-color: #fff;
+  mask:
+    radial-gradient(
+      circle at 50% 0,
+      #fff0 calc(var(--perforation-size) - 5px),
+      #000 calc(var(--perforation-size) - 4px)
+    ),
+    radial-gradient(
+      circle at 50% 100%,
+      #fff0 calc(var(--perforation-size) - 5px),
+      #000 calc(var(--perforation-size) - 4px)
+    ),
+    radial-gradient(circle 8px at left center, #000 98%, #0000 100%),
+    radial-gradient(circle 8px at right center, #000 98%, #0000 100%),
+    repeating-linear-gradient(90deg, #000 10px, #000 15px, #0000 16px, #0000 24px);
+
+  mask-repeat: repeat-x, repeat-x, no-repeat, no-repeat, repeat-x;
+
+  mask-size:
+    calc(var(--perforation-size) * 2) 100%,
+    calc(var(--perforation-size) * 2) 100%,
+    16px 16px,
+    16px 16px,
+    10px 2px;
+
+  mask-position:
+    calc(0.5 * var(--perforation-size)) top,
+    calc(0.5 * var(--perforation-size)) bottom,
+    left var(--cutouts-adjust),
+    right var(--cutouts-adjust),
+    0 calc(var(--cutouts-adjust) + 7px);
+
+  mask-composite: intersect, exclude, add, add;
+}
+
+.tint {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background-image: linear-gradient(to bottom, var(--ticket-color, #0fbf8f) 0%, transparent 45%, transparent 100%);
+  opacity: 0.16;
+}
+
+.tint::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(120deg, transparent, var(--ticket-color, #0fbf8f), transparent);
+  opacity: 0.14;
+  mix-blend-mode: multiply;
+  animation: shimmer 4s ease-in-out infinite alternate;
+}
+
+@keyframes shimmer {
+  to {
+    background-position: 0 200px;
+  }
+}
+
+.header {
+  position: relative;
+  margin: 0 8px;
+  text-align: center;
+  z-index: 1;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--color-text);
+}
+
+.body {
+  position: relative;
+  z-index: 1;
+  margin: 0 1.1em;
+  padding: 0.25em 0;
+  font-size: 12.5px;
+  font-weight: 400;
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+}
+
+.footer {
+  position: relative;
+  z-index: 1;
+  margin: 0 1em 1em 1em;
+}
+
+.number {
+  margin-bottom: 0.6rem;
+  text-align: center;
+  color: var(--color-text-secondary);
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.number .bold {
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.barcode {
+  justify-self: center;
+  width: 0;
+  height: 26px;
+  margin: 0 auto;
+  box-shadow:
+    0px 0 0 1px #1d1d1f,
+    5px 0 0 1px #1d1d1f,
+    7px 0 0 1px #1d1d1f,
+    11px 0 0 1px #1d1d1f,
+    15px 0 0 1px #1d1d1f,
+    16px 0 0 1px #1d1d1f,
+    22px 0 0 1px #1d1d1f,
+    27px 0 0 1px #1d1d1f,
+    30px 0 0 1px #1d1d1f,
+    35px 0 0 1px #1d1d1f,
+    36px 0 0 1px #1d1d1f,
+    39px 0 0 1px #1d1d1f,
+    43px 0 0 1px #1d1d1f,
+    47px 0 0 1px #1d1d1f,
+    50px 0 0 1px #1d1d1f,
+    55px 0 0 1px #1d1d1f,
+    59px 0 0 1px #1d1d1f,
+    60px 0 0 1px #1d1d1f,
+    64px 0 0 1px #1d1d1f,
+    69px 0 0 1px #1d1d1f,
+    70px 0 0 1px #1d1d1f,
+    74px 0 0 1px #1d1d1f;
+  transform: translateX(37px);
+}

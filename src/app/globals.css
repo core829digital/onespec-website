@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+:root {
+  /* Dark is the default theme. */
+  --color-bg: #0a0b0d;
+  --color-bg-alt: #141618;
+  --color-bg-inverse: #000000;
+  --color-text: #f5f5f7;
+  --color-text-secondary: #9a9aa0;
+  --color-text-inverse: #1d1d1f;
+  --color-border: #2b2e31;
+  --color-border-subtle: #1c1e21;
+  --color-mint: #16d19d;
+  --color-mint-dark: #0fbf8f;
+  --color-mint-light: rgba(22, 209, 157, 0.14);
+  --color-danger: #ff6b6b;
+
+  --ease-out-apple: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out-apple: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+:root[data-theme="light"] {
+  --color-bg: #ffffff;
+  --color-bg-alt: #f5f5f7;
+  --color-bg-inverse: #0b0c0e;
+  --color-text: #1d1d1f;
+  --color-text-secondary: #6e6e73;
+  --color-text-inverse: #f5f5f7;
+  --color-border: #d2d2d7;
+  --color-border-subtle: #e8e8ed;
+  --color-mint: #0fbf8f;
+  --color-mint-dark: #0a9c74;
+  --color-mint-light: #e3f9f2;
+  --color-danger: #d9363e;
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+::selection {
+  background: var(--color-mint-light);
+  color: var(--color-mint-dark);
+}
+
+.container-onespec {
+  width: 100%;
+  max-width: 1180px;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .container-onespec {
+    padding-inline: 2.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.text-balance {
+  text-wrap: balance;
+}

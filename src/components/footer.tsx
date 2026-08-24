@@ -15,7 +15,7 @@ export function Footer() {
       <div className="container-onespec py-14">
         <div className="grid grid-cols-2 gap-10 md:grid-cols-4">
           <div className="col-span-2 md:col-span-1">
-            <Logo />
+            <Logo className="h-8 w-auto" />
             <p className="mt-3 max-w-[220px] text-[13px] leading-relaxed text-[var(--color-text-secondary)]">
               {SITE.tagline}
             </p>

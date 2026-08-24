@@ -36,7 +36,7 @@ function HeroContent() {
         </Link>
         <Link
           href="/prodotto"
-          className="inline-flex cursor-pointer items-center gap-2 rounded-full border border-white/20 bg-transparent px-6 py-3.5 text-[15px] font-medium text-white transition-colors hover:bg-white/10"
+          className="inline-flex cursor-pointer items-center gap-2 rounded-full border border-white/20 bg-transparent px-6 py-3.5 text-[15px] font-medium text-white transition-colors duration-150 hover:bg-white/10 active:bg-white/15"
         >
           Scopri come funziona
         </Link>
@@ -49,7 +49,7 @@ function HeroContent() {
 function HeroStatic() {
   const drawn = useMotionValue(1);
   return (
-    <section className="relative flex min-h-screen w-full flex-col items-center justify-center overflow-hidden bg-[var(--color-bg-inverse)] py-24">
+    <section className="relative flex min-h-dvh w-full flex-col items-center justify-center overflow-hidden bg-[var(--color-bg-inverse)] py-24">
       <GoogleGeminiEffect pathLengths={[drawn, drawn, drawn, drawn, drawn]} />
       <HeroContent />
     </section>
@@ -76,9 +76,9 @@ function HeroScrollDriven() {
   return (
     <section
       ref={ref}
-      className="relative h-[180vh] w-full overflow-clip bg-[var(--color-bg-inverse)]"
+      className="relative h-[180dvh] w-full overflow-clip bg-[var(--color-bg-inverse)]"
     >
-      <div className="sticky top-0 flex h-screen w-full flex-col items-center justify-center overflow-hidden">
+      <div className="sticky top-0 flex h-dvh w-full flex-col items-center justify-center overflow-hidden">
         <GoogleGeminiEffect
           pathLengths={[
             pathLengthFirst,

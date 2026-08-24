@@ -1,6 +1,10 @@
 .menu {
+  /* display: none di base + reveal a >=768px qui dentro, perche questa
+     regola non e in @layer: batterebbe sempre l'utility "hidden" di
+     Tailwind (unlayered vince sempre su layered, a prescindere da
+     specificita/ordine), lasciando la nav visibile anche su mobile. */
   position: relative;
-  display: flex;
+  display: none;
   align-items: center;
   gap: 2px;
   padding: 4px;
@@ -43,4 +47,10 @@
   background-color: rgba(15, 191, 143, 0.14);
   color: var(--color-mint-dark);
   transform: translateY(-1px);
+}
+
+@media (min-width: 768px) {
+  .menu {
+    display: flex;
+  }
 }

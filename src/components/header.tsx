@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import { List, X } from "@phosphor-icons/react/dist/ssr";
 import { Logo } from "@/components/logo";
 import { Countdown } from "@/components/countdown";
@@ -18,7 +19,7 @@ export function Header() {
           <Logo />
         </Link>
 
-        <nav className={`hidden md:flex ${pillStyles.menu}`}>
+        <nav className={pillStyles.menu}>
           {NAV_LINKS.map((link) => (
             <Link key={link.href} href={link.href} className={pillStyles.link}>
               {link.label}
@@ -47,32 +48,41 @@ export function Header() {
         </button>
       </div>
 
-      {open && (
-        <div className="border-t border-[var(--color-border-subtle)] bg-[var(--color-bg)] md:hidden">
-          <div className="container-onespec flex flex-col gap-1 py-4">
-            {NAV_LINKS.map((link) => (
+      <AnimatePresence initial={false}>
+        {open && (
+          <motion.div
+            key="mobile-menu"
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: "auto", opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
+            className="overflow-hidden border-t border-[var(--color-border-subtle)] bg-[var(--color-bg)] md:hidden"
+          >
+            <div className="container-onespec flex flex-col gap-2 py-4">
+              {NAV_LINKS.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => setOpen(false)}
+                  className="rounded-lg px-3 py-3 text-[15px] font-medium text-[var(--color-text)] transition-colors duration-150 hover:bg-[var(--color-bg-alt)] active:bg-[var(--color-bg-alt)]"
+                >
+                  {link.label}
+                </Link>
+              ))}
+              <div className="mt-2 px-3">
+                <Countdown />
+              </div>
               <Link
-                key={link.href}
-                href={link.href}
+                href="/prezzi"
                 onClick={() => setOpen(false)}
-                className="rounded-lg px-3 py-2.5 text-[15px] font-medium text-[var(--color-text)] hover:bg-[var(--color-bg-alt)]"
+                className="mt-3 rounded-full bg-[var(--color-mint)] px-4 py-3.5 text-center text-[15px] font-medium text-[#04231a] transition-transform duration-150 active:scale-[0.98]"
               >
-                {link.label}
+                Richiedi accesso
               </Link>
-            ))}
-            <div className="mt-2 px-3">
-              <Countdown />
             </div>
-            <Link
-              href="/prezzi"
-              onClick={() => setOpen(false)}
-              className="mt-3 rounded-full bg-[var(--color-mint)] px-4 py-3 text-center text-[15px] font-medium text-[#04231a]"
-            >
-              Richiedi accesso
-            </Link>
-          </div>
-        </div>
-      )}
+          </motion.div>
+        )}
+      </AnimatePresence>
     </header>
   );
 }

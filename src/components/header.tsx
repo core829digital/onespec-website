@@ -41,7 +41,7 @@ export function Header() {
           aria-label={open ? "Chiudi menu" : "Apri menu"}
           aria-expanded={open}
           onClick={() => setOpen((v) => !v)}
-          className="flex h-10 w-10 cursor-pointer items-center justify-center rounded-full text-[var(--color-text)] md:hidden"
+          className="flex h-11 w-11 cursor-pointer items-center justify-center rounded-full text-[var(--color-text)] md:hidden"
         >
           {open ? <X size={22} /> : <List size={22} />}
         </button>

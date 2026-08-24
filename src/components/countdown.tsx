@@ -45,6 +45,7 @@ export function Countdown({ compact = false }: { compact?: boolean }) {
     <div
       className={cnCompact(compact)}
       role="timer"
+      aria-live="off"
       aria-label={`Lancio pubblico tra ${time.days} giorni, ${time.hours} ore, ${time.minutes} minuti`}
     >
       <span className="hidden sm:inline text-[11px] font-medium uppercase tracking-wide text-[var(--color-text-secondary)]">

@@ -97,3 +97,21 @@ button,
 .text-balance {
   text-wrap: balance;
 }
+
+/* Logo: due varianti PNG, la giusta e mostrata via CSS in base al tema
+   (niente JS/hydration flash, coerente con lo script di init tema). */
+.logo-dark {
+  display: block;
+}
+
+.logo-light {
+  display: none;
+}
+
+:root[data-theme="light"] .logo-dark {
+  display: none;
+}
+
+:root[data-theme="light"] .logo-light {
+  display: block;
+}

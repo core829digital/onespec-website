@@ -7,6 +7,8 @@ import {
   ArrowRight,
 } from "@phosphor-icons/react/dist/ssr";
 import { Reveal, RevealGroup, RevealItem } from "@/components/reveal";
+import { ConfiguratorEmbed } from "@/components/showcase/configurator-embed";
+import { DashboardMockup } from "@/components/showcase/dashboard-mockup";
 import { ColorPicker } from "@/components/showcase/color-picker";
 import { EmbedCodeCard } from "@/components/showcase/embed-code-card";
 import { PerformanceCard } from "@/components/showcase/performance-card";
@@ -91,6 +93,30 @@ export default function ProdottoPage() {
         </div>
       </section>
 
+      {/* Configuratore live */}
+      <section className="pb-24">
+        <div className="container-onespec">
+          <Reveal className="mx-auto max-w-2xl text-center">
+            <span className="inline-flex items-center gap-1.5 rounded-full bg-[var(--color-mint-light)] px-3 py-1 text-[11px] font-semibold uppercase tracking-wide text-[var(--color-mint-dark)]">
+              <span className="h-1.5 w-1.5 rounded-full bg-[var(--color-mint-dark)]" />
+              Demo interattiva
+            </span>
+            <h2 className="mt-5 text-balance text-3xl font-semibold tracking-tight text-[var(--color-text)] sm:text-4xl">
+              Provalo come lo prova il tuo cliente
+            </h2>
+            <p className="mx-auto mt-4 max-w-xl text-balance text-[15px] leading-relaxed text-[var(--color-text-secondary)]">
+              Il widget qui sotto e caricato in un iFrame, esattamente come
+              apparirebbe sul tuo sito. Configura un serramento e guarda il
+              preventivo calcolarsi in tempo reale.
+            </p>
+          </Reveal>
+
+          <Reveal delay={0.1} className="mt-12">
+            <ConfiguratorEmbed />
+          </Reveal>
+        </div>
+      </section>
+
       <section className="pb-24">
         <div className="container-onespec">
           <RevealGroup className="grid grid-cols-1 gap-10 lg:grid-cols-2">
@@ -112,6 +138,26 @@ export default function ProdottoPage() {
               </RevealItem>
             ))}
           </RevealGroup>
+        </div>
+      </section>
+
+      {/* Dashboard */}
+      <section className="border-t border-[var(--color-border-subtle)] pb-24">
+        <div className="container-onespec pt-20">
+          <Reveal className="mx-auto max-w-2xl text-center">
+            <h2 className="text-balance text-3xl font-semibold tracking-tight text-[var(--color-text)] sm:text-4xl">
+              La dashboard da cui controlli tutto
+            </h2>
+            <p className="mx-auto mt-4 max-w-xl text-balance text-[15px] leading-relaxed text-[var(--color-text-secondary)]">
+              Richieste ricevute, prodotti piu configurati, valore medio del
+              preventivo. Da qui aggiorni listini e regole, e le modifiche vanno
+              live ovunque il widget sia installato.
+            </p>
+          </Reveal>
+
+          <Reveal delay={0.1} className="mt-12">
+            <DashboardMockup />
+          </Reveal>
         </div>
       </section>
 

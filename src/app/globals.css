@@ -70,17 +70,38 @@ button,
   color: var(--color-mint-dark);
 }
 
+/* Layout full-width: il contenuto respira fino ai bordi dello schermo, con
+   gutter che crescono col viewport. Il testo lungo resta poi limitato dalle
+   max-w-* dei singoli blocchi, cosi la misura di riga resta leggibile. */
 .container-onespec {
   width: 100%;
-  max-width: 1180px;
+  max-width: 1680px;
   margin-inline: auto;
-  padding-inline: 1.5rem;
+  padding-inline: 1.25rem;
 }
 
 @media (min-width: 768px) {
   .container-onespec {
     padding-inline: 2.5rem;
   }
+}
+
+@media (min-width: 1280px) {
+  .container-onespec {
+    padding-inline: 4rem;
+  }
+}
+
+@media (min-width: 1680px) {
+  .container-onespec {
+    padding-inline: 5rem;
+  }
+}
+
+/* Sezioni a tutto schermo, che escono dal container senza causare
+   scroll orizzontale. */
+.full-bleed {
+  width: 100%;
 }
 
 @media (prefers-reduced-motion: reduce) {

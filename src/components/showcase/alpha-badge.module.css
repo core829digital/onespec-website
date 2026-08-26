@@ -1,0 +1,124 @@
+.badge {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 16px 9px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(22, 209, 157, 0.32);
+  background: linear-gradient(
+    135deg,
+    rgba(22, 209, 157, 0.16),
+    rgba(22, 209, 157, 0.04)
+  );
+  backdrop-filter: blur(10px) saturate(150%);
+  -webkit-backdrop-filter: blur(10px) saturate(150%);
+  overflow: hidden;
+  isolation: isolate;
+}
+
+/* Riflesso che attraversa il badge: animato solo su transform/opacity. */
+.badge::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  background: linear-gradient(
+    100deg,
+    transparent 35%,
+    rgba(255, 255, 255, 0.42) 50%,
+    transparent 65%
+  );
+  transform: translateX(-120%);
+  animation: sheen 4.5s ease-in-out infinite;
+}
+
+@keyframes sheen {
+  0%,
+  62% {
+    transform: translateX(-120%);
+  }
+  100% {
+    transform: translateX(120%);
+  }
+}
+
+.logo {
+  position: relative;
+  z-index: 1;
+  height: 16px;
+  width: auto;
+  flex-shrink: 0;
+}
+
+.divider {
+  position: relative;
+  z-index: 1;
+  width: 1px;
+  height: 15px;
+  background: rgba(22, 209, 157, 0.35);
+  flex-shrink: 0;
+}
+
+.label {
+  position: relative;
+  z-index: 1;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-mint);
+  white-space: nowrap;
+}
+
+.dot {
+  position: relative;
+  z-index: 1;
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--color-mint);
+  flex-shrink: 0;
+  animation: pulse 2.4s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.45;
+    transform: scale(0.75);
+  }
+}
+
+/* Variante grande, per la sezione dedicata al programma Alpha. */
+.lg {
+  gap: 13px;
+  padding: 13px 22px 13px 17px;
+}
+
+.lg .logo {
+  height: 22px;
+}
+
+.lg .divider {
+  height: 20px;
+}
+
+.lg .label {
+  font-size: 13px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .badge::after,
+  .dot {
+    animation: none;
+  }
+  .badge::after {
+    opacity: 0;
+  }
+}

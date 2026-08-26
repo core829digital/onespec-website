@@ -44,23 +44,28 @@ export function ParallaxHero() {
     // ctx.revert() rimuove tween e ScrollTrigger creati qui, senza toccare
     // quelli di altri componenti.
     const ctx = gsap.context(() => {
-      const track = root.querySelector("[data-parallax-track]");
+      const track = root.querySelector<HTMLElement>("[data-parallax-track]");
+      const visuals = root.querySelector<HTMLElement>("[data-parallax-visuals]");
       const layers = root.querySelector("[data-parallax-layers]");
-      if (!track || !layers) return;
+      if (!track || !visuals || !layers) return;
 
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: track,
-          // "top top" -> "bottom bottom" copre esattamente il range di scroll
-          // per cui il figlio sticky resta agganciato (220vh di pista - 100dvh
-          // di sticky = 120vh di scroll reale). Un end diverso da questo
-          // desincronizza il parallax dal reale rilascio dello sticky.
           start: "top top",
           end: "bottom bottom",
-          // scrub:true (no numero) = animazione agganciata 1:1 alla posizione
-          // di scroll. Lenis gia smussa il movimento: un scrub numerico
-          // aggiungerebbe un secondo strato di lag sopra quello di Lenis,
-          // che e la causa tipica di un parallax "che pattina" o in ritardo.
+          // Pin nativo GSAP invece di CSS position:sticky: e GSAP stesso a
+          // fissare/rilasciare il layer visuale in base allo scroll reale,
+          // invece di affidarsi al browser per far coincidere sticky con le
+          // altezze vh/dvh calcolate in CSS. pinSpacing:false perche lo
+          // spazio di scroll (.header, 220dvh) e gia riservato a mano: se
+          // GSAP aggiungesse il suo, la pista raddoppierebbe.
+          pin: visuals,
+          pinSpacing: false,
+          anticipatePin: 1,
+          // scrub:true = animazione agganciata 1:1 alla posizione di scroll.
+          // Lenis gia smussa il movimento: un scrub numerico aggiungerebbe un
+          // secondo strato di lag sopra quello di Lenis.
           scrub: true,
         },
       });
@@ -90,7 +95,7 @@ export function ParallaxHero() {
   return (
     <div className={styles.parallax} ref={rootRef}>
       <section className={styles.header} data-parallax-track>
-        <div className={styles.visuals}>
+        <div className={styles.visuals} data-parallax-visuals>
           <div data-parallax-layers className={styles.layers}>
             <div
               data-parallax-layer="1"

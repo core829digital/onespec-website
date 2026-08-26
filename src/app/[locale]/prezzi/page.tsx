@@ -1,7 +1,6 @@
 import { Check, Minus } from "@phosphor-icons/react/dist/ssr";
 import { useTranslations, useLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { Link } from "@/i18n/navigation";
 import { Reveal, RevealGroup, RevealItem } from "@/components/reveal";
 import { AlphaProgram } from "@/components/showcase/alpha-program";
 import { PRICING_TIERS_META, alphaPrice, ALPHA, SITE } from "@/lib/site-config";

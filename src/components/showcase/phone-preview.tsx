@@ -1,8 +1,10 @@
+import { useTranslations } from "next-intl";
 import styles from "./phone-preview.module.css";
 
 export function PhonePreview() {
+  const t = useTranslations("phonePreview");
   return (
-    <div className={styles.phone} role="img" aria-label="Anteprima del configuratore su smartphone">
+    <div className={styles.phone} role="img" aria-label={t("ariaLabel")}>
       <div className={styles.screen}>
         <div className={styles.notch} />
         <div className={styles.content}>

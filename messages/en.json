@@ -1,0 +1,604 @@
+{
+  "meta": {
+    "title": "onespec — The window & door configurator for your website",
+    "description": "onespec is the window and door configurator widget you embed via iframe: automatic quotes, always up-to-date pricing, brandable for your company.",
+    "prezziTitle": "Pricing",
+    "prodottoTitle": "Product",
+    "versioniTitle": "Changelog"
+  },
+  "nav": {
+    "prodotto": "Product",
+    "prezzi": "Pricing",
+    "versioni": "Changelog",
+    "richiediAccesso": "Request access",
+    "apriMenu": "Open menu",
+    "chiudiMenu": "Close menu"
+  },
+  "footer": {
+    "colProdotto": "Product",
+    "colAzienda": "Company",
+    "colLegale": "Legal",
+    "comeFunziona": "How it works",
+    "prezzi": "Pricing",
+    "versioni": "Versions & changelog",
+    "accessoAlpha": "Alpha access",
+    "contatti": "Contact",
+    "privacy": "Privacy Policy",
+    "termini": "Terms of Service",
+    "cookie": "Cookie Policy",
+    "copyright": "© {year} onespec. All rights reserved.",
+    "faseAlpha": "Product in Alpha stage",
+    "tagline": "The window & door configurator that sells for you."
+  },
+  "countdown": {
+    "live": "onespec is live",
+    "prefix": "Alpha · launching in",
+    "ariaLabel": "Public launch in {days} days, {hours} hours, {minutes} minutes",
+    "days": "d",
+    "hours": "h",
+    "minutes": "m",
+    "seconds": "s"
+  },
+  "theme": {
+    "toDark": "Switch to dark mode",
+    "toLight": "Switch to light mode"
+  },
+  "languageSwitcher": {
+    "label": "Language"
+  },
+  "hero": {
+    "badge": "In development · Alpha access open",
+    "title": "The window & door configurator that qualifies your leads for you",
+    "subtitle": "A widget you embed on your site with an iFrame code. Automatic quotes, an always-current price list, your brand.",
+    "ctaPrimary": "Request Alpha access",
+    "ctaSecondary": "See the live configurator",
+    "scroll": "Scroll"
+  },
+  "home": {
+    "configurator": {
+      "kicker": "Interactive demo",
+      "title": "This is the configurator. Try it now.",
+      "subtitle": "This isn't a screenshot: it's the exact widget your customers get, loaded here inside an iFrame. Change material, sizes and finishes and watch the quote update."
+    },
+    "valueProp": {
+      "title": "Every day you lose time on requests that go nowhere",
+      "body": "Curiosity calls, pointless site visits, competitors posing as customers just to undercut you on price. onespec puts a configurator between you and these requests: whoever reaches you has already figured out the product and the budget."
+    },
+    "features": {
+      "title": "Everything you need, nothing you don't",
+      "items": [
+        {
+          "icon": "code",
+          "title": "One iFrame, and you're live",
+          "description": "You paste a code on your site and the configurator appears, already working. No development, no technical maintenance."
+        },
+        {
+          "icon": "palette",
+          "title": "100% brandable",
+          "description": "Colors, fonts and logo of your configurator match your brand. Your customer won't even know onespec exists."
+        },
+        {
+          "icon": "file",
+          "title": "Price list from a file, always current",
+          "description": "You upload your price list, the configurator decodes it. Update the file, the widget updates everywhere it's installed."
+        },
+        {
+          "icon": "shield",
+          "title": "Filters out anyone who isn't a real buyer",
+          "description": "No more wasting time on people who only want to compare prices to undercut you. The configurator qualifies the request before it reaches you."
+        },
+        {
+          "icon": "chart",
+          "title": "Prices close to reality",
+          "description": "Configurable pricing rules for materials, sizes and finishes: the quote the customer sees is almost the final one."
+        },
+        {
+          "icon": "lightning",
+          "title": "Instant updates",
+          "description": "You update the configurator from the onespec platform: changes go live on every site where it's installed, immediately."
+        }
+      ]
+    },
+    "dashboard": {
+      "title": "Quotes come in, you see them in real time",
+      "subtitle": "Every request the configurator generates lands straight in the dashboard: how many come in, from which products, and how the average value grows month after month."
+    },
+    "steps": {
+      "title": "From price list to a live quote in four steps",
+      "items": [
+        {
+          "n": "01",
+          "title": "Upload your price list",
+          "description": "A file with products, sizes, materials and prices. onespec reads it and turns it into a configurator."
+        },
+        {
+          "n": "02",
+          "title": "Brand the widget",
+          "description": "Colors, logo, copy and pricing rules from the platform. No code required."
+        },
+        {
+          "n": "03",
+          "title": "Paste the iFrame code",
+          "description": "The configurator appears on your site, responsive on desktop and mobile, ready to collect requests."
+        },
+        {
+          "n": "04",
+          "title": "Receive qualified quotes",
+          "description": "Every request arrives already with sizes, materials and the customer's indicative budget."
+        }
+      ]
+    },
+    "pricing": {
+      "title": "You pay based on how hard the configurator works for you",
+      "subtitle": "Three plans, based on monthly quote requests and branding. With Alpha access, {percent}% off Starter and Business.",
+      "piuScelto": "Most popular",
+      "alphaSuffix": "/month with Alpha access",
+      "compareLink": "Compare all plans in detail"
+    },
+    "cta": {
+      "title": "Be among the first to bring onespec to your site",
+      "subtitle": "Alpha stage, {seats} spots. Whoever joins now helps shape the product and locks in the launch price.",
+      "button": "Request Alpha access"
+    }
+  },
+  "iframeExplainer": {
+    "kicker": "In plain terms",
+    "title": "What's an iFrame code?",
+    "subtitle": "It's the technical part of onespec, and it's the only one. No developer needed, nothing on your existing site gets touched.",
+    "points": [
+      {
+        "title": "It's a window inside your site",
+        "body": "The iFrame shows an external page inside one of your pages. Visitors see the configurator as if it were part of your site: no page change, no leaving you."
+      },
+      {
+        "title": "You paste it once",
+        "body": "Copy the code and paste it wherever you want the configurator to appear. Works with WordPress, Shopify, Wix, Webflow or a hand-built site: it's standard HTML."
+      },
+      {
+        "title": "It updates itself",
+        "body": "The content lives on our servers. When you change the price list or colors from the platform, the code on your site stays identical and the configurator is already updated."
+      }
+    ],
+    "copy": "Copy",
+    "copied": "Copied",
+    "footnote": "Only one line changes from customer to customer: <id>tuo-id</id>. Everything else is identical for everyone."
+  },
+  "dashboardMockup": {
+    "ariaLabel": "Preview of the onespec dashboard: quote request metrics, monthly trend and latest requests received",
+    "windowLabel": "app.onespec.it · Overview",
+    "kpis": [
+      {
+        "label": "Quote requests",
+        "value": "128",
+        "delta": "+18%"
+      },
+      {
+        "label": "Configurators opened",
+        "value": "2,940",
+        "delta": "+9%"
+      },
+      {
+        "label": "Conversion rate",
+        "value": "4.3%",
+        "delta": "+0.6pt"
+      },
+      {
+        "label": "Average request value",
+        "value": "€ 3,180",
+        "delta": "+4%"
+      }
+    ],
+    "chartTitle": "Requests per month",
+    "recentTitle": "Latest requests",
+    "recent": [
+      {
+        "product": "PVC window · 2 sashes",
+        "size": "1400×1800",
+        "value": "€ 2,480"
+      },
+      {
+        "product": "Wood French door",
+        "size": "1200×2300",
+        "value": "€ 4,150"
+      },
+      {
+        "product": "Aluminium window",
+        "size": "1500×1200",
+        "value": "€ 1,870"
+      },
+      {
+        "product": "PVC window · 1 sash",
+        "size": "900×1400",
+        "value": "€ 1,120"
+      }
+    ]
+  },
+  "configuratorEmbed": {
+    "loading": "Loading configurator…",
+    "chromeLabel": "yoursite-windows.com",
+    "live": "LIVE"
+  },
+  "alpha": {
+    "member": "Alpha Member",
+    "seatsSuffix": "available",
+    "discountBadge": "−{percent}%",
+    "cta": "Grab an Alpha spot",
+    "title": "250 spots. Then the price goes back to full.",
+    "subtitle": "Alpha access is limited to the first {seats} customers on the Starter or Business plan. Whoever joins now helps shape the product and keeps the launch terms even afterward.",
+    "benefits": [
+      {
+        "title": "15% discount for life",
+        "description": "The discount stays locked to your Starter or Business subscription even after public launch. The price never goes up."
+      },
+      {
+        "title": "Alpha Member badge",
+        "description": "A verified badge certifying you were among the first 250. Usable on your site and in your sales materials."
+      },
+      {
+        "title": "Access to Alpha updates",
+        "description": "Get preview builds and the reserved changelog channel, before features reach everyone else."
+      }
+    ]
+  },
+  "pricingTiers": [
+    {
+      "id": "starter",
+      "name": "Starter",
+      "description": "For those who want to try the configurator on a single site, risk-free.",
+      "quotesLimit": "Up to 50 quote requests/month",
+      "features": [
+        "1 active configurator",
+        "iFrame code ready to paste",
+        "Price list upload from file",
+        "\"Powered by onespec\" badge",
+        "Real-time price updates",
+        "Email support"
+      ],
+      "cta": "Start with Starter"
+    },
+    {
+      "id": "business",
+      "name": "Business",
+      "description": "For those who sell seriously and want a 100% branded configurator.",
+      "quotesLimit": "Up to 300 quote requests/month",
+      "features": [
+        "3 active configurators",
+        "Branding removed: your brand only",
+        "Advanced pricing rules and discounts",
+        "Multiple price lists per product line",
+        "Request and conversion analytics",
+        "Priority support"
+      ],
+      "cta": "Move to Business"
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "description": "For dealer networks, franchises and high quote volumes.",
+      "quotesLimit": "Unlimited quote requests",
+      "features": [
+        "Unlimited configurators",
+        "Full white-label + custom domain",
+        "API/CRM integration on request",
+        "Bulk multi-site price list import",
+        "Dedicated account manager",
+        "SLA and guided onboarding"
+      ],
+      "cta": "Talk to us",
+      "priceLabel": "Custom"
+    }
+  ],
+  "changelog": [
+    {
+      "version": "0.4.0",
+      "date": "2026-08-10",
+      "title": "Conditional pricing rules",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Added a rules engine for quantity and product combination discounts",
+        "New panel to manage multiple price lists within the same configurator"
+      ]
+    },
+    {
+      "version": "0.3.2",
+      "date": "2026-07-22",
+      "title": "Widget performance",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "First-load time reduced by 40%",
+        "Optimized rendering on slow mobile connections"
+      ]
+    },
+    {
+      "version": "0.3.0",
+      "date": "2026-06-30",
+      "title": "White-label for the Business plan",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Ability to remove the onespec badge from the widget",
+        "Color and font editor to match the configurator to the client's brand"
+      ]
+    },
+    {
+      "version": "0.2.1",
+      "date": "2026-06-05",
+      "title": "Price list import fixes",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Fixed an error importing price list files with accented characters",
+        "Fixed rounding on VAT-inclusive prices"
+      ]
+    },
+    {
+      "version": "A-03",
+      "date": "2026-08-18",
+      "title": "Alpha Member badge shipped",
+      "tag": "Nuovo",
+      "channel": "alpha",
+      "items": [
+        "The verified badge is now available in the account area of everyone who joined",
+        "Added a snippet to paste on your own site to display the badge"
+      ]
+    },
+    {
+      "version": "A-02",
+      "date": "2026-07-30",
+      "title": "Preview build channel",
+      "tag": "Nuovo",
+      "channel": "alpha",
+      "items": [
+        "Enabled the reserved channel with builds ahead of public release",
+        "Bug report form connected directly to the product team"
+      ]
+    },
+    {
+      "version": "A-01",
+      "date": "2026-07-02",
+      "title": "250 Alpha spots opened",
+      "tag": "Nuovo",
+      "channel": "alpha",
+      "items": [
+        "Opened enrollment for the Alpha program, with a 15% discount locked for life",
+        "The discount remains valid on Starter and Business even after public launch"
+      ]
+    }
+  ],
+  "prezzi": {
+    "hero": {
+      "title": "Simple pricing, based on how much you use the configurator",
+      "subtitle": "The more quote requests your configurator generates, the more value it brings you. Choose the plan based on volume and how much you want to brand it.",
+      "alphaNote": "Alpha access: −{percent}% on Starter and Business, first {seats} spots"
+    },
+    "priceNote": "/month",
+    "taxNote": "+ VAT",
+    "alphaPriceSuffix": "/month",
+    "alphaWithPrefix": "with Alpha access (−{percent}%)",
+    "enterpriseNote": "Custom quote based on volumes and locations.",
+    "whitelabelYes": "White-label widget",
+    "whitelabelNo": "onespec badge visible",
+    "taxFootnote": "All prices are monthly and exclude VAT, which is applied on the invoice according to the applicable rate.",
+    "standalone": {
+      "title": "Need your own configurator, no platform attached?",
+      "body": "On request we also build standalone configurators, developed specifically for your site with no dependency on the onespec platform. <link>Get in touch</link> for an assessment.",
+      "linkLabel": "Get in touch"
+    },
+    "piuScelto": "Most popular"
+  },
+  "versioni": {
+    "title": "Versions & changelog",
+    "subtitle": "onespec is under active development. Updates are split into two channels: product updates and Alpha-program-only updates.",
+    "prodottoTitle": "Product updates",
+    "prodottoBody": "What changes in the configurator and platform for existing users. Available to all active customers.",
+    "alphaTitle": "Alpha access updates",
+    "alphaBody": "The life of the Alpha program: spots, preview builds and perks reserved for early joiners.",
+    "empty": "No entries in this channel yet. News will show up here as soon as it's released.",
+    "tags": {
+      "Nuovo": "New",
+      "Miglioramento": "Improvement",
+      "Fix": "Fix"
+    }
+  },
+  "prodotto": {
+    "hero": {
+      "title": "A widget, not a software project",
+      "subtitle": "onespec was born from a direct request by window and door manufacturers and dealers: an interactive configurator that saves time, filters out serious requests and protects your prices from unfair competition."
+    },
+    "configurator": {
+      "kicker": "Interactive demo",
+      "title": "Try it the way your customer does",
+      "subtitle": "The widget below is loaded in an iFrame, exactly as it would appear on your site. Configure a window and watch the quote calculate in real time."
+    },
+    "blocks": [
+      {
+        "icon": "file",
+        "title": "1. Upload the price list",
+        "description": "You provide your price list files: products, available sizes, materials, finishes and prices. onespec decodes them and automatically builds the configurator's logic, with nothing to re-enter by hand.",
+        "visual": null
+      },
+      {
+        "icon": "palette",
+        "title": "2. Brand the widget",
+        "description": "Choose colors, fonts, logo and copy for the configurator from the platform. The result is a widget that looks built specifically for your site, not an external plugin.",
+        "visual": "colorPicker"
+      },
+      {
+        "icon": "code",
+        "title": "3. Paste the iFrame code",
+        "description": "A single snippet to paste on your site's page. The configurator is responsive by default: designed for mobile and desktop, not just adapted.",
+        "visual": "embedCode"
+      },
+      {
+        "icon": "chart",
+        "title": "4. Always update from the platform",
+        "description": "Change prices, add products or edit discount rules from the onespec dashboard. Changes go live on every site where the widget is installed, without touching the client's code.",
+        "visual": null
+      }
+    ],
+    "dashboard": {
+      "title": "The dashboard that controls it all",
+      "subtitle": "Requests received, most configured products, average quote value. From here you update price lists and rules, and changes go live wherever the widget is installed."
+    },
+    "midCta": {
+      "title": "Less time on curious visitors, more time on ready buyers",
+      "subtitle": "The configurator collects sizes, materials and budget before you even pick up the phone. Whoever contacts you after configuring has already decided to buy.",
+      "button": "See the plans"
+    },
+    "support": {
+      "title": "Support included in every plan",
+      "subtitle": "The level of support grows with the plan you choose.",
+      "tiers": [
+        {
+          "plan": "Starter",
+          "level": "Email support",
+          "description": "Response within 2 business days on any configurator-related request.",
+          "code": "STD-0001",
+          "color": "#5b6470"
+        },
+        {
+          "plan": "Business",
+          "level": "Priority support",
+          "description": "Dedicated queue, response within 24 business hours and help with pricing rules.",
+          "code": "PRI-0001",
+          "color": "#0fbf8f"
+        },
+        {
+          "plan": "Enterprise",
+          "level": "Dedicated account",
+          "description": "Single point of contact, agreed SLA and guided onboarding for multi-site networks.",
+          "code": "ENT-0001",
+          "color": "#1d1d1f"
+        }
+      ]
+    }
+  },
+  "legal": {
+    "updatedLabel": "Last updated: {date}",
+    "privacy": {
+      "title": "Privacy Policy",
+      "updated": "August 21, 2026",
+      "intro": "This page describes how onespec (\"we\") collects, uses and protects the personal data of anyone visiting the site or using the platform, in compliance with Regulation (EU) 2016/679 (GDPR).",
+      "sections": [
+        {
+          "heading": "Data controller",
+          "body": "The data controller is onespec. For any request regarding personal data you can write to {email}."
+        },
+        {
+          "heading": "Data collected",
+          "list": [
+            "Contact details voluntarily provided (name, email, company) via forms or email.",
+            "Technical browsing data (IP address, browser type, pages visited) collected in aggregate form.",
+            "Data related to quote requests generated through the configurator, where applicable."
+          ]
+        },
+        {
+          "heading": "Purpose of processing",
+          "list": [
+            "Responding to requests for information, Alpha access or partnerships.",
+            "Managing service delivery for customers subscribed to the platform.",
+            "Improving the site and platform through aggregate statistical analysis."
+          ]
+        },
+        {
+          "heading": "Legal basis",
+          "body": "Processing is based on the data subject's consent, on the performance of a contract or pre-contractual measures, and on the legitimate interest in maintaining and improving the service."
+        },
+        {
+          "heading": "Data retention",
+          "body": "Data is retained for the time necessary to achieve the stated purposes, and in any case no longer than required by applicable law."
+        },
+        {
+          "heading": "Data subject rights",
+          "body": "You can request access, rectification, erasure, restriction of processing or portability of your data at any time by writing to {email}."
+        }
+      ]
+    },
+    "termini": {
+      "title": "Terms of Service",
+      "updated": "August 21, 2026",
+      "intro": "Using the onespec site and platform implies acceptance of these terms. onespec is currently in Alpha stage: some features may change or be discontinued during development.",
+      "sections": [
+        {
+          "heading": "Service description",
+          "body": "onespec provides a window and door configurator widget embeddable via iFrame code, manageable and updatable from the onespec platform. The service is offered by subscription based on the chosen plan."
+        },
+        {
+          "heading": "Account and customer responsibility",
+          "list": [
+            "The customer is responsible for the accuracy of data and price lists uploaded to the platform.",
+            "The customer is responsible for the correctness of quotes generated based on the data provided.",
+            "Access to the platform is personal and may not be transferred to third parties without authorization."
+          ]
+        },
+        {
+          "heading": "Subscriptions and billing",
+          "body": "Subscriptions renew automatically according to the chosen billing period, unless cancelled before renewal. Usage limits (monthly quote requests, number of configurators) are defined by the active plan."
+        },
+        {
+          "heading": "Limitation of liability",
+          "body": "onespec provides the configuration tool but is not responsible for commercial agreements, final quotes or sales concluded between the customer and their end users."
+        },
+        {
+          "heading": "Changes to the terms",
+          "body": "During the Alpha stage these terms may be updated more frequently. Material changes will be communicated to active customers."
+        },
+        {
+          "heading": "Contact",
+          "body": "For questions about the terms of service write to {email}."
+        }
+      ]
+    },
+    "cookie": {
+      "title": "Cookie Policy",
+      "updated": "August 21, 2026",
+      "intro": "This site uses a minimal number of cookies and similar technologies, necessary for basic operation and, where enabled, for anonymous traffic measurement.",
+      "sections": [
+        {
+          "heading": "Technical cookies",
+          "body": "Necessary for the site to work correctly (e.g. navigation preferences). They do not require prior consent."
+        },
+        {
+          "heading": "Statistical cookies",
+          "body": "If enabled, they collect aggregate and anonymous data on site usage to improve its content. You can decline them with no impact on browsing."
+        },
+        {
+          "heading": "Managing preferences",
+          "body": "You can change or withdraw consent to non-technical cookies at any time through your browser settings."
+        },
+        {
+          "heading": "Contact",
+          "body": "For questions about the cookie policy write to {email}."
+        }
+      ]
+    }
+  },
+  "colorPicker": {
+    "activeColor": "Active color:",
+    "colorAria": "Color {name}"
+  },
+  "performanceCard": {
+    "title": "Configurator analytics",
+    "live": "Live",
+    "visits": "Widget visits",
+    "quotes": "Quotes",
+    "last7days": "Last 7 days",
+    "details": "Details"
+  },
+  "phonePreview": {
+    "ariaLabel": "Preview of the configurator on smartphone"
+  },
+  "supportTicket": {
+    "ticketNumber": "TICKET NO."
+  },
+  "brandColors": [
+    "onespec mint",
+    "Graphite",
+    "Site blue",
+    "Terracotta",
+    "Wood amber",
+    "Slate grey"
+  ]
+}

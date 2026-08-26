@@ -1,28 +1,32 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import styles from "./color-picker.module.css";
 
-const BRAND_COLORS = [
-  { name: "Mint onespec", value: "#0fbf8f" },
-  { name: "Grafite", value: "#1d1d1f" },
-  { name: "Blu cantiere", value: "#2563eb" },
-  { name: "Terracotta", value: "#c2542c" },
-  { name: "Ambra legno", value: "#c98a1f" },
-  { name: "Grigio ardesia", value: "#5b6470" },
+const BRAND_COLOR_VALUES = [
+  "#0fbf8f",
+  "#1d1d1f",
+  "#2563eb",
+  "#c2542c",
+  "#c98a1f",
+  "#5b6470",
 ];
 
 export function ColorPicker() {
-  const [selected, setSelected] = useState(BRAND_COLORS[0].value);
+  const t = useTranslations();
+  const names = t.raw("brandColors") as string[];
+  const colors = BRAND_COLOR_VALUES.map((value, i) => ({ value, name: names[i] }));
+  const [selected, setSelected] = useState(colors[0].value);
 
   return (
     <div>
       <div className={styles.row}>
-        {BRAND_COLORS.map((c) => (
+        {colors.map((c) => (
           <button
             key={c.value}
             type="button"
-            aria-label={`Colore ${c.name}`}
+            aria-label={t("colorPicker.colorAria", { name: c.name })}
             aria-pressed={selected === c.value}
             data-name={c.name}
             className={styles.swatch}
@@ -32,7 +36,8 @@ export function ColorPicker() {
         ))}
       </div>
       <p className="mt-2 text-[12px] text-[var(--color-text-secondary)]">
-        Colore attivo: <span className="font-medium text-[var(--color-text)]">{selected}</span>
+        {t("colorPicker.activeColor")}{" "}
+        <span className="font-medium text-[var(--color-text)]">{selected}</span>
       </p>
     </div>
   );

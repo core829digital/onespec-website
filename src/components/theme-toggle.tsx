@@ -1,11 +1,13 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useTranslations } from "next-intl";
 import { Moon, Sun } from "@phosphor-icons/react/dist/ssr";
 
 const STORAGE_KEY = "onespec-theme";
 
 export function ThemeToggle() {
+  const t = useTranslations("theme");
   const [isLight, setIsLight] = useState(false);
   const [mounted, setMounted] = useState(false);
 
@@ -32,7 +34,7 @@ export function ThemeToggle() {
     <button
       type="button"
       onClick={toggle}
-      aria-label={isLight ? "Passa alla modalita scura" : "Passa alla modalita chiara"}
+      aria-label={isLight ? t("toDark") : t("toLight")}
       aria-pressed={isLight}
       className="fixed right-6 bottom-[calc(1.5rem+env(safe-area-inset-bottom))] z-50 flex h-12 w-12 cursor-pointer items-center justify-center rounded-full border border-[var(--color-border)] bg-[var(--color-bg-alt)]/90 text-[var(--color-text)] shadow-[0_8px_24px_-8px_rgba(0,0,0,0.35)] backdrop-blur-md transition-transform duration-200 ease-out hover:scale-105 active:scale-95"
     >

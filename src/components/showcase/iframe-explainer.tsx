@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import { Check, Copy } from "@phosphor-icons/react/dist/ssr";
 
 const SNIPPET = `<iframe
@@ -11,23 +12,9 @@ const SNIPPET = `<iframe
   title="Configuratore infissi"
 ></iframe>`;
 
-/** Le tre cose che chiunque chiede quando sente "codice iFrame". */
-const POINTS = [
-  {
-    title: "E una finestra dentro il tuo sito",
-    body: "L'iFrame mostra una pagina esterna dentro una tua pagina. Il visitatore vede il configuratore come se fosse parte del tuo sito: non cambia pagina, non esce da te.",
-  },
-  {
-    title: "Si incolla una volta sola",
-    body: "Copi il codice e lo incolli dove vuoi che appaia il configuratore. Funziona con WordPress, Shopify, Wix, Webflow o un sito fatto a mano: e HTML standard.",
-  },
-  {
-    title: "Si aggiorna da solo",
-    body: "Il contenuto vive sui nostri server. Quando modifichi listino o colori dalla piattaforma, il codice sul tuo sito resta identico e il configuratore e gia aggiornato.",
-  },
-];
-
 export function IframeExplainer() {
+  const t = useTranslations("iframeExplainer");
+  const points = t.raw("points") as { title: string; body: string }[];
   const [copied, setCopied] = useState(false);
 
   async function copy() {
@@ -44,18 +31,17 @@ export function IframeExplainer() {
     <div className="grid grid-cols-1 items-start gap-12 lg:grid-cols-2 lg:gap-16">
       <div>
         <span className="inline-block rounded-full bg-[var(--color-mint-light)] px-3 py-1 text-[11px] font-semibold uppercase tracking-wide text-[var(--color-mint-dark)]">
-          In parole semplici
+          {t("kicker")}
         </span>
         <h2 className="mt-5 text-balance text-3xl font-semibold tracking-tight text-[var(--color-text)] sm:text-4xl">
-          Cos&apos;e un codice iFrame?
+          {t("title")}
         </h2>
         <p className="mt-5 max-w-lg text-[15px] leading-relaxed text-[var(--color-text-secondary)]">
-          E la parte tecnica di onespec, ed e anche l&apos;unica. Non serve un
-          programmatore e non si tocca nulla del sito esistente.
+          {t("subtitle")}
         </p>
 
         <dl className="mt-9 space-y-7">
-          {POINTS.map((p, i) => (
+          {points.map((p, i) => (
             <div key={p.title} className="flex gap-4">
               <span className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[var(--color-mint-light)] font-mono text-[12px] font-semibold text-[var(--color-mint-dark)]">
                 {i + 1}
@@ -90,12 +76,12 @@ export function IframeExplainer() {
             {copied ? (
               <>
                 <Check size={13} weight="bold" />
-                Copiato
+                {t("copied")}
               </>
             ) : (
               <>
                 <Copy size={13} />
-                Copia
+                {t("copy")}
               </>
             )}
           </button>
@@ -138,9 +124,9 @@ export function IframeExplainer() {
 
         <div className="border-t border-white/8 px-5 py-3.5">
           <p className="text-[12px] leading-relaxed text-white/40">
-            Una sola riga cambia tra un cliente e l&apos;altro:{" "}
-            <span className="font-mono text-[var(--color-mint)]">tuo-id</span>. Il
-            resto e identico per tutti.
+            {t.rich("footnote", {
+              id: () => <span className="font-mono text-[var(--color-mint)]">tuo-id</span>,
+            })}
           </p>
         </div>
       </div>

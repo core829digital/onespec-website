@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import styles from "./support-ticket.module.css";
 
 export function SupportTicket({
@@ -13,6 +14,7 @@ export function SupportTicket({
   code: string;
   color?: string;
 }) {
+  const t = useTranslations("supportTicket");
   return (
     <div className={styles.card} style={{ ["--ticket-color" as string]: color }}>
       <div className={styles.bg} aria-hidden="true" />
@@ -29,7 +31,7 @@ export function SupportTicket({
 
       <div className={styles.footer}>
         <p className={styles.number}>
-          TICKET N. <span className={styles.bold}>{code}</span>
+          {t("ticketNumber")} <span className={styles.bold}>{code}</span>
         </p>
         <div className={styles.barcode} aria-hidden="true" />
       </div>

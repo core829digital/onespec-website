@@ -1,21 +1,21 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useLocale, useTranslations } from "next-intl";
 
 const SRC = "/configuratore-demo.html";
+
+/** Lingue supportate dal widget stesso (vedi configuratore-demo.html). */
+const WIDGET_LANGS = new Set(["it", "en", "fr"]);
 
 /**
  * Anteprima live del configuratore, servita in iframe esattamente come lo
  * riceve un cliente. L'iframe e same-origin, quindi possiamo misurare
  * l'altezza reale del contenuto e adattare il box senza scrollbar interne.
  */
-export function ConfiguratorEmbed({
-  className,
-  chromeLabel = "tuosito-infissi.it",
-}: {
-  className?: string;
-  chromeLabel?: string;
-}) {
+export function ConfiguratorEmbed({ className }: { className?: string }) {
+  const t = useTranslations("configuratorEmbed");
+  const locale = useLocale();
   const frameRef = useRef<HTMLIFrameElement>(null);
   const [height, setHeight] = useState(1100);
   const [loaded, setLoaded] = useState(false);
@@ -51,9 +51,20 @@ export function ConfiguratorEmbed({
       }
     }
 
+    /** Allinea la lingua interna del widget a quella del sito, se supportata. */
+    function syncLang() {
+      const doc = frame?.contentDocument;
+      if (!doc || !WIDGET_LANGS.has(locale)) return;
+      const btn = doc.querySelector<HTMLButtonElement>(
+        `[data-lang="${locale}"]`
+      );
+      if (btn && !btn.classList.contains("active")) btn.click();
+    }
+
     function onLoad() {
       setLoaded(true);
       syncTheme();
+      syncLang();
       measure();
       const doc = frame?.contentDocument;
       if (doc?.body && typeof ResizeObserver !== "undefined") {
@@ -78,7 +89,7 @@ export function ConfiguratorEmbed({
       observer?.disconnect();
       themeObserver?.disconnect();
     };
-  }, []);
+  }, [locale]);
 
   return (
     <div
@@ -90,11 +101,11 @@ export function ConfiguratorEmbed({
         <span className="h-2.5 w-2.5 rounded-full bg-[#febc2e]" />
         <span className="h-2.5 w-2.5 rounded-full bg-[#28c840]" />
         <span className="ml-3 truncate text-[11px] text-[var(--color-text-secondary)]">
-          {chromeLabel}
+          {t("chromeLabel")}
         </span>
         <span className="ml-auto flex shrink-0 items-center gap-1.5 rounded-full bg-[var(--color-mint-light)] px-2.5 py-1 text-[10px] font-semibold text-[var(--color-mint-dark)]">
           <span className="h-1 w-1 rounded-full bg-[var(--color-mint-dark)]" />
-          LIVE
+          {t("live")}
         </span>
       </div>
 
@@ -102,14 +113,14 @@ export function ConfiguratorEmbed({
         {!loaded && (
           <div className="absolute inset-0 flex items-center justify-center bg-[var(--color-bg-alt)]">
             <span className="text-[13px] text-[var(--color-text-secondary)]">
-              Caricamento configuratore…
+              {t("loading")}
             </span>
           </div>
         )}
         <iframe
           ref={frameRef}
           src={SRC}
-          title="Configuratore onespec — anteprima interattiva"
+          title="onespec configurator — interactive preview"
           loading="lazy"
           style={{ height }}
           className="block w-full border-0"

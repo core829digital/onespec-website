@@ -1,0 +1,604 @@
+{
+  "meta": {
+    "title": "onespec — Der Fenster- und Türkonfigurator für Ihre Website",
+    "description": "onespec ist das Konfigurationswidget für Fenster und Türen, das Sie per iFrame einbinden: automatische Angebote, stets aktuelle Preise, mit Ihrer Marke individualisierbar.",
+    "prezziTitle": "Preise",
+    "prodottoTitle": "Produkt",
+    "versioniTitle": "Versionen"
+  },
+  "nav": {
+    "prodotto": "Produkt",
+    "prezzi": "Preise",
+    "versioni": "Versionen",
+    "richiediAccesso": "Zugang anfragen",
+    "apriMenu": "Menü öffnen",
+    "chiudiMenu": "Menü schließen"
+  },
+  "footer": {
+    "colProdotto": "Produkt",
+    "colAzienda": "Unternehmen",
+    "colLegale": "Rechtliches",
+    "comeFunziona": "So funktioniert's",
+    "prezzi": "Preise",
+    "versioni": "Versionen & Änderungsprotokoll",
+    "accessoAlpha": "Alpha-Zugang",
+    "contatti": "Kontakt",
+    "privacy": "Datenschutzerklärung",
+    "termini": "Nutzungsbedingungen",
+    "cookie": "Cookie-Richtlinie",
+    "copyright": "© {year} onespec. Alle Rechte vorbehalten.",
+    "faseAlpha": "Produkt in der Alpha-Phase",
+    "tagline": "Der Fenster- und Türkonfigurator, der für Sie verkauft."
+  },
+  "countdown": {
+    "live": "onespec ist live",
+    "prefix": "Alpha · Start in",
+    "ariaLabel": "Öffentlicher Start in {days} Tagen, {hours} Stunden, {minutes} Minuten",
+    "days": "T",
+    "hours": "Std",
+    "minutes": "Min",
+    "seconds": "Sek"
+  },
+  "theme": {
+    "toDark": "Zum dunklen Modus wechseln",
+    "toLight": "Zum hellen Modus wechseln"
+  },
+  "languageSwitcher": {
+    "label": "Sprache"
+  },
+  "hero": {
+    "badge": "In Entwicklung · Alpha-Zugang offen",
+    "title": "Der Fenster- und Türkonfigurator, der Ihre Kunden für Sie qualifiziert",
+    "subtitle": "Ein Widget, das Sie mit einem iFrame-Code auf Ihrer Website einbetten. Automatische Angebote, stets aktuelle Preisliste, Ihre Marke.",
+    "ctaPrimary": "Alpha-Zugang anfragen",
+    "ctaSecondary": "Konfigurator live ansehen",
+    "scroll": "Scrollen"
+  },
+  "home": {
+    "configurator": {
+      "kicker": "Interaktive Demo",
+      "title": "Das ist der Konfigurator. Probieren Sie ihn jetzt aus.",
+      "subtitle": "Das ist kein Screenshot: Es ist genau das Widget, das Ihr Kunde erhält, hier in einem iFrame geladen. Ändern Sie Material, Maße und Ausführungen und sehen Sie, wie sich das Angebot aktualisiert."
+    },
+    "valueProp": {
+      "title": "Jeden Tag verlieren Sie Zeit mit Anfragen, die zu nichts führen",
+      "body": "Anrufe aus Neugier, sinnlose Vor-Ort-Termine, Wettbewerber, die sich als Kunden ausgeben, nur um Ihren Preis für Dumping zu bekommen. onespec setzt einen Konfigurator zwischen Sie und diese Anfragen: Wer bei Ihnen ankommt, hat Produkt und Budget bereits verstanden."
+    },
+    "features": {
+      "title": "Alles, was Sie brauchen, nichts Überflüssiges",
+      "items": [
+        {
+          "icon": "code",
+          "title": "Ein iFrame, und Sie sind live",
+          "description": "Sie fügen einen Code auf Ihrer Website ein und der Konfigurator erscheint, sofort funktionsfähig. Keine Entwicklung, keine technische Wartung."
+        },
+        {
+          "icon": "palette",
+          "title": "100 % individualisierbar",
+          "description": "Farben, Schriften und Logo Ihres Konfigurators passen sich Ihrer Marke an. Der Kunde merkt nicht einmal, dass es onespec gibt."
+        },
+        {
+          "icon": "file",
+          "title": "Preisliste aus Datei, immer aktuell",
+          "description": "Sie laden Ihre Preisliste hoch, der Konfigurator dekodiert sie. Sie aktualisieren die Datei, das Widget aktualisiert sich überall, wo es installiert ist."
+        },
+        {
+          "icon": "shield",
+          "title": "Filtert alle heraus, die keine echten Kunden sind",
+          "description": "Kein Zeitverlust mehr mit Leuten, die nur Preise vergleichen wollen, um Dumping zu betreiben. Der Konfigurator qualifiziert die Anfrage, bevor sie Sie erreicht."
+        },
+        {
+          "icon": "chart",
+          "title": "Preise nahe an der Realität",
+          "description": "Konfigurierbare Preisregeln für Materialien, Maße und Ausführungen: Das Angebot, das der Kunde sieht, ist fast das endgültige."
+        },
+        {
+          "icon": "lightning",
+          "title": "Sofortige Updates",
+          "description": "Sie ändern den Konfigurator über die onespec-Plattform: Die Änderungen sind sofort auf allen Websites live, auf denen er installiert ist."
+        }
+      ]
+    },
+    "dashboard": {
+      "title": "Die Angebote kommen an, Sie sehen sie in Echtzeit",
+      "subtitle": "Jede vom Konfigurator generierte Anfrage landet sofort im Dashboard: wie viele eingehen, aus welchen Produkten, und wie der durchschnittliche Wert Monat für Monat wächst."
+    },
+    "steps": {
+      "title": "Von der Preisliste zum Live-Angebot in vier Schritten",
+      "items": [
+        {
+          "n": "01",
+          "title": "Sie laden Ihre Preisliste hoch",
+          "description": "Eine Datei mit Produkten, Maßen, Materialien und Preisen. onespec liest sie und wandelt sie in einen Konfigurator um."
+        },
+        {
+          "n": "02",
+          "title": "Sie individualisieren das Widget",
+          "description": "Farben, Logo, Texte und Preisregeln über die Plattform. Keine Codezeile nötig."
+        },
+        {
+          "n": "03",
+          "title": "Sie fügen den iFrame-Code ein",
+          "description": "Der Konfigurator erscheint auf Ihrer Website, responsiv auf Desktop und Mobilgeräten, bereit, Anfragen zu sammeln."
+        },
+        {
+          "n": "04",
+          "title": "Sie erhalten qualifizierte Angebote",
+          "description": "Jede Anfrage kommt bereits mit Maßen, Materialien und dem indikativen Budget des Kunden an."
+        }
+      ]
+    },
+    "pricing": {
+      "title": "Sie zahlen danach, wie viel der Konfigurator für Sie arbeitet",
+      "subtitle": "Drei Pläne, je nach monatlichen Angebotsanfragen und Markenanpassung. Mit Alpha-Zugang {percent} % Rabatt auf Starter und Business.",
+      "piuScelto": "Am beliebtesten",
+      "alphaSuffix": "/Monat mit Alpha-Zugang",
+      "compareLink": "Alle Pläne im Detail vergleichen"
+    },
+    "cta": {
+      "title": "Seien Sie unter den Ersten, die onespec auf ihre Website bringen",
+      "subtitle": "Alpha-Phase, {seats} Plätze. Wer jetzt einsteigt, hilft das Produkt mitzugestalten und sichert sich den Startpreis.",
+      "button": "Alpha-Zugang anfragen"
+    }
+  },
+  "iframeExplainer": {
+    "kicker": "Einfach erklärt",
+    "title": "Was ist ein iFrame-Code?",
+    "subtitle": "Das ist der technische Teil von onespec, und der einzige. Kein Entwickler nötig, an Ihrer bestehenden Website wird nichts angerührt.",
+    "points": [
+      {
+        "title": "Es ist ein Fenster innerhalb Ihrer Website",
+        "body": "Der iFrame zeigt eine externe Seite innerhalb einer Ihrer Seiten. Besucher sehen den Konfigurator, als wäre er Teil Ihrer Website: kein Seitenwechsel, kein Verlassen Ihrer Seite."
+      },
+      {
+        "title": "Man fügt ihn nur einmal ein",
+        "body": "Sie kopieren den Code und fügen ihn dort ein, wo der Konfigurator erscheinen soll. Funktioniert mit WordPress, Shopify, Wix, Webflow oder einer handgebauten Website: Es ist Standard-HTML."
+      },
+      {
+        "title": "Er aktualisiert sich von selbst",
+        "body": "Der Inhalt liegt auf unseren Servern. Wenn Sie Preisliste oder Farben über die Plattform ändern, bleibt der Code auf Ihrer Website identisch und der Konfigurator ist bereits aktualisiert."
+      }
+    ],
+    "copy": "Kopieren",
+    "copied": "Kopiert",
+    "footnote": "Nur eine Zeile ändert sich von Kunde zu Kunde: <id>tuo-id</id>. Der Rest ist für alle identisch."
+  },
+  "dashboardMockup": {
+    "ariaLabel": "Vorschau des onespec-Dashboards: Kennzahlen zu Angebotsanfragen, monatlicher Verlauf und zuletzt eingegangene Anfragen",
+    "windowLabel": "app.onespec.it · Übersicht",
+    "kpis": [
+      {
+        "label": "Angebotsanfragen",
+        "value": "128",
+        "delta": "+18 %"
+      },
+      {
+        "label": "Geöffnete Konfiguratoren",
+        "value": "2.940",
+        "delta": "+9 %"
+      },
+      {
+        "label": "Konversionsrate",
+        "value": "4,3 %",
+        "delta": "+0,6 Pkt."
+      },
+      {
+        "label": "Durchschnittlicher Anfragewert",
+        "value": "3.180 €",
+        "delta": "+4 %"
+      }
+    ],
+    "chartTitle": "Anfragen pro Monat",
+    "recentTitle": "Letzte Anfragen",
+    "recent": [
+      {
+        "product": "PVC-Fenster · 2 Flügel",
+        "size": "1400×1800",
+        "value": "2.480 €"
+      },
+      {
+        "product": "Holz-Balkontür",
+        "size": "1200×2300",
+        "value": "4.150 €"
+      },
+      {
+        "product": "Aluminiumfenster",
+        "size": "1500×1200",
+        "value": "1.870 €"
+      },
+      {
+        "product": "PVC-Fenster · 1 Flügel",
+        "size": "900×1400",
+        "value": "1.120 €"
+      }
+    ]
+  },
+  "configuratorEmbed": {
+    "loading": "Konfigurator wird geladen…",
+    "chromeLabel": "ihreseite-fenster.de",
+    "live": "LIVE"
+  },
+  "alpha": {
+    "member": "Alpha Member",
+    "seatsSuffix": "verfügbar",
+    "discountBadge": "−{percent} %",
+    "cta": "Einen Alpha-Platz sichern",
+    "title": "250 Plätze. Danach kostet es wieder den vollen Preis.",
+    "subtitle": "Der Alpha-Zugang ist auf die ersten {seats} Kunden im Starter- oder Business-Plan begrenzt. Wer jetzt einsteigt, hilft das Produkt mitzugestalten und behält die Startkonditionen auch danach.",
+    "benefits": [
+      {
+        "title": "15 % Rabatt auf Lebenszeit",
+        "description": "Der Rabatt bleibt an Ihr Starter- oder Business-Abo gebunden, auch nach dem öffentlichen Start. Der Preis steigt nicht."
+      },
+      {
+        "title": "Alpha-Member-Badge",
+        "description": "Ein verifiziertes Badge, das bestätigt, dass Sie zu den ersten 250 gehörten. Nutzbar auf Ihrer Website und in Ihren Vertriebsunterlagen."
+      },
+      {
+        "title": "Zugang zu Alpha-Updates",
+        "description": "Sie erhalten Vorab-Versionen und den reservierten Änderungsprotokoll-Kanal, bevor die Funktionen alle erreichen."
+      }
+    ]
+  },
+  "pricingTiers": [
+    {
+      "id": "starter",
+      "name": "Starter",
+      "description": "Für alle, die den Konfigurator risikofrei auf einer einzigen Website testen wollen.",
+      "quotesLimit": "Bis zu 50 Angebotsanfragen/Monat",
+      "features": [
+        "1 aktiver Konfigurator",
+        "Fertiger iFrame-Code zum Einfügen",
+        "Preislisten-Upload aus Datei",
+        "Badge „Powered by onespec“",
+        "Preisaktualisierungen in Echtzeit",
+        "E-Mail-Support"
+      ],
+      "cta": "Mit Starter beginnen"
+    },
+    {
+      "id": "business",
+      "name": "Business",
+      "description": "Für alle, die ernsthaft verkaufen und einen zu 100 % individualisierten Konfigurator wollen.",
+      "quotesLimit": "Bis zu 300 Angebotsanfragen/Monat",
+      "features": [
+        "3 aktive Konfiguratoren",
+        "Marke entfernt: nur Ihre Marke",
+        "Erweiterte Preisregeln und Rabatte",
+        "Mehrere Preislisten pro Produktlinie",
+        "Statistiken zu Anfragen und Konversionen",
+        "Priorisierter Support"
+      ],
+      "cta": "Zu Business wechseln"
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "description": "Für Händlernetzwerke, Franchise-Systeme und hohe Angebotsvolumen.",
+      "quotesLimit": "Unbegrenzte Angebotsanfragen",
+      "features": [
+        "Unbegrenzte Konfiguratoren",
+        "Vollständiges White-Label + individuelle Domain",
+        "API-/CRM-Integration auf Anfrage",
+        "Massenimport von Preislisten für mehrere Standorte",
+        "Dedizierter Account Manager",
+        "SLA und geführtes Onboarding"
+      ],
+      "cta": "Mit uns sprechen",
+      "priceLabel": "Individuell"
+    }
+  ],
+  "changelog": [
+    {
+      "version": "0.4.0",
+      "date": "2026-08-10",
+      "title": "Bedingte Preisregeln",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Regel-Engine für Mengenrabatte und Produktkombinationen hinzugefügt",
+        "Neues Panel zur Verwaltung mehrerer Preislisten im selben Konfigurator"
+      ]
+    },
+    {
+      "version": "0.3.2",
+      "date": "2026-07-22",
+      "title": "Widget-Performance",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Erste Ladezeit des Widgets um 40 % reduziert",
+        "Darstellung bei langsamen mobilen Verbindungen optimiert"
+      ]
+    },
+    {
+      "version": "0.3.0",
+      "date": "2026-06-30",
+      "title": "White-Label für den Business-Plan",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Möglichkeit, das onespec-Badge aus dem Widget zu entfernen",
+        "Farb- und Schrift-Editor, um den Konfigurator an die Kundenmarke anzupassen"
+      ]
+    },
+    {
+      "version": "0.2.1",
+      "date": "2026-06-05",
+      "title": "Korrekturen beim Preislisten-Import",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Fehler beim Import von Preislisten mit Sonderzeichen behoben",
+        "Rundung bei Preisen inklusive Mehrwertsteuer korrigiert"
+      ]
+    },
+    {
+      "version": "A-03",
+      "date": "2026-08-18",
+      "title": "Alpha-Member-Badge ausgeliefert",
+      "tag": "Nuovo",
+      "channel": "alpha",
+      "items": [
+        "Das verifizierte Badge ist jetzt im Kontobereich aller Teilnehmer verfügbar",
+        "Snippet zum Einfügen auf der eigenen Website hinzugefügt, um das Badge anzuzeigen"
+      ]
+    },
+    {
+      "version": "A-02",
+      "date": "2026-07-30",
+      "title": "Kanal für Vorab-Versionen",
+      "tag": "Nuovo",
+      "channel": "alpha",
+      "items": [
+        "Reservierten Kanal mit Versionen vor der öffentlichen Veröffentlichung aktiviert",
+        "Fehlermeldeformular direkt mit dem Produktteam verbunden"
+      ]
+    },
+    {
+      "version": "A-01",
+      "date": "2026-07-02",
+      "title": "Eröffnung der 250 Alpha-Plätze",
+      "tag": "Nuovo",
+      "channel": "alpha",
+      "items": [
+        "Anmeldungen zum Alpha-Programm eröffnet, mit 15 % Rabatt auf Lebenszeit",
+        "Der Rabatt bleibt bei Starter und Business auch nach dem öffentlichen Start gültig"
+      ]
+    }
+  ],
+  "prezzi": {
+    "hero": {
+      "title": "Einfache Preise, je nachdem wie viel Sie den Konfigurator nutzen",
+      "subtitle": "Je mehr Angebotsanfragen Ihr Konfigurator generiert, desto mehr Wert bringt er Ihnen. Wählen Sie den Plan nach Volumen und Grad der Individualisierung.",
+      "alphaNote": "Alpha-Zugang: −{percent} % auf Starter und Business, erste {seats} Plätze"
+    },
+    "priceNote": "/Monat",
+    "taxNote": "+ MwSt.",
+    "alphaPriceSuffix": "/Monat",
+    "alphaWithPrefix": "mit Alpha-Zugang (−{percent} %)",
+    "enterpriseNote": "Individuelles Angebot je nach Volumen und Standorten.",
+    "whitelabelYes": "White-Label-Widget",
+    "whitelabelNo": "onespec-Badge sichtbar",
+    "taxFootnote": "Alle Preise sind monatlich und verstehen sich zzgl. MwSt., die gemäß dem geltenden Satz auf der Rechnung ausgewiesen wird.",
+    "standalone": {
+      "title": "Brauchen Sie einen eigenen Konfigurator, ohne Plattform?",
+      "body": "Auf Anfrage entwickeln wir auch eigenständige Konfiguratoren, speziell für Ihre Website und ohne Abhängigkeit von der onespec-Plattform. <link>Schreiben Sie uns</link> für eine Einschätzung.",
+      "linkLabel": "Schreiben Sie uns"
+    },
+    "piuScelto": "Am beliebtesten"
+  },
+  "versioni": {
+    "title": "Versionen & Änderungsprotokoll",
+    "subtitle": "onespec befindet sich in aktiver Entwicklung. Updates sind in zwei Kanäle unterteilt: Produkt-Updates und Updates nur für das Alpha-Programm.",
+    "prodottoTitle": "Produkt-Updates",
+    "prodottoBody": "Was sich am Konfigurator und an der Plattform für bestehende Nutzer ändert. Verfügbar für alle aktiven Kunden.",
+    "alphaTitle": "Alpha-Zugang-Updates",
+    "alphaBody": "Das Leben des Alpha-Programms: Plätze, Vorab-Versionen und Vorteile für frühe Teilnehmer.",
+    "empty": "Noch keine Einträge in diesem Kanal. Neuigkeiten erscheinen hier, sobald sie veröffentlicht werden.",
+    "tags": {
+      "Nuovo": "Neu",
+      "Miglioramento": "Verbesserung",
+      "Fix": "Fehlerbehebung"
+    }
+  },
+  "prodotto": {
+    "hero": {
+      "title": "Ein Widget, kein Softwareprojekt",
+      "subtitle": "onespec entstand aus der direkten Nachfrage von Fenster- und Türherstellern und -händlern: ein interaktiver Konfigurator, der Zeit spart, ernsthafte Anfragen filtert und Ihre Preise vor unlauterem Wettbewerb schützt."
+    },
+    "configurator": {
+      "kicker": "Interaktive Demo",
+      "title": "Probieren Sie ihn so aus wie Ihr Kunde",
+      "subtitle": "Das Widget unten ist in einem iFrame geladen, genau wie es auf Ihrer Website erscheinen würde. Konfigurieren Sie ein Fenster und sehen Sie, wie sich das Angebot in Echtzeit berechnet."
+    },
+    "blocks": [
+      {
+        "icon": "file",
+        "title": "1. Sie laden die Preisliste hoch",
+        "description": "Sie stellen Ihre Preislisten-Dateien bereit: Produkte, verfügbare Maße, Materialien, Ausführungen und Preise. onespec dekodiert sie und baut automatisch die Logik des Konfigurators auf, ohne dass Sie etwas manuell neu eingeben müssen.",
+        "visual": null
+      },
+      {
+        "icon": "palette",
+        "title": "2. Sie individualisieren das Widget",
+        "description": "Über die Plattform wählen Sie Farben, Schriften, Logo und Texte des Konfigurators. Das Ergebnis ist ein Widget, das wirkt, als wäre es maßgeschneidert für Ihre Website, kein externes Plugin.",
+        "visual": "colorPicker"
+      },
+      {
+        "icon": "code",
+        "title": "3. Sie fügen den iFrame-Code ein",
+        "description": "Ein einziges Snippet zum Einfügen auf Ihrer Website. Der Konfigurator ist standardmäßig responsiv: für Mobilgeräte und Desktop konzipiert, nicht nur angepasst.",
+        "visual": "embedCode"
+      },
+      {
+        "icon": "chart",
+        "title": "4. Sie aktualisieren stets über die Plattform",
+        "description": "Sie ändern Preise, fügen Produkte hinzu oder passen Rabattregeln über das onespec-Dashboard an. Änderungen sind auf jeder Website live, auf der das Widget installiert ist, ohne den Code des Kunden anzufassen.",
+        "visual": null
+      }
+    ],
+    "dashboard": {
+      "title": "Das Dashboard, mit dem Sie alles kontrollieren",
+      "subtitle": "Eingegangene Anfragen, meistkonfigurierte Produkte, durchschnittlicher Angebotswert. Von hier aus aktualisieren Sie Preislisten und Regeln, und die Änderungen sind überall live, wo das Widget installiert ist."
+    },
+    "midCta": {
+      "title": "Weniger Zeit mit Neugierigen, mehr Zeit mit kaufbereiten Kunden",
+      "subtitle": "Der Konfigurator erfasst Maße, Materialien und Budget, noch bevor Sie zum Telefon greifen. Wer sich nach der Konfiguration meldet, hat sich bereits zum Kauf entschieden.",
+      "button": "Pläne ansehen"
+    },
+    "support": {
+      "title": "Support in jedem Plan inbegriffen",
+      "subtitle": "Das Support-Level wächst mit dem gewählten Plan.",
+      "tiers": [
+        {
+          "plan": "Starter",
+          "level": "E-Mail-Support",
+          "description": "Antwort innerhalb von 2 Werktagen auf jede Anfrage zum Konfigurator.",
+          "code": "STD-0001",
+          "color": "#5b6470"
+        },
+        {
+          "plan": "Business",
+          "level": "Priorisierter Support",
+          "description": "Dedizierte Warteschlange, Antwort innerhalb von 24 Werkstunden und Hilfe bei Preisregeln.",
+          "code": "PRI-0001",
+          "color": "#0fbf8f"
+        },
+        {
+          "plan": "Enterprise",
+          "level": "Dediziertes Konto",
+          "description": "Einziger Ansprechpartner, vereinbarte SLA und geführtes Onboarding für Netzwerke mit mehreren Standorten.",
+          "code": "ENT-0001",
+          "color": "#1d1d1f"
+        }
+      ]
+    }
+  },
+  "legal": {
+    "updatedLabel": "Letzte Aktualisierung: {date}",
+    "privacy": {
+      "title": "Datenschutzerklärung",
+      "updated": "21. August 2026",
+      "intro": "Diese Seite beschreibt, wie onespec („wir“) personenbezogene Daten von Website-Besuchern oder Plattform-Nutzern erhebt, verwendet und schützt, in Übereinstimmung mit der Verordnung (EU) 2016/679 (DSGVO).",
+      "sections": [
+        {
+          "heading": "Verantwortlicher für die Verarbeitung",
+          "body": "Verantwortlicher für die Verarbeitung ist onespec. Für Anfragen zu personenbezogenen Daten können Sie an {email} schreiben."
+        },
+        {
+          "heading": "Erhobene Daten",
+          "list": [
+            "Freiwillig bereitgestellte Kontaktdaten (Name, E-Mail, Unternehmen) über Formulare oder E-Mail.",
+            "Technische Navigationsdaten (IP-Adresse, Browsertyp, besuchte Seiten), in aggregierter Form erhoben.",
+            "Daten zu über den Konfigurator generierten Angebotsanfragen, sofern zutreffend."
+          ]
+        },
+        {
+          "heading": "Zwecke der Verarbeitung",
+          "list": [
+            "Beantwortung von Informationsanfragen, Anfragen zum Alpha-Zugang oder zu Partnerschaften.",
+            "Verwaltung der Dienstleistungserbringung für Kunden, die die Plattform abonniert haben.",
+            "Verbesserung der Website und Plattform durch aggregierte statistische Analysen."
+          ]
+        },
+        {
+          "heading": "Rechtsgrundlage",
+          "body": "Die Verarbeitung stützt sich auf die Einwilligung der betroffenen Person, auf die Erfüllung eines Vertrags oder vorvertraglicher Maßnahmen sowie auf das berechtigte Interesse, den Dienst aufrechtzuerhalten und zu verbessern."
+        },
+        {
+          "heading": "Speicherdauer",
+          "body": "Die Daten werden für den zur Erreichung der genannten Zwecke erforderlichen Zeitraum gespeichert, keinesfalls jedoch länger als gesetzlich vorgeschrieben."
+        },
+        {
+          "heading": "Rechte der betroffenen Person",
+          "body": "Sie können jederzeit Zugang, Berichtigung, Löschung, Einschränkung der Verarbeitung oder Übertragbarkeit Ihrer Daten verlangen, indem Sie an {email} schreiben."
+        }
+      ]
+    },
+    "termini": {
+      "title": "Nutzungsbedingungen",
+      "updated": "21. August 2026",
+      "intro": "Die Nutzung der Website und Plattform von onespec setzt die Annahme dieser Bedingungen voraus. onespec befindet sich derzeit in der Alpha-Phase: Einige Funktionen können sich während der Entwicklung ändern oder eingestellt werden.",
+      "sections": [
+        {
+          "heading": "Beschreibung der Dienstleistung",
+          "body": "onespec stellt ein Fenster- und Türkonfigurator-Widget bereit, das über einen iFrame-Code eingebunden wird und über die onespec-Plattform verwaltet und aktualisiert werden kann. Der Dienst wird im Abonnement je nach gewähltem Plan angeboten."
+        },
+        {
+          "heading": "Konto und Verantwortung des Kunden",
+          "list": [
+            "Der Kunde ist verantwortlich für die Richtigkeit der auf der Plattform hochgeladenen Daten und Preislisten.",
+            "Der Kunde ist verantwortlich für die Korrektheit der auf Basis der bereitgestellten Daten generierten Angebote.",
+            "Der Zugang zur Plattform ist persönlich und darf ohne Genehmigung nicht an Dritte weitergegeben werden."
+          ]
+        },
+        {
+          "heading": "Abonnements und Abrechnung",
+          "body": "Abonnements verlängern sich automatisch entsprechend der gewählten Laufzeit, sofern nicht vor der Verlängerung gekündigt wird. Nutzungsgrenzen (monatliche Angebotsanfragen, Anzahl der Konfiguratoren) werden durch den aktiven Plan festgelegt."
+        },
+        {
+          "heading": "Haftungsbeschränkung",
+          "body": "onespec stellt das Konfigurationstool bereit, haftet jedoch nicht für kommerzielle Vereinbarungen, endgültige Angebote oder Verkäufe, die zwischen dem Kunden und dessen Endnutzern zustande kommen."
+        },
+        {
+          "heading": "Änderungen der Bedingungen",
+          "body": "Während der Alpha-Phase können diese Bedingungen häufiger aktualisiert werden. Wesentliche Änderungen werden aktiven Kunden mitgeteilt."
+        },
+        {
+          "heading": "Kontakt",
+          "body": "Bei Fragen zu den Nutzungsbedingungen schreiben Sie an {email}."
+        }
+      ]
+    },
+    "cookie": {
+      "title": "Cookie-Richtlinie",
+      "updated": "21. August 2026",
+      "intro": "Diese Website verwendet eine minimale Anzahl von Cookies und ähnlichen Technologien, die für den Grundbetrieb notwendig sind und, sofern aktiviert, zur anonymen Verkehrsmessung dienen.",
+      "sections": [
+        {
+          "heading": "Technische Cookies",
+          "body": "Notwendig für das ordnungsgemäße Funktionieren der Website (z. B. Navigationspräferenzen). Sie erfordern keine vorherige Einwilligung."
+        },
+        {
+          "heading": "Statistik-Cookies",
+          "body": "Sofern aktiviert, sammeln sie aggregierte und anonyme Daten zur Websitenutzung, um deren Inhalte zu verbessern. Sie können sie ohne Auswirkungen auf die Navigation ablehnen."
+        },
+        {
+          "heading": "Verwaltung der Einstellungen",
+          "body": "Sie können die Einwilligung zu nicht-technischen Cookies jederzeit über die Einstellungen Ihres Browsers ändern oder widerrufen."
+        },
+        {
+          "heading": "Kontakt",
+          "body": "Bei Fragen zur Cookie-Richtlinie schreiben Sie an {email}."
+        }
+      ]
+    }
+  },
+  "colorPicker": {
+    "activeColor": "Aktive Farbe:",
+    "colorAria": "Farbe {name}"
+  },
+  "performanceCard": {
+    "title": "Konfigurator-Analyse",
+    "live": "Live",
+    "visits": "Widget-Besuche",
+    "quotes": "Angebote",
+    "last7days": "Letzte 7 Tage",
+    "details": "Details"
+  },
+  "phonePreview": {
+    "ariaLabel": "Vorschau des Konfigurators auf dem Smartphone"
+  },
+  "supportTicket": {
+    "ticketNumber": "TICKET NR."
+  },
+  "brandColors": [
+    "onespec Mint",
+    "Grafit",
+    "Baustellenblau",
+    "Terrakotta",
+    "Holzbernstein",
+    "Schiefergrau"
+  ]
+}

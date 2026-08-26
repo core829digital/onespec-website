@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useTranslations } from "next-intl";
 import { SITE } from "@/lib/site-config";
 
 function getTimeLeft(target: number) {
@@ -15,6 +16,7 @@ function getTimeLeft(target: number) {
 }
 
 export function Countdown({ compact = false }: { compact?: boolean }) {
+  const t = useTranslations("countdown");
   const target = new Date(SITE.launchDate).getTime();
   const [time, setTime] = useState<ReturnType<typeof getTimeLeft> | null>(null);
 
@@ -29,16 +31,16 @@ export function Countdown({ compact = false }: { compact?: boolean }) {
   if (time.done) {
     return (
       <span className="text-xs font-medium text-[var(--color-mint-dark)]">
-        onespec e live
+        {t("live")}
       </span>
     );
   }
 
   const units = [
-    { label: "gg", value: time.days },
-    { label: "h", value: time.hours },
-    { label: "m", value: time.minutes },
-    { label: "s", value: time.seconds },
+    { label: t("days"), value: time.days },
+    { label: t("hours"), value: time.hours },
+    { label: t("minutes"), value: time.minutes },
+    { label: t("seconds"), value: time.seconds },
   ];
 
   return (
@@ -46,10 +48,10 @@ export function Countdown({ compact = false }: { compact?: boolean }) {
       className={cnCompact(compact)}
       role="timer"
       aria-live="off"
-      aria-label={`Lancio pubblico tra ${time.days} giorni, ${time.hours} ore, ${time.minutes} minuti`}
+      aria-label={t("ariaLabel", { days: time.days, hours: time.hours, minutes: time.minutes })}
     >
       <span className="hidden sm:inline text-[11px] font-medium uppercase tracking-wide text-[var(--color-text-secondary)]">
-        Alpha &middot; lancio in
+        {t("prefix")}
       </span>
       <span className="inline-flex items-center gap-1 font-mono text-[12px] tabular-nums text-[var(--color-text)]">
         {units.map((u, i) => (

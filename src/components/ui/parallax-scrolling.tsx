@@ -1,11 +1,12 @@
 "use client";
 
-import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useRef } from "react";
+import { useTranslations } from "next-intl";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
+import { Link } from "@/i18n/navigation";
 import {
   LayerBlueprint,
   LayerWindows,
@@ -26,6 +27,7 @@ const LAYERS = [
 ] as const;
 
 export function ParallaxHero() {
+  const t = useTranslations("hero");
   const rootRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -108,7 +110,7 @@ export function ParallaxHero() {
               data-parallax-layer="3"
               className={`${styles.layer} ${styles.layerTitle}`}
             >
-              <HeroCopy />
+              <HeroCopy t={t} />
             </div>
 
             <div
@@ -122,7 +124,7 @@ export function ParallaxHero() {
           <div className={styles.fade} />
 
           <div className={styles.scrollHint} aria-hidden="true">
-            <span>Scorri</span>
+            <span>{t("scroll")}</span>
             <span className={styles.scrollHintLine} />
           </div>
         </div>
@@ -131,12 +133,12 @@ export function ParallaxHero() {
   );
 }
 
-function HeroCopy() {
+function HeroCopy({ t }: { t: ReturnType<typeof useTranslations<"hero">> }) {
   return (
     <div className="relative z-10 mx-auto max-w-3xl text-center">
       <span className="inline-flex items-center gap-1.5 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-[12px] font-medium text-white/70 backdrop-blur-sm">
         <span className="h-1.5 w-1.5 rounded-full bg-[var(--color-mint)]" />
-        In sviluppo &middot; accesso Alpha aperto
+        {t("badge")}
       </span>
 
       <div className="mt-7 flex justify-center">
@@ -151,12 +153,11 @@ function HeroCopy() {
       </div>
 
       <h1 className="mt-7 text-balance text-4xl font-semibold leading-[1.06] tracking-tight text-white sm:text-6xl">
-        Il configuratore di infissi che qualifica i clienti al posto tuo
+        {t("title")}
       </h1>
 
       <p className="mx-auto mt-6 max-w-xl text-balance text-lg leading-relaxed text-white/60 sm:text-xl">
-        Un widget da incollare sul tuo sito con un codice iFrame. Preventivi
-        automatici, listino sempre aggiornato, il tuo brand.
+        {t("subtitle")}
       </p>
 
       <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
@@ -164,7 +165,7 @@ function HeroCopy() {
           href="/prezzi"
           className="group inline-flex cursor-pointer items-center gap-2 rounded-full bg-[var(--color-mint)] px-6 py-3.5 text-[15px] font-medium text-[#04231a] transition-transform duration-200 ease-out hover:scale-[1.02] active:scale-[0.98]"
         >
-          Richiedi accesso Alpha
+          {t("ctaPrimary")}
           <ArrowRight
             size={16}
             className="transition-transform duration-200 group-hover:translate-x-0.5"
@@ -174,7 +175,7 @@ function HeroCopy() {
           href="/prodotto"
           className="inline-flex cursor-pointer items-center gap-2 rounded-full border border-white/20 bg-transparent px-6 py-3.5 text-[15px] font-medium text-white transition-colors duration-150 hover:bg-white/10 active:bg-white/15"
         >
-          Vedi il configuratore live
+          {t("ctaSecondary")}
         </Link>
       </div>
     </div>

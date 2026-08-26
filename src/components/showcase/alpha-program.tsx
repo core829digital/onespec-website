@@ -1,4 +1,5 @@
-import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { ArrowRight, SealCheck, Percent, Broadcast } from "@phosphor-icons/react/dist/ssr";
 import { AlphaBadge } from "@/components/showcase/alpha-badge";
 import { ALPHA } from "@/lib/site-config";
@@ -6,6 +7,8 @@ import { ALPHA } from "@/lib/site-config";
 const ICONS = [Percent, SealCheck, Broadcast];
 
 export function AlphaProgram() {
+  const t = useTranslations("alpha");
+  const benefits = t.raw("benefits") as { title: string; description: string }[];
   const seatsLeft = ALPHA.totalSeats - ALPHA.seatsTaken;
   const filledPercent = (ALPHA.seatsTaken / ALPHA.totalSeats) * 100;
 
@@ -16,13 +19,11 @@ export function AlphaProgram() {
           <AlphaBadge size="lg" />
 
           <h2 className="mt-7 text-balance text-3xl font-semibold tracking-tight text-white sm:text-4xl">
-            250 posti. Poi il prezzo torna pieno.
+            {t("title")}
           </h2>
 
           <p className="mt-5 max-w-lg text-[15px] leading-relaxed text-white/55">
-            L&apos;accesso Alpha e limitato ai primi {ALPHA.totalSeats} clienti su
-            piano Starter o Business. Chi entra adesso aiuta a definire il
-            prodotto e si porta dietro le condizioni di lancio anche dopo.
+            {t("subtitle", { seats: ALPHA.totalSeats })}
           </p>
 
           {/* Contatore posti */}
@@ -31,11 +32,11 @@ export function AlphaProgram() {
               <span className="font-mono text-2xl font-semibold tabular-nums text-white">
                 {seatsLeft}
                 <span className="ml-1.5 text-[13px] font-normal text-white/40">
-                  / {ALPHA.totalSeats} disponibili
+                  / {ALPHA.totalSeats} {t("seatsSuffix")}
                 </span>
               </span>
               <span className="rounded-full bg-[var(--color-mint)]/12 px-2.5 py-1 text-[11px] font-semibold text-[var(--color-mint)]">
-                −{ALPHA.discountPercent}%
+                {t("discountBadge", { percent: ALPHA.discountPercent })}
               </span>
             </div>
             <div
@@ -44,7 +45,7 @@ export function AlphaProgram() {
               aria-valuenow={ALPHA.seatsTaken}
               aria-valuemin={0}
               aria-valuemax={ALPHA.totalSeats}
-              aria-label={`${ALPHA.seatsTaken} posti Alpha assegnati su ${ALPHA.totalSeats}`}
+              aria-label={`${ALPHA.seatsTaken} / ${ALPHA.totalSeats}`}
             >
               <span
                 className="block h-full rounded-full bg-[var(--color-mint)]"
@@ -57,7 +58,7 @@ export function AlphaProgram() {
             href="/prezzi"
             className="group mt-9 inline-flex cursor-pointer items-center gap-2 rounded-full bg-[var(--color-mint)] px-6 py-3.5 text-[15px] font-medium text-[#04231a] transition-transform duration-200 ease-out hover:scale-[1.02] active:scale-[0.98]"
           >
-            Prendi uno dei posti Alpha
+            {t("cta")}
             <ArrowRight
               size={16}
               className="transition-transform duration-200 group-hover:translate-x-0.5"
@@ -66,7 +67,7 @@ export function AlphaProgram() {
         </div>
 
         <ul className="space-y-7">
-          {ALPHA.benefits.map((b, i) => {
+          {benefits.map((b, i) => {
             const Icon = ICONS[i] ?? SealCheck;
             return (
               <li key={b.title} className="flex gap-4">

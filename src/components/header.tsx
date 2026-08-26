@@ -1,15 +1,18 @@
 "use client";
 
-import Link from "next/link";
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import { AnimatePresence, motion } from "framer-motion";
 import { List, X } from "@phosphor-icons/react/dist/ssr";
+import { Link } from "@/i18n/navigation";
 import { Logo } from "@/components/logo";
 import { Countdown } from "@/components/countdown";
-import { NAV_LINKS } from "@/lib/site-config";
+import { LanguageSwitcher } from "@/components/language-switcher";
+import { NAV_KEYS, NAV_HREFS } from "@/lib/site-config";
 import pillStyles from "@/components/showcase/pill-nav.module.css";
 
 export function Header() {
+  const t = useTranslations("nav");
   const [open, setOpen] = useState(false);
 
   return (
@@ -20,26 +23,27 @@ export function Header() {
         </Link>
 
         <nav className={pillStyles.menu}>
-          {NAV_LINKS.map((link) => (
-            <Link key={link.href} href={link.href} className={pillStyles.link}>
-              {link.label}
+          {NAV_KEYS.map((key) => (
+            <Link key={key} href={NAV_HREFS[key]} className={pillStyles.link}>
+              {t(key)}
             </Link>
           ))}
         </nav>
 
         <div className="hidden items-center gap-4 md:flex">
+          <LanguageSwitcher />
           <Countdown compact />
           <Link
             href="/prezzi"
             className="cursor-pointer rounded-full bg-[var(--color-mint)] px-4 py-2 text-[13px] font-medium text-[#04231a] transition-transform duration-200 ease-out hover:scale-[1.03] active:scale-[0.98]"
           >
-            Richiedi accesso
+            {t("richiediAccesso")}
           </Link>
         </div>
 
         <button
           type="button"
-          aria-label={open ? "Chiudi menu" : "Apri menu"}
+          aria-label={open ? t("chiudiMenu") : t("apriMenu")}
           aria-expanded={open}
           onClick={() => setOpen((v) => !v)}
           className="flex h-11 w-11 cursor-pointer items-center justify-center rounded-full text-[var(--color-text)] md:hidden"
@@ -59,25 +63,28 @@ export function Header() {
             className="overflow-hidden border-t border-[var(--color-border-subtle)] bg-[var(--color-bg)] md:hidden"
           >
             <div className="container-onespec flex flex-col gap-2 py-4">
-              {NAV_LINKS.map((link) => (
+              {NAV_KEYS.map((key) => (
                 <Link
-                  key={link.href}
-                  href={link.href}
+                  key={key}
+                  href={NAV_HREFS[key]}
                   onClick={() => setOpen(false)}
                   className="rounded-lg px-3 py-3 text-[15px] font-medium text-[var(--color-text)] transition-colors duration-150 hover:bg-[var(--color-bg-alt)] active:bg-[var(--color-bg-alt)]"
                 >
-                  {link.label}
+                  {t(key)}
                 </Link>
               ))}
               <div className="mt-2 px-3">
                 <Countdown />
+              </div>
+              <div className="mt-3 px-3">
+                <LanguageSwitcher />
               </div>
               <Link
                 href="/prezzi"
                 onClick={() => setOpen(false)}
                 className="mt-3 rounded-full bg-[var(--color-mint)] px-4 py-3.5 text-center text-[15px] font-medium text-[#04231a] transition-transform duration-150 active:scale-[0.98]"
               >
-                Richiedi accesso
+                {t("richiediAccesso")}
               </Link>
             </div>
           </motion.div>

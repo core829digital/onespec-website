@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import styles from "./alpha-badge.module.css";
 
 /**
@@ -6,6 +7,7 @@ import styles from "./alpha-badge.module.css";
  * Viene consegnato a chi entra tra i primi posti del programma Alpha.
  */
 export function AlphaBadge({ size = "sm" }: { size?: "sm" | "lg" }) {
+  const t = useTranslations("alpha");
   return (
     <span
       className={size === "lg" ? `${styles.badge} ${styles.lg}` : styles.badge}
@@ -25,7 +27,7 @@ export function AlphaBadge({ size = "sm" }: { size?: "sm" | "lg" }) {
         className={`${styles.logo} logo-light`}
       />
       <span className={styles.divider} aria-hidden="true" />
-      <span className={styles.label}>Alpha Member</span>
+      <span className={styles.label}>{t("member")}</span>
       <span className={styles.dot} aria-hidden="true" />
     </span>
   );

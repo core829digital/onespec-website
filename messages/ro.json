@@ -1,0 +1,604 @@
+{
+  "meta": {
+    "title": "onespec — Configuratorul de tamplarie pentru site-ul tau",
+    "description": "onespec este widget-ul de configurare tamplarie integrabil prin iframe: oferte automate, preturi mereu actualizate, personalizabil cu brandul tau.",
+    "prezziTitle": "Preturi",
+    "prodottoTitle": "Produs",
+    "versioniTitle": "Versiuni"
+  },
+  "nav": {
+    "prodotto": "Produs",
+    "prezzi": "Preturi",
+    "versioni": "Versiuni",
+    "richiediAccesso": "Solicita acces",
+    "apriMenu": "Deschide meniul",
+    "chiudiMenu": "Inchide meniul"
+  },
+  "footer": {
+    "colProdotto": "Produs",
+    "colAzienda": "Companie",
+    "colLegale": "Legal",
+    "comeFunziona": "Cum functioneaza",
+    "prezzi": "Preturi",
+    "versioni": "Versiuni si changelog",
+    "accessoAlpha": "Acces Alpha",
+    "contatti": "Contact",
+    "privacy": "Politica de confidentialitate",
+    "termini": "Termeni si conditii",
+    "cookie": "Politica de cookie-uri",
+    "copyright": "© {year} onespec. Toate drepturile rezervate.",
+    "faseAlpha": "Produs in faza Alpha",
+    "tagline": "Configuratorul de tamplarie care vinde in locul tau."
+  },
+  "countdown": {
+    "live": "onespec este live",
+    "prefix": "Alpha · lansare in",
+    "ariaLabel": "Lansare publica in {days} zile, {hours} ore, {minutes} minute",
+    "days": "z",
+    "hours": "o",
+    "minutes": "m",
+    "seconds": "s"
+  },
+  "theme": {
+    "toDark": "Comuta la modul intunecat",
+    "toLight": "Comuta la modul luminos"
+  },
+  "languageSwitcher": {
+    "label": "Limba"
+  },
+  "hero": {
+    "badge": "In dezvoltare · acces Alpha deschis",
+    "title": "Configuratorul de tamplarie care iti califica clientii in locul tau",
+    "subtitle": "Un widget pe care il incluzi pe site cu un cod iFrame. Oferte automate, lista de preturi mereu actualizata, brandul tau.",
+    "ctaPrimary": "Solicita acces Alpha",
+    "ctaSecondary": "Vezi configuratorul live",
+    "scroll": "Deruleaza"
+  },
+  "home": {
+    "configurator": {
+      "kicker": "Demo interactiv",
+      "title": "Acesta este configuratorul. Incearca-l acum.",
+      "subtitle": "Nu e o captura de ecran: e exact widget-ul pe care il primeste clientul tau, incarcat aici intr-un iFrame. Schimba materialul, dimensiunile si finisajele si vezi oferta actualizandu-se."
+    },
+    "valueProp": {
+      "title": "In fiecare zi pierzi timp cu solicitari care nu duc nicaieri",
+      "body": "Telefoane din curiozitate, vizite inutile la fata locului, concurenti deghizati in clienti care vor doar pretul tau ca sa faca dumping. onespec pune un configurator intre tine si aceste solicitari: cine ajunge la tine a inteles deja produsul si bugetul."
+    },
+    "features": {
+      "title": "Tot ce ai nevoie, nimic in plus",
+      "items": [
+        {
+          "icon": "code",
+          "title": "Un iFrame, si esti live",
+          "description": "Incluzi un cod pe site si configuratorul apare, deja functional. Fara dezvoltare, fara mentenanta tehnica."
+        },
+        {
+          "icon": "palette",
+          "title": "Personalizabil 100%",
+          "description": "Culorile, fontul si logo-ul configuratorului tau se aliniaza cu brandul tau. Clientul nici nu stie ca exista onespec."
+        },
+        {
+          "icon": "file",
+          "title": "Lista de preturi din fisier, mereu actualizata",
+          "description": "Incarci lista ta de preturi, configuratorul o decodifica. Actualizezi fisierul, widget-ul se actualizeaza peste tot unde e instalat."
+        },
+        {
+          "icon": "shield",
+          "title": "Filtreaza pe cei care nu sunt clienti reali",
+          "description": "Gata cu pierderea timpului cu cei care vor doar sa compare preturi pentru dumping. Configuratorul califica solicitarea inainte sa ajunga la tine."
+        },
+        {
+          "icon": "chart",
+          "title": "Preturi apropiate de realitate",
+          "description": "Reguli de pret configurabile pentru materiale, dimensiuni si finisaje: oferta pe care o vede clientul e aproape cea finala."
+        },
+        {
+          "icon": "lightning",
+          "title": "Actualizari instantanee",
+          "description": "Modifici configuratorul din platforma onespec: modificarile sunt live pe toate site-urile unde e instalat, imediat."
+        }
+      ]
+    },
+    "dashboard": {
+      "title": "Ofertele ajung, tu le vezi in timp real",
+      "subtitle": "Fiecare solicitare generata de configurator ajunge imediat in dashboard: cate ajung, din ce produse, si cum creste valoarea medie luna de luna."
+    },
+    "steps": {
+      "title": "De la lista de preturi la oferta live in patru pasi",
+      "items": [
+        {
+          "n": "01",
+          "title": "Incarci lista de preturi",
+          "description": "Un fisier cu produse, dimensiuni, materiale si preturi. onespec il citeste si il transforma intr-un configurator."
+        },
+        {
+          "n": "02",
+          "title": "Personalizezi widget-ul",
+          "description": "Culori, logo, texte si reguli de pret din platforma. Fara nicio linie de cod."
+        },
+        {
+          "n": "03",
+          "title": "Incluzi codul iFrame",
+          "description": "Configuratorul apare pe site-ul tau, adaptiv pe desktop si mobil, gata sa primeasca solicitari."
+        },
+        {
+          "n": "04",
+          "title": "Primesti oferte calificate",
+          "description": "Fiecare solicitare ajunge deja cu dimensiuni, materiale si bugetul orientativ al clientului."
+        }
+      ]
+    },
+    "pricing": {
+      "title": "Platesti in functie de cat munceste configuratorul pentru tine",
+      "subtitle": "Trei planuri, in functie de solicitarile lunare de oferta si de personalizare. Cu accesul Alpha, {percent}% reducere la Starter si Business.",
+      "piuScelto": "Cel mai ales",
+      "alphaSuffix": "/luna cu acces Alpha",
+      "compareLink": "Compara toate planurile in detaliu"
+    },
+    "cta": {
+      "title": "Fii printre primii care aduc onespec pe site-ul tau",
+      "subtitle": "Faza Alpha, {seats} locuri. Cine intra acum ajuta la definirea produsului si blocheaza pretul de lansare.",
+      "button": "Solicita acces Alpha"
+    }
+  },
+  "iframeExplainer": {
+    "kicker": "Pe intelesul tuturor",
+    "title": "Ce este un cod iFrame?",
+    "subtitle": "Este partea tehnica a onespec, si este singura. Nu e nevoie de programator si nu se atinge nimic din site-ul existent.",
+    "points": [
+      {
+        "title": "Este o fereastra in interiorul site-ului tau",
+        "body": "iFrame-ul afiseaza o pagina externa in interiorul uneia dintre paginile tale. Vizitatorul vede configuratorul ca si cum ar face parte din site-ul tau: nu schimba pagina, nu pleaca de la tine."
+      },
+      {
+        "title": "Se incluzi o singura data",
+        "body": "Copiezi codul si il incluzi unde vrei sa apara configuratorul. Functioneaza cu WordPress, Shopify, Wix, Webflow sau un site facut manual: este HTML standard."
+      },
+      {
+        "title": "Se actualizeaza singur",
+        "body": "Continutul traieste pe serverele noastre. Cand modifici lista de preturi sau culorile din platforma, codul de pe site-ul tau ramane identic, iar configuratorul e deja actualizat."
+      }
+    ],
+    "copy": "Copiaza",
+    "copied": "Copiat",
+    "footnote": "O singura linie se schimba de la un client la altul: <id>tuo-id</id>. Restul este identic pentru toti."
+  },
+  "dashboardMockup": {
+    "ariaLabel": "Previzualizare a dashboard-ului onespec: indicatori solicitari de oferta, evolutie lunara si ultimele solicitari primite",
+    "windowLabel": "app.onespec.it · Prezentare generala",
+    "kpis": [
+      {
+        "label": "Solicitari de oferta",
+        "value": "128",
+        "delta": "+18%"
+      },
+      {
+        "label": "Configuratoare deschise",
+        "value": "2.940",
+        "delta": "+9%"
+      },
+      {
+        "label": "Rata de conversie",
+        "value": "4,3%",
+        "delta": "+0,6pp"
+      },
+      {
+        "label": "Valoare medie solicitare",
+        "value": "3.180 €",
+        "delta": "+4%"
+      }
+    ],
+    "chartTitle": "Solicitari pe luna",
+    "recentTitle": "Ultimele solicitari",
+    "recent": [
+      {
+        "product": "Fereastra PVC · 2 canate",
+        "size": "1400×1800",
+        "value": "2.480 €"
+      },
+      {
+        "product": "Usa de balcon lemn",
+        "size": "1200×2300",
+        "value": "4.150 €"
+      },
+      {
+        "product": "Fereastra aluminiu",
+        "size": "1500×1200",
+        "value": "1.870 €"
+      },
+      {
+        "product": "Fereastra PVC · 1 canat",
+        "size": "900×1400",
+        "value": "1.120 €"
+      }
+    ]
+  },
+  "configuratorEmbed": {
+    "loading": "Se incarca configuratorul…",
+    "chromeLabel": "site-ultau-tamplarie.ro",
+    "live": "LIVE"
+  },
+  "alpha": {
+    "member": "Membru Alpha",
+    "seatsSuffix": "disponibile",
+    "discountBadge": "−{percent}%",
+    "cta": "Ocupa un loc Alpha",
+    "title": "250 de locuri. Apoi pretul revine la cel intreg.",
+    "subtitle": "Accesul Alpha este limitat la primii {seats} clienti pe planul Starter sau Business. Cine intra acum ajuta la definirea produsului si pastreaza conditiile de lansare si dupa aceea.",
+    "benefits": [
+      {
+        "title": "15% reducere pe viata",
+        "description": "Reducerea ramane legata de abonamentul tau Starter sau Business chiar si dupa lansarea publica. Pretul nu creste."
+      },
+      {
+        "title": "Ecuson Alpha Member",
+        "description": "Un ecuson verificat care certifica ca ai fost printre primii 250. Utilizabil pe site-ul tau si in materialele comerciale."
+      },
+      {
+        "title": "Acces la actualizarile Alpha",
+        "description": "Primesti versiunile in avanpremiera si canalul de changelog rezervat, inainte ca functiile sa ajunga la toata lumea."
+      }
+    ]
+  },
+  "pricingTiers": [
+    {
+      "id": "starter",
+      "name": "Starter",
+      "description": "Pentru cine vrea sa testeze configuratorul pe un singur site, fara riscuri.",
+      "quotesLimit": "Pana la 50 de solicitari de oferta/luna",
+      "features": [
+        "1 configurator activ",
+        "Cod iFrame gata de inclus",
+        "Incarcarea listei de preturi din fisier",
+        "Ecuson \"Powered by onespec\"",
+        "Actualizari de preturi in timp real",
+        "Suport prin email"
+      ],
+      "cta": "Incepe cu Starter"
+    },
+    {
+      "id": "business",
+      "name": "Business",
+      "description": "Pentru cine vinde serios si vrea un configurator personalizat 100%.",
+      "quotesLimit": "Pana la 300 de solicitari de oferta/luna",
+      "features": [
+        "3 configuratoare active",
+        "Marca eliminata: doar brandul tau",
+        "Reguli avansate de pret si reduceri",
+        "Mai multe liste de preturi pe linie de produs",
+        "Statistici solicitari si conversii",
+        "Suport prioritar"
+      ],
+      "cta": "Treci la Business"
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "description": "Pentru retele de distribuitori, francize si volume mari de oferte.",
+      "quotesLimit": "Solicitari de oferta nelimitate",
+      "features": [
+        "Configuratoare nelimitate",
+        "White-label complet + domeniu personalizat",
+        "Integrare API/CRM la cerere",
+        "Import masiv de liste de preturi multi-sediu",
+        "Manager de cont dedicat",
+        "SLA si onboarding ghidat"
+      ],
+      "cta": "Vorbeste cu noi",
+      "priceLabel": "Personalizat"
+    }
+  ],
+  "changelog": [
+    {
+      "version": "0.4.0",
+      "date": "2026-08-10",
+      "title": "Reguli de pret conditionate",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Adaugat motor de reguli pentru reduceri pe cantitate si combinatii de produse",
+        "Panou nou pentru gestionarea mai multor liste de preturi in acelasi configurator"
+      ]
+    },
+    {
+      "version": "0.3.2",
+      "date": "2026-07-22",
+      "title": "Performanta widget-ului",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Timpul de prima incarcare a widget-ului redus cu 40%",
+        "Optimizata redarea pe conexiuni mobile lente"
+      ]
+    },
+    {
+      "version": "0.3.0",
+      "date": "2026-06-30",
+      "title": "White-label pentru planul Business",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Posibilitatea de a elimina ecusonul onespec din widget",
+        "Editor de culori si fonturi pentru a alinia configuratorul cu brandul clientului"
+      ]
+    },
+    {
+      "version": "0.2.1",
+      "date": "2026-06-05",
+      "title": "Corectii import lista de preturi",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Rezolvata eroarea la importul fisierelor cu caractere diacritice",
+        "Corectata rotunjirea preturilor cu TVA inclus"
+      ]
+    },
+    {
+      "version": "A-03",
+      "date": "2026-08-18",
+      "title": "Ecusonul Alpha Member livrat",
+      "tag": "Nuovo",
+      "channel": "alpha",
+      "items": [
+        "Ecusonul verificat este acum disponibil in zona de cont a celor care au aderat",
+        "Adaugat un fragment de cod de inclus pe propriul site pentru a afisa ecusonul"
+      ]
+    },
+    {
+      "version": "A-02",
+      "date": "2026-07-30",
+      "title": "Canal de versiuni in avanpremiera",
+      "tag": "Nuovo",
+      "channel": "alpha",
+      "items": [
+        "Activat canalul rezervat cu versiuni inainte de lansarea publica",
+        "Formular de raportare erori conectat direct la echipa de produs"
+      ]
+    },
+    {
+      "version": "A-01",
+      "date": "2026-07-02",
+      "title": "Deschiderea celor 250 de locuri Alpha",
+      "tag": "Nuovo",
+      "channel": "alpha",
+      "items": [
+        "Deschise inscrierile in programul Alpha, cu 15% reducere blocata pe viata",
+        "Reducerea ramane valabila pe Starter si Business chiar si dupa lansarea publica"
+      ]
+    }
+  ],
+  "prezzi": {
+    "hero": {
+      "title": "Preturi simple, in functie de cat foloseti configuratorul",
+      "subtitle": "Cu cat configuratorul tau genereaza mai multe solicitari de oferta, cu atat iti aduce mai multa valoare. Alege planul in functie de volum si de cat vrei sa il personalizezi.",
+      "alphaNote": "Acces Alpha: −{percent}% la Starter si Business, primele {seats} locuri"
+    },
+    "priceNote": "/luna",
+    "taxNote": "+ TVA",
+    "alphaPriceSuffix": "/luna",
+    "alphaWithPrefix": "cu acces Alpha (−{percent}%)",
+    "enterpriseNote": "Oferta personalizata in functie de volume si sedii.",
+    "whitelabelYes": "Widget white-label",
+    "whitelabelNo": "Ecuson onespec vizibil",
+    "taxFootnote": "Toate preturile sunt lunare si fara TVA, care se aplica pe factura conform cotei legale.",
+    "standalone": {
+      "title": "Ai nevoie de propriul configurator, fara platforma?",
+      "body": "La cerere realizam si configuratoare standalone, dezvoltate special pentru site-ul tau si fara dependenta de platforma onespec. <link>Scrie-ne</link> pentru o evaluare.",
+      "linkLabel": "Scrie-ne"
+    },
+    "piuScelto": "Cel mai ales"
+  },
+  "versioni": {
+    "title": "Versiuni si changelog",
+    "subtitle": "onespec este in dezvoltare activa. Actualizarile sunt impartite in doua canale: cele ale produsului si cele rezervate programului Alpha.",
+    "prodottoTitle": "Actualizari produs",
+    "prodottoBody": "Ce se schimba in configurator si in platforma pentru cei care le folosesc deja. Disponibil tuturor clientilor activi.",
+    "alphaTitle": "Actualizari acces Alpha",
+    "alphaBody": "Viata programului Alpha: locuri, versiuni in avanpremiera si beneficii rezervate celor care au intrat printre primii.",
+    "empty": "Inca nicio intrare in acest canal. Noutatile vor aparea aici imediat ce sunt lansate.",
+    "tags": {
+      "Nuovo": "Nou",
+      "Miglioramento": "Imbunatatire",
+      "Fix": "Corectie"
+    }
+  },
+  "prodotto": {
+    "hero": {
+      "title": "Un widget, nu un proiect software",
+      "subtitle": "onespec s-a nascut din cererea directa a companiilor de productie si vanzare tamplarie: un configurator interactiv care economiseste timp, filtreaza solicitarile serioase si iti protejeaza preturile de concurenta neloiala."
+    },
+    "configurator": {
+      "kicker": "Demo interactiv",
+      "title": "Incearca-l asa cum o face clientul tau",
+      "subtitle": "Widget-ul de mai jos este incarcat intr-un iFrame, exact cum ar aparea pe site-ul tau. Configureaza o tamplarie si vezi oferta calculandu-se in timp real."
+    },
+    "blocks": [
+      {
+        "icon": "file",
+        "title": "1. Incarci lista de preturi",
+        "description": "Furnizezi fisierele tale cu lista de preturi: produse, dimensiuni disponibile, materiale, finisaje si preturi. onespec le decodifica si construieste automat logica configuratorului, fara sa trebuiasca sa reintroduci nimic manual.",
+        "visual": null
+      },
+      {
+        "icon": "palette",
+        "title": "2. Personalizezi widget-ul",
+        "description": "Din platforma alegi culori, fonturi, logo si texte pentru configurator. Rezultatul este un widget care pare construit special pentru site-ul tau, nu un plugin extern.",
+        "visual": "colorPicker"
+      },
+      {
+        "icon": "code",
+        "title": "3. Incluzi codul iFrame",
+        "description": "Un singur fragment de cod de inclus pe pagina site-ului tau. Configuratorul este responsive implicit: gandit pentru mobil si desktop, nu doar adaptat.",
+        "visual": "embedCode"
+      },
+      {
+        "icon": "chart",
+        "title": "4. Actualizezi mereu din platforma",
+        "description": "Modifici preturi, adaugi produse sau schimbi regulile de reducere din dashboard-ul onespec. Modificarile sunt live pe fiecare site unde widget-ul este instalat, fara sa atingi codul clientului.",
+        "visual": null
+      }
+    ],
+    "dashboard": {
+      "title": "Dashboard-ul din care controlezi totul",
+      "subtitle": "Solicitari primite, produse cele mai configurate, valoarea medie a ofertei. De aici actualizezi listele de preturi si regulile, iar modificarile sunt live oriunde e instalat widget-ul."
+    },
+    "midCta": {
+      "title": "Mai putin timp cu curiosii, mai mult timp cu clientii pregatiti",
+      "subtitle": "Configuratorul colecteaza dimensiuni, materiale si buget inainte sa raspunzi la telefon. Cine iti scrie dupa ce a configurat s-a decis deja sa cumpere.",
+      "button": "Vezi planurile"
+    },
+    "support": {
+      "title": "Asistenta inclusa in fiecare plan",
+      "subtitle": "Nivelul de suport creste odata cu planul ales.",
+      "tiers": [
+        {
+          "plan": "Starter",
+          "level": "Suport prin email",
+          "description": "Raspuns in maximum 2 zile lucratoare pentru orice solicitare legata de configurator.",
+          "code": "STD-0001",
+          "color": "#5b6470"
+        },
+        {
+          "plan": "Business",
+          "level": "Suport prioritar",
+          "description": "Coada dedicata, raspuns in 24 de ore lucratoare si asistenta pe reguli de pret.",
+          "code": "PRI-0001",
+          "color": "#0fbf8f"
+        },
+        {
+          "plan": "Enterprise",
+          "level": "Cont dedicat",
+          "description": "Persoana de contact unica, SLA convenit si onboarding ghidat pentru retele multi-sediu.",
+          "code": "ENT-0001",
+          "color": "#1d1d1f"
+        }
+      ]
+    }
+  },
+  "legal": {
+    "updatedLabel": "Ultima actualizare: {date}",
+    "privacy": {
+      "title": "Politica de confidentialitate",
+      "updated": "21 august 2026",
+      "intro": "Aceasta pagina descrie modul in care onespec (\"noi\") colecteaza, utilizeaza si protejeaza datele personale ale celor care viziteaza site-ul sau folosesc platforma, in conformitate cu Regulamentul (UE) 2016/679 (GDPR).",
+      "sections": [
+        {
+          "heading": "Operatorul de date",
+          "body": "Operatorul de date este onespec. Pentru orice solicitare privind datele personale poti scrie la {email}."
+        },
+        {
+          "heading": "Date colectate",
+          "list": [
+            "Date de contact furnizate voluntar (nume, email, companie) prin formular sau email.",
+            "Date tehnice de navigare (adresa IP, tipul de browser, paginile vizitate) colectate in forma agregata.",
+            "Date privind solicitarile de oferta generate prin configurator, cand este cazul."
+          ]
+        },
+        {
+          "heading": "Scopurile prelucrarii",
+          "list": [
+            "Raspunsul la solicitari de informatii, acces la faza Alpha sau parteneriate.",
+            "Gestionarea furnizarii serviciului pentru clientii abonati la platforma.",
+            "Imbunatatirea site-ului si a platformei prin analize statistice agregate."
+          ]
+        },
+        {
+          "heading": "Temeiul juridic",
+          "body": "Prelucrarea se bazeaza pe consimtamantul persoanei vizate, pe executarea unui contract sau masuri precontractuale, si pe interesul legitim de a mentine si imbunatati serviciul."
+        },
+        {
+          "heading": "Pastrarea datelor",
+          "body": "Datele sunt pastrate pe perioada necesara atingerii scopurilor indicate, si in orice caz nu mai mult decat termenele prevazute de legislatia in vigoare."
+        },
+        {
+          "heading": "Drepturile persoanei vizate",
+          "body": "Poti solicita oricand acces, rectificare, stergere, restrictionarea prelucrarii sau portabilitatea datelor tale, scriind la {email}."
+        }
+      ]
+    },
+    "termini": {
+      "title": "Termeni si conditii",
+      "updated": "21 august 2026",
+      "intro": "Utilizarea site-ului si a platformei onespec implica acceptarea prezentilor termeni. onespec se afla in prezent in faza Alpha: unele functionalitati se pot schimba sau pot fi intrerupte in timpul dezvoltarii.",
+      "sections": [
+        {
+          "heading": "Descrierea serviciului",
+          "body": "onespec furnizeaza un widget de configurare tamplarie integrabil printr-un cod iFrame, gestionabil si actualizabil din platforma onespec. Serviciul este oferit prin abonament, in functie de planul ales."
+        },
+        {
+          "heading": "Cont si responsabilitatea clientului",
+          "list": [
+            "Clientul este responsabil pentru exactitatea datelor si a listelor de preturi incarcate pe platforma.",
+            "Clientul este responsabil pentru corectitudinea ofertelor generate pe baza datelor furnizate.",
+            "Accesul la platforma este personal si nu poate fi cedat unor terti fara autorizatie."
+          ]
+        },
+        {
+          "heading": "Abonamente si facturare",
+          "body": "Abonamentele se reinnoiesc automat conform periodicitatii alese, cu exceptia unei anulari comunicate inainte de reinnoire. Limitele de utilizare (solicitari lunare de oferta, numar de configuratoare) sunt definite de planul activ."
+        },
+        {
+          "heading": "Limitarea raspunderii",
+          "body": "onespec furnizeaza instrumentul de configurare, dar nu este responsabil pentru acordurile comerciale, ofertele finale sau vanzarile incheiate intre client si proprii utilizatori finali."
+        },
+        {
+          "heading": "Modificari ale termenilor",
+          "body": "In timpul fazei Alpha, prezentii termeni pot fi actualizati mai frecvent. Modificarile importante vor fi comunicate clientilor activi."
+        },
+        {
+          "heading": "Contact",
+          "body": "Pentru intrebari despre termenii si conditiile serviciului scrie la {email}."
+        }
+      ]
+    },
+    "cookie": {
+      "title": "Politica de cookie-uri",
+      "updated": "21 august 2026",
+      "intro": "Acest site foloseste un numar minim de cookie-uri si tehnologii similare, necesare functionarii de baza si, acolo unde sunt activate, masurarii anonime a traficului.",
+      "sections": [
+        {
+          "heading": "Cookie-uri tehnice",
+          "body": "Necesare pentru functionarea corecta a site-ului (de ex. preferinte de navigare). Nu necesita consimtamant prealabil."
+        },
+        {
+          "heading": "Cookie-uri statistice",
+          "body": "Daca sunt activate, colecteaza date agregate si anonime despre utilizarea site-ului pentru a-i imbunatati continutul. Le poti refuza fara impact asupra navigarii."
+        },
+        {
+          "heading": "Gestionarea preferintelor",
+          "body": "Poti modifica sau retrage oricand consimtamantul pentru cookie-urile non-tehnice din setarile browserului tau."
+        },
+        {
+          "heading": "Contact",
+          "body": "Pentru intrebari despre politica de cookie-uri scrie la {email}."
+        }
+      ]
+    }
+  },
+  "colorPicker": {
+    "activeColor": "Culoare activa:",
+    "colorAria": "Culoare {name}"
+  },
+  "performanceCard": {
+    "title": "Analiza configuratorului",
+    "live": "Live",
+    "visits": "Vizite widget",
+    "quotes": "Oferte",
+    "last7days": "Ultimele 7 zile",
+    "details": "Detalii"
+  },
+  "phonePreview": {
+    "ariaLabel": "Previzualizare a configuratorului pe smartphone"
+  },
+  "supportTicket": {
+    "ticketNumber": "TICHET NR."
+  },
+  "brandColors": [
+    "Mint onespec",
+    "Grafit",
+    "Albastru santier",
+    "Teracota",
+    "Chihlimbar lemn",
+    "Gri ardezie"
+  ]
+}

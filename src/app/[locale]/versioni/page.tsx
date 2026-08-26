@@ -1,58 +1,83 @@
 import { Package, Sparkle } from "@phosphor-icons/react/dist/ssr";
+import { useTranslations, useLocale } from "next-intl";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Reveal, RevealGroup, RevealItem } from "@/components/reveal";
 import { AlphaBadge } from "@/components/showcase/alpha-badge";
-import {
-  CHANGELOG,
-  type ChangelogChannel,
-  type ChangelogEntry,
-} from "@/lib/site-config";
+import { CHANGELOG_META, type ChangelogMeta } from "@/lib/site-config";
+import type { AppLocale } from "@/i18n/routing";
 
-export const metadata = {
-  title: "Versioni — onespec",
-  description:
-    "Changelog di onespec: aggiornamenti del prodotto e novita del programma Alpha, versione per versione.",
-};
+type ChangelogCopy = { title: string; items: string[] };
 
-const TAG_STYLES: Record<ChangelogEntry["tag"], string> = {
+const TAG_STYLES: Record<ChangelogMeta["tag"], string> = {
   Nuovo: "bg-[var(--color-mint-light)] text-[var(--color-mint-dark)]",
   Miglioramento: "bg-[#eaf1ff] text-[#2952cc]",
   Fix: "bg-[#fdeeee] text-[#b23a3a]",
 };
 
-function entriesFor(channel: ChangelogChannel) {
-  return CHANGELOG.filter((e) => e.channel === channel);
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: AppLocale }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "meta" });
+  return { title: `${t("versioniTitle")} — onespec`, description: t("description") };
 }
 
-function ChangelogList({ channel }: { channel: ChangelogChannel }) {
-  const entries = entriesFor(channel);
+export default async function VersioniPage({
+  params,
+}: {
+  params: Promise<{ locale: AppLocale }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  return <VersioniContent />;
+}
+
+function ChangelogList({
+  channel,
+  meta,
+  copy,
+  locale,
+  tagLabels,
+}: {
+  channel: "prodotto" | "alpha";
+  meta: ChangelogMeta[];
+  copy: ChangelogCopy[];
+  locale: string;
+  tagLabels: Record<ChangelogMeta["tag"], string>;
+}) {
+  const t = useTranslations("versioni");
+  const entries = meta
+    .map((m, i) => ({ meta: m, copy: copy[i] }))
+    .filter((e) => e.meta.channel === channel);
 
   if (entries.length === 0) {
     return (
       <p className="rounded-2xl border border-dashed border-[var(--color-border)] px-6 py-10 text-center text-[14px] text-[var(--color-text-secondary)]">
-        Ancora nessuna voce in questo canale. Le novita compaiono qui appena
-        vengono rilasciate.
+        {t("empty")}
       </p>
     );
   }
 
   return (
     <RevealGroup className="divide-y divide-[var(--color-border-subtle)]">
-      {entries.map((entry) => (
-        <RevealItem key={entry.version} className="py-8 first:pt-0">
+      {entries.map(({ meta: m, copy: c }) => (
+        <RevealItem key={m.version} className="py-8 first:pt-0">
           <div className="flex flex-wrap items-center gap-3">
             <span className="font-mono text-[13px] font-semibold text-[var(--color-text)]">
-              {channel === "alpha" ? entry.version : `v${entry.version}`}
+              {channel === "alpha" ? m.version : `v${m.version}`}
             </span>
             <span
-              className={`rounded-full px-2.5 py-0.5 text-[11px] font-semibold ${TAG_STYLES[entry.tag]}`}
+              className={`rounded-full px-2.5 py-0.5 text-[11px] font-semibold ${TAG_STYLES[m.tag]}`}
             >
-              {entry.tag}
+              {tagLabels[m.tag]}
             </span>
             <time
-              dateTime={entry.date}
+              dateTime={m.date}
               className="text-[12px] text-[var(--color-text-secondary)]"
             >
-              {new Date(entry.date).toLocaleDateString("it-IT", {
+              {new Date(m.date).toLocaleDateString(locale, {
                 day: "numeric",
                 month: "long",
                 year: "numeric",
@@ -60,10 +85,10 @@ function ChangelogList({ channel }: { channel: ChangelogChannel }) {
             </time>
           </div>
           <h3 className="mt-3 text-[18px] font-semibold text-[var(--color-text)]">
-            {entry.title}
+            {c.title}
           </h3>
           <ul className="mt-3 space-y-2">
-            {entry.items.map((item) => (
+            {c.items.map((item) => (
               <li
                 key={item}
                 className="flex gap-2.5 text-[14px] leading-relaxed text-[var(--color-text-secondary)]"
@@ -79,18 +104,23 @@ function ChangelogList({ channel }: { channel: ChangelogChannel }) {
   );
 }
 
-export default function VersioniPage() {
+function VersioniContent() {
+  const t = useTranslations("versioni");
+  const tRoot = useTranslations();
+  const locale = useLocale();
+  const copy = tRoot.raw("changelog") as ChangelogCopy[];
+  const tagLabels = t.raw("tags") as Record<ChangelogMeta["tag"], string>;
+
   return (
     <>
       <section className="pt-20 pb-12 sm:pt-28">
         <div className="container-onespec text-center">
           <Reveal>
             <h1 className="text-balance text-4xl font-semibold tracking-tight text-[var(--color-text)] sm:text-5xl">
-              Versioni e changelog
+              {t("title")}
             </h1>
             <p className="mx-auto mt-5 max-w-xl text-balance text-lg leading-relaxed text-[var(--color-text-secondary)]">
-              onespec e in sviluppo attivo. Gli aggiornamenti sono divisi in due
-              canali: quelli del prodotto e quelli riservati al programma Alpha.
+              {t("subtitle")}
             </p>
           </Reveal>
         </div>
@@ -107,18 +137,23 @@ export default function VersioniPage() {
                 </span>
                 <div>
                   <h2 className="text-[22px] font-semibold tracking-tight text-[var(--color-text)]">
-                    Aggiornamenti prodotto
+                    {t("prodottoTitle")}
                   </h2>
                   <p className="mt-1.5 text-[14px] leading-relaxed text-[var(--color-text-secondary)]">
-                    Cosa cambia nel configuratore e nella piattaforma per chi li usa
-                    gia. Disponibile a tutti i clienti attivi.
+                    {t("prodottoBody")}
                   </p>
                 </div>
               </div>
             </Reveal>
 
             <div className="mt-8">
-              <ChangelogList channel="prodotto" />
+              <ChangelogList
+                channel="prodotto"
+                meta={CHANGELOG_META}
+                copy={copy}
+                locale={locale}
+                tagLabels={tagLabels}
+              />
             </div>
           </div>
         </div>
@@ -136,20 +171,25 @@ export default function VersioniPage() {
                 <div>
                   <div className="flex flex-wrap items-center gap-3">
                     <h2 className="text-[22px] font-semibold tracking-tight text-[var(--color-text)]">
-                      Aggiornamenti accesso Alpha
+                      {t("alphaTitle")}
                     </h2>
                     <AlphaBadge />
                   </div>
                   <p className="mt-2 text-[14px] leading-relaxed text-[var(--color-text-secondary)]">
-                    La vita del programma Alpha: posti, build in anteprima e
-                    vantaggi riservati a chi e entrato tra i primi.
+                    {t("alphaBody")}
                   </p>
                 </div>
               </div>
             </Reveal>
 
             <div className="mt-8">
-              <ChangelogList channel="alpha" />
+              <ChangelogList
+                channel="alpha"
+                meta={CHANGELOG_META}
+                copy={copy}
+                locale={locale}
+                tagLabels={tagLabels}
+              />
             </div>
           </div>
         </div>

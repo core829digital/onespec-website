@@ -1,0 +1,604 @@
+{
+  "meta": {
+    "title": "onespec — De kozijnconfigurator voor uw website",
+    "description": "onespec is de configuratiewidget voor ramen en deuren die u via iframe insluit: automatische offertes, altijd actuele prijzen, aan te passen aan uw merk.",
+    "prezziTitle": "Prijzen",
+    "prodottoTitle": "Product",
+    "versioniTitle": "Versies"
+  },
+  "nav": {
+    "prodotto": "Product",
+    "prezzi": "Prijzen",
+    "versioni": "Versies",
+    "richiediAccesso": "Toegang aanvragen",
+    "apriMenu": "Menu openen",
+    "chiudiMenu": "Menu sluiten"
+  },
+  "footer": {
+    "colProdotto": "Product",
+    "colAzienda": "Bedrijf",
+    "colLegale": "Juridisch",
+    "comeFunziona": "Hoe het werkt",
+    "prezzi": "Prijzen",
+    "versioni": "Versies en changelog",
+    "accessoAlpha": "Alpha-toegang",
+    "contatti": "Contact",
+    "privacy": "Privacybeleid",
+    "termini": "Servicevoorwaarden",
+    "cookie": "Cookiebeleid",
+    "copyright": "© {year} onespec. Alle rechten voorbehouden.",
+    "faseAlpha": "Product in Alpha-fase",
+    "tagline": "De kozijnconfigurator die voor u verkoopt."
+  },
+  "countdown": {
+    "live": "onespec is live",
+    "prefix": "Alpha · lancering over",
+    "ariaLabel": "Publieke lancering over {days} dagen, {hours} uur, {minutes} minuten",
+    "days": "d",
+    "hours": "u",
+    "minutes": "m",
+    "seconds": "s"
+  },
+  "theme": {
+    "toDark": "Overschakelen naar donkere modus",
+    "toLight": "Overschakelen naar lichte modus"
+  },
+  "languageSwitcher": {
+    "label": "Taal"
+  },
+  "hero": {
+    "badge": "In ontwikkeling · Alpha-toegang open",
+    "title": "De kozijnconfigurator die uw klanten voor u kwalificeert",
+    "subtitle": "Een widget die u met een iFrame-code op uw site plaatst. Automatische offertes, altijd actuele prijslijst, uw merk.",
+    "ctaPrimary": "Vraag Alpha-toegang aan",
+    "ctaSecondary": "Bekijk de live configurator",
+    "scroll": "Scroll"
+  },
+  "home": {
+    "configurator": {
+      "kicker": "Interactieve demo",
+      "title": "Dit is de configurator. Probeer hem nu.",
+      "subtitle": "Dit is geen screenshot: het is exact dezelfde widget die uw klant krijgt, hier geladen in een iFrame. Verander materiaal, afmetingen en afwerkingen en bekijk hoe de offerte wordt bijgewerkt."
+    },
+    "valueProp": {
+      "title": "Elke dag verliest u tijd aan aanvragen die nergens toe leiden",
+      "body": "Telefoontjes uit nieuwsgierigheid, nutteloze bezoeken ter plaatse, concurrenten die zich voordoen als klanten om alleen uw prijs te weten voor dumping. onespec plaatst een configurator tussen u en deze aanvragen: wie bij u terechtkomt, heeft product en budget al begrepen."
+    },
+    "features": {
+      "title": "Alles wat nodig is, niets overbodigs",
+      "items": [
+        {
+          "icon": "code",
+          "title": "Eén iFrame, en u bent live",
+          "description": "U plakt een code op uw site en de configurator verschijnt, direct werkend. Geen ontwikkeling, geen technisch onderhoud."
+        },
+        {
+          "icon": "palette",
+          "title": "100% aan te passen aan uw merk",
+          "description": "Kleuren, lettertype en logo van uw configurator sluiten aan bij uw merk. De klant weet niet eens dat onespec bestaat."
+        },
+        {
+          "icon": "file",
+          "title": "Prijslijst uit bestand, altijd actueel",
+          "description": "U uploadt uw prijslijst, de configurator decodeert deze. U werkt het bestand bij, de widget wordt overal bijgewerkt waar hij geïnstalleerd is."
+        },
+        {
+          "icon": "shield",
+          "title": "Filtert wie geen echte klant is",
+          "description": "Geen tijdverlies meer aan mensen die alleen prijzen willen vergelijken om te dumpen. De configurator kwalificeert de aanvraag voordat deze u bereikt."
+        },
+        {
+          "icon": "chart",
+          "title": "Prijzen dicht bij de realiteit",
+          "description": "Configureerbare prijsregels voor materialen, afmetingen en afwerkingen: de offerte die de klant ziet is bijna de definitieve."
+        },
+        {
+          "icon": "lightning",
+          "title": "Directe updates",
+          "description": "U wijzigt de configurator vanuit het onespec-platform: de wijzigingen zijn direct live op alle sites waar hij geïnstalleerd is."
+        }
+      ]
+    },
+    "dashboard": {
+      "title": "De offertes komen binnen, u ziet ze in realtime",
+      "subtitle": "Elke aanvraag die de configurator genereert komt direct in het dashboard terecht: hoeveel er binnenkomen, van welke producten, en hoe de gemiddelde waarde maand na maand groeit."
+    },
+    "steps": {
+      "title": "Van prijslijst naar live offerte in vier stappen",
+      "items": [
+        {
+          "n": "01",
+          "title": "U uploadt uw prijslijst",
+          "description": "Een bestand met producten, afmetingen, materialen en prijzen. onespec leest het en zet het om in een configurator."
+        },
+        {
+          "n": "02",
+          "title": "U past de widget aan",
+          "description": "Kleuren, logo, teksten en prijsregels vanuit het platform. Geen regel code nodig."
+        },
+        {
+          "n": "03",
+          "title": "U plakt de iFrame-code",
+          "description": "De configurator verschijnt op uw site, responsief op desktop en mobiel, klaar om aanvragen te ontvangen."
+        },
+        {
+          "n": "04",
+          "title": "U ontvangt gekwalificeerde offertes",
+          "description": "Elke aanvraag komt al binnen met afmetingen, materialen en het indicatieve budget van de klant."
+        }
+      ]
+    },
+    "pricing": {
+      "title": "U betaalt naar gelang hoeveel de configurator voor u werkt",
+      "subtitle": "Drie plannen, gebaseerd op maandelijkse offerteaanvragen en merkaanpassing. Met Alpha-toegang {percent}% korting op Starter en Business.",
+      "piuScelto": "Meest gekozen",
+      "alphaSuffix": "/maand met Alpha-toegang",
+      "compareLink": "Vergelijk alle plannen in detail"
+    },
+    "cta": {
+      "title": "Wees een van de eersten die onespec op hun site brengen",
+      "subtitle": "Alpha-fase, {seats} plekken. Wie nu instapt, helpt het product vorm te geven en legt de lanceringsprijs vast.",
+      "button": "Vraag Alpha-toegang aan"
+    }
+  },
+  "iframeExplainer": {
+    "kicker": "In eenvoudige woorden",
+    "title": "Wat is een iFrame-code?",
+    "subtitle": "Dat is het technische onderdeel van onespec, en het enige. Er is geen ontwikkelaar nodig en er wordt niets aan uw bestaande site aangeraakt.",
+    "points": [
+      {
+        "title": "Het is een venster binnen uw site",
+        "body": "De iFrame toont een externe pagina binnen een van uw pagina's. De bezoeker ziet de configurator alsof deze onderdeel is van uw site: geen paginawissel, verlaat uw site niet."
+      },
+      {
+        "title": "U plakt hem één keer",
+        "body": "U kopieert de code en plakt deze waar u wilt dat de configurator verschijnt. Werkt met WordPress, Shopify, Wix, Webflow of een handgemaakte site: het is standaard HTML."
+      },
+      {
+        "title": "Hij werkt zichzelf bij",
+        "body": "De inhoud leeft op onze servers. Wanneer u prijslijst of kleuren via het platform wijzigt, blijft de code op uw site identiek en is de configurator al bijgewerkt."
+      }
+    ],
+    "copy": "Kopiëren",
+    "copied": "Gekopieerd",
+    "footnote": "Slechts één regel verandert van klant tot klant: <id>tuo-id</id>. De rest is voor iedereen identiek."
+  },
+  "dashboardMockup": {
+    "ariaLabel": "Voorbeeld van het onespec-dashboard: indicatoren voor offerteaanvragen, maandelijkse trend en laatst ontvangen aanvragen",
+    "windowLabel": "app.onespec.it · Overzicht",
+    "kpis": [
+      {
+        "label": "Offerteaanvragen",
+        "value": "128",
+        "delta": "+18%"
+      },
+      {
+        "label": "Geopende configuratoren",
+        "value": "2.940",
+        "delta": "+9%"
+      },
+      {
+        "label": "Conversieratio",
+        "value": "4,3%",
+        "delta": "+0,6pt"
+      },
+      {
+        "label": "Gemiddelde aanvraagwaarde",
+        "value": "€ 3.180",
+        "delta": "+4%"
+      }
+    ],
+    "chartTitle": "Aanvragen per maand",
+    "recentTitle": "Laatste aanvragen",
+    "recent": [
+      {
+        "product": "PVC-raam · 2 vleugels",
+        "size": "1400×1800",
+        "value": "€ 2.480"
+      },
+      {
+        "product": "Houten openslaande deur",
+        "size": "1200×2300",
+        "value": "€ 4.150"
+      },
+      {
+        "product": "Aluminium raam",
+        "size": "1500×1200",
+        "value": "€ 1.870"
+      },
+      {
+        "product": "PVC-raam · 1 vleugel",
+        "size": "900×1400",
+        "value": "€ 1.120"
+      }
+    ]
+  },
+  "configuratorEmbed": {
+    "loading": "Configurator wordt geladen…",
+    "chromeLabel": "uwsite-kozijnen.nl",
+    "live": "LIVE"
+  },
+  "alpha": {
+    "member": "Alpha Member",
+    "seatsSuffix": "beschikbaar",
+    "discountBadge": "−{percent}%",
+    "cta": "Bemachtig een Alpha-plek",
+    "title": "250 plekken. Daarna keert de prijs terug naar de volle prijs.",
+    "subtitle": "Alpha-toegang is beperkt tot de eerste {seats} klanten op het Starter- of Business-plan. Wie nu instapt, helpt het product vorm te geven en behoudt de lanceringsvoorwaarden ook daarna.",
+    "benefits": [
+      {
+        "title": "15% korting voor het leven",
+        "description": "De korting blijft gekoppeld aan uw Starter- of Business-abonnement, ook na de publieke lancering. De prijs stijgt niet."
+      },
+      {
+        "title": "Alpha Member-badge",
+        "description": "Een geverifieerde badge die bevestigt dat u bij de eerste 250 zat. Te gebruiken op uw site en in uw verkoopmateriaal."
+      },
+      {
+        "title": "Toegang tot Alpha-updates",
+        "description": "Ontvang preview-builds en het gereserveerde changelog-kanaal, voordat functies iedereen bereiken."
+      }
+    ]
+  },
+  "pricingTiers": [
+    {
+      "id": "starter",
+      "name": "Starter",
+      "description": "Voor wie de configurator risicovrij op één site wil testen.",
+      "quotesLimit": "Tot 50 offerteaanvragen/maand",
+      "features": [
+        "1 actieve configurator",
+        "Kant-en-klare iFrame-code",
+        "Prijslijst uploaden vanuit bestand",
+        "\"Powered by onespec\"-badge",
+        "Realtime prijsupdates",
+        "Ondersteuning via e-mail"
+      ],
+      "cta": "Begin met Starter"
+    },
+    {
+      "id": "business",
+      "name": "Business",
+      "description": "Voor wie serieus verkoopt en een 100% eigen-merk configurator wil.",
+      "quotesLimit": "Tot 300 offerteaanvragen/maand",
+      "features": [
+        "3 actieve configuratoren",
+        "Merk verwijderd: alleen uw merk",
+        "Geavanceerde prijsregels en kortingen",
+        "Meerdere prijslijsten per productlijn",
+        "Statistieken over aanvragen en conversies",
+        "Prioritaire ondersteuning"
+      ],
+      "cta": "Overstappen naar Business"
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "description": "Voor dealernetwerken, franchises en hoge offertevolumes.",
+      "quotesLimit": "Onbeperkte offerteaanvragen",
+      "features": [
+        "Onbeperkte configuratoren",
+        "Volledig white-label + eigen domein",
+        "API-/CRM-integratie op aanvraag",
+        "Bulkimport van prijslijsten voor meerdere locaties",
+        "Toegewijde accountmanager",
+        "SLA en begeleide onboarding"
+      ],
+      "cta": "Neem contact op",
+      "priceLabel": "Op maat"
+    }
+  ],
+  "changelog": [
+    {
+      "version": "0.4.0",
+      "date": "2026-08-10",
+      "title": "Voorwaardelijke prijsregels",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Regelengine toegevoegd voor kortingen op hoeveelheid en productcombinaties",
+        "Nieuw paneel om meerdere prijslijsten binnen dezelfde configurator te beheren"
+      ]
+    },
+    {
+      "version": "0.3.2",
+      "date": "2026-07-22",
+      "title": "Prestaties widget",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Eerste laadtijd van de widget met 40% verminderd",
+        "Weergave geoptimaliseerd op trage mobiele verbindingen"
+      ]
+    },
+    {
+      "version": "0.3.0",
+      "date": "2026-06-30",
+      "title": "White-label voor het Business-plan",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Mogelijkheid om de onespec-badge uit de widget te verwijderen",
+        "Kleur- en lettertype-editor om de configurator af te stemmen op het merk van de klant"
+      ]
+    },
+    {
+      "version": "0.2.1",
+      "date": "2026-06-05",
+      "title": "Correcties bij prijslijstimport",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Fout bij het importeren van prijslijstbestanden met accenttekens opgelost",
+        "Afronding van prijzen inclusief btw gecorrigeerd"
+      ]
+    },
+    {
+      "version": "A-03",
+      "date": "2026-08-18",
+      "title": "Alpha Member-badge geleverd",
+      "tag": "Nuovo",
+      "channel": "alpha",
+      "items": [
+        "De geverifieerde badge is nu beschikbaar in het accountgebied van iedereen die is toegetreden",
+        "Snippet toegevoegd om op de eigen site te plakken en de badge te tonen"
+      ]
+    },
+    {
+      "version": "A-02",
+      "date": "2026-07-30",
+      "title": "Kanaal voor preview-builds",
+      "tag": "Nuovo",
+      "channel": "alpha",
+      "items": [
+        "Gereserveerd kanaal geactiveerd met builds voorafgaand aan de publieke release",
+        "Bugmeldingsformulier direct gekoppeld aan het productteam"
+      ]
+    },
+    {
+      "version": "A-01",
+      "date": "2026-07-02",
+      "title": "Opening van de 250 Alpha-plekken",
+      "tag": "Nuovo",
+      "channel": "alpha",
+      "items": [
+        "Aanmeldingen voor het Alpha-programma geopend, met 15% korting voor het leven",
+        "De korting blijft geldig op Starter en Business, ook na de publieke lancering"
+      ]
+    }
+  ],
+  "prezzi": {
+    "hero": {
+      "title": "Eenvoudige prijzen, afhankelijk van hoeveel u de configurator gebruikt",
+      "subtitle": "Hoe meer offerteaanvragen uw configurator genereert, hoe meer waarde hij u oplevert. Kies het plan op basis van volume en gewenste merkaanpassing.",
+      "alphaNote": "Alpha-toegang: −{percent}% op Starter en Business, eerste {seats} plekken"
+    },
+    "priceNote": "/maand",
+    "taxNote": "+ btw",
+    "alphaPriceSuffix": "/maand",
+    "alphaWithPrefix": "met Alpha-toegang (−{percent}%)",
+    "enterpriseNote": "Offerte op maat op basis van volumes en locaties.",
+    "whitelabelYes": "White-label widget",
+    "whitelabelNo": "onespec-badge zichtbaar",
+    "taxFootnote": "Alle prijzen zijn maandelijks en exclusief btw, die volgens het geldende tarief op de factuur wordt toegepast.",
+    "standalone": {
+      "title": "Heeft u uw eigen configurator nodig, zonder platform?",
+      "body": "Op aanvraag bouwen we ook standalone configuratoren, specifiek ontwikkeld voor uw site en zonder afhankelijkheid van het onespec-platform. <link>Schrijf ons</link> voor een beoordeling.",
+      "linkLabel": "Schrijf ons"
+    },
+    "piuScelto": "Meest gekozen"
+  },
+  "versioni": {
+    "title": "Versies en changelog",
+    "subtitle": "onespec is in actieve ontwikkeling. Updates zijn verdeeld in twee kanalen: die van het product en die exclusief voor het Alpha-programma.",
+    "prodottoTitle": "Productupdates",
+    "prodottoBody": "Wat er verandert in de configurator en het platform voor bestaande gebruikers. Beschikbaar voor alle actieve klanten.",
+    "alphaTitle": "Updates Alpha-toegang",
+    "alphaBody": "Het leven van het Alpha-programma: plekken, preview-builds en voordelen voor vroege deelnemers.",
+    "empty": "Nog geen items in dit kanaal. Nieuws verschijnt hier zodra het wordt vrijgegeven.",
+    "tags": {
+      "Nuovo": "Nieuw",
+      "Miglioramento": "Verbetering",
+      "Fix": "Fix"
+    }
+  },
+  "prodotto": {
+    "hero": {
+      "title": "Een widget, geen softwareproject",
+      "subtitle": "onespec is ontstaan uit een directe vraag van fabrikanten en verkopers van ramen en deuren: een interactieve configurator die tijd bespaart, serieuze aanvragen filtert en uw prijzen beschermt tegen oneerlijke concurrentie."
+    },
+    "configurator": {
+      "kicker": "Interactieve demo",
+      "title": "Probeer hem zoals uw klant dat doet",
+      "subtitle": "De widget hieronder is geladen in een iFrame, precies zoals hij op uw site zou verschijnen. Configureer een kozijn en bekijk hoe de offerte in realtime wordt berekend."
+    },
+    "blocks": [
+      {
+        "icon": "file",
+        "title": "1. U uploadt de prijslijst",
+        "description": "U levert uw prijslijstbestanden: producten, beschikbare afmetingen, materialen, afwerkingen en prijzen. onespec decodeert ze en bouwt automatisch de logica van de configurator, zonder dat u iets handmatig opnieuw hoeft in te voeren.",
+        "visual": null
+      },
+      {
+        "icon": "palette",
+        "title": "2. U past de widget aan uw merk aan",
+        "description": "Vanuit het platform kiest u kleuren, lettertypen, logo en teksten van de configurator. Het resultaat is een widget die op maat voor uw site lijkt gebouwd, geen externe plugin.",
+        "visual": "colorPicker"
+      },
+      {
+        "icon": "code",
+        "title": "3. U plakt de iFrame-code",
+        "description": "Eén enkel fragment om op de pagina van uw site te plakken. De configurator is standaard responsief: ontworpen voor mobiel en desktop, niet alleen aangepast.",
+        "visual": "embedCode"
+      },
+      {
+        "icon": "chart",
+        "title": "4. U werkt altijd bij vanuit het platform",
+        "description": "U wijzigt prijzen, voegt producten toe of past kortingsregels aan vanuit het onespec-dashboard. Wijzigingen zijn direct live op elke site waar de widget is geïnstalleerd, zonder de code van de klant aan te raken.",
+        "visual": null
+      }
+    ],
+    "dashboard": {
+      "title": "Het dashboard waarmee u alles bestuurt",
+      "subtitle": "Ontvangen aanvragen, meest geconfigureerde producten, gemiddelde offertewaarde. Van hieruit werkt u prijslijsten en regels bij, en de wijzigingen zijn overal live waar de widget is geïnstalleerd."
+    },
+    "midCta": {
+      "title": "Minder tijd aan nieuwsgierigen, meer tijd aan klaar-om-te-kopen klanten",
+      "subtitle": "De configurator verzamelt afmetingen, materialen en budget nog voordat u de telefoon opneemt. Wie na het configureren contact opneemt, heeft al besloten te kopen.",
+      "button": "Bekijk de plannen"
+    },
+    "support": {
+      "title": "Ondersteuning inbegrepen in elk plan",
+      "subtitle": "Het ondersteuningsniveau groeit mee met het gekozen plan.",
+      "tiers": [
+        {
+          "plan": "Starter",
+          "level": "Ondersteuning via e-mail",
+          "description": "Reactie binnen 2 werkdagen op elke aanvraag met betrekking tot de configurator.",
+          "code": "STD-0001",
+          "color": "#5b6470"
+        },
+        {
+          "plan": "Business",
+          "level": "Prioritaire ondersteuning",
+          "description": "Toegewijde wachtrij, reactie binnen 24 werkuren en hulp bij prijsregels.",
+          "code": "PRI-0001",
+          "color": "#0fbf8f"
+        },
+        {
+          "plan": "Enterprise",
+          "level": "Toegewijd account",
+          "description": "Eén aanspreekpunt, afgesproken SLA en begeleide onboarding voor netwerken met meerdere locaties.",
+          "code": "ENT-0001",
+          "color": "#1d1d1f"
+        }
+      ]
+    }
+  },
+  "legal": {
+    "updatedLabel": "Laatst bijgewerkt: {date}",
+    "privacy": {
+      "title": "Privacybeleid",
+      "updated": "21 augustus 2026",
+      "intro": "Deze pagina beschrijft hoe onespec (\"wij\") persoonsgegevens verzamelt, gebruikt en beschermt van bezoekers van de site of gebruikers van het platform, in overeenstemming met Verordening (EU) 2016/679 (AVG).",
+      "sections": [
+        {
+          "heading": "Verwerkingsverantwoordelijke",
+          "body": "De verwerkingsverantwoordelijke is onespec. Voor elk verzoek met betrekking tot persoonsgegevens kunt u schrijven naar {email}."
+        },
+        {
+          "heading": "Verzamelde gegevens",
+          "list": [
+            "Vrijwillig verstrekte contactgegevens (naam, e-mail, bedrijf) via formulier of e-mail.",
+            "Technische navigatiegegevens (IP-adres, browsertype, bezochte pagina's) verzameld in geaggregeerde vorm.",
+            "Gegevens met betrekking tot offerteaanvragen gegenereerd via de configurator, waar van toepassing."
+          ]
+        },
+        {
+          "heading": "Doeleinden van de verwerking",
+          "list": [
+            "Reageren op verzoeken om informatie, toegang tot de Alpha-fase of partnerschappen.",
+            "Beheer van de dienstverlening voor klanten die op het platform zijn geabonneerd.",
+            "Verbetering van de site en het platform via geaggregeerde statistische analyses."
+          ]
+        },
+        {
+          "heading": "Rechtsgrondslag",
+          "body": "De verwerking is gebaseerd op de toestemming van de betrokkene, op de uitvoering van een overeenkomst of precontractuele maatregelen, en op het gerechtvaardigd belang om de dienst te onderhouden en te verbeteren."
+        },
+        {
+          "heading": "Bewaring van gegevens",
+          "body": "Gegevens worden bewaard voor de tijd die nodig is om de aangegeven doeleinden te bereiken, en in ieder geval niet langer dan wettelijk voorgeschreven."
+        },
+        {
+          "heading": "Rechten van de betrokkene",
+          "body": "U kunt op elk moment toegang, rectificatie, verwijdering, beperking van de verwerking of overdraagbaarheid van uw gegevens aanvragen door te schrijven naar {email}."
+        }
+      ]
+    },
+    "termini": {
+      "title": "Servicevoorwaarden",
+      "updated": "21 augustus 2026",
+      "intro": "Het gebruik van de site en het platform van onespec impliceert aanvaarding van deze voorwaarden. onespec bevindt zich momenteel in de Alpha-fase: sommige functies kunnen tijdens de ontwikkeling veranderen of worden stopgezet.",
+      "sections": [
+        {
+          "heading": "Beschrijving van de dienst",
+          "body": "onespec levert een configuratiewidget voor ramen en deuren die kan worden ingesloten via een iFrame-code, beheerbaar en bij te werken vanuit het onespec-platform. De dienst wordt aangeboden via abonnement op basis van het gekozen plan."
+        },
+        {
+          "heading": "Account en verantwoordelijkheid van de klant",
+          "list": [
+            "De klant is verantwoordelijk voor de juistheid van de gegevens en prijslijsten die op het platform worden geüpload.",
+            "De klant is verantwoordelijk voor de juistheid van offertes gegenereerd op basis van de verstrekte gegevens.",
+            "Toegang tot het platform is persoonlijk en mag niet zonder toestemming aan derden worden overgedragen."
+          ]
+        },
+        {
+          "heading": "Abonnementen en facturering",
+          "body": "Abonnementen worden automatisch verlengd volgens de gekozen periodiciteit, tenzij opzegging is meegedeeld vóór de verlenging. Gebruikslimieten (maandelijkse offerteaanvragen, aantal configuratoren) worden bepaald door het actieve plan."
+        },
+        {
+          "heading": "Beperking van aansprakelijkheid",
+          "body": "onespec levert het configuratiehulpmiddel, maar is niet verantwoordelijk voor commerciële overeenkomsten, definitieve offertes of verkopen tussen de klant en diens eindgebruikers."
+        },
+        {
+          "heading": "Wijzigingen in de voorwaarden",
+          "body": "Tijdens de Alpha-fase kunnen deze voorwaarden vaker worden bijgewerkt. Belangrijke wijzigingen worden gecommuniceerd aan actieve klanten."
+        },
+        {
+          "heading": "Contact",
+          "body": "Voor vragen over de servicevoorwaarden schrijft u naar {email}."
+        }
+      ]
+    },
+    "cookie": {
+      "title": "Cookiebeleid",
+      "updated": "21 augustus 2026",
+      "intro": "Deze site gebruikt een minimaal aantal cookies en soortgelijke technologieën, noodzakelijk voor de basiswerking en, waar geactiveerd, voor anonieme verkeersmeting.",
+      "sections": [
+        {
+          "heading": "Technische cookies",
+          "body": "Noodzakelijk voor de correcte werking van de site (bijv. navigatievoorkeuren). Vereisen geen voorafgaande toestemming."
+        },
+        {
+          "heading": "Statistische cookies",
+          "body": "Indien geactiveerd, verzamelen ze geaggregeerde en anonieme gegevens over het gebruik van de site om de inhoud ervan te verbeteren. U kunt ze weigeren zonder gevolgen voor de navigatie."
+        },
+        {
+          "heading": "Voorkeuren beheren",
+          "body": "U kunt de toestemming voor niet-technische cookies op elk moment wijzigen of intrekken via de instellingen van uw browser."
+        },
+        {
+          "heading": "Contact",
+          "body": "Voor vragen over het cookiebeleid schrijft u naar {email}."
+        }
+      ]
+    }
+  },
+  "colorPicker": {
+    "activeColor": "Actieve kleur:",
+    "colorAria": "Kleur {name}"
+  },
+  "performanceCard": {
+    "title": "Configurator-analyse",
+    "live": "Live",
+    "visits": "Widgetbezoeken",
+    "quotes": "Offertes",
+    "last7days": "Laatste 7 dagen",
+    "details": "Details"
+  },
+  "phonePreview": {
+    "ariaLabel": "Voorbeeld van de configurator op smartphone"
+  },
+  "supportTicket": {
+    "ticketNumber": "TICKET NR."
+  },
+  "brandColors": [
+    "onespec mint",
+    "Grafiet",
+    "Bouwplaatsblauw",
+    "Terracotta",
+    "Houtamber",
+    "Leigrijs"
+  ]
+}

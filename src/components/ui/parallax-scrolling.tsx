@@ -44,29 +44,23 @@ export function ParallaxHero() {
     // ctx.revert() rimuove tween e ScrollTrigger creati qui, senza toccare
     // quelli di altri componenti.
     const ctx = gsap.context(() => {
-      const track = root.querySelector<HTMLElement>("[data-parallax-track]");
-      const visuals = root.querySelector<HTMLElement>("[data-parallax-visuals]");
-      const layers = root.querySelector("[data-parallax-layers]");
-      if (!track || !visuals || !layers) return;
+      // Il trigger e l'elemento dei layer stesso (alto quanto il viewport),
+      // non il contenitore .header (alto 250dvh). E la stessa scelta del
+      // riferimento originale: cosi l'animazione copre solo il PRIMO
+      // viewport di scroll, mentre .header, piu alto, tiene .visuals
+      // agganciato (sticky) per uno scroll ulteriore dopo che l'animazione
+      // e gia finita — quel margine e il "cuscinetto" che evita che il
+      // rilascio del pin coincida esattamente con la fine dell'animazione
+      // (motivo per cui prima sembrava "rompersi" a meta).
+      const layers = root.querySelector<HTMLElement>("[data-parallax-layers]");
+      if (!layers) return;
 
       const tl = gsap.timeline({
         scrollTrigger: {
-          trigger: track,
-          start: "top top",
-          end: "bottom bottom",
-          // Pin nativo GSAP invece di CSS position:sticky: e GSAP stesso a
-          // fissare/rilasciare il layer visuale in base allo scroll reale,
-          // invece di affidarsi al browser per far coincidere sticky con le
-          // altezze vh/dvh calcolate in CSS. pinSpacing:false perche lo
-          // spazio di scroll (.header, 220dvh) e gia riservato a mano: se
-          // GSAP aggiungesse il suo, la pista raddoppierebbe.
-          pin: visuals,
-          pinSpacing: false,
-          anticipatePin: 1,
-          // scrub:true = animazione agganciata 1:1 alla posizione di scroll.
-          // Lenis gia smussa il movimento: un scrub numerico aggiungerebbe un
-          // secondo strato di lag sopra quello di Lenis.
-          scrub: true,
+          trigger: layers,
+          start: "0% 0%",
+          end: "100% 0%",
+          scrub: 0,
         },
       });
 
@@ -94,8 +88,8 @@ export function ParallaxHero() {
 
   return (
     <div className={styles.parallax} ref={rootRef}>
-      <section className={styles.header} data-parallax-track>
-        <div className={styles.visuals} data-parallax-visuals>
+      <section className={styles.header}>
+        <div className={styles.visuals}>
           <div data-parallax-layers className={styles.layers}>
             <div
               data-parallax-layer="1"

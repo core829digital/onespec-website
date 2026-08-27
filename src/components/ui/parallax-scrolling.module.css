@@ -4,21 +4,25 @@
   background: var(--color-bg-inverse);
 }
 
-/* Pista di scroll: piu alta del viewport. E lo spazio entro cui il parallax si
-   completa mentre il visual resta agganciato, cosi l'animazione finisce
-   prima che la sezione lasci lo schermo. L'aggancio e fatto da GSAP
-   ScrollTrigger (pin), non da CSS position:sticky: con pin nativo GSAP
-   controlla lui stesso il rilascio in base allo scroll reale, invece di
-   affidarsi al browser a far coincidere position:sticky con le altezze
-   vh/dvh calcolate qui — la causa piu comune di un pin che si "rompe" a
-   meta o si sovrappone alla sezione dopo. */
+/* Pista di scroll: 2.5 viewport di altezza.
+   - Il PRIMO viewport (100dvh) e anche l'altezza di .layers, che e il
+     trigger dello ScrollTrigger (start "0% 0%" -> end "100% 0%"): l'intera
+     animazione dei layer si esaurisce in quel primo viewport di scroll.
+   - .visuals resta agganciato (sticky) per tutta la differenza fra
+     l'altezza di .header e quella di .visuals, cioe piu a lungo di quanto
+     duri l'animazione: il tempo in eccesso e un cuscinetto fermo prima che
+     la sezione lasci lo schermo, cosi il rilascio del pin non coincide mai
+     esattamente con l'ultimo frame dell'animazione (motivo per cui prima
+     l'effetto sembrava "rompersi" o sparire sotto la sezione dopo). */
 .header {
   position: relative;
   width: 100%;
-  height: 220dvh;
+  height: 250dvh;
 }
 
 .visuals {
+  position: sticky;
+  top: 0;
   width: 100%;
   /* dvh: evita il salto quando la barra indirizzi mobile si ritrae */
   height: 100dvh;

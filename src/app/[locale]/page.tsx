@@ -11,7 +11,7 @@ import { useTranslations, useLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { Reveal, RevealGroup, RevealItem } from "@/components/reveal";
-import { ParallaxHero } from "@/components/ui/parallax-scrolling";
+import { Hero } from "@/components/ui/hero";
 import { ConfiguratorEmbed } from "@/components/showcase/configurator-embed";
 import { IframeExplainer } from "@/components/showcase/iframe-explainer";
 import { AlphaProgram } from "@/components/showcase/alpha-program";
@@ -71,8 +71,8 @@ function HomeContent() {
 
   return (
     <>
-      {/* Hero parallax */}
-      <ParallaxHero />
+      {/* Hero */}
+      <Hero />
 
       {/* Configuratore live */}
       <section className="bg-[var(--color-bg)] pt-20 pb-24">

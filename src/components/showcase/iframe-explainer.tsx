@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import { Check, Copy } from "@phosphor-icons/react/dist/ssr";
 
 const SNIPPET = `<iframe
-  src="https://app.onespec.it/w/tuo-id"
+  src="https://platform.onespec.eu/w/tuo-id"
   width="100%"
   height="900"
   style="border:0"
@@ -95,7 +95,7 @@ export function IframeExplainer() {
             <span className="text-[#c9a2ff]">src</span>
             <span className="text-white/30">=</span>
             <span className="text-[var(--color-mint)]">
-              &quot;https://app.onespec.it/w/tuo-id&quot;
+              &quot;https://platform.onespec.eu/w/tuo-id&quot;
             </span>
             {"\n  "}
             <span className="text-[#c9a2ff]">width</span>

@@ -35,7 +35,7 @@ export function EmbedCodeCard() {
         <p className="ml-4">
           <Attr>src</Attr>
           <Punct>=</Punct>
-          <Val>&quot;https://app.onespec.it/w/tuo-configuratore&quot;</Val>
+          <Val>&quot;https://platform.onespec.eu/w/tuo-configuratore&quot;</Val>
         </p>
         <p className="ml-4">
           <Attr>width</Attr>

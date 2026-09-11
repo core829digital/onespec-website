@@ -9,7 +9,7 @@ export const SITE = {
   name: "onespec",
   // Placeholder: aggiorna con data reale di lancio pubblico.
   launchDate: "2026-11-15T09:00:00+01:00",
-  email: "hello@onespec.it",
+  email: "hello@onespec.eu",
 };
 
 /** Programma Alpha: dati numerici. Testi in messages: "alpha.*". */

@@ -130,7 +130,7 @@
     },
     "pricing": {
       "title": "Vous payez en fonction de ce que le configurateur travaille pour vous",
-      "subtitle": "Trois formules, selon le nombre de devis mensuels et la personnalisation. Avec l'acces Alpha, {percent} % de reduction sur Starter et Business.",
+      "subtitle": "Quatre formules, selon le nombre de devis mensuels et la personnalisation. Avec l'acces Alpha, {percent} % de reduction sur Base, Pro et Agency.",
       "piuScelto": "Le plus choisi",
       "alphaSuffix": "/mois avec acces Alpha",
       "compareLink": "Comparer toutes les formules en detail"
@@ -224,11 +224,11 @@
     "discountBadge": "−{percent} %",
     "cta": "Prendre une place Alpha",
     "title": "250 places. Ensuite le prix redevient plein tarif.",
-    "subtitle": "L'acces Alpha est limite aux {seats} premiers clients sur formule Starter ou Business. Qui rejoint maintenant aide a definir le produit et garde les conditions de lancement par la suite.",
+    "subtitle": "L'acces Alpha est limite aux {seats} premiers clients sur formule Base, Pro ou Agency. Qui rejoint maintenant aide a definir le produit et garde les conditions de lancement par la suite.",
     "benefits": [
       {
         "title": "15 % de reduction a vie",
-        "description": "La reduction reste liee a votre abonnement Starter ou Business meme apres le lancement public. Le prix n'augmente pas."
+        "description": "La reduction reste liee a votre abonnement Base, Pro ou Agency meme apres le lancement public. Le prix n'augmente pas."
       },
       {
         "title": "Badge Membre Alpha",
@@ -242,49 +242,68 @@
   },
   "pricingTiers": [
     {
-      "id": "starter",
-      "name": "Starter",
-      "description": "Pour tester le configurateur sur un seul site sans risque.",
-      "quotesLimit": "Jusqu'a 50 demandes de devis/mois",
+      "id": "base",
+      "name": "Base",
+      "description": "Pour gérer les devis en interne sur un seul configurateur, sans risque.",
+      "quotesLimit": "Jusqu'à 20 demandes de devis/mois",
       "features": [
         "1 configurateur actif",
-        "Code iFrame pret a coller",
-        "Chargement de la liste de prix depuis un fichier",
-        "Badge \"Powered by onespec\"",
-        "Mises a jour de prix en temps reel",
-        "Support par email"
+        "2 membres d'équipe",
+        "Module Relevé de chantier",
+        "Import de tarifs CSV/XLSX",
+        "Moteur fiscal de base",
+        "Support par e-mail"
       ],
-      "cta": "Commencer avec Starter"
+      "cta": "Commencer avec Base"
     },
     {
-      "id": "business",
-      "name": "Business",
-      "description": "Pour qui vend serieusement et veut un configurateur personnalise a 100 %.",
-      "quotesLimit": "Jusqu'a 300 demandes de devis/mois",
+      "id": "pro",
+      "name": "Pro",
+      "description": "Pour vendre sérieusement : widget public intégrable sur votre site, marque blanche complète.",
+      "quotesLimit": "Devis illimités",
       "features": [
+        "Widget public intégrable + marque blanche",
         "3 configurateurs actifs",
-        "Marque retiree : uniquement la votre",
-        "Regles de prix avancees et remises",
-        "Plusieurs listes de prix par gamme de produits",
-        "Statistiques de demandes et conversions",
-        "Support prioritaire"
+        "5 membres d'équipe",
+        "Règles de prix avancées, multi-catalogues",
+        "Signature électronique des devis",
+        "Factures d'acompte et contrats de maintenance",
+        "Moteur fiscal complet (Beni Significativi, ENEA)",
+        "Essai gratuit de 14 jours · support prioritaire"
       ],
-      "cta": "Passer a Business"
+      "cta": "Passer à Pro"
+    },
+    {
+      "id": "agency",
+      "name": "Agency",
+      "description": "Pour les réseaux de revendeurs et showrooms à fort volume et multi-fournisseurs.",
+      "quotesLimit": "Jusqu'à 1 000 demandes de devis/mois",
+      "features": [
+        "Tout le plan Pro",
+        "10 configurateurs actifs",
+        "15 membres d'équipe",
+        "Agrégateur multi-fournisseurs",
+        "Calculateur Showroom à 3 zones",
+        "Import en masse multi-sites",
+        "Statistiques avancées",
+        "Support dédié"
+      ],
+      "cta": "Passer à Agency"
     },
     {
       "id": "enterprise",
       "name": "Enterprise",
-      "description": "Pour les reseaux de revendeurs, franchises et gros volumes de devis.",
-      "quotesLimit": "Demandes de devis illimitees",
+      "description": "Pour les franchises et réseaux avec des besoins d'intégration dédiés.",
+      "quotesLimit": "Devis illimités",
       "features": [
-        "Configurateurs illimites",
-        "Marque blanche complete + domaine personnalise",
-        "Integration API/CRM sur demande",
-        "Import massif de listes de prix multi-sites",
-        "Gestionnaire de compte dedie",
-        "SLA et accompagnement guide"
+        "Tout le plan Agency",
+        "Configurateurs et membres illimités",
+        "API et intégration CRM/stock",
+        "Export GAEB/DATANORM",
+        "Domaine personnalisé",
+        "Account manager dédié, SLA"
       ],
-      "cta": "Nous contacter",
+      "cta": "Contactez-nous",
       "priceLabel": "Sur mesure"
     }
   ],
@@ -371,7 +390,7 @@
     "hero": {
       "title": "Tarifs simples, selon votre utilisation du configurateur",
       "subtitle": "Plus votre configurateur genere de demandes de devis, plus il vous apporte de valeur. Choisissez la formule selon le volume et le niveau de personnalisation souhaite.",
-      "alphaNote": "Acces Alpha : −{percent} % sur Starter et Business, {seats} premieres places"
+      "alphaNote": "Acces Alpha : −{percent} % sur Base, Pro et Agency, {seats} premieres places"
     },
     "priceNote": "/mois",
     "taxNote": "+ TVA",
@@ -452,14 +471,14 @@
       "subtitle": "Le niveau de support augmente avec la formule choisie.",
       "tiers": [
         {
-          "plan": "Starter",
+          "plan": "Base",
           "level": "Support par email",
           "description": "Reponse sous 2 jours ouvres pour toute demande liee au configurateur.",
           "code": "STD-0001",
           "color": "#5b6470"
         },
         {
-          "plan": "Business",
+          "plan": "Pro",
           "level": "Support prioritaire",
           "description": "File dediee, reponse sous 24 heures ouvrees et assistance sur les regles de prix.",
           "code": "PRI-0001",

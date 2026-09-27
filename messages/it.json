@@ -130,7 +130,7 @@
     },
     "pricing": {
       "title": "Paghi in base a quanto il configuratore lavora per te",
-      "subtitle": "Tre piani, in base a richieste preventivo mensili e brandizzazione. Con l'accesso Alpha, {percent}% in meno su Starter e Business.",
+      "subtitle": "Quattro piani, in base a richieste preventivo mensili e brandizzazione. Con l'accesso Alpha, {percent}% in meno su Base, Pro e Agency.",
       "piuScelto": "Piu scelto",
       "alphaSuffix": "/mese con accesso Alpha",
       "compareLink": "Confronta tutti i piani in dettaglio"
@@ -224,11 +224,11 @@
     "discountBadge": "−{percent}%",
     "cta": "Prendi uno dei posti Alpha",
     "title": "250 posti. Poi il prezzo torna pieno.",
-    "subtitle": "L'accesso Alpha e limitato ai primi {seats} clienti su piano Starter o Business. Chi entra adesso aiuta a definire il prodotto e si porta dietro le condizioni di lancio anche dopo.",
+    "subtitle": "L'accesso Alpha e limitato ai primi {seats} clienti sui piani Base, Pro o Agency. Chi entra adesso aiuta a definire il prodotto e si porta dietro le condizioni di lancio anche dopo.",
     "benefits": [
       {
         "title": "15% di sconto a vita",
-        "description": "Lo sconto resta agganciato al tuo abbonamento Starter o Business anche dopo il lancio pubblico. Il prezzo non sale."
+        "description": "Lo sconto resta agganciato al tuo abbonamento Base, Pro o Agency anche dopo il lancio pubblico. Il prezzo non sale."
       },
       {
         "title": "Badge Alpha Member",
@@ -242,47 +242,66 @@
   },
   "pricingTiers": [
     {
-      "id": "starter",
-      "name": "Starter",
-      "description": "Per chi vuole testare il configuratore su un solo sito senza rischi.",
-      "quotesLimit": "Fino a 50 richieste preventivo/mese",
+      "id": "base",
+      "name": "Base",
+      "description": "Per chi vuole gestire preventivi internamente su un singolo configuratore, senza rischi.",
+      "quotesLimit": "Fino a 20 richieste preventivo/mese",
       "features": [
         "1 configuratore attivo",
-        "Codice iFrame pronto da incollare",
-        "Caricamento listino prezzi da file",
-        "Badge \"Powered by onespec\"",
-        "Aggiornamenti prezzi in tempo reale",
+        "2 membri del team",
+        "Modulo Rilievo per il cantiere",
+        "Import listino prezzi da CSV/XLSX",
+        "Motore fiscale base",
         "Supporto via email"
       ],
-      "cta": "Inizia con Starter"
+      "cta": "Inizia con Base"
     },
     {
-      "id": "business",
-      "name": "Business",
-      "description": "Per chi vende sul serio e vuole il configuratore brandizzato al 100%.",
-      "quotesLimit": "Fino a 300 richieste preventivo/mese",
+      "id": "pro",
+      "name": "Pro",
+      "description": "Per chi vende sul serio: widget pubblico incorporabile sul tuo sito, white-label completo.",
+      "quotesLimit": "Richieste preventivo illimitate",
       "features": [
+        "Widget pubblico incorporabile + white-label",
         "3 configuratori attivi",
-        "Marchio rimosso: solo il tuo brand",
-        "Regole di prezzo avanzate e sconti",
-        "Multi-listino per linea prodotto",
-        "Statistiche richieste e conversioni",
-        "Supporto prioritario"
+        "5 membri del team",
+        "Regole di prezzo avanzate, multi-listino",
+        "Firma elettronica sui preventivi",
+        "Fatture di acconto e contratti di manutenzione",
+        "Motore fiscale completo (Beni Significativi, ENEA)",
+        "Prova gratuita 14 giorni · supporto prioritario"
       ],
-      "cta": "Passa a Business"
+      "cta": "Passa a Pro"
+    },
+    {
+      "id": "agency",
+      "name": "Agency",
+      "description": "Per reti di rivenditori e showroom con volumi alti e più fornitori.",
+      "quotesLimit": "Fino a 1.000 richieste preventivo/mese",
+      "features": [
+        "Tutto il piano Pro",
+        "10 configuratori attivi",
+        "15 membri del team",
+        "Aggregatore multi-fornitore",
+        "Calcolatore Showroom a 3 zone",
+        "Import massivo multi-sede",
+        "Statistiche avanzate",
+        "Supporto dedicato"
+      ],
+      "cta": "Passa ad Agency"
     },
     {
       "id": "enterprise",
       "name": "Enterprise",
-      "description": "Per reti di rivenditori, franchising e volumi alti di preventivi.",
+      "description": "Per franchising e reti con esigenze di integrazione dedicate.",
       "quotesLimit": "Richieste preventivo illimitate",
       "features": [
-        "Configuratori illimitati",
-        "White-label completo + dominio custom",
-        "Integrazione API/CRM su richiesta",
-        "Import massivo listini multi-sede",
-        "Account manager dedicato",
-        "SLA e onboarding guidato"
+        "Tutto il piano Agency",
+        "Configuratori e membri illimitati",
+        "API e integrazione CRM/magazzino",
+        "Export GAEB/DATANORM",
+        "Dominio personalizzato",
+        "Account manager dedicato, SLA"
       ],
       "cta": "Parla con noi",
       "priceLabel": "Su misura"
@@ -371,7 +390,7 @@
     "hero": {
       "title": "Prezzi semplici, in base a quanto usi il configuratore",
       "subtitle": "Piu richieste di preventivo genera il tuo configuratore, piu valore ti porta. Scegli il piano in base al volume e a quanto vuoi brandizzarlo.",
-      "alphaNote": "Accesso Alpha: −{percent}% su Starter e Business, primi {seats} posti"
+      "alphaNote": "Accesso Alpha: −{percent}% su Base, Pro e Agency, primi {seats} posti"
     },
     "priceNote": "/mese",
     "taxNote": "+ IVA",
@@ -452,14 +471,14 @@
       "subtitle": "Il livello di supporto cresce insieme al piano che scegli.",
       "tiers": [
         {
-          "plan": "Starter",
+          "plan": "Base",
           "level": "Supporto via email",
           "description": "Risposta entro 2 giorni lavorativi su ogni richiesta legata al configuratore.",
           "code": "STD-0001",
           "color": "#5b6470"
         },
         {
-          "plan": "Business",
+          "plan": "Pro",
           "level": "Supporto prioritario",
           "description": "Coda dedicata, risposta entro 24 ore lavorative e assistenza su regole di prezzo.",
           "code": "PRI-0001",

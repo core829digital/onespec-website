@@ -3,7 +3,7 @@ import { useTranslations, useLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Reveal, RevealGroup, RevealItem } from "@/components/reveal";
 import { AlphaProgram } from "@/components/showcase/alpha-program";
-import { PRICING_TIERS_META, alphaPrice, ALPHA, SITE } from "@/lib/site-config";
+import { PRICING_TIERS_META, alphaPrice, ALPHA, SITE, SIGNUP_URL } from "@/lib/site-config";
 import type { AppLocale } from "@/i18n/routing";
 
 type PricingCopy = {
@@ -66,7 +66,7 @@ function PrezziContent() {
 
       <section className="pb-16 pt-8">
         <div className="container-onespec">
-          <RevealGroup className="grid grid-cols-1 gap-6 lg:grid-cols-3">
+          <RevealGroup className="grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-4">
             {PRICING_TIERS_META.map((meta, i) => {
               const copy = pricingCopy[i];
               return (
@@ -147,7 +147,10 @@ function PrezziContent() {
                   </ul>
 
                   <a
-                    href={`mailto:${SITE.email}`}
+                    // Self-serve tiers (Base/Pro/Agency) sign up directly on the platform
+                    // (real Stripe Checkout); Enterprise is sales-led (mailto), matching
+                    // entitlements.ts selfServeCheckout: false.
+                    href={meta.id === "enterprise" ? `mailto:${SITE.email}` : `${SIGNUP_URL}/${locale}/auth/register`}
                     className={
                       meta.highlighted
                         ? "mt-8 inline-flex cursor-pointer items-center justify-center rounded-full bg-[var(--color-mint)] px-5 py-3 text-[14px] font-medium text-[#04231a] transition-transform duration-200 ease-out hover:scale-[1.02] active:scale-[0.98]"

@@ -130,7 +130,7 @@
     },
     "pricing": {
       "title": "Sie zahlen danach, wie viel der Konfigurator für Sie arbeitet",
-      "subtitle": "Drei Pläne, je nach monatlichen Angebotsanfragen und Markenanpassung. Mit Alpha-Zugang {percent} % Rabatt auf Starter und Business.",
+      "subtitle": "Vier Pläne, je nach monatlichen Angebotsanfragen und Markenanpassung. Mit Alpha-Zugang {percent} % Rabatt auf Base, Pro und Agency.",
       "piuScelto": "Am beliebtesten",
       "alphaSuffix": "/Monat mit Alpha-Zugang",
       "compareLink": "Alle Pläne im Detail vergleichen"
@@ -224,11 +224,11 @@
     "discountBadge": "−{percent} %",
     "cta": "Einen Alpha-Platz sichern",
     "title": "250 Plätze. Danach kostet es wieder den vollen Preis.",
-    "subtitle": "Der Alpha-Zugang ist auf die ersten {seats} Kunden im Starter- oder Business-Plan begrenzt. Wer jetzt einsteigt, hilft das Produkt mitzugestalten und behält die Startkonditionen auch danach.",
+    "subtitle": "Der Alpha-Zugang ist auf die ersten {seats} Kunden im Base-, Pro- oder Agency-Plan begrenzt. Wer jetzt einsteigt, hilft das Produkt mitzugestalten und behält die Startkonditionen auch danach.",
     "benefits": [
       {
         "title": "15 % Rabatt auf Lebenszeit",
-        "description": "Der Rabatt bleibt an Ihr Starter- oder Business-Abo gebunden, auch nach dem öffentlichen Start. Der Preis steigt nicht."
+        "description": "Der Rabatt bleibt an Ihr Base-, Pro- oder Agency-Abo gebunden, auch nach dem öffentlichen Start. Der Preis steigt nicht."
       },
       {
         "title": "Alpha-Member-Badge",
@@ -242,49 +242,68 @@
   },
   "pricingTiers": [
     {
-      "id": "starter",
-      "name": "Starter",
-      "description": "Für alle, die den Konfigurator risikofrei auf einer einzigen Website testen wollen.",
-      "quotesLimit": "Bis zu 50 Angebotsanfragen/Monat",
+      "id": "base",
+      "name": "Base",
+      "description": "Für die interne Angebotsverwaltung mit einem Konfigurator, risikofrei.",
+      "quotesLimit": "Bis zu 20 Angebotsanfragen/Monat",
       "features": [
         "1 aktiver Konfigurator",
-        "Fertiger iFrame-Code zum Einfügen",
-        "Preislisten-Upload aus Datei",
-        "Badge „Powered by onespec“",
-        "Preisaktualisierungen in Echtzeit",
+        "2 Teammitglieder",
+        "Aufmaß-Modul für die Baustelle",
+        "Preislisten-Import aus CSV/XLSX",
+        "Einfache Steuer-Engine",
         "E-Mail-Support"
       ],
-      "cta": "Mit Starter beginnen"
+      "cta": "Mit Base beginnen"
     },
     {
-      "id": "business",
-      "name": "Business",
-      "description": "Für alle, die ernsthaft verkaufen und einen zu 100 % individualisierten Konfigurator wollen.",
-      "quotesLimit": "Bis zu 300 Angebotsanfragen/Monat",
+      "id": "pro",
+      "name": "Pro",
+      "description": "Für ernsthaften Verkauf: ein öffentliches Widget auf Ihrer eigenen Website, vollständig White-Label.",
+      "quotesLimit": "Unbegrenzte Angebote",
       "features": [
+        "Einbettbares öffentliches Widget + White-Label",
         "3 aktive Konfiguratoren",
-        "Marke entfernt: nur Ihre Marke",
-        "Erweiterte Preisregeln und Rabatte",
-        "Mehrere Preislisten pro Produktlinie",
-        "Statistiken zu Anfragen und Konversionen",
-        "Priorisierter Support"
+        "5 Teammitglieder",
+        "Erweiterte Preisregeln, Multi-Katalog",
+        "Elektronische Signatur für Angebote",
+        "Anzahlungsrechnungen und Wartungsverträge",
+        "Volle Steuer-Engine (Beni Significativi, ENEA)",
+        "14 Tage kostenlos testen · Prioritäts-Support"
       ],
-      "cta": "Zu Business wechseln"
+      "cta": "Auf Pro upgraden"
+    },
+    {
+      "id": "agency",
+      "name": "Agency",
+      "description": "Für Händlernetzwerke und Showrooms mit hohem Volumen und mehreren Lieferanten.",
+      "quotesLimit": "Bis zu 1.000 Angebotsanfragen/Monat",
+      "features": [
+        "Alles aus Pro",
+        "10 aktive Konfiguratoren",
+        "15 Teammitglieder",
+        "Multi-Lieferanten-Aggregator",
+        "Showroom-Rechner mit 3 Zonen",
+        "Massenimport für mehrere Standorte",
+        "Erweiterte Statistiken",
+        "Dedizierter Support"
+      ],
+      "cta": "Auf Agency upgraden"
     },
     {
       "id": "enterprise",
       "name": "Enterprise",
-      "description": "Für Händlernetzwerke, Franchise-Systeme und hohe Angebotsvolumen.",
-      "quotesLimit": "Unbegrenzte Angebotsanfragen",
+      "description": "Für Franchises und Netzwerke mit speziellen Integrationsanforderungen.",
+      "quotesLimit": "Unbegrenzte Angebote",
       "features": [
-        "Unbegrenzte Konfiguratoren",
-        "Vollständiges White-Label + individuelle Domain",
-        "API-/CRM-Integration auf Anfrage",
-        "Massenimport von Preislisten für mehrere Standorte",
-        "Dedizierter Account Manager",
-        "SLA und geführtes Onboarding"
+        "Alles aus Agency",
+        "Unbegrenzte Konfiguratoren und Mitglieder",
+        "API und CRM-/Lager-Integration",
+        "GAEB/DATANORM-Export",
+        "Eigene Domain",
+        "Dedizierter Account Manager, SLA"
       ],
-      "cta": "Mit uns sprechen",
+      "cta": "Sprechen Sie mit uns",
       "priceLabel": "Individuell"
     }
   ],
@@ -371,7 +390,7 @@
     "hero": {
       "title": "Einfache Preise, je nachdem wie viel Sie den Konfigurator nutzen",
       "subtitle": "Je mehr Angebotsanfragen Ihr Konfigurator generiert, desto mehr Wert bringt er Ihnen. Wählen Sie den Plan nach Volumen und Grad der Individualisierung.",
-      "alphaNote": "Alpha-Zugang: −{percent} % auf Starter und Business, erste {seats} Plätze"
+      "alphaNote": "Alpha-Zugang: −{percent} % auf Base, Pro und Agency, erste {seats} Plätze"
     },
     "priceNote": "/Monat",
     "taxNote": "+ MwSt.",
@@ -452,14 +471,14 @@
       "subtitle": "Das Support-Level wächst mit dem gewählten Plan.",
       "tiers": [
         {
-          "plan": "Starter",
+          "plan": "Base",
           "level": "E-Mail-Support",
           "description": "Antwort innerhalb von 2 Werktagen auf jede Anfrage zum Konfigurator.",
           "code": "STD-0001",
           "color": "#5b6470"
         },
         {
-          "plan": "Business",
+          "plan": "Pro",
           "level": "Priorisierter Support",
           "description": "Dedizierte Warteschlange, Antwort innerhalb von 24 Werkstunden und Hilfe bei Preisregeln.",
           "code": "PRI-0001",

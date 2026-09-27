@@ -20,7 +20,7 @@ export const ALPHA = {
    * pubblicare, altrimenti il contatore mostra un numero inventato.
    */
   seatsTaken: 0,
-  /** Sconto applicato a Starter e Business per chi entra in Alpha. */
+  /** Sconto applicato a Base, Pro e Agency per chi entra in Alpha. */
   discountPercent: 15,
 };
 
@@ -64,12 +64,20 @@ export type PricingTierMeta = {
 /**
  * Ordine e id devono restare allineati all'array "pricingTiers" in ogni file
  * messages/*.json (stesso indice = stesso piano).
+ *
+ * Prezzi e piani allineati alla piattaforma reale (repo onespec-platform,
+ * convex/lib/entitlements.ts + convex/lib/billingPlans.ts — "Plan ladder v2",
+ * gia' live su Stripe). Aggiornare qui SOLO se cambia il listino reale.
  */
 export const PRICING_TIERS_META: PricingTierMeta[] = [
-  { id: "starter", monthly: 24, highlighted: false, whitelabel: false, alphaEligible: true },
-  { id: "business", monthly: 47, highlighted: true, whitelabel: true, alphaEligible: true },
+  { id: "base", monthly: 97, highlighted: false, whitelabel: false, alphaEligible: true },
+  { id: "pro", monthly: 197, highlighted: true, whitelabel: true, alphaEligible: true },
+  { id: "agency", monthly: 397, highlighted: false, whitelabel: true, alphaEligible: true },
   { id: "enterprise", monthly: null, highlighted: false, whitelabel: true, alphaEligible: false },
 ];
+
+/** Dove porta la CTA di un piano self-serve (Base/Pro/Agency): registrazione diretta. */
+export const SIGNUP_URL = "https://platform.onespec.eu";
 
 /** Prezzo scontato Alpha, arrotondato ai centesimi. */
 export function alphaPrice(monthly: number, locale: string): string {

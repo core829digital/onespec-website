@@ -130,7 +130,7 @@
     },
     "pricing": {
       "title": "Platesti in functie de cat munceste configuratorul pentru tine",
-      "subtitle": "Trei planuri, in functie de solicitarile lunare de oferta si de personalizare. Cu accesul Alpha, {percent}% reducere la Starter si Business.",
+      "subtitle": "Patru planuri, in functie de solicitarile lunare de oferta si de personalizare. Cu accesul Alpha, {percent}% reducere la Base, Pro si Agency.",
       "piuScelto": "Cel mai ales",
       "alphaSuffix": "/luna cu acces Alpha",
       "compareLink": "Compara toate planurile in detaliu"
@@ -224,11 +224,11 @@
     "discountBadge": "−{percent}%",
     "cta": "Ocupa un loc Alpha",
     "title": "250 de locuri. Apoi pretul revine la cel intreg.",
-    "subtitle": "Accesul Alpha este limitat la primii {seats} clienti pe planul Starter sau Business. Cine intra acum ajuta la definirea produsului si pastreaza conditiile de lansare si dupa aceea.",
+    "subtitle": "Accesul Alpha este limitat la primii {seats} clienti pe planurile Base, Pro sau Agency. Cine intra acum ajuta la definirea produsului si pastreaza conditiile de lansare si dupa aceea.",
     "benefits": [
       {
         "title": "15% reducere pe viata",
-        "description": "Reducerea ramane legata de abonamentul tau Starter sau Business chiar si dupa lansarea publica. Pretul nu creste."
+        "description": "Reducerea ramane legata de abonamentul tau Base, Pro sau Agency chiar si dupa lansarea publica. Pretul nu creste."
       },
       {
         "title": "Ecuson Alpha Member",
@@ -242,49 +242,68 @@
   },
   "pricingTiers": [
     {
-      "id": "starter",
-      "name": "Starter",
-      "description": "Pentru cine vrea sa testeze configuratorul pe un singur site, fara riscuri.",
-      "quotesLimit": "Pana la 50 de solicitari de oferta/luna",
+      "id": "base",
+      "name": "Base",
+      "description": "Pentru gestionarea ofertelor intern pe un singur configurator, fără riscuri.",
+      "quotesLimit": "Până la 20 de solicitări de ofertă/lună",
       "features": [
         "1 configurator activ",
-        "Cod iFrame gata de inclus",
-        "Incarcarea listei de preturi din fisier",
-        "Ecuson \"Powered by onespec\"",
-        "Actualizari de preturi in timp real",
-        "Suport prin email"
+        "2 membri în echipă",
+        "Modul Măsurători pentru șantier",
+        "Import liste de prețuri din CSV/XLSX",
+        "Motor fiscal de bază",
+        "Suport prin e-mail"
       ],
-      "cta": "Incepe cu Starter"
+      "cta": "Începe cu Base"
     },
     {
-      "id": "business",
-      "name": "Business",
-      "description": "Pentru cine vinde serios si vrea un configurator personalizat 100%.",
-      "quotesLimit": "Pana la 300 de solicitari de oferta/luna",
+      "id": "pro",
+      "name": "Pro",
+      "description": "Pentru vânzări serioase: un widget public încorporat pe site-ul tău, complet white-label.",
+      "quotesLimit": "Oferte nelimitate",
       "features": [
+        "Widget public încorporabil + white-label",
         "3 configuratoare active",
-        "Marca eliminata: doar brandul tau",
-        "Reguli avansate de pret si reduceri",
-        "Mai multe liste de preturi pe linie de produs",
-        "Statistici solicitari si conversii",
-        "Suport prioritar"
+        "5 membri în echipă",
+        "Reguli de preț avansate, multi-catalog",
+        "Semnătură electronică pe oferte",
+        "Facturi de avans și contracte de mentenanță",
+        "Motor fiscal complet (Beni Significativi, ENEA)",
+        "Probă gratuită de 14 zile · suport prioritar"
       ],
-      "cta": "Treci la Business"
+      "cta": "Treci la Pro"
+    },
+    {
+      "id": "agency",
+      "name": "Agency",
+      "description": "Pentru rețele de distribuitori și showroom-uri cu volum mare și mai mulți furnizori.",
+      "quotesLimit": "Până la 1.000 de solicitări de ofertă/lună",
+      "features": [
+        "Tot planul Pro",
+        "10 configuratoare active",
+        "15 membri în echipă",
+        "Agregator multi-furnizor",
+        "Calculator Showroom cu 3 zone",
+        "Import în masă multi-locație",
+        "Statistici avansate",
+        "Suport dedicat"
+      ],
+      "cta": "Treci la Agency"
     },
     {
       "id": "enterprise",
       "name": "Enterprise",
-      "description": "Pentru retele de distribuitori, francize si volume mari de oferte.",
-      "quotesLimit": "Solicitari de oferta nelimitate",
+      "description": "Pentru francize și rețele cu nevoi de integrare dedicate.",
+      "quotesLimit": "Oferte nelimitate",
       "features": [
-        "Configuratoare nelimitate",
-        "White-label complet + domeniu personalizat",
-        "Integrare API/CRM la cerere",
-        "Import masiv de liste de preturi multi-sediu",
-        "Manager de cont dedicat",
-        "SLA si onboarding ghidat"
+        "Tot planul Agency",
+        "Configuratoare și membri nelimitați",
+        "API și integrare CRM/stoc",
+        "Export GAEB/DATANORM",
+        "Domeniu personalizat",
+        "Account manager dedicat, SLA"
       ],
-      "cta": "Vorbeste cu noi",
+      "cta": "Contactează-ne",
       "priceLabel": "Personalizat"
     }
   ],
@@ -371,7 +390,7 @@
     "hero": {
       "title": "Preturi simple, in functie de cat foloseti configuratorul",
       "subtitle": "Cu cat configuratorul tau genereaza mai multe solicitari de oferta, cu atat iti aduce mai multa valoare. Alege planul in functie de volum si de cat vrei sa il personalizezi.",
-      "alphaNote": "Acces Alpha: −{percent}% la Starter si Business, primele {seats} locuri"
+      "alphaNote": "Acces Alpha: −{percent}% la Base, Pro si Agency, primele {seats} locuri"
     },
     "priceNote": "/luna",
     "taxNote": "+ TVA",
@@ -452,14 +471,14 @@
       "subtitle": "Nivelul de suport creste odata cu planul ales.",
       "tiers": [
         {
-          "plan": "Starter",
+          "plan": "Base",
           "level": "Suport prin email",
           "description": "Raspuns in maximum 2 zile lucratoare pentru orice solicitare legata de configurator.",
           "code": "STD-0001",
           "color": "#5b6470"
         },
         {
-          "plan": "Business",
+          "plan": "Pro",
           "level": "Suport prioritar",
           "description": "Coada dedicata, raspuns in 24 de ore lucratoare si asistenta pe reguli de pret.",
           "code": "PRI-0001",

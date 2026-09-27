@@ -130,7 +130,7 @@
     },
     "pricing": {
       "title": "You pay based on how hard the configurator works for you",
-      "subtitle": "Three plans, based on monthly quote requests and branding. With Alpha access, {percent}% off Starter and Business.",
+      "subtitle": "Four plans, based on monthly quote requests and branding. With Alpha access, {percent}% off Base, Pro and Agency.",
       "piuScelto": "Most popular",
       "alphaSuffix": "/month with Alpha access",
       "compareLink": "Compare all plans in detail"
@@ -224,11 +224,11 @@
     "discountBadge": "−{percent}%",
     "cta": "Grab an Alpha spot",
     "title": "250 spots. Then the price goes back to full.",
-    "subtitle": "Alpha access is limited to the first {seats} customers on the Starter or Business plan. Whoever joins now helps shape the product and keeps the launch terms even afterward.",
+    "subtitle": "Alpha access is limited to the first {seats} customers on the Base, Pro or Agency plan. Whoever joins now helps shape the product and keeps the launch terms even afterward.",
     "benefits": [
       {
         "title": "15% discount for life",
-        "description": "The discount stays locked to your Starter or Business subscription even after public launch. The price never goes up."
+        "description": "The discount stays locked to your Base, Pro or Agency subscription even after public launch. The price never goes up."
       },
       {
         "title": "Alpha Member badge",
@@ -242,47 +242,66 @@
   },
   "pricingTiers": [
     {
-      "id": "starter",
-      "name": "Starter",
-      "description": "For those who want to try the configurator on a single site, risk-free.",
-      "quotesLimit": "Up to 50 quote requests/month",
+      "id": "base",
+      "name": "Base",
+      "description": "For managing quotes internally on a single configurator, risk-free.",
+      "quotesLimit": "Up to 20 quote requests/month",
       "features": [
         "1 active configurator",
-        "iFrame code ready to paste",
-        "Price list upload from file",
-        "\"Powered by onespec\" badge",
-        "Real-time price updates",
+        "2 team members",
+        "Field survey module",
+        "Price list import from CSV/XLSX",
+        "Basic tax engine",
         "Email support"
       ],
-      "cta": "Start with Starter"
+      "cta": "Start with Base"
     },
     {
-      "id": "business",
-      "name": "Business",
-      "description": "For those who sell seriously and want a 100% branded configurator.",
-      "quotesLimit": "Up to 300 quote requests/month",
+      "id": "pro",
+      "name": "Pro",
+      "description": "For serious selling: a public widget embedded on your own site, fully white-labeled.",
+      "quotesLimit": "Unlimited quote requests",
       "features": [
+        "Embeddable public widget + white-label",
         "3 active configurators",
-        "Branding removed: your brand only",
-        "Advanced pricing rules and discounts",
-        "Multiple price lists per product line",
-        "Request and conversion analytics",
-        "Priority support"
+        "5 team members",
+        "Advanced pricing rules, multi-catalog",
+        "E-signature on quotes",
+        "Advance invoices and maintenance contracts",
+        "Full tax engine (Beni Significativi, ENEA)",
+        "14-day free trial · priority support"
       ],
-      "cta": "Move to Business"
+      "cta": "Upgrade to Pro"
+    },
+    {
+      "id": "agency",
+      "name": "Agency",
+      "description": "For dealer networks and showrooms with high volume and multiple suppliers.",
+      "quotesLimit": "Up to 1,000 quote requests/month",
+      "features": [
+        "Everything in Pro",
+        "10 active configurators",
+        "15 team members",
+        "Multi-supplier aggregator",
+        "3-zone Showroom calculator",
+        "Bulk multi-site import",
+        "Advanced analytics",
+        "Dedicated support"
+      ],
+      "cta": "Upgrade to Agency"
     },
     {
       "id": "enterprise",
       "name": "Enterprise",
-      "description": "For dealer networks, franchises and high quote volumes.",
+      "description": "For franchises and networks with dedicated integration needs.",
       "quotesLimit": "Unlimited quote requests",
       "features": [
-        "Unlimited configurators",
-        "Full white-label + custom domain",
-        "API/CRM integration on request",
-        "Bulk multi-site price list import",
-        "Dedicated account manager",
-        "SLA and guided onboarding"
+        "Everything in Agency",
+        "Unlimited configurators and members",
+        "API and CRM/stock integration",
+        "GAEB/DATANORM export",
+        "Custom domain",
+        "Dedicated account manager, SLA"
       ],
       "cta": "Talk to us",
       "priceLabel": "Custom"
@@ -371,7 +390,7 @@
     "hero": {
       "title": "Simple pricing, based on how much you use the configurator",
       "subtitle": "The more quote requests your configurator generates, the more value it brings you. Choose the plan based on volume and how much you want to brand it.",
-      "alphaNote": "Alpha access: −{percent}% on Starter and Business, first {seats} spots"
+      "alphaNote": "Alpha access: −{percent}% on Base, Pro and Agency, first {seats} spots"
     },
     "priceNote": "/month",
     "taxNote": "+ VAT",
@@ -452,14 +471,14 @@
       "subtitle": "The level of support grows with the plan you choose.",
       "tiers": [
         {
-          "plan": "Starter",
+          "plan": "Base",
           "level": "Email support",
           "description": "Response within 2 business days on any configurator-related request.",
           "code": "STD-0001",
           "color": "#5b6470"
         },
         {
-          "plan": "Business",
+          "plan": "Pro",
           "level": "Priority support",
           "description": "Dedicated queue, response within 24 business hours and help with pricing rules.",
           "code": "PRI-0001",

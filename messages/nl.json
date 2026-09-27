@@ -130,7 +130,7 @@
     },
     "pricing": {
       "title": "U betaalt naar gelang hoeveel de configurator voor u werkt",
-      "subtitle": "Drie plannen, gebaseerd op maandelijkse offerteaanvragen en merkaanpassing. Met Alpha-toegang {percent}% korting op Starter en Business.",
+      "subtitle": "Vier plannen, gebaseerd op maandelijkse offerteaanvragen en merkaanpassing. Met Alpha-toegang {percent}% korting op Base, Pro en Agency.",
       "piuScelto": "Meest gekozen",
       "alphaSuffix": "/maand met Alpha-toegang",
       "compareLink": "Vergelijk alle plannen in detail"
@@ -224,11 +224,11 @@
     "discountBadge": "−{percent}%",
     "cta": "Bemachtig een Alpha-plek",
     "title": "250 plekken. Daarna keert de prijs terug naar de volle prijs.",
-    "subtitle": "Alpha-toegang is beperkt tot de eerste {seats} klanten op het Starter- of Business-plan. Wie nu instapt, helpt het product vorm te geven en behoudt de lanceringsvoorwaarden ook daarna.",
+    "subtitle": "Alpha-toegang is beperkt tot de eerste {seats} klanten op het Base-, Pro- of Agency-plan. Wie nu instapt, helpt het product vorm te geven en behoudt de lanceringsvoorwaarden ook daarna.",
     "benefits": [
       {
         "title": "15% korting voor het leven",
-        "description": "De korting blijft gekoppeld aan uw Starter- of Business-abonnement, ook na de publieke lancering. De prijs stijgt niet."
+        "description": "De korting blijft gekoppeld aan uw Base-, Pro- of Agency-abonnement, ook na de publieke lancering. De prijs stijgt niet."
       },
       {
         "title": "Alpha Member-badge",
@@ -242,47 +242,66 @@
   },
   "pricingTiers": [
     {
-      "id": "starter",
-      "name": "Starter",
-      "description": "Voor wie de configurator risicovrij op één site wil testen.",
-      "quotesLimit": "Tot 50 offerteaanvragen/maand",
+      "id": "base",
+      "name": "Base",
+      "description": "Voor het intern beheren van offertes op één configurator, risicovrij.",
+      "quotesLimit": "Tot 20 offerteaanvragen/maand",
       "features": [
         "1 actieve configurator",
-        "Kant-en-klare iFrame-code",
-        "Prijslijst uploaden vanuit bestand",
-        "\"Powered by onespec\"-badge",
-        "Realtime prijsupdates",
-        "Ondersteuning via e-mail"
+        "2 teamleden",
+        "Opmeetmodule voor de werf",
+        "Prijslijst-import vanuit CSV/XLSX",
+        "Basis belastingmodule",
+        "E-mailondersteuning"
       ],
-      "cta": "Begin met Starter"
+      "cta": "Begin met Base"
     },
     {
-      "id": "business",
-      "name": "Business",
-      "description": "Voor wie serieus verkoopt en een 100% eigen-merk configurator wil.",
-      "quotesLimit": "Tot 300 offerteaanvragen/maand",
+      "id": "pro",
+      "name": "Pro",
+      "description": "Voor serieus verkopen: een openbare widget op je eigen site, volledig white-label.",
+      "quotesLimit": "Onbeperkt offertes",
       "features": [
-        "3 actieve configuratoren",
-        "Merk verwijderd: alleen uw merk",
-        "Geavanceerde prijsregels en kortingen",
-        "Meerdere prijslijsten per productlijn",
-        "Statistieken over aanvragen en conversies",
-        "Prioritaire ondersteuning"
+        "Inbedbare openbare widget + white-label",
+        "3 actieve configurators",
+        "5 teamleden",
+        "Geavanceerde prijsregels, multi-catalogus",
+        "Elektronische handtekening op offertes",
+        "Voorschotfacturen en onderhoudscontracten",
+        "Volledige belastingmodule (Beni Significativi, ENEA)",
+        "14 dagen gratis proberen · prioriteitsondersteuning"
       ],
-      "cta": "Overstappen naar Business"
+      "cta": "Upgraden naar Pro"
+    },
+    {
+      "id": "agency",
+      "name": "Agency",
+      "description": "Voor dealernetwerken en showrooms met hoog volume en meerdere leveranciers.",
+      "quotesLimit": "Tot 1.000 offerteaanvragen/maand",
+      "features": [
+        "Alles van Pro",
+        "10 actieve configurators",
+        "15 teamleden",
+        "Multi-leverancier-aggregator",
+        "Showroomcalculator met 3 zones",
+        "Bulkimport voor meerdere vestigingen",
+        "Geavanceerde statistieken",
+        "Toegewijde ondersteuning"
+      ],
+      "cta": "Upgraden naar Agency"
     },
     {
       "id": "enterprise",
       "name": "Enterprise",
-      "description": "Voor dealernetwerken, franchises en hoge offertevolumes.",
-      "quotesLimit": "Onbeperkte offerteaanvragen",
+      "description": "Voor franchises en netwerken met specifieke integratiebehoeften.",
+      "quotesLimit": "Onbeperkt offertes",
       "features": [
-        "Onbeperkte configuratoren",
-        "Volledig white-label + eigen domein",
-        "API-/CRM-integratie op aanvraag",
-        "Bulkimport van prijslijsten voor meerdere locaties",
-        "Toegewijde accountmanager",
-        "SLA en begeleide onboarding"
+        "Alles van Agency",
+        "Onbeperkt configurators en leden",
+        "API en CRM-/voorraadkoppeling",
+        "GAEB/DATANORM-export",
+        "Eigen domein",
+        "Toegewijde account manager, SLA"
       ],
       "cta": "Neem contact op",
       "priceLabel": "Op maat"
@@ -371,7 +390,7 @@
     "hero": {
       "title": "Eenvoudige prijzen, afhankelijk van hoeveel u de configurator gebruikt",
       "subtitle": "Hoe meer offerteaanvragen uw configurator genereert, hoe meer waarde hij u oplevert. Kies het plan op basis van volume en gewenste merkaanpassing.",
-      "alphaNote": "Alpha-toegang: −{percent}% op Starter en Business, eerste {seats} plekken"
+      "alphaNote": "Alpha-toegang: −{percent}% op Base, Pro en Agency, eerste {seats} plekken"
     },
     "priceNote": "/maand",
     "taxNote": "+ btw",
@@ -452,14 +471,14 @@
       "subtitle": "Het ondersteuningsniveau groeit mee met het gekozen plan.",
       "tiers": [
         {
-          "plan": "Starter",
+          "plan": "Base",
           "level": "Ondersteuning via e-mail",
           "description": "Reactie binnen 2 werkdagen op elke aanvraag met betrekking tot de configurator.",
           "code": "STD-0001",
           "color": "#5b6470"
         },
         {
-          "plan": "Business",
+          "plan": "Pro",
           "level": "Prioritaire ondersteuning",
           "description": "Toegewijde wachtrij, reactie binnen 24 werkuren en hulp bij prijsregels.",
           "code": "PRI-0001",

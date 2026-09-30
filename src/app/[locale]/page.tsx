@@ -14,9 +14,8 @@ import { Reveal, RevealGroup, RevealItem } from "@/components/reveal";
 import { Hero } from "@/components/ui/hero";
 import { ConfiguratorEmbed } from "@/components/showcase/configurator-embed";
 import { IframeExplainer } from "@/components/showcase/iframe-explainer";
-import { AlphaProgram } from "@/components/showcase/alpha-program";
 import { DashboardMockup } from "@/components/showcase/dashboard-mockup";
-import { PRICING_TIERS_META, alphaPrice, ALPHA } from "@/lib/site-config";
+import { PRICING_TIERS_META, platformRegister, SITE } from "@/lib/site-config";
 import type { AppLocale } from "@/i18n/routing";
 
 const ICONS = {
@@ -34,10 +33,7 @@ type PricingCopy = {
   id: string;
   name: string;
   description: string;
-  quotesLimit: string;
-  features: string[];
   cta: string;
-  priceLabel?: string;
 };
 
 export async function generateMetadata({
@@ -197,15 +193,6 @@ function HomeContent() {
         </div>
       </section>
 
-      {/* Programma Alpha */}
-      <section className="pb-24">
-        <div className="container-onespec">
-          <Reveal>
-            <AlphaProgram />
-          </Reveal>
-        </div>
-      </section>
-
       {/* Prezzi */}
       <section className="border-t border-[var(--color-border-subtle)] py-24">
         <div className="container-onespec">
@@ -214,50 +201,48 @@ function HomeContent() {
               {t("pricing.title")}
             </h2>
             <p className="mt-4 text-[15px] text-[var(--color-text-secondary)]">
-              {t("pricing.subtitle", { percent: ALPHA.discountPercent })}
+              {t("pricing.subtitle")}
             </p>
           </Reveal>
 
-          <RevealGroup className="mt-14 grid grid-cols-1 gap-6 lg:grid-cols-3">
+          <RevealGroup className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {PRICING_TIERS_META.map((meta, i) => {
               const copy = pricingCopy[i];
+              const enterprise = meta.id === "enterprise";
               return (
                 <RevealItem
                   key={meta.id}
                   className={
                     meta.highlighted
-                      ? "rounded-3xl border-2 border-[var(--color-mint)] bg-[var(--color-bg)] p-8"
-                      : "rounded-3xl border border-[var(--color-border-subtle)] bg-[var(--color-bg)] p-8"
+                      ? "flex flex-col rounded-3xl border-2 border-[var(--color-mint)] bg-[var(--color-bg)] p-7"
+                      : "flex flex-col rounded-3xl border border-[var(--color-border-subtle)] bg-[var(--color-bg)] p-7"
                   }
                 >
                   {meta.highlighted && (
-                    <span className="inline-block rounded-full bg-[var(--color-mint-light)] px-3 py-1 text-[11px] font-semibold text-[var(--color-mint-dark)]">
+                    <span className="inline-block w-fit rounded-full bg-[var(--color-mint-light)] px-3 py-1 text-[11px] font-semibold text-[var(--color-mint-dark)]">
                       {t("pricing.piuScelto")}
                     </span>
                   )}
-                  <h3 className="mt-3 text-[18px] font-semibold text-[var(--color-text)]">
-                    {copy.name}
-                  </h3>
+                  <h3 className="mt-3 text-[18px] font-semibold text-[var(--color-text)]">{copy.name}</h3>
                   <p className="mt-1 flex items-baseline gap-1.5">
                     <span className="text-3xl font-semibold tracking-tight text-[var(--color-text)]">
-                      {meta.monthly !== null
-                        ? new Intl.NumberFormat(locale, {
-                            style: "currency",
-                            currency: "EUR",
-                            minimumFractionDigits: 0,
-                          }).format(meta.monthly)
-                        : copy.priceLabel}
+                      {new Intl.NumberFormat(locale, {
+                        style: "currency",
+                        currency: "EUR",
+                        minimumFractionDigits: Number.isInteger(meta.monthly) ? 0 : 2,
+                      }).format(meta.monthly)}
                     </span>
+                    <span className="text-[12px] text-[var(--color-text-secondary)]">{t("pricing.perMonth")}</span>
                   </p>
-                  {meta.alphaEligible && meta.monthly !== null && (
-                    <p className="mt-2 text-[12px] font-medium text-[var(--color-mint-dark)]">
-                      {alphaPrice(meta.monthly, locale)}
-                      {t("pricing.alphaSuffix")}
-                    </p>
-                  )}
-                  <p className="mt-3 text-[13px] leading-relaxed text-[var(--color-text-secondary)]">
+                  <p className="mt-3 flex-1 text-[13px] leading-relaxed text-[var(--color-text-secondary)]">
                     {copy.description}
                   </p>
+                  <a
+                    href={enterprise ? `mailto:${SITE.salesEmail}` : platformRegister(locale)}
+                    className="mt-6 inline-flex cursor-pointer items-center justify-center rounded-full border border-[var(--color-border)] px-4 py-2.5 text-[13px] font-medium text-[var(--color-text)] transition-colors hover:bg-[var(--color-bg-alt)]"
+                  >
+                    {copy.cta}
+                  </a>
                 </RevealItem>
               );
             })}
@@ -283,15 +268,15 @@ function HomeContent() {
               {t("cta.title")}
             </h2>
             <p className="mx-auto mt-4 max-w-lg text-[15px] text-white/60">
-              {t("cta.subtitle", { seats: ALPHA.totalSeats })}
+              {t("cta.subtitle")}
             </p>
-            <Link
-              href="/prezzi"
+            <a
+              href={platformRegister(locale)}
               className="mt-8 inline-flex cursor-pointer items-center gap-2 rounded-full bg-[var(--color-mint)] px-6 py-3.5 text-[15px] font-medium text-[#04231a] transition-transform duration-200 ease-out hover:scale-[1.02] active:scale-[0.98]"
             >
               {t("cta.button")}
               <ArrowRight size={16} />
-            </Link>
+            </a>
           </Reveal>
         </div>
       </section>

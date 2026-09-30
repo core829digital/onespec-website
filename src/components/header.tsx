@@ -1,18 +1,18 @@
 "use client";
 
 import { useState } from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { AnimatePresence, motion } from "framer-motion";
 import { List, X } from "@phosphor-icons/react/dist/ssr";
 import { Link } from "@/i18n/navigation";
 import { Logo } from "@/components/logo";
-import { Countdown } from "@/components/countdown";
 import { LanguageSwitcher } from "@/components/language-switcher";
-import { NAV_KEYS, NAV_HREFS } from "@/lib/site-config";
+import { NAV_KEYS, NAV_HREFS, platformLogin, platformRegister } from "@/lib/site-config";
 import pillStyles from "@/components/showcase/pill-nav.module.css";
 
 export function Header() {
   const t = useTranslations("nav");
+  const locale = useLocale();
   const [open, setOpen] = useState(false);
 
   return (
@@ -32,13 +32,18 @@ export function Header() {
 
         <div className="hidden items-center gap-4 md:flex">
           <LanguageSwitcher />
-          <Countdown compact />
-          <Link
-            href="/prezzi"
+          <a
+            href={platformLogin(locale)}
+            className="cursor-pointer text-[13px] font-medium text-[var(--color-text)] transition-colors hover:text-[var(--color-mint-dark)]"
+          >
+            {t("accedi")}
+          </a>
+          <a
+            href={platformRegister(locale)}
             className="cursor-pointer rounded-full bg-[var(--color-mint)] px-4 py-2 text-[13px] font-medium text-[#04231a] transition-transform duration-200 ease-out hover:scale-[1.03] active:scale-[0.98]"
           >
-            {t("richiediAccesso")}
-          </Link>
+            {t("inizia")}
+          </a>
         </div>
 
         <button
@@ -73,19 +78,21 @@ export function Header() {
                   {t(key)}
                 </Link>
               ))}
-              <div className="mt-2 px-3">
-                <Countdown />
-              </div>
               <div className="mt-3 px-3">
                 <LanguageSwitcher />
               </div>
-              <Link
-                href="/prezzi"
-                onClick={() => setOpen(false)}
-                className="mt-3 rounded-full bg-[var(--color-mint)] px-4 py-3.5 text-center text-[15px] font-medium text-[#04231a] transition-transform duration-150 active:scale-[0.98]"
+              <a
+                href={platformLogin(locale)}
+                className="mt-3 rounded-full border border-[var(--color-border)] px-4 py-3.5 text-center text-[15px] font-medium text-[var(--color-text)] transition-colors hover:bg-[var(--color-bg-alt)]"
               >
-                {t("richiediAccesso")}
-              </Link>
+                {t("accedi")}
+              </a>
+              <a
+                href={platformRegister(locale)}
+                className="rounded-full bg-[var(--color-mint)] px-4 py-3.5 text-center text-[15px] font-medium text-[#04231a] transition-transform duration-150 active:scale-[0.98]"
+              >
+                {t("inizia")}
+              </a>
             </div>
           </motion.div>
         )}

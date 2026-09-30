@@ -10,9 +10,10 @@
     "prodotto": "Prodotto",
     "prezzi": "Prezzi",
     "versioni": "Versioni",
-    "richiediAccesso": "Richiedi accesso",
     "apriMenu": "Apri menu",
-    "chiudiMenu": "Chiudi menu"
+    "chiudiMenu": "Chiudi menu",
+    "accedi": "Accedi",
+    "inizia": "Inizia ora"
   },
   "footer": {
     "colProdotto": "Prodotto",
@@ -21,23 +22,15 @@
     "comeFunziona": "Come funziona",
     "prezzi": "Prezzi",
     "versioni": "Versioni e changelog",
-    "accessoAlpha": "Accesso Alpha",
     "contatti": "Contatti",
     "privacy": "Privacy Policy",
     "termini": "Termini di Servizio",
     "cookie": "Cookie Policy",
     "copyright": "© {year} onespec. Tutti i diritti riservati.",
-    "faseAlpha": "Prodotto in fase Alpha",
-    "tagline": "Il configuratore di infissi che vende al posto tuo."
-  },
-  "countdown": {
-    "live": "onespec e live",
-    "prefix": "Alpha · lancio in",
-    "ariaLabel": "Lancio pubblico tra {days} giorni, {hours} ore, {minutes} minuti",
-    "days": "gg",
-    "hours": "h",
-    "minutes": "m",
-    "seconds": "s"
+    "tagline": "Il configuratore di infissi che vende al posto tuo.",
+    "accedi": "Accedi alla piattaforma",
+    "registrati": "Registrati",
+    "documenti": "Tutti i documenti legali"
   },
   "theme": {
     "toDark": "Passa alla modalita scura",
@@ -47,10 +40,10 @@
     "label": "Lingua"
   },
   "hero": {
-    "badge": "In sviluppo · accesso Alpha aperto",
+    "badge": "Online · registrazione aperta",
     "title": "Il configuratore di infissi che qualifica i clienti al posto tuo",
     "subtitle": "Un widget da incollare sul tuo sito con un codice iFrame. Preventivi automatici, listino sempre aggiornato, il tuo brand.",
-    "ctaPrimary": "Richiedi accesso Alpha",
+    "ctaPrimary": "Inizia ora",
     "ctaSecondary": "Vedi il configuratore live",
     "scroll": "Scorri"
   },
@@ -79,8 +72,8 @@
         },
         {
           "icon": "file",
-          "title": "Listino da file, sempre aggiornato",
-          "description": "Carichi il tuo listino prezzi, il configuratore lo decodifica. Aggiorni il file, il widget si aggiorna ovunque sia installato."
+          "title": "Listino da CSV, sempre aggiornato",
+          "description": "Importi il tuo listino da un file CSV (materiali, vetri, finiture, ferramenta) e lo rifinisci dalla piattaforma. Ogni modifica è subito live dove il widget è installato."
         },
         {
           "icon": "shield",
@@ -108,8 +101,8 @@
       "items": [
         {
           "n": "01",
-          "title": "Carichi il tuo listino",
-          "description": "Un file con prodotti, misure, materiali e prezzi. onespec lo legge e lo trasforma in un configuratore."
+          "title": "Importi il tuo listino",
+          "description": "Carichi un file CSV con materiali, vetri, finiture e prezzi, poi completi misure e regole dalla piattaforma."
         },
         {
           "n": "02",
@@ -130,15 +123,15 @@
     },
     "pricing": {
       "title": "Paghi in base a quanto il configuratore lavora per te",
-      "subtitle": "Quattro piani, in base a richieste preventivo mensili e brandizzazione. Con l'accesso Alpha, {percent}% in meno su Base, Pro e Agency.",
+      "subtitle": "Sette piani, dal preventivatore sul tuo sito alla piattaforma completa. Registrati, scegli il piano e paga in pochi minuti.",
       "piuScelto": "Piu scelto",
-      "alphaSuffix": "/mese con accesso Alpha",
-      "compareLink": "Confronta tutti i piani in dettaglio"
+      "compareLink": "Confronta tutti i piani in dettaglio",
+      "perMonth": "/mese + IVA"
     },
     "cta": {
-      "title": "Sii tra i primi a portare onespec sul tuo sito",
-      "subtitle": "Fase Alpha, {seats} posti. Chi entra ora aiuta a definire il prodotto e blocca il prezzo di lancio.",
-      "button": "Richiedi accesso Alpha"
+      "title": "Porta onespec sul tuo sito oggi",
+      "subtitle": "Registrati, scegli il piano e pubblica il tuo configuratore. Pagamento sicuro con Stripe, disdici quando vuoi.",
+      "button": "Inizia ora"
     }
   },
   "iframeExplainer": {
@@ -165,7 +158,7 @@
   },
   "dashboardMockup": {
     "ariaLabel": "Anteprima della dashboard onespec: indicatori richieste preventivo, andamento mensile e ultime richieste ricevute",
-    "windowLabel": "app.onespec.it · Panoramica",
+    "windowLabel": "platform.onespec.eu · Panoramica",
     "kpis": [
       {
         "label": "Richieste preventivo",
@@ -218,39 +211,64 @@
     "chromeLabel": "tuosito-infissi.it",
     "live": "LIVE"
   },
-  "alpha": {
-    "member": "Alpha Member",
-    "seatsSuffix": "disponibili",
-    "discountBadge": "−{percent}%",
-    "cta": "Prendi uno dei posti Alpha",
-    "title": "250 posti. Poi il prezzo torna pieno.",
-    "subtitle": "L'accesso Alpha e limitato ai primi {seats} clienti sui piani Base, Pro o Agency. Chi entra adesso aiuta a definire il prodotto e si porta dietro le condizioni di lancio anche dopo.",
-    "benefits": [
-      {
-        "title": "15% di sconto a vita",
-        "description": "Lo sconto resta agganciato al tuo abbonamento Base, Pro o Agency anche dopo il lancio pubblico. Il prezzo non sale."
-      },
-      {
-        "title": "Badge Alpha Member",
-        "description": "Un badge verificato che certifica che eri tra i primi 250. Utilizzabile sul tuo sito e nei materiali commerciali."
-      },
-      {
-        "title": "Accesso agli aggiornamenti Alpha",
-        "description": "Ricevi le build in anteprima e il canale changelog riservato, prima che le funzioni arrivino a tutti."
-      }
-    ]
-  },
   "pricingTiers": [
+    {
+      "id": "essentials",
+      "name": "Level 1",
+      "description": "Il preventivatore sul tuo sito e una pagina link per i social. Parti da qui, senza vincoli.",
+      "quotesLimit": "40 richieste al mese",
+      "features": [
+        "Preventivatore sul tuo sito + pagina link per i social",
+        "1 configuratore",
+        "40 richieste al mese",
+        "15 PDF al mese (scaricati da te)",
+        "40 invii WhatsApp al mese",
+        "1 utente",
+        "Badge «Powered by OneSpec»",
+        "Nessun vincolo: disdici quando vuoi"
+      ],
+      "cta": "Inizia con Level 1"
+    },
+    {
+      "id": "essentials_plus",
+      "name": "Level 2",
+      "description": "Più richieste, più configuratori e il tuo marchio senza badge, con il preventivatore Showroom.",
+      "quotesLimit": "80 richieste al mese",
+      "features": [
+        "Tutto Level 1 ×2: 80 richieste, 30 PDF e 80 WhatsApp al mese",
+        "3 configuratori",
+        "Preventivatore Showroom: 80 preventivi, 30 PDF e 80 WhatsApp al mese",
+        "White-label: il tuo marchio, senza badge",
+        "2 utenti"
+      ],
+      "cta": "Inizia con Level 2"
+    },
+    {
+      "id": "max",
+      "name": "Level 3",
+      "description": "Per volumi alti: 10 configuratori, Showroom e logistica di cantiere.",
+      "quotesLimit": "200 richieste al mese",
+      "features": [
+        "Tutto Level 1 ×5: 200 richieste, 75 PDF e 200 WhatsApp al mese",
+        "10 configuratori",
+        "Preventivatore Showroom: 200 preventivi, 75 PDF e 200 WhatsApp al mese",
+        "Logistica: fornitori, corrieri e consegne",
+        "White-label",
+        "3 utenti"
+      ],
+      "cta": "Inizia con Level 3"
+    },
     {
       "id": "base",
       "name": "Base",
-      "description": "Per chi vuole gestire preventivi internamente su un singolo configuratore, senza rischi.",
-      "quotesLimit": "Fino a 20 richieste preventivo/mese",
+      "description": "Per gestire i preventivi internamente con un singolo configuratore e il modulo Rilievo.",
+      "quotesLimit": "20 preventivi al mese",
       "features": [
-        "1 configuratore attivo",
+        "1 configuratore",
+        "20 preventivi al mese",
         "2 membri del team",
-        "Modulo Rilievo per il cantiere",
-        "Import listino prezzi da CSV/XLSX",
+        "Modulo Rilievo (cantiere)",
+        "Import listini da CSV",
         "Motore fiscale base",
         "Supporto via email"
       ],
@@ -259,161 +277,128 @@
     {
       "id": "pro",
       "name": "Pro",
-      "description": "Per chi vende sul serio: widget pubblico incorporabile sul tuo sito, white-label completo.",
-      "quotesLimit": "Richieste preventivo illimitate",
+      "description": "Per chi vende sul serio: widget pubblico sul tuo sito, white-label e tutti i moduli di cantiere.",
+      "quotesLimit": "Preventivi illimitati",
       "features": [
-        "Widget pubblico incorporabile + white-label",
-        "3 configuratori attivi",
+        "Tutto il piano Base",
+        "3 configuratori",
+        "Preventivi illimitati",
         "5 membri del team",
-        "Regole di prezzo avanzate, multi-listino",
+        "Widget pubblico incorporabile + white-label",
         "Firma elettronica sui preventivi",
-        "Fatture di acconto e contratti di manutenzione",
+        "Contratti di manutenzione sui fascicoli di posa",
         "Motore fiscale completo (Beni Significativi, ENEA)",
-        "Prova gratuita 14 giorni · supporto prioritario"
+        "Tutti i moduli di cantiere (posa, collaudo, fascicoli QR)",
+        "Statistiche di base",
+        "Prova gratuita di 14 giorni · supporto prioritario"
       ],
-      "cta": "Passa a Pro"
+      "cta": "Prova Pro gratis per 14 giorni"
     },
     {
       "id": "agency",
       "name": "Agency",
       "description": "Per reti di rivenditori e showroom con volumi alti e più fornitori.",
-      "quotesLimit": "Fino a 1.000 richieste preventivo/mese",
+      "quotesLimit": "Fino a 1000 preventivi al mese",
       "features": [
         "Tutto il piano Pro",
-        "10 configuratori attivi",
+        "10 configuratori",
         "15 membri del team",
+        "Fino a 1000 preventivi al mese",
         "Aggregatore multi-fornitore",
         "Calcolatore Showroom a 3 zone",
-        "Import massivo multi-sede",
         "Statistiche avanzate",
         "Supporto dedicato"
       ],
-      "cta": "Passa ad Agency"
+      "cta": "Inizia con Agency"
     },
     {
       "id": "enterprise",
       "name": "Enterprise",
-      "description": "Per franchising e reti con esigenze di integrazione dedicate.",
-      "quotesLimit": "Richieste preventivo illimitate",
+      "description": "Per franchising e reti con esigenze dedicate: tutto illimitato, contratto su misura.",
+      "quotesLimit": "Richieste illimitate",
       "features": [
         "Tutto il piano Agency",
-        "Configuratori e membri illimitati",
-        "API e integrazione CRM/magazzino",
-        "Export GAEB/DATANORM",
-        "Dominio personalizzato",
-        "Account manager dedicato, SLA"
+        "Configuratori, membri e richieste illimitati",
+        "Prezzo e contratto su misura"
       ],
-      "cta": "Parla con noi",
-      "priceLabel": "Su misura"
+      "cta": "Parla con noi"
     }
   ],
   "changelog": [
     {
-      "version": "0.4.0",
-      "date": "2026-08-10",
-      "title": "Regole di prezzo condizionali",
+      "version": "1.2.0",
+      "date": "2026-09-30",
+      "title": "Registrazione diretta e pagamenti",
       "tag": "Nuovo",
       "channel": "prodotto",
       "items": [
-        "Aggiunto motore di regole per sconti su quantita e combinazioni prodotto",
-        "Nuovo pannello per gestire piu listini nello stesso configuratore"
+        "Registrati, scegli il piano e paga con Stripe: la piattaforma si attiva subito",
+        "Disdetta e cambio piano (upgrade e downgrade) dalla pagina Abbonamento",
+        "Prova gratuita di 14 giorni sul piano Pro"
       ]
     },
     {
-      "version": "0.3.2",
-      "date": "2026-07-22",
-      "title": "Prestazioni widget",
+      "version": "1.1.0",
+      "date": "2026-09-29",
+      "title": "Piani Level 1, 2 e 3",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Preventivatore sul tuo sito e pagina link per i social, da €49,95 al mese",
+        "Preventivatore Showroom, white-label e logistica di cantiere nei piani Level 2 e 3",
+        "Limiti mensili chiari su richieste, PDF e invii WhatsApp"
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-09-29",
+      "title": "Sei lingue e sei mercati",
       "tag": "Miglioramento",
       "channel": "prodotto",
       "items": [
-        "Tempo di primo caricamento del widget ridotto del 40%",
-        "Ottimizzata la resa su connessioni mobili lente"
-      ]
-    },
-    {
-      "version": "0.3.0",
-      "date": "2026-06-30",
-      "title": "White-label per il piano Business",
-      "tag": "Nuovo",
-      "channel": "prodotto",
-      "items": [
-        "Possibilita di rimuovere il badge onespec dal widget",
-        "Editor colori e font per allineare il configuratore al brand cliente"
-      ]
-    },
-    {
-      "version": "0.2.1",
-      "date": "2026-06-05",
-      "title": "Correzioni import listino",
-      "tag": "Fix",
-      "channel": "prodotto",
-      "items": [
-        "Risolto errore su import file listino con caratteri accentati",
-        "Corretto arrotondamento prezzi con IVA inclusa"
-      ]
-    },
-    {
-      "version": "A-03",
-      "date": "2026-08-18",
-      "title": "Badge Alpha Member consegnato",
-      "tag": "Nuovo",
-      "channel": "alpha",
-      "items": [
-        "Il badge verificato e ora disponibile nell'area account di chi ha aderito",
-        "Aggiunto snippet da incollare sul proprio sito per mostrare il badge"
-      ]
-    },
-    {
-      "version": "A-02",
-      "date": "2026-07-30",
-      "title": "Canale build in anteprima",
-      "tag": "Nuovo",
-      "channel": "alpha",
-      "items": [
-        "Attivato il canale riservato con le build prima del rilascio pubblico",
-        "Form di segnalazione bug collegato direttamente al team di prodotto"
-      ]
-    },
-    {
-      "version": "A-01",
-      "date": "2026-07-02",
-      "title": "Apertura dei 250 posti Alpha",
-      "tag": "Nuovo",
-      "channel": "alpha",
-      "items": [
-        "Aperte le adesioni al programma Alpha, con sconto del 15% bloccato a vita",
-        "Lo sconto resta valido su Starter e Business anche dopo il lancio pubblico"
+        "Italiano, inglese, francese, tedesco, olandese e rumeno",
+        "IVA, norme e incentivi corretti per Italia, Francia, Belgio, Paesi Bassi, Germania e Lussemburgo",
+        "Email, PDF e pagine pubbliche nella lingua del cliente"
       ]
     }
   ],
   "prezzi": {
     "hero": {
       "title": "Prezzi semplici, in base a quanto usi il configuratore",
-      "subtitle": "Piu richieste di preventivo genera il tuo configuratore, piu valore ti porta. Scegli il piano in base al volume e a quanto vuoi brandizzarlo.",
-      "alphaNote": "Accesso Alpha: −{percent}% su Base, Pro e Agency, primi {seats} posti"
+      "subtitle": "Piu richieste di preventivo genera il tuo configuratore, piu valore ti porta. Scegli il piano in base al volume e a quanto vuoi brandizzarlo."
     },
     "priceNote": "/mese",
     "taxNote": "+ IVA",
-    "alphaPriceSuffix": "/mese",
-    "alphaWithPrefix": "con accesso Alpha (−{percent}%)",
-    "enterpriseNote": "Preventivo su misura in base a volumi e sedi.",
+    "enterpriseNote": "Contratto su misura in base a volumi e sedi: scrivici per attivarlo.",
     "whitelabelYes": "Widget white-label",
     "whitelabelNo": "Badge onespec visibile",
-    "taxFootnote": "Tutti i prezzi sono mensili e al netto dell'IVA, che viene applicata in fattura secondo l'aliquota di legge.",
+    "taxFootnote": "Prezzi IVA esclusa. L'IVA, se dovuta, viene aggiunta al momento del pagamento in base al paese di fatturazione.",
     "standalone": {
       "title": "Serve un configuratore tuo, senza piattaforma?",
       "body": "Su richiesta realizziamo anche configuratori standalone, sviluppati apposta per il tuo sito e senza dipendenza dalla piattaforma onespec. <link>Scrivici</link> per una valutazione.",
       "linkLabel": "Scrivici"
     },
-    "piuScelto": "Piu scelto"
+    "piuScelto": "Piu scelto",
+    "cancelNote": "Registrazione diretta, pagamento sicuro con Stripe, disdici quando vuoi.",
+    "annualNote": "oppure {price}/anno: 2 mesi in omaggio",
+    "trialBadge": "Prova gratis 14 giorni",
+    "monthlyOnly": "Solo mensile",
+    "families": {
+      "widget": {
+        "title": "Preventivi online",
+        "body": "Preventivatore sul sito e Showroom. Parti da qui, senza impegno."
+      },
+      "platform": {
+        "title": "Piattaforma completa",
+        "body": "Tutto il lavoro in un posto: preventivi B2B, clienti, cantieri, posa e collaudi."
+      }
+    }
   },
   "versioni": {
     "title": "Versioni e changelog",
-    "subtitle": "onespec e in sviluppo attivo. Gli aggiornamenti sono divisi in due canali: quelli del prodotto e quelli riservati al programma Alpha.",
+    "subtitle": "Gli aggiornamenti di onespec: cosa cambia nel configuratore e nella piattaforma.",
     "prodottoTitle": "Aggiornamenti prodotto",
-    "prodottoBody": "Cosa cambia nel configuratore e nella piattaforma per chi li usa gia. Disponibile a tutti i clienti attivi.",
-    "alphaTitle": "Aggiornamenti accesso Alpha",
-    "alphaBody": "La vita del programma Alpha: posti, build in anteprima e vantaggi riservati a chi e entrato tra i primi.",
+    "prodottoBody": "Cosa cambia nel configuratore e nella piattaforma. Disponibile a tutti i clienti attivi.",
     "empty": "Ancora nessuna voce in questo canale. Le novita compaiono qui appena vengono rilasciate.",
     "tags": {
       "Nuovo": "Nuovo",
@@ -434,8 +419,8 @@
     "blocks": [
       {
         "icon": "file",
-        "title": "1. Carichi il listino",
-        "description": "Fornisci i tuoi file di listino: prodotti, misure disponibili, materiali, finiture e prezzi. onespec li decodifica e costruisce automaticamente la logica del configuratore, senza che tu debba reinserire nulla a mano.",
+        "title": "1. Importi il listino",
+        "description": "Carichi un file CSV con materiali, vetri, finiture e ferramenta con i relativi prezzi, poi completi misure e regole di prezzo dalla piattaforma, senza reinserire tutto a mano.",
         "visual": null
       },
       {
@@ -473,126 +458,33 @@
         {
           "plan": "Base",
           "level": "Supporto via email",
-          "description": "Risposta entro 2 giorni lavorativi su ogni richiesta legata al configuratore.",
+          "description": "Assistenza via email per tutto ciò che riguarda la piattaforma.",
           "code": "STD-0001",
           "color": "#5b6470"
         },
         {
           "plan": "Pro",
           "level": "Supporto prioritario",
-          "description": "Coda dedicata, risposta entro 24 ore lavorative e assistenza su regole di prezzo.",
+          "description": "Le tue richieste passano davanti nella coda di assistenza.",
           "code": "PRI-0001",
           "color": "#0fbf8f"
         },
         {
-          "plan": "Enterprise",
-          "level": "Account dedicato",
-          "description": "Referente unico, SLA concordato e onboarding guidato per reti multi-sede.",
-          "code": "ENT-0001",
+          "plan": "Agency",
+          "level": "Supporto dedicato",
+          "description": "Un canale dedicato per reti di rivenditori e showroom.",
+          "code": "DED-0001",
           "color": "#1d1d1f"
         }
       ]
     }
   },
   "legal": {
-    "updatedLabel": "Ultimo aggiornamento: {date}",
-    "privacy": {
-      "title": "Privacy Policy",
-      "updated": "21 agosto 2026",
-      "intro": "Questa pagina descrive come onespec (\"noi\") raccoglie, utilizza e protegge i dati personali di chi visita il sito o utilizza la piattaforma, in conformita al Regolamento (UE) 2016/679 (GDPR).",
-      "sections": [
-        {
-          "heading": "Titolare del trattamento",
-          "body": "Il titolare del trattamento e onespec. Per qualsiasi richiesta relativa ai dati personali puoi scrivere a {email}."
-        },
-        {
-          "heading": "Dati raccolti",
-          "list": [
-            "Dati di contatto forniti volontariamente (nome, email, azienda) tramite form o email.",
-            "Dati tecnici di navigazione (indirizzo IP, tipo di browser, pagine visitate) raccolti in forma aggregata.",
-            "Dati relativi alle richieste di preventivo generate tramite il configuratore, quando applicabile."
-          ]
-        },
-        {
-          "heading": "Finalita del trattamento",
-          "list": [
-            "Rispondere a richieste di informazioni, accesso alla fase Alpha o partnership.",
-            "Gestire l'erogazione del servizio per i clienti abbonati alla piattaforma.",
-            "Migliorare il sito e la piattaforma tramite analisi statistiche aggregate."
-          ]
-        },
-        {
-          "heading": "Base giuridica",
-          "body": "Il trattamento si basa sul consenso dell'interessato, sull'esecuzione di un contratto o misure precontrattuali, e sul legittimo interesse a mantenere e migliorare il servizio."
-        },
-        {
-          "heading": "Conservazione dei dati",
-          "body": "I dati sono conservati per il tempo necessario a raggiungere le finalita indicate, e comunque non oltre i termini previsti dalla normativa vigente."
-        },
-        {
-          "heading": "Diritti dell'interessato",
-          "body": "Puoi richiedere in qualsiasi momento accesso, rettifica, cancellazione, limitazione del trattamento o portabilita dei tuoi dati, scrivendo a {email}."
-        }
-      ]
-    },
-    "termini": {
-      "title": "Termini di Servizio",
-      "updated": "21 agosto 2026",
-      "intro": "L'utilizzo del sito e della piattaforma onespec implica l'accettazione dei presenti termini. onespec e attualmente in fase Alpha: alcune funzionalita possono cambiare o essere interrotte durante lo sviluppo.",
-      "sections": [
-        {
-          "heading": "Descrizione del servizio",
-          "body": "onespec fornisce un widget di configurazione infissi integrabile tramite codice iFrame, gestibile e aggiornabile dalla piattaforma onespec. Il servizio e offerto tramite abbonamento in base al piano scelto."
-        },
-        {
-          "heading": "Account e responsabilita del cliente",
-          "list": [
-            "Il cliente e responsabile dell'esattezza dei dati e dei listini caricati sulla piattaforma.",
-            "Il cliente e responsabile della correttezza dei preventivi generati in base ai dati forniti.",
-            "L'accesso alla piattaforma e personale e non cedibile a terzi senza autorizzazione."
-          ]
-        },
-        {
-          "heading": "Abbonamenti e fatturazione",
-          "body": "Gli abbonamenti sono rinnovati automaticamente secondo la periodicita scelta, salvo disdetta comunicata prima del rinnovo. I limiti di utilizzo (richieste preventivo mensili, numero di configuratori) sono definiti dal piano attivo."
-        },
-        {
-          "heading": "Limitazione di responsabilita",
-          "body": "onespec fornisce lo strumento di configurazione ma non e responsabile per gli accordi commerciali, i preventivi finali o le vendite concluse tra il cliente e i propri utenti finali."
-        },
-        {
-          "heading": "Modifiche ai termini",
-          "body": "Durante la fase Alpha i presenti termini possono essere aggiornati con maggiore frequenza. Le modifiche rilevanti saranno comunicate ai clienti attivi."
-        },
-        {
-          "heading": "Contatti",
-          "body": "Per domande sui termini di servizio scrivi a {email}."
-        }
-      ]
-    },
-    "cookie": {
-      "title": "Cookie Policy",
-      "updated": "21 agosto 2026",
-      "intro": "Questo sito utilizza un numero minimo di cookie e tecnologie simili, necessari al funzionamento di base e, dove attivati, per la misurazione anonima del traffico.",
-      "sections": [
-        {
-          "heading": "Cookie tecnici",
-          "body": "Necessari al corretto funzionamento del sito (es. preferenze di navigazione). Non richiedono consenso preventivo."
-        },
-        {
-          "heading": "Cookie statistici",
-          "body": "Se attivati, raccolgono dati aggregati e anonimi sull'utilizzo del sito per migliorarne i contenuti. Puoi rifiutarli senza impatti sulla navigazione."
-        },
-        {
-          "heading": "Gestione delle preferenze",
-          "body": "Puoi modificare o revocare il consenso ai cookie non tecnici in qualsiasi momento tramite le impostazioni del tuo browser."
-        },
-        {
-          "heading": "Contatti",
-          "body": "Per domande sulla cookie policy scrivi a {email}."
-        }
-      ]
-    }
+    "notice": "Il testo vincolante dei documenti legali è quello in italiano, identico a quello della piattaforma. Una traduzione legale nella tua lingua è in preparazione.",
+    "indexTitle": "Documenti legali",
+    "indexIntro": "Privacy, termini di servizio e di utilizzo, cookie, diritti degli interessati, sicurezza e qualità: gli stessi documenti che trovi dentro la piattaforma.",
+    "dpaTitle": "Addendum sul trattamento dei dati (DPA)",
+    "dpaBody": "Accordo per il trattamento dei dati personali ai sensi dell'art. 28 GDPR: si accetta dalla piattaforma."
   },
   "colorPicker": {
     "activeColor": "Colore attivo:",

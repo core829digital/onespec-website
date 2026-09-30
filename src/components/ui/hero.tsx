@@ -1,10 +1,11 @@
 "use client";
 
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
 import { Link } from "@/i18n/navigation";
 import { ShaderBackground } from "@/components/ui/shader-background";
+import { platformRegister } from "@/lib/site-config";
 
 /**
  * Hero a tutta larghezza/altezza con sfondo WebGL animato (palette onespec:
@@ -12,6 +13,7 @@ import { ShaderBackground } from "@/components/ui/shader-background";
  */
 export function Hero() {
   const t = useTranslations("hero");
+  const locale = useLocale();
 
   return (
     <section className="relative h-dvh min-h-[640px] w-full overflow-hidden bg-[var(--color-bg-inverse)]">
@@ -54,8 +56,8 @@ export function Hero() {
           </p>
 
           <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
-            <Link
-              href="/prezzi"
+            <a
+              href={platformRegister(locale)}
               className="group inline-flex cursor-pointer items-center gap-2 rounded-full bg-[var(--color-mint)] px-6 py-3.5 text-[15px] font-medium text-[#04231a] transition-transform duration-200 ease-out hover:scale-[1.02] active:scale-[0.98]"
             >
               {t("ctaPrimary")}
@@ -63,7 +65,7 @@ export function Hero() {
                 size={16}
                 className="transition-transform duration-200 group-hover:translate-x-0.5"
               />
-            </Link>
+            </a>
             <Link
               href="/prodotto"
               className="inline-flex cursor-pointer items-center gap-2 rounded-full border border-white/20 bg-transparent px-6 py-3.5 text-[15px] font-medium text-white transition-colors duration-150 hover:bg-white/10 active:bg-white/15"

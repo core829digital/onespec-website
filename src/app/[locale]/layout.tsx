@@ -8,6 +8,7 @@ import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { ThemeScript } from "@/components/theme-script";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { SmoothScroll } from "@/components/smooth-scroll";
 import { MotionConfig } from "framer-motion";
 import { routing } from "@/i18n/routing";
 import { SITE_URL } from "@/lib/site-config";
@@ -73,6 +74,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider>
           <MotionConfig reducedMotion="user">
             <Header />
+            <SmoothScroll />
             <main className="flex-1">{children}</main>
             <Footer />
             <ThemeToggle />

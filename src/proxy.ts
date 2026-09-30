@@ -7,5 +7,5 @@ export const config = {
   // Esclude asset statici, file interni Next.js e il configuratore HTML
   // servito da public/: quel file ha la propria lingua interna (widget IT/EN/FR)
   // e non deve passare dal routing delle pagine.
-  matcher: ["/((?!api|trpc|_next|_vercel|configuratore-demo\\.html|.*\\..*).*)"],
+  matcher: ["/((?!api|trpc|_next|_vercel|.*\\..*).*)"],
 };

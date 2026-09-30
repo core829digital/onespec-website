@@ -51,7 +51,7 @@
     "configurator": {
       "kicker": "Demo interactiv",
       "title": "Acesta este configuratorul. Incearca-l acum.",
-      "subtitle": "O previzualizare demonstrativă a configuratorului, încărcată aici într-un iFrame. Schimbă materialul, dimensiunile și finisajele și urmărește cum se actualizează oferta. Pe site-ul tău folosește lista ta de prețuri și marca ta."
+      "subtitle": "Două demo-uri interactive, identice cu produsul. Încearcă-le alăturat: configuratorul pentru clienții tăi și cel pentru echipa ta. Pe site-ul tău folosești lista ta de prețuri și marca ta."
     },
     "valueProp": {
       "title": "In fiecare zi pierzi timp cu solicitari care nu duc nicaieri",
@@ -205,11 +205,6 @@
         "value": "1.120 €"
       }
     ]
-  },
-  "configuratorEmbed": {
-    "loading": "Se incarca configuratorul…",
-    "chromeLabel": "site-ultau-tamplarie.ro",
-    "live": "LIVE"
   },
   "pricingTiers": [
     {
@@ -466,7 +461,7 @@
     "configurator": {
       "kicker": "Demo interactiv",
       "title": "Incearca-l asa cum o face clientul tau",
-      "subtitle": "O previzualizare demonstrativă a configuratorului, încărcată aici într-un iFrame. Schimbă materialul, dimensiunile și finisajele și urmărește cum se actualizează oferta. Pe site-ul tău folosește lista ta de prețuri și marca ta."
+      "subtitle": "Două demo-uri interactive, identice cu produsul. Încearcă-le alăturat: configuratorul pentru clienții tăi și cel pentru echipa ta. Pe site-ul tău folosești lista ta de prețuri și marca ta."
     },
     "blocks": [
       {
@@ -563,5 +558,16 @@
     "Teracota",
     "Chihlimbar lemn",
     "Gri ardezie"
-  ]
+  ],
+  "demoConfigurators": {
+    "loading": "Se încarcă demo-ul…",
+    "badge": "DEMO",
+    "widgetLabel": "Configurator Widget",
+    "widgetCaption": "ce vede clientul final pe site-ul tău: alege, configurează și îți trimite cererea.",
+    "showroomLabel": "Configurator Showroom",
+    "showroomCaption": "instrumentul echipei tale: ofertă instantanee cu TVA, facilități și plata în rate.",
+    "videoTitle": "OneSpec în acțiune",
+    "videoSubtitle": "Un minut ca să vezi cum OneSpec transformă site-ul și showroom-ul tău într-o mașină de oferte.",
+    "note": "Ambele demo-uri sunt interactive, dar nu trimit nimic: creează-ți contul pentru a primi cereri reale."
+  }
 }

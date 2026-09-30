@@ -1,5 +1,3 @@
-// COPIA di onespec-platform/src/content/legal.ts: e' la stessa fonte dei documenti legali della piattaforma.
-// Quando cambia nella piattaforma va aggiornata anche qui (vedi docs della piattaforma).
 /**
  * Legal register for OneSpec.
  *
@@ -39,6 +37,7 @@ const SUBPROCESSORS: LegalSection = {
   p: [
     "OneSpec si appoggia ai seguenti fornitori, che trattano dati per conto del Titolare sulla base di accordi ai sensi dell'art. 28 GDPR:",
     "• Convex (Convex, Inc.) — database e backend applicativo. Ubicazione dei dati: [[regione di hosting Convex]].",
+    "• Stripe (Stripe Payments Europe, Ltd.) — gestione degli abbonamenti e dei pagamenti; i dati della carta sono trattati direttamente da Stripe e non transitano né sono conservati da OneSpec.",
     "• Resend (Resend, Inc.) — invio delle email transazionali (codici di verifica, notifiche di preventivo).",
     "• Cloudflare Turnstile (Cloudflare, Inc.) — verifica anti-bot sull'invio dei preventivi dal widget.",
     "• Vercel (Vercel, Inc.) — hosting dell'applicazione web e misurazione delle prestazioni (Speed Insights, senza cookie).",
@@ -113,7 +112,7 @@ export const LEGAL_DOCS: LegalDoc[] = [
   {
     slug: "termini-di-servizio",
     title: "Termini di servizio",
-    updated: "2026-09-29",
+    updated: "2026-09-30",
     summary: "Le condizioni contrattuali tra OneSpec e l'organizzazione cliente.",
     sections: [
       {

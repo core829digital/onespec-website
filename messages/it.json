@@ -51,7 +51,7 @@
     "configurator": {
       "kicker": "Demo interattiva",
       "title": "Questo è il configuratore. Provalo adesso.",
-      "subtitle": "Un'anteprima dimostrativa del configuratore, caricata qui dentro un iFrame. Cambia materiale, misure e finiture e guarda il preventivo aggiornarsi. Sul tuo sito usa il tuo listino e il tuo marchio."
+      "subtitle": "Due demo interattive, le stesse del prodotto. Provale affiancate: il configuratore per i tuoi clienti e quello per il tuo team. Sul tuo sito usi il tuo listino e il tuo marchio."
     },
     "valueProp": {
       "title": "Ogni giorno perdi tempo con richieste che non portano a niente",
@@ -205,11 +205,6 @@
         "value": "€ 1.120"
       }
     ]
-  },
-  "configuratorEmbed": {
-    "loading": "Caricamento configuratore…",
-    "chromeLabel": "tuosito-infissi.it",
-    "live": "LIVE"
   },
   "pricingTiers": [
     {
@@ -466,7 +461,7 @@
     "configurator": {
       "kicker": "Demo interattiva",
       "title": "Provalo come lo prova il tuo cliente",
-      "subtitle": "Un'anteprima dimostrativa del configuratore, caricata qui dentro un iFrame. Cambia materiale, misure e finiture e guarda il preventivo aggiornarsi. Sul tuo sito usa il tuo listino e il tuo marchio."
+      "subtitle": "Due demo interattive, le stesse del prodotto. Provale affiancate: il configuratore per i tuoi clienti e quello per il tuo team. Sul tuo sito usi il tuo listino e il tuo marchio."
     },
     "blocks": [
       {
@@ -563,5 +558,16 @@
     "Terracotta",
     "Ambra legno",
     "Grigio ardesia"
-  ]
+  ],
+  "demoConfigurators": {
+    "loading": "Caricamento demo…",
+    "badge": "DEMO",
+    "widgetLabel": "Configuratore Widget",
+    "widgetCaption": "quello che vede il cliente finale sul tuo sito: sceglie, configura e ti invia la richiesta.",
+    "showroomLabel": "Configuratore Showroom",
+    "showroomCaption": "lo strumento del tuo team: preventivo istantaneo con IVA, agevolazioni e rateizzazione.",
+    "videoTitle": "Guarda OneSpec in azione",
+    "videoSubtitle": "Un minuto per capire come OneSpec trasforma il tuo sito e il tuo showroom in una macchina da preventivi.",
+    "note": "Entrambe le demo sono interattive ma non inviano nulla: per ricevere richieste reali crea il tuo account."
+  }
 }

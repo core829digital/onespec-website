@@ -51,7 +51,7 @@
     "configurator": {
       "kicker": "Interaktive Demo",
       "title": "Das ist der Konfigurator. Probieren Sie ihn jetzt aus.",
-      "subtitle": "Eine Demo-Vorschau des Konfigurators, hier in einem iFrame geladen. Ändern Sie Material, Maße und Oberflächen und sehen Sie, wie sich das Angebot aktualisiert. Auf Ihrer Website nutzt er Ihre Preisliste und Ihre Marke."
+      "subtitle": "Zwei interaktive Demos, identisch mit dem Produkt. Probieren Sie sie nebeneinander aus: der Konfigurator für Ihre Kunden und der für Ihr Team. Auf Ihrer Website nutzen Sie Ihre Preisliste und Ihre Marke."
     },
     "valueProp": {
       "title": "Jeden Tag verlieren Sie Zeit mit Anfragen, die zu nichts führen",
@@ -205,11 +205,6 @@
         "value": "1.120 €"
       }
     ]
-  },
-  "configuratorEmbed": {
-    "loading": "Konfigurator wird geladen…",
-    "chromeLabel": "ihreseite-fenster.de",
-    "live": "LIVE"
   },
   "pricingTiers": [
     {
@@ -466,7 +461,7 @@
     "configurator": {
       "kicker": "Interaktive Demo",
       "title": "Probieren Sie ihn so aus wie Ihr Kunde",
-      "subtitle": "Eine Demo-Vorschau des Konfigurators, hier in einem iFrame geladen. Ändern Sie Material, Maße und Oberflächen und sehen Sie, wie sich das Angebot aktualisiert. Auf Ihrer Website nutzt er Ihre Preisliste und Ihre Marke."
+      "subtitle": "Zwei interaktive Demos, identisch mit dem Produkt. Probieren Sie sie nebeneinander aus: der Konfigurator für Ihre Kunden und der für Ihr Team. Auf Ihrer Website nutzen Sie Ihre Preisliste und Ihre Marke."
     },
     "blocks": [
       {
@@ -563,5 +558,16 @@
     "Terrakotta",
     "Holzbernstein",
     "Schiefergrau"
-  ]
+  ],
+  "demoConfigurators": {
+    "loading": "Demo wird geladen…",
+    "badge": "DEMO",
+    "widgetLabel": "Widget-Konfigurator",
+    "widgetCaption": "was Ihr Endkunde auf Ihrer Website sieht: auswählen, konfigurieren und die Anfrage an Sie senden.",
+    "showroomLabel": "Showroom-Konfigurator",
+    "showroomCaption": "das Werkzeug Ihres Teams: Sofortangebot mit MwSt., Förderungen und Ratenzahlung.",
+    "videoTitle": "OneSpec in Aktion",
+    "videoSubtitle": "Eine Minute, um zu sehen, wie OneSpec Ihre Website und Ihren Showroom in eine Angebotsmaschine verwandelt.",
+    "note": "Beide Demos sind interaktiv, senden aber nichts: Erstellen Sie Ihr Konto, um echte Anfragen zu erhalten."
+  }
 }

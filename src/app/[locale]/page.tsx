@@ -12,7 +12,8 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { Reveal, RevealGroup, RevealItem } from "@/components/reveal";
 import { Hero } from "@/components/ui/hero";
-import { ConfiguratorEmbed } from "@/components/showcase/configurator-embed";
+import { DemoConfigurators } from "@/components/showcase/demo-configurators";
+import { PresentationVideo } from "@/components/showcase/presentation-video";
 import { IframeExplainer } from "@/components/showcase/iframe-explainer";
 import { DashboardMockup } from "@/components/showcase/dashboard-mockup";
 import { PRICING_TIERS_META, platformRegister, SITE } from "@/lib/site-config";
@@ -58,6 +59,7 @@ export default async function Home({
 
 function HomeContent() {
   const t = useTranslations("home");
+  const td = useTranslations("demoConfigurators");
   const tRoot = useTranslations();
   const locale = useLocale();
 
@@ -87,7 +89,20 @@ function HomeContent() {
           </Reveal>
 
           <Reveal delay={0.1} className="mt-12">
-            <ConfiguratorEmbed />
+            <DemoConfigurators />
+            <p className="mx-auto mt-6 max-w-2xl text-center text-[12px] text-[var(--color-text-secondary)]">
+              {td("note")}
+            </p>
+          </Reveal>
+
+          <Reveal delay={0.1} className="mx-auto mt-20 max-w-4xl">
+            <h3 className="text-balance text-center text-2xl font-semibold tracking-tight text-[var(--color-text)] sm:text-3xl">
+              {td("videoTitle")}
+            </h3>
+            <p className="mx-auto mb-8 mt-3 max-w-xl text-balance text-center text-[15px] leading-relaxed text-[var(--color-text-secondary)]">
+              {td("videoSubtitle")}
+            </p>
+            <PresentationVideo />
           </Reveal>
         </div>
       </section>

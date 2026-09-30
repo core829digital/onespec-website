@@ -9,7 +9,8 @@ import { useTranslations } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { Reveal, RevealGroup, RevealItem } from "@/components/reveal";
-import { ConfiguratorEmbed } from "@/components/showcase/configurator-embed";
+import { DemoConfigurators } from "@/components/showcase/demo-configurators";
+import { PresentationVideo } from "@/components/showcase/presentation-video";
 import { DashboardMockup } from "@/components/showcase/dashboard-mockup";
 import { ColorPicker } from "@/components/showcase/color-picker";
 import { EmbedCodeCard } from "@/components/showcase/embed-code-card";
@@ -60,6 +61,7 @@ export default async function ProdottoPage({
 
 function ProdottoContent() {
   const t = useTranslations("prodotto");
+  const td = useTranslations("demoConfigurators");
   const blocks = t.raw("blocks") as Block[];
   const supportTiers = t.raw("support.tiers") as SupportTier[];
 
@@ -95,7 +97,20 @@ function ProdottoContent() {
           </Reveal>
 
           <Reveal delay={0.1} className="mt-12">
-            <ConfiguratorEmbed />
+            <DemoConfigurators />
+            <p className="mx-auto mt-6 max-w-2xl text-center text-[12px] text-[var(--color-text-secondary)]">
+              {td("note")}
+            </p>
+          </Reveal>
+
+          <Reveal delay={0.1} className="mx-auto mt-20 max-w-4xl">
+            <h3 className="text-balance text-center text-2xl font-semibold tracking-tight text-[var(--color-text)] sm:text-3xl">
+              {td("videoTitle")}
+            </h3>
+            <p className="mx-auto mb-8 mt-3 max-w-xl text-balance text-center text-[15px] leading-relaxed text-[var(--color-text-secondary)]">
+              {td("videoSubtitle")}
+            </p>
+            <PresentationVideo />
           </Reveal>
         </div>
       </section>

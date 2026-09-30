@@ -51,7 +51,7 @@
     "configurator": {
       "kicker": "Interactieve demo",
       "title": "Dit is de configurator. Probeer hem nu.",
-      "subtitle": "Een demovoorbeeld van de configurator, hier geladen in een iFrame. Wijzig materiaal, maten en afwerkingen en zie de offerte meebewegen. Op je site gebruikt hij jouw prijslijst en jouw merk."
+      "subtitle": "Twee interactieve demo's, identiek aan het product. Probeer ze naast elkaar: de configurator voor je klanten en die voor je team. Op je site gebruik je je eigen prijslijst en merk."
     },
     "valueProp": {
       "title": "Elke dag verliest u tijd aan aanvragen die nergens toe leiden",
@@ -205,11 +205,6 @@
         "value": "€ 1.120"
       }
     ]
-  },
-  "configuratorEmbed": {
-    "loading": "Configurator wordt geladen…",
-    "chromeLabel": "uwsite-kozijnen.nl",
-    "live": "LIVE"
   },
   "pricingTiers": [
     {
@@ -466,7 +461,7 @@
     "configurator": {
       "kicker": "Interactieve demo",
       "title": "Probeer hem zoals uw klant dat doet",
-      "subtitle": "Een demovoorbeeld van de configurator, hier geladen in een iFrame. Wijzig materiaal, maten en afwerkingen en zie de offerte meebewegen. Op je site gebruikt hij jouw prijslijst en jouw merk."
+      "subtitle": "Twee interactieve demo's, identiek aan het product. Probeer ze naast elkaar: de configurator voor je klanten en die voor je team. Op je site gebruik je je eigen prijslijst en merk."
     },
     "blocks": [
       {
@@ -563,5 +558,16 @@
     "Terracotta",
     "Houtamber",
     "Leigrijs"
-  ]
+  ],
+  "demoConfigurators": {
+    "loading": "Demo laden…",
+    "badge": "DEMO",
+    "widgetLabel": "Widget-configurator",
+    "widgetCaption": "wat je eindklant op je website ziet: kiezen, configureren en de aanvraag naar jou sturen.",
+    "showroomLabel": "Showroom-configurator",
+    "showroomCaption": "het gereedschap van je team: directe offerte met btw, subsidies en termijnbetaling.",
+    "videoTitle": "OneSpec in actie",
+    "videoSubtitle": "Eén minuut om te zien hoe OneSpec je website en showroom verandert in een offertemachine.",
+    "note": "Beide demo's zijn interactief maar versturen niets: maak je account aan om echte aanvragen te ontvangen."
+  }
 }

@@ -51,7 +51,7 @@
     "configurator": {
       "kicker": "Demo interactive",
       "title": "Voici le configurateur. Essayez-le maintenant.",
-      "subtitle": "Un aperçu de démonstration du configurateur, chargé ici dans un iFrame. Changez matériau, dimensions et finitions et regardez le devis se mettre à jour. Sur votre site, il utilise vos tarifs et votre marque."
+      "subtitle": "Deux démos interactives, identiques au produit. Essayez-les côte à côte : le configurateur pour vos clients et celui pour votre équipe. Sur votre site, vous utilisez votre tarif et votre marque."
     },
     "valueProp": {
       "title": "Chaque jour, vous perdez du temps avec des demandes qui n'aboutissent a rien",
@@ -205,11 +205,6 @@
         "value": "1 120 €"
       }
     ]
-  },
-  "configuratorEmbed": {
-    "loading": "Chargement du configurateur…",
-    "chromeLabel": "votresite-menuiseries.fr",
-    "live": "EN DIRECT"
   },
   "pricingTiers": [
     {
@@ -466,7 +461,7 @@
     "configurator": {
       "kicker": "Demo interactive",
       "title": "Essayez-le comme le fait votre client",
-      "subtitle": "Un aperçu de démonstration du configurateur, chargé ici dans un iFrame. Changez matériau, dimensions et finitions et regardez le devis se mettre à jour. Sur votre site, il utilise vos tarifs et votre marque."
+      "subtitle": "Deux démos interactives, identiques au produit. Essayez-les côte à côte : le configurateur pour vos clients et celui pour votre équipe. Sur votre site, vous utilisez votre tarif et votre marque."
     },
     "blocks": [
       {
@@ -563,5 +558,16 @@
     "Terracotta",
     "Ambre bois",
     "Gris ardoise"
-  ]
+  ],
+  "demoConfigurators": {
+    "loading": "Chargement de la démo…",
+    "badge": "DÉMO",
+    "widgetLabel": "Configurateur Widget",
+    "widgetCaption": "ce que voit votre client final sur votre site : il choisit, configure et vous envoie sa demande.",
+    "showroomLabel": "Configurateur Showroom",
+    "showroomCaption": "l'outil de votre équipe : devis instantané avec TVA, aides et paiement échelonné.",
+    "videoTitle": "OneSpec en action",
+    "videoSubtitle": "Une minute pour voir comment OneSpec transforme votre site et votre showroom en machine à devis.",
+    "note": "Les deux démos sont interactives mais n'envoient rien : créez votre compte pour recevoir de vraies demandes."
+  }
 }

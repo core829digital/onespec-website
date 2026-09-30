@@ -51,7 +51,7 @@
     "configurator": {
       "kicker": "Interactive demo",
       "title": "This is the configurator. Try it now.",
-      "subtitle": "A demo preview of the configurator, loaded here inside an iFrame. Change material, sizes and finishes and watch the quote update. On your site it uses your price list and your brand."
+      "subtitle": "Two interactive demos, identical to the product. Try them side by side: the configurator for your customers and the one for your team. On your site you use your own price list and brand."
     },
     "valueProp": {
       "title": "Every day you lose time on requests that go nowhere",
@@ -205,11 +205,6 @@
         "value": "€ 1,120"
       }
     ]
-  },
-  "configuratorEmbed": {
-    "loading": "Loading configurator…",
-    "chromeLabel": "yoursite-windows.com",
-    "live": "LIVE"
   },
   "pricingTiers": [
     {
@@ -466,7 +461,7 @@
     "configurator": {
       "kicker": "Interactive demo",
       "title": "Try it the way your customer does",
-      "subtitle": "A demo preview of the configurator, loaded here inside an iFrame. Change material, sizes and finishes and watch the quote update. On your site it uses your price list and your brand."
+      "subtitle": "Two interactive demos, identical to the product. Try them side by side: the configurator for your customers and the one for your team. On your site you use your own price list and brand."
     },
     "blocks": [
       {
@@ -563,5 +558,16 @@
     "Terracotta",
     "Wood amber",
     "Slate grey"
-  ]
+  ],
+  "demoConfigurators": {
+    "loading": "Loading demo…",
+    "badge": "DEMO",
+    "widgetLabel": "Widget configurator",
+    "widgetCaption": "what your end customer sees on your website: they choose, configure and send you the request.",
+    "showroomLabel": "Showroom configurator",
+    "showroomCaption": "your team's tool: instant quote with VAT, incentives and instalments.",
+    "videoTitle": "See OneSpec in action",
+    "videoSubtitle": "One minute to see how OneSpec turns your website and showroom into a quoting machine.",
+    "note": "Both demos are interactive but send nothing: create your account to receive real requests."
+  }
 }

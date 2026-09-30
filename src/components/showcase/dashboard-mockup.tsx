@@ -51,13 +51,13 @@ export function DashboardMockup() {
                 key={k.label}
                 className="rounded-xl border border-[var(--color-border-subtle)] bg-[var(--color-bg)] p-4"
               >
-                <div className="flex items-center gap-2">
+                <div className="flex items-start gap-2">
                   <Icon
                     size={14}
                     weight="bold"
-                    className="text-[var(--color-mint-dark)]"
+                    className="mt-px shrink-0 text-[var(--color-mint-dark)]"
                   />
-                  <span className="truncate text-[11px] font-medium text-[var(--color-text-secondary)]">
+                  <span className="text-[11px] leading-tight font-medium text-[var(--color-text-secondary)]">
                     {k.label}
                   </span>
                 </div>

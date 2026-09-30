@@ -16,7 +16,7 @@ export function Hero() {
   const locale = useLocale();
 
   return (
-    <section className="relative h-dvh min-h-[640px] w-full overflow-hidden bg-[var(--color-bg-inverse)]">
+    <section className="relative h-svh min-h-[640px] w-full overflow-hidden bg-[var(--color-bg-inverse)]">
       <ShaderBackground className="absolute inset-0" />
 
       {/* Scurisce il basso per far leggere bene il testo e agganciare la
@@ -31,7 +31,7 @@ export function Hero() {
 
       <div className="relative z-10 flex h-full w-full items-center justify-center px-6">
         <div className="mx-auto max-w-3xl text-center">
-          <span className="inline-flex items-center gap-1.5 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-[12px] font-medium text-white/70 backdrop-blur-sm">
+          <span className="inline-flex items-center gap-1.5 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-[12px] font-medium text-white/70">
             <span className="h-1.5 w-1.5 rounded-full bg-[var(--color-mint)]" />
             {t("badge")}
           </span>

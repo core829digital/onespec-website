@@ -363,6 +363,10 @@ export function ShaderBackground({ className }: { className?: string }) {
     // evento che lo riporta visibile. Il primo paint quindi bypassa i gate;
     // solo il loop continuo dopo viene messo in pausa quando non visibile.
     let firstPaintDone = false;
+    // Resizing a canvas clears it: the very next frame must be drawn (no 30fps skip),
+    // otherwise a blank frame is composited and shows up as a flicker on phones,
+    // where the URL bar resizes the viewport while scrolling.
+    let forceDraw = false;
     const start = performance.now();
     const timeAnimated = Math.abs(UNIFORMS.timeScale) > 0.0001;
 
@@ -378,6 +382,7 @@ export function ShaderBackground({ className }: { className?: string }) {
         canvas.width = width;
         canvas.height = height;
         gl.viewport(0, 0, width, height);
+        forceDraw = true;
       }
     };
 
@@ -434,7 +439,10 @@ export function ShaderBackground({ className }: { className?: string }) {
     if (UNIFORMS.cursorEnabled) {
       window.addEventListener("pointermove", onPointerMove, { passive: true });
       window.addEventListener("pointercancel", onPointerLeave);
-      window.addEventListener("scroll", updateLayout, true);
+      // Touch devices have no hover cursor: no per-scroll layout work there.
+      if (!window.matchMedia("(pointer: coarse)").matches) {
+        window.addEventListener("scroll", updateLayout, true);
+      }
       window.addEventListener("blur", onPointerLeave);
       document.documentElement.addEventListener("pointerleave", onPointerLeave);
     }
@@ -465,10 +473,11 @@ export function ShaderBackground({ className }: { className?: string }) {
     const render = (now: number) => {
       raf = 0;
       if (disposed || (firstPaintDone && (!visible || !inView))) return;
-      if (firstPaintDone && now - lastDraw < 32) {
+      if (firstPaintDone && !forceDraw && now - lastDraw < 32) {
         requestRender();
         return;
       }
+      forceDraw = false;
       lastDraw = now;
       const dt = lastNow === null ? 0 : Math.min((now - lastNow) / 1000, 0.1);
       lastNow = now;

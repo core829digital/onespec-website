@@ -23,10 +23,8 @@ export function SupportTicket({
       <div className={styles.header}>{plan}</div>
 
       <div className={styles.body}>
-        <p className="font-semibold text-[13px]" style={{ color }}>
-          {level}
-        </p>
-        <p className="mt-1.5">{description}</p>
+        <p className={styles.level}>{level}</p>
+        <p className={styles.description}>{description}</p>
       </div>
 
       <div className={styles.footer}>

@@ -6,7 +6,7 @@ import { PLATFORM_URL } from "@/lib/site-config";
 
 const DEMO_ORIGIN = PLATFORM_URL;
 const MIN_HEIGHT = 640;
-const MAX_HEIGHT = 6000;
+const MAX_HEIGHT = 12000;
 
 type Kind = "widget" | "showroom";
 

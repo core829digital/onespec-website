@@ -3,8 +3,9 @@
 import { useEffect, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { PLATFORM_URL } from "@/lib/site-config";
+import { getLenis } from "@/lib/lenis-instance";
 
-const DEMO_ORIGIN = PLATFORM_URL;
+const DEMO_ORIGIN = process.env.NEXT_PUBLIC_DEMO_ORIGIN ?? PLATFORM_URL;
 const MIN_HEIGHT = 640;
 const MAX_HEIGHT = 12000;
 
@@ -34,7 +35,16 @@ export function DemoConfigurators() {
   useEffect(() => {
     function onMessage(e: MessageEvent) {
       if (e.origin !== DEMO_ORIGIN) return;
-      const d = e.data as { type?: unknown; publicId?: unknown; height?: unknown } | null;
+      const d = e.data as { type?: unknown; publicId?: unknown; height?: unknown; deltaY?: unknown } | null;
+      // Wheel over a demo frame: keep the page's smooth scroll going.
+      if (d && d.type === "onespec:wheel" && typeof d.deltaY === "number" && Number.isFinite(d.deltaY)) {
+        if (d.publicId !== "DEMO000000" && d.publicId !== "DEMOSHOWROOM") return;
+        const dy = Math.max(-2000, Math.min(2000, d.deltaY));
+        const lenis = getLenis();
+        if (lenis) lenis.scrollTo(lenis.targetScroll + dy, { lerp: 0.09 });
+        else window.scrollBy({ top: dy });
+        return;
+      }
       if (!d || d.type !== "onespec:resize" || typeof d.height !== "number" || !Number.isFinite(d.height)) return;
       const kind: Kind | null = d.publicId === "DEMO000000" ? "widget" : d.publicId === "DEMOSHOWROOM" ? "showroom" : null;
       if (!kind) return;

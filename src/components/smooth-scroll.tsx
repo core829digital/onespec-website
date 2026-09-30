@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import Lenis from "lenis";
+import { setLenis } from "@/lib/lenis-instance";
 
 /**
  * Single owner of the smooth scroll for the whole site (never create a second
@@ -9,8 +10,8 @@ import Lenis from "lenis";
  *
  * - Wheel input is eased; touch keeps the native (already smooth) scroll.
  * - Skipped with "reduce motion".
- * - The embedded demos are iframes: the mouse wheel over them never reaches this
- *   page, it chains to the page's native scroll, which Lenis follows.
+ * - The embedded demos are iframes: they forward the wheel to this page
+ *   (see DemoConfigurators), which feeds it to this same instance.
  * - Plain `#anchor` links scroll smoothly through Lenis.
  */
 export function SmoothScroll() {
@@ -25,7 +26,11 @@ export function SmoothScroll() {
       anchors: true,
       autoRaf: true,
     });
-    return () => lenis.destroy();
+    setLenis(lenis);
+    return () => {
+      setLenis(null);
+      lenis.destroy();
+    };
   }, []);
 
   return null;

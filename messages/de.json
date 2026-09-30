@@ -51,7 +51,7 @@
     "configurator": {
       "kicker": "Interaktive Demo",
       "title": "Das ist der Konfigurator. Probieren Sie ihn jetzt aus.",
-      "subtitle": "Das ist kein Screenshot: Es ist genau das Widget, das Ihr Kunde erhält, hier in einem iFrame geladen. Ändern Sie Material, Maße und Ausführungen und sehen Sie, wie sich das Angebot aktualisiert."
+      "subtitle": "Eine Demo-Vorschau des Konfigurators, hier in einem iFrame geladen. Ändern Sie Material, Maße und Oberflächen und sehen Sie, wie sich das Angebot aktualisiert. Auf Ihrer Website nutzt er Ihre Preisliste und Ihre Marke."
     },
     "valueProp": {
       "title": "Jeden Tag verlieren Sie Zeit mit Anfragen, die zu nichts führen",
@@ -327,19 +327,33 @@
   ],
   "changelog": [
     {
-      "version": "1.2.0",
+      "version": "1.6.0",
       "date": "2026-09-30",
-      "title": "Direkte Registrierung und Zahlungen",
+      "title": "Sicherere Zahlungen und Zugänge",
       "tag": "Nuovo",
       "channel": "prodotto",
       "items": [
-        "Registrieren, Tarif wählen und mit Stripe bezahlen: die Plattform wird sofort aktiviert",
-        "Kündigung und Tarifwechsel (Upgrade und Downgrade) auf der Seite Abonnement",
-        "14 Tage kostenlos testen im Tarif Pro"
+        "Direkte Registrierung: Tarif wählen und vor dem Zugang mit Stripe bezahlen",
+        "Kündigung in der Testphase beendet den Zugang sofort; nur eine kostenlose Testphase pro Karte",
+        "Nach Ende des Abonnements sperrt die Plattform und wird durch erneutes Abonnieren wieder freigeschaltet",
+        "Automatische Prüfung des Abonnementstatus mit Stripe"
       ]
     },
     {
-      "version": "1.1.0",
+      "version": "1.5.0",
+      "date": "2026-09-30",
+      "title": "Fehler, Daten und Texte abgeglichen",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Fehler- und «Nicht gefunden»-Seiten in sechs Sprachen",
+        "Strengere Prüfungen der eingegebenen Daten und hochgeladenen Dateien",
+        "Enterprise ohne Anfragelimit",
+        "Tarife und Funktionen werden nur beschrieben, wenn sie wirklich verfügbar sind"
+      ]
+    },
+    {
+      "version": "1.4.0",
       "date": "2026-09-29",
       "title": "Tarife Level 1, 2 und 3",
       "tag": "Nuovo",
@@ -351,7 +365,7 @@
       ]
     },
     {
-      "version": "1.0.0",
+      "version": "1.3.0",
       "date": "2026-09-29",
       "title": "Sechs Sprachen, sechs Märkte",
       "tag": "Miglioramento",
@@ -360,6 +374,43 @@
         "Italienisch, Englisch, Französisch, Deutsch, Niederländisch und Rumänisch",
         "MwSt., Normen und Förderungen korrekt für Italien, Frankreich, Belgien, die Niederlande, Deutschland und Luxemburg",
         "E-Mails, PDFs und öffentliche Seiten in der Sprache des Kunden"
+      ]
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-09-29",
+      "title": "Start-Audit",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Sicherheitsprüfungen und Limits für Tausende von Nutzern",
+        "Kontolöschung auf Wunsch, wie von der DSGVO vorgesehen",
+        "Schutz vor Spam und Missbrauch beim öffentlichen Widget"
+      ]
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-09-28",
+      "title": "Logistik und geführter Konfigurator",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Logistikmodul: Lieferanten, Spediteure, Lieferungen, Kalender und Lager",
+        "Geführter Ablauf zum Anlegen des ersten Konfigurators",
+        "Einrichtungsassistent immer zur Hand"
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-09-26",
+      "title": "Editor, Berechtigungen und Abonnements",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Kündigung und Tarifwechsel mit anteiliger Berechnung",
+        "Berechtigungen nach Rolle und Tarif",
+        "Live-Vorschau und automatisches Speichern im Konfigurator-Editor",
+        "Bot-Schutz bei der Registrierung und am Widget"
       ]
     }
   ],
@@ -415,7 +466,7 @@
     "configurator": {
       "kicker": "Interaktive Demo",
       "title": "Probieren Sie ihn so aus wie Ihr Kunde",
-      "subtitle": "Das Widget unten ist in einem iFrame geladen, genau wie es auf Ihrer Website erscheinen würde. Konfigurieren Sie ein Fenster und sehen Sie, wie sich das Angebot in Echtzeit berechnet."
+      "subtitle": "Eine Demo-Vorschau des Konfigurators, hier in einem iFrame geladen. Ändern Sie Material, Maße und Oberflächen und sehen Sie, wie sich das Angebot aktualisiert. Auf Ihrer Website nutzt er Ihre Preisliste und Ihre Marke."
     },
     "blocks": [
       {

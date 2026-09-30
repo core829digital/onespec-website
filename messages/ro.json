@@ -51,7 +51,7 @@
     "configurator": {
       "kicker": "Demo interactiv",
       "title": "Acesta este configuratorul. Incearca-l acum.",
-      "subtitle": "Nu e o captura de ecran: e exact widget-ul pe care il primeste clientul tau, incarcat aici intr-un iFrame. Schimba materialul, dimensiunile si finisajele si vezi oferta actualizandu-se."
+      "subtitle": "O previzualizare demonstrativă a configuratorului, încărcată aici într-un iFrame. Schimbă materialul, dimensiunile și finisajele și urmărește cum se actualizează oferta. Pe site-ul tău folosește lista ta de prețuri și marca ta."
     },
     "valueProp": {
       "title": "In fiecare zi pierzi timp cu solicitari care nu duc nicaieri",
@@ -327,19 +327,33 @@
   ],
   "changelog": [
     {
-      "version": "1.2.0",
+      "version": "1.6.0",
       "date": "2026-09-30",
-      "title": "Înregistrare directă și plăți",
+      "title": "Plăți și acces mai sigure",
       "tag": "Nuovo",
       "channel": "prodotto",
       "items": [
-        "Înregistrează-te, alege planul și plătește prin Stripe: platforma se activează imediat",
-        "Anulare și schimbare de plan (upgrade și downgrade) din pagina Abonament",
-        "Probă gratuită de 14 zile pe planul Pro"
+        "Înregistrare directă: alegi planul și plătești prin Stripe înainte de a intra",
+        "Anularea în perioada de probă oprește accesul imediat; o singură probă gratuită per card",
+        "La sfârșitul abonamentului platforma se blochează și se reactivează prin reabonare",
+        "Verificare automată a stării abonamentelor cu Stripe"
       ]
     },
     {
-      "version": "1.1.0",
+      "version": "1.5.0",
+      "date": "2026-09-30",
+      "title": "Erori, date și texte aliniate",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Pagini de eroare și «negăsit» în șase limbi",
+        "Verificări mai stricte ale datelor introduse și ale fișierelor încărcate",
+        "Enterprise fără limită de solicitări",
+        "Planuri și funcții descrise doar pentru ceea ce este cu adevărat disponibil"
+      ]
+    },
+    {
+      "version": "1.4.0",
       "date": "2026-09-29",
       "title": "Planurile Level 1, 2 și 3",
       "tag": "Nuovo",
@@ -351,7 +365,7 @@
       ]
     },
     {
-      "version": "1.0.0",
+      "version": "1.3.0",
       "date": "2026-09-29",
       "title": "Șase limbi, șase piețe",
       "tag": "Miglioramento",
@@ -360,6 +374,43 @@
         "Italiană, engleză, franceză, germană, olandeză și română",
         "TVA, norme și stimulente corecte pentru Italia, Franța, Belgia, Țările de Jos, Germania și Luxemburg",
         "E-mailuri, PDF-uri și pagini publice în limba clientului"
+      ]
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-09-29",
+      "title": "Audit de lansare",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Verificări de securitate și limite gândite pentru mii de utilizatori",
+        "Ștergerea contului la cerere, conform GDPR",
+        "Protecție împotriva spamului și abuzurilor pe widgetul public"
+      ]
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-09-28",
+      "title": "Logistică și configurator ghidat",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Modul de logistică: furnizori, transportatori, livrări, calendar și stoc",
+        "Procedură ghidată pentru crearea primului configurator",
+        "Ghid de configurare mereu la îndemână"
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-09-26",
+      "title": "Editor, permisiuni și abonamente",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Anulare și schimbare de plan cu calcul proporțional",
+        "Permisiuni pe rol și pe plan",
+        "Previzualizare live și salvare automată în editorul configuratorului",
+        "Protecție anti-bot la înregistrare și pe widget"
       ]
     }
   ],
@@ -415,7 +466,7 @@
     "configurator": {
       "kicker": "Demo interactiv",
       "title": "Incearca-l asa cum o face clientul tau",
-      "subtitle": "Widget-ul de mai jos este incarcat intr-un iFrame, exact cum ar aparea pe site-ul tau. Configureaza o tamplarie si vezi oferta calculandu-se in timp real."
+      "subtitle": "O previzualizare demonstrativă a configuratorului, încărcată aici într-un iFrame. Schimbă materialul, dimensiunile și finisajele și urmărește cum se actualizează oferta. Pe site-ul tău folosește lista ta de prețuri și marca ta."
     },
     "blocks": [
       {

@@ -350,6 +350,8 @@ export function ShaderBackground({ className }: { className?: string }) {
     let bounds = canvas.getBoundingClientRect();
     let raf = 0;
     let lastNow: number | null = null;
+    // Sfondo sfumato: 30 fps bastano e dimezzano il lavoro della GPU, lasciando fluido lo scroll.
+    let lastDraw = 0;
     let visible = document.visibilityState === "visible";
     let inView = true;
     let disposed = false;
@@ -365,7 +367,8 @@ export function ShaderBackground({ className }: { className?: string }) {
     const timeAnimated = Math.abs(UNIFORMS.timeScale) > 0.0001;
 
     const resizeCanvas = () => {
-      const dpr = Math.min(window.devicePixelRatio || 1, 2);
+      // Gradiente sfocato: non serve la risoluzione piena dei display retina.
+      const dpr = Math.min(window.devicePixelRatio || 1, 1.25);
       const rawWidth = Math.max(1, Math.round(bounds.width * dpr));
       const rawHeight = Math.max(1, Math.round(bounds.height * dpr));
       const pixelScale = Math.min(1, Math.sqrt(2_000_000 / Math.max(1, rawWidth * rawHeight)));
@@ -462,6 +465,11 @@ export function ShaderBackground({ className }: { className?: string }) {
     const render = (now: number) => {
       raf = 0;
       if (disposed || (firstPaintDone && (!visible || !inView))) return;
+      if (firstPaintDone && now - lastDraw < 32) {
+        requestRender();
+        return;
+      }
+      lastDraw = now;
       const dt = lastNow === null ? 0 : Math.min((now - lastNow) / 1000, 0.1);
       lastNow = now;
       const follow = 1 - Math.exp(-12 * dt);

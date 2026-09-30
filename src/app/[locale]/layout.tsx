@@ -6,11 +6,11 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
-import { SmoothScroll } from "@/components/smooth-scroll";
 import { ThemeScript } from "@/components/theme-script";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { MotionConfig } from "framer-motion";
 import { routing } from "@/i18n/routing";
+import { SITE_URL } from "@/lib/site-config";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,8 +34,18 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "meta" });
   return {
+    metadataBase: new URL(SITE_URL),
     title: t("title"),
     description: t("description"),
+    openGraph: {
+      type: "website",
+      siteName: "onespec",
+      title: t("title"),
+      description: t("description"),
+      locale,
+      images: [{ url: "/onespec-logo.png" }],
+    },
+    twitter: { card: "summary_large_image", title: t("title"), description: t("description") },
   };
 }
 
@@ -60,7 +70,6 @@ export default async function LocaleLayout({
     >
       <body className="flex min-h-full flex-col bg-[var(--color-bg)] text-[var(--color-text)]">
         <ThemeScript />
-        <SmoothScroll />
         <NextIntlClientProvider>
           <MotionConfig reducedMotion="user">
             <Header />

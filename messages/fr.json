@@ -51,7 +51,7 @@
     "configurator": {
       "kicker": "Demo interactive",
       "title": "Voici le configurateur. Essayez-le maintenant.",
-      "subtitle": "Ce n'est pas une capture d'ecran : c'est le meme widget que recoit votre client, charge ici dans un iFrame. Changez materiau, dimensions et finitions et regardez le devis se mettre a jour."
+      "subtitle": "Un aperçu de démonstration du configurateur, chargé ici dans un iFrame. Changez matériau, dimensions et finitions et regardez le devis se mettre à jour. Sur votre site, il utilise vos tarifs et votre marque."
     },
     "valueProp": {
       "title": "Chaque jour, vous perdez du temps avec des demandes qui n'aboutissent a rien",
@@ -327,19 +327,33 @@
   ],
   "changelog": [
     {
-      "version": "1.2.0",
+      "version": "1.6.0",
       "date": "2026-09-30",
-      "title": "Inscription directe et paiements",
+      "title": "Paiements et accès plus sûrs",
       "tag": "Nuovo",
       "channel": "prodotto",
       "items": [
-        "Inscrivez-vous, choisissez un forfait et payez avec Stripe : la plateforme s'active immédiatement",
-        "Résiliation et changement de forfait (upgrade et downgrade) depuis la page Abonnement",
-        "Essai gratuit de 14 jours sur le forfait Pro"
+        "Inscription directe : choisissez un forfait et payez avec Stripe avant d'entrer",
+        "Résilier pendant l'essai coupe l'accès immédiatement ; un seul essai gratuit par carte",
+        "À la fin de l'abonnement la plateforme se verrouille et se réactive en vous réabonnant",
+        "Contrôle automatique de l'état des abonnements avec Stripe"
       ]
     },
     {
-      "version": "1.1.0",
+      "version": "1.5.0",
+      "date": "2026-09-30",
+      "title": "Erreurs, données et textes alignés",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Pages d'erreur et « introuvable » en six langues",
+        "Contrôles plus stricts sur les données saisies et les fichiers envoyés",
+        "Enterprise sans limite de demandes",
+        "Forfaits et fonctions décrits uniquement pour ce qui est réellement disponible"
+      ]
+    },
+    {
+      "version": "1.4.0",
       "date": "2026-09-29",
       "title": "Forfaits Level 1, 2 et 3",
       "tag": "Nuovo",
@@ -351,7 +365,7 @@
       ]
     },
     {
-      "version": "1.0.0",
+      "version": "1.3.0",
       "date": "2026-09-29",
       "title": "Six langues, six marchés",
       "tag": "Miglioramento",
@@ -360,6 +374,43 @@
         "Italien, anglais, français, allemand, néerlandais et roumain",
         "TVA, normes et aides corrects pour l'Italie, la France, la Belgique, les Pays-Bas, l'Allemagne et le Luxembourg",
         "E-mails, PDF et pages publiques dans la langue du client"
+      ]
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-09-29",
+      "title": "Audit de lancement",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Contrôles de sécurité et limites conçus pour des milliers d'utilisateurs",
+        "Suppression du compte sur demande, comme l'exige le RGPD",
+        "Protection contre le spam et les abus sur le widget public"
+      ]
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-09-28",
+      "title": "Logistique et configurateur guidé",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Module logistique : fournisseurs, transporteurs, livraisons, calendrier et stock",
+        "Procédure guidée pour créer votre premier configurateur",
+        "Guide de configuration toujours à portée de main"
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-09-26",
+      "title": "Éditeur, droits et abonnements",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Résiliation et changement de forfait avec calcul au prorata",
+        "Droits selon le rôle et le forfait",
+        "Aperçu en direct et enregistrement automatique dans l'éditeur du configurateur",
+        "Protection anti-bot à l'inscription et sur le widget"
       ]
     }
   ],
@@ -415,7 +466,7 @@
     "configurator": {
       "kicker": "Demo interactive",
       "title": "Essayez-le comme le fait votre client",
-      "subtitle": "Le widget ci-dessous est charge dans un iFrame, exactement comme il apparaitrait sur votre site. Configurez une menuiserie et regardez le devis se calculer en temps reel."
+      "subtitle": "Un aperçu de démonstration du configurateur, chargé ici dans un iFrame. Changez matériau, dimensions et finitions et regardez le devis se mettre à jour. Sur votre site, il utilise vos tarifs et votre marque."
     },
     "blocks": [
       {

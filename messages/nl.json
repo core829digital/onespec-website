@@ -51,7 +51,7 @@
     "configurator": {
       "kicker": "Interactieve demo",
       "title": "Dit is de configurator. Probeer hem nu.",
-      "subtitle": "Dit is geen screenshot: het is exact dezelfde widget die uw klant krijgt, hier geladen in een iFrame. Verander materiaal, afmetingen en afwerkingen en bekijk hoe de offerte wordt bijgewerkt."
+      "subtitle": "Een demovoorbeeld van de configurator, hier geladen in een iFrame. Wijzig materiaal, maten en afwerkingen en zie de offerte meebewegen. Op je site gebruikt hij jouw prijslijst en jouw merk."
     },
     "valueProp": {
       "title": "Elke dag verliest u tijd aan aanvragen die nergens toe leiden",
@@ -327,19 +327,33 @@
   ],
   "changelog": [
     {
-      "version": "1.2.0",
+      "version": "1.6.0",
       "date": "2026-09-30",
-      "title": "Direct registreren en betalen",
+      "title": "Veiligere betalingen en toegang",
       "tag": "Nuovo",
       "channel": "prodotto",
       "items": [
-        "Registreer, kies een abonnement en betaal met Stripe: het platform wordt direct geactiveerd",
-        "Opzeggen en van abonnement wisselen (upgrade en downgrade) via de pagina Abonnement",
-        "14 dagen gratis proberen bij het abonnement Pro"
+        "Direct registreren: kies een abonnement en betaal met Stripe voordat je binnenkomt",
+        "Opzeggen tijdens de proefperiode stopt de toegang direct; één gratis proefperiode per kaart",
+        "Na afloop van het abonnement vergrendelt het platform en ontgrendelt het weer bij opnieuw abonneren",
+        "Automatische controle van de abonnementsstatus met Stripe"
       ]
     },
     {
-      "version": "1.1.0",
+      "version": "1.5.0",
+      "date": "2026-09-30",
+      "title": "Fouten, gegevens en teksten op één lijn",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Foutpagina's en «niet gevonden»-pagina's in zes talen",
+        "Strengere controles op ingevoerde gegevens en geüploade bestanden",
+        "Enterprise zonder limiet op aanvragen",
+        "Abonnementen en functies alleen beschreven voor wat echt beschikbaar is"
+      ]
+    },
+    {
+      "version": "1.4.0",
       "date": "2026-09-29",
       "title": "Abonnementen Level 1, 2 en 3",
       "tag": "Nuovo",
@@ -351,7 +365,7 @@
       ]
     },
     {
-      "version": "1.0.0",
+      "version": "1.3.0",
       "date": "2026-09-29",
       "title": "Zes talen, zes markten",
       "tag": "Miglioramento",
@@ -360,6 +374,43 @@
         "Italiaans, Engels, Frans, Duits, Nederlands en Roemeens",
         "Btw, normen en premies correct voor Italië, Frankrijk, België, Nederland, Duitsland en Luxemburg",
         "E-mails, pdf's en openbare pagina's in de taal van de klant"
+      ]
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-09-29",
+      "title": "Lanceringsaudit",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Beveiligingscontroles en limieten ontworpen voor duizenden gebruikers",
+        "Accountverwijdering op verzoek, zoals de AVG voorschrijft",
+        "Bescherming tegen spam en misbruik op de openbare widget"
+      ]
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-09-28",
+      "title": "Logistiek en begeleide configurator",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Logistiekmodule: leveranciers, vervoerders, leveringen, agenda en voorraad",
+        "Begeleide procedure om je eerste configurator te maken",
+        "Installatiegids altijd binnen handbereik"
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-09-26",
+      "title": "Editor, rechten en abonnementen",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Opzeggen en van abonnement wisselen met pro-rata berekening",
+        "Rechten per rol en per abonnement",
+        "Live voorbeeld en automatisch opslaan in de configuratoreditor",
+        "Botbescherming bij registratie en op de widget"
       ]
     }
   ],
@@ -415,7 +466,7 @@
     "configurator": {
       "kicker": "Interactieve demo",
       "title": "Probeer hem zoals uw klant dat doet",
-      "subtitle": "De widget hieronder is geladen in een iFrame, precies zoals hij op uw site zou verschijnen. Configureer een kozijn en bekijk hoe de offerte in realtime wordt berekend."
+      "subtitle": "Een demovoorbeeld van de configurator, hier geladen in een iFrame. Wijzig materiaal, maten en afwerkingen en zie de offerte meebewegen. Op je site gebruikt hij jouw prijslijst en jouw merk."
     },
     "blocks": [
       {

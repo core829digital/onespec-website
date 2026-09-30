@@ -51,7 +51,7 @@
     "configurator": {
       "kicker": "Interactive demo",
       "title": "This is the configurator. Try it now.",
-      "subtitle": "This isn't a screenshot: it's the exact widget your customers get, loaded here inside an iFrame. Change material, sizes and finishes and watch the quote update."
+      "subtitle": "A demo preview of the configurator, loaded here inside an iFrame. Change material, sizes and finishes and watch the quote update. On your site it uses your price list and your brand."
     },
     "valueProp": {
       "title": "Every day you lose time on requests that go nowhere",
@@ -327,19 +327,33 @@
   ],
   "changelog": [
     {
-      "version": "1.2.0",
+      "version": "1.6.0",
       "date": "2026-09-30",
-      "title": "Direct sign-up and payments",
+      "title": "Safer payments and access",
       "tag": "Nuovo",
       "channel": "prodotto",
       "items": [
-        "Sign up, pick a plan and pay with Stripe: the platform activates right away",
-        "Cancel and change plan (upgrade and downgrade) from the Subscription page",
-        "14-day free trial on the Pro plan"
+        "Direct sign-up: pick a plan and pay with Stripe before entering",
+        "Cancelling during the trial stops access immediately; one free trial per card",
+        "When a subscription ends the platform locks, and reactivates when you subscribe again",
+        "Automatic check of subscription status with Stripe"
       ]
     },
     {
-      "version": "1.1.0",
+      "version": "1.5.0",
+      "date": "2026-09-30",
+      "title": "Errors, data and copy aligned",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Error and «not found» pages in six languages",
+        "Stricter checks on submitted data and uploaded files",
+        "Enterprise with no request limit",
+        "Plans and features described only for what is really available"
+      ]
+    },
+    {
+      "version": "1.4.0",
       "date": "2026-09-29",
       "title": "Level 1, 2 and 3 plans",
       "tag": "Nuovo",
@@ -351,7 +365,7 @@
       ]
     },
     {
-      "version": "1.0.0",
+      "version": "1.3.0",
       "date": "2026-09-29",
       "title": "Six languages, six markets",
       "tag": "Miglioramento",
@@ -360,6 +374,43 @@
         "Italian, English, French, German, Dutch and Romanian",
         "VAT, rules and incentives correct for Italy, France, Belgium, the Netherlands, Germany and Luxembourg",
         "Emails, PDFs and public pages in your customer's language"
+      ]
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-09-29",
+      "title": "Launch audit",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Security checks and limits designed for thousands of users",
+        "Account deletion on request, as required by the GDPR",
+        "Protection against spam and abuse on the public widget"
+      ]
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-09-28",
+      "title": "Logistics and guided configurator",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Logistics module: suppliers, carriers, deliveries, calendar and stock",
+        "Guided procedure to create your first configurator",
+        "Setup guide always at hand"
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-09-26",
+      "title": "Editor, permissions and subscriptions",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Cancellation and plan change with prorated calculation",
+        "Permissions by role and by plan",
+        "Live preview and auto-save in the configurator editor",
+        "Anti-bot protection on sign-up and the widget"
       ]
     }
   ],
@@ -415,7 +466,7 @@
     "configurator": {
       "kicker": "Interactive demo",
       "title": "Try it the way your customer does",
-      "subtitle": "The widget below is loaded in an iFrame, exactly as it would appear on your site. Configure a window and watch the quote calculate in real time."
+      "subtitle": "A demo preview of the configurator, loaded here inside an iFrame. Change material, sizes and finishes and watch the quote update. On your site it uses your price list and your brand."
     },
     "blocks": [
       {

@@ -1,24 +1,32 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useSyncExternalStore } from "react";
 import { useTranslations } from "next-intl";
 import { Moon, Sun } from "@phosphor-icons/react/dist/ssr";
 
 const STORAGE_KEY = "onespec-theme";
 
+const THEME_EVENT = "onespec:theme";
+
+function subscribe(cb: () => void) {
+  window.addEventListener(THEME_EVENT, cb);
+  return () => window.removeEventListener(THEME_EVENT, cb);
+}
+
 export function ThemeToggle() {
   const t = useTranslations("theme");
-  const [isLight, setIsLight] = useState(false);
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-    setIsLight(document.documentElement.getAttribute("data-theme") === "light");
-  }, []);
+  // Legge il tema direttamente dal documento (impostato dallo script iniziale):
+  // sul server resta "non pronto", cosi' il pulsante compare solo dopo l'idratazione.
+  const theme = useSyncExternalStore(
+    subscribe,
+    () => (document.documentElement.getAttribute("data-theme") === "light" ? "light" : "dark"),
+    () => null,
+  );
+  const mounted = theme !== null;
+  const isLight = theme === "light";
 
   function toggle() {
     const next = !isLight;
-    setIsLight(next);
     if (next) {
       document.documentElement.setAttribute("data-theme", "light");
       localStorage.setItem(STORAGE_KEY, "light");
@@ -26,6 +34,7 @@ export function ThemeToggle() {
       document.documentElement.removeAttribute("data-theme");
       localStorage.setItem(STORAGE_KEY, "dark");
     }
+    window.dispatchEvent(new Event(THEME_EVENT));
   }
 
   if (!mounted) return null;

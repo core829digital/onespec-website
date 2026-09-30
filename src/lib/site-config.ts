@@ -5,6 +5,9 @@
  * stessi array per posizione o per id.
  */
 
+/** Indirizzo pubblico del sito (sitemap, metadati, link canonici). */
+export const SITE_URL = "https://onespec.eu";
+
 export const SITE = {
   name: "onespec",
   email: "hello@onespec.eu",
@@ -100,7 +103,11 @@ export type ChangelogMeta = {
  * sono identici in ogni lingua, solo titolo e items cambiano).
  */
 export const CHANGELOG_META: ChangelogMeta[] = [
-  { version: "1.2.0", date: "2026-09-30", tag: "Nuovo", channel: "prodotto" },
-  { version: "1.1.0", date: "2026-09-29", tag: "Nuovo", channel: "prodotto" },
-  { version: "1.0.0", date: "2026-09-29", tag: "Miglioramento", channel: "prodotto" },
+  { version: "1.6.0", date: "2026-09-30", tag: "Nuovo", channel: "prodotto" },
+  { version: "1.5.0", date: "2026-09-30", tag: "Miglioramento", channel: "prodotto" },
+  { version: "1.4.0", date: "2026-09-29", tag: "Nuovo", channel: "prodotto" },
+  { version: "1.3.0", date: "2026-09-29", tag: "Miglioramento", channel: "prodotto" },
+  { version: "1.2.0", date: "2026-09-29", tag: "Miglioramento", channel: "prodotto" },
+  { version: "1.1.0", date: "2026-09-28", tag: "Nuovo", channel: "prodotto" },
+  { version: "1.0.0", date: "2026-09-26", tag: "Nuovo", channel: "prodotto" },
 ];

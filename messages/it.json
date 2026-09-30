@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "onespec — Il configuratore di infissi per il tuo sito",
-    "description": "onespec e il widget di configurazione infissi integrabile via iframe: preventivi automatici, prezzi sempre aggiornati, brandizzabile per la tua azienda.",
+    "description": "onespec è il widget di configurazione infissi integrabile via iframe: preventivi automatici, prezzi sempre aggiornati, brandizzabile per la tua azienda.",
     "prezziTitle": "Prezzi",
     "prodottoTitle": "Prodotto",
     "versioniTitle": "Versioni"
@@ -33,8 +33,8 @@
     "documenti": "Tutti i documenti legali"
   },
   "theme": {
-    "toDark": "Passa alla modalita scura",
-    "toLight": "Passa alla modalita chiara"
+    "toDark": "Passa alla modalità scura",
+    "toLight": "Passa alla modalità chiara"
   },
   "languageSwitcher": {
     "label": "Lingua"
@@ -50,12 +50,12 @@
   "home": {
     "configurator": {
       "kicker": "Demo interattiva",
-      "title": "Questo e il configuratore. Provalo adesso.",
-      "subtitle": "Non e uno screenshot: e lo stesso widget che riceve il tuo cliente, caricato qui dentro un iFrame. Cambia materiale, misure e finiture e guarda il preventivo aggiornarsi."
+      "title": "Questo è il configuratore. Provalo adesso.",
+      "subtitle": "Un'anteprima dimostrativa del configuratore, caricata qui dentro un iFrame. Cambia materiale, misure e finiture e guarda il preventivo aggiornarsi. Sul tuo sito usa il tuo listino e il tuo marchio."
     },
     "valueProp": {
       "title": "Ogni giorno perdi tempo con richieste che non portano a niente",
-      "body": "Telefonate per curiosita, sopralluoghi inutili, concorrenti travestiti da clienti che vogliono solo il tuo prezzo per fare dumping. onespec mette un configuratore tra te e queste richieste: chi arriva a te ha gia capito prodotto e budget."
+      "body": "Telefonate per curiosita, sopralluoghi inutili, concorrenti travestiti da clienti che vogliono solo il tuo prezzo per fare dumping. onespec mette un configuratore tra te e queste richieste: chi arriva a te ha già capito prodotto e budget."
     },
     "features": {
       "title": "Tutto quello che serve, niente di superfluo",
@@ -63,7 +63,7 @@
         {
           "icon": "code",
           "title": "Un iFrame, e sei live",
-          "description": "Incolli un codice sul tuo sito e il configuratore appare, gia funzionante. Nessuno sviluppo, nessuna manutenzione tecnica."
+          "description": "Incolli un codice sul tuo sito e il configuratore appare, già funzionante. Nessuno sviluppo, nessuna manutenzione tecnica."
         },
         {
           "icon": "palette",
@@ -77,18 +77,18 @@
         },
         {
           "icon": "shield",
-          "title": "Filtra chi non e cliente vero",
+          "title": "Filtra chi non è cliente vero",
           "description": "Basta perdere tempo con chi vuole solo confrontare il prezzo per fare dumping. Il configuratore qualifica la richiesta prima che arrivi a te."
         },
         {
           "icon": "chart",
-          "title": "Prezzi vicini alla realta",
-          "description": "Regole di prezzo configurabili per materiali, misure e finiture: il preventivo che il cliente vede e quasi quello finale."
+          "title": "Prezzi vicini alla realtà",
+          "description": "Regole di prezzo configurabili per materiali, misure e finiture: il preventivo che il cliente vede è quasi quello finale."
         },
         {
           "icon": "lightning",
           "title": "Aggiornamenti instantanei",
-          "description": "Modifichi il configuratore dalla piattaforma onespec: le modifiche sono live su tutti i siti dove e installato, subito."
+          "description": "Modifichi il configuratore dalla piattaforma onespec: le modifiche sono live su tutti i siti dove è installato, subito."
         }
       ]
     },
@@ -117,14 +117,14 @@
         {
           "n": "04",
           "title": "Ricevi preventivi qualificati",
-          "description": "Ogni richiesta arriva gia con misure, materiali e budget indicativo del cliente."
+          "description": "Ogni richiesta arriva già con misure, materiali e budget indicativo del cliente."
         }
       ]
     },
     "pricing": {
       "title": "Paghi in base a quanto il configuratore lavora per te",
       "subtitle": "Sette piani, dal preventivatore sul tuo sito alla piattaforma completa. Registrati, scegli il piano e paga in pochi minuti.",
-      "piuScelto": "Piu scelto",
+      "piuScelto": "Più scelto",
       "compareLink": "Confronta tutti i piani in dettaglio",
       "perMonth": "/mese + IVA"
     },
@@ -136,25 +136,25 @@
   },
   "iframeExplainer": {
     "kicker": "In parole semplici",
-    "title": "Cos'e un codice iFrame?",
-    "subtitle": "E la parte tecnica di onespec, ed e anche l'unica. Non serve un programmatore e non si tocca nulla del sito esistente.",
+    "title": "Cos'è un codice iFrame?",
+    "subtitle": "È la parte tecnica di onespec, ed è anche l'unica. Non serve un programmatore e non si tocca nulla del sito esistente.",
     "points": [
       {
-        "title": "E una finestra dentro il tuo sito",
+        "title": "È una finestra dentro il tuo sito",
         "body": "L'iFrame mostra una pagina esterna dentro una tua pagina. Il visitatore vede il configuratore come se fosse parte del tuo sito: non cambia pagina, non esce da te."
       },
       {
         "title": "Si incolla una volta sola",
-        "body": "Copi il codice e lo incolli dove vuoi che appaia il configuratore. Funziona con WordPress, Shopify, Wix, Webflow o un sito fatto a mano: e HTML standard."
+        "body": "Copi il codice e lo incolli dove vuoi che appaia il configuratore. Funziona con WordPress, Shopify, Wix, Webflow o un sito fatto a mano: è HTML standard."
       },
       {
         "title": "Si aggiorna da solo",
-        "body": "Il contenuto vive sui nostri server. Quando modifichi listino o colori dalla piattaforma, il codice sul tuo sito resta identico e il configuratore e gia aggiornato."
+        "body": "Il contenuto vive sui nostri server. Quando modifichi listino o colori dalla piattaforma, il codice sul tuo sito resta identico e il configuratore è già aggiornato."
       }
     ],
     "copy": "Copia",
     "copied": "Copiato",
-    "footnote": "Una sola riga cambia tra un cliente e l'altro: <id>tuo-id</id>. Il resto e identico per tutti."
+    "footnote": "Una sola riga cambia tra un cliente e l'altro: <id>tuo-id</id>. Il resto è identico per tutti."
   },
   "dashboardMockup": {
     "ariaLabel": "Anteprima della dashboard onespec: indicatori richieste preventivo, andamento mensile e ultime richieste ricevute",
@@ -327,19 +327,33 @@
   ],
   "changelog": [
     {
-      "version": "1.2.0",
+      "version": "1.6.0",
       "date": "2026-09-30",
-      "title": "Registrazione diretta e pagamenti",
+      "title": "Pagamenti e accessi più sicuri",
       "tag": "Nuovo",
       "channel": "prodotto",
       "items": [
-        "Registrati, scegli il piano e paga con Stripe: la piattaforma si attiva subito",
-        "Disdetta e cambio piano (upgrade e downgrade) dalla pagina Abbonamento",
-        "Prova gratuita di 14 giorni sul piano Pro"
+        "Registrazione diretta: scegli il piano e paga con Stripe prima di entrare",
+        "Disdetta in prova = stop immediato; una sola prova gratuita per carta",
+        "Alla fine dell'abbonamento la piattaforma si blocca e si riattiva riabbonandosi",
+        "Controllo automatico dello stato degli abbonamenti con Stripe"
       ]
     },
     {
-      "version": "1.1.0",
+      "version": "1.5.0",
+      "date": "2026-09-30",
+      "title": "Errori, dati e testi allineati",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Pagine d'errore e «non trovato» in sei lingue",
+        "Controlli più severi sui dati inseriti e sui file caricati",
+        "Enterprise senza limite di richieste",
+        "Piani e funzioni descritti solo per ciò che è davvero disponibile"
+      ]
+    },
+    {
+      "version": "1.4.0",
       "date": "2026-09-29",
       "title": "Piani Level 1, 2 e 3",
       "tag": "Nuovo",
@@ -351,7 +365,7 @@
       ]
     },
     {
-      "version": "1.0.0",
+      "version": "1.3.0",
       "date": "2026-09-29",
       "title": "Sei lingue e sei mercati",
       "tag": "Miglioramento",
@@ -361,12 +375,49 @@
         "IVA, norme e incentivi corretti per Italia, Francia, Belgio, Paesi Bassi, Germania e Lussemburgo",
         "Email, PDF e pagine pubbliche nella lingua del cliente"
       ]
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-09-29",
+      "title": "Audit di lancio",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Verifiche di sicurezza e limiti pensati per migliaia di utenti",
+        "Cancellazione dell'account su richiesta, come previsto dal GDPR",
+        "Protezioni contro spam e abusi sul widget pubblico"
+      ]
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-09-28",
+      "title": "Logistica e configuratore guidato",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Modulo logistica: fornitori, corrieri, consegne, calendario e magazzino",
+        "Procedura guidata per creare il primo configuratore",
+        "Guida di configurazione sempre a portata di mano"
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-09-26",
+      "title": "Editor, permessi e abbonamenti",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Disdetta e cambio piano con calcolo proporzionale",
+        "Permessi per ruolo e per piano",
+        "Anteprima dal vivo e salvataggio automatico nell'editor del configuratore",
+        "Protezione anti-bot su registrazione e widget"
+      ]
     }
   ],
   "prezzi": {
     "hero": {
       "title": "Prezzi semplici, in base a quanto usi il configuratore",
-      "subtitle": "Piu richieste di preventivo genera il tuo configuratore, piu valore ti porta. Scegli il piano in base al volume e a quanto vuoi brandizzarlo."
+      "subtitle": "Più richieste di preventivo genera il tuo configuratore, più valore ti porta. Scegli il piano in base al volume e a quanto vuoi brandizzarlo."
     },
     "priceNote": "/mese",
     "taxNote": "+ IVA",
@@ -379,7 +430,7 @@
       "body": "Su richiesta realizziamo anche configuratori standalone, sviluppati apposta per il tuo sito e senza dipendenza dalla piattaforma onespec. <link>Scrivici</link> per una valutazione.",
       "linkLabel": "Scrivici"
     },
-    "piuScelto": "Piu scelto",
+    "piuScelto": "Più scelto",
     "cancelNote": "Registrazione diretta, pagamento sicuro con Stripe, disdici quando vuoi.",
     "annualNote": "oppure {price}/anno: 2 mesi in omaggio",
     "trialBadge": "Prova gratis 14 giorni",
@@ -415,7 +466,7 @@
     "configurator": {
       "kicker": "Demo interattiva",
       "title": "Provalo come lo prova il tuo cliente",
-      "subtitle": "Il widget qui sotto e caricato in un iFrame, esattamente come apparirebbe sul tuo sito. Configura un serramento e guarda il preventivo calcolarsi in tempo reale."
+      "subtitle": "Un'anteprima dimostrativa del configuratore, caricata qui dentro un iFrame. Cambia materiale, misure e finiture e guarda il preventivo aggiornarsi. Sul tuo sito usa il tuo listino e il tuo marchio."
     },
     "blocks": [
       {
@@ -427,29 +478,29 @@
       {
         "icon": "palette",
         "title": "2. Brandizzi il widget",
-        "description": "Dalla piattaforma scegli colori, font, logo e testi del configuratore. Il risultato e un widget che sembra costruito su misura per il tuo sito, non un plugin esterno.",
+        "description": "Dalla piattaforma scegli colori, font, logo e testi del configuratore. Il risultato è un widget che sembra costruito su misura per il tuo sito, non un plugin esterno.",
         "visual": "colorPicker"
       },
       {
         "icon": "code",
         "title": "3. Incolli il codice iFrame",
-        "description": "Un unico snippet da incollare nella pagina del tuo sito. Il configuratore e responsive di default: pensato per mobile e desktop, non solo adattato.",
+        "description": "Un unico snippet da incollare nella pagina del tuo sito. Il configuratore è responsive di default: pensato per mobile e desktop, non solo adattato.",
         "visual": "embedCode"
       },
       {
         "icon": "chart",
         "title": "4. Aggiorni sempre dalla piattaforma",
-        "description": "Cambi prezzi, aggiungi prodotti o modifichi regole di sconto dalla dashboard onespec. Le modifiche sono live su ogni sito dove il widget e installato, senza toccare il codice del cliente.",
+        "description": "Cambi prezzi, aggiungi prodotti o modifichi regole di sconto dalla dashboard onespec. Le modifiche sono live su ogni sito dove il widget è installato, senza toccare il codice del cliente.",
         "visual": null
       }
     ],
     "dashboard": {
       "title": "La dashboard da cui controlli tutto",
-      "subtitle": "Richieste ricevute, prodotti piu configurati, valore medio del preventivo. Da qui aggiorni listini e regole, e le modifiche vanno live ovunque il widget sia installato."
+      "subtitle": "Richieste ricevute, prodotti più configurati, valore medio del preventivo. Da qui aggiorni listini e regole, e le modifiche vanno live ovunque il widget sia installato."
     },
     "midCta": {
-      "title": "Meno tempo su curiosi, piu tempo su clienti pronti",
-      "subtitle": "Il configuratore raccoglie misure, materiali e budget prima ancora che tu risponda al telefono. Chi ti scrive dopo aver configurato ha gia deciso di comprare.",
+      "title": "Meno tempo su curiosi, più tempo su clienti pronti",
+      "subtitle": "Il configuratore raccoglie misure, materiali e budget prima ancora che tu risponda al telefono. Chi ti scrive dopo aver configurato ha già deciso di comprare.",
       "button": "Vedi i piani"
     },
     "support": {

@@ -57,7 +57,9 @@ function Drawing({ sashes, door, size }: { sashes: 1 | 2 | 3; door: boolean; siz
       <rect x={x0} y={y0} width={W} height={H} rx="2" fill="#0f1a1a" stroke="#cfd8d6" strokeWidth="3" />
       {Array.from({ length: sashes }).map((_, i) => {
         const x = x0 + i * sw;
-        const left = i % 2 === 0;
+        // Hinges on the OUTER edges (left leaf hinged left, right leaf hinged right), handles
+        // towards the middle: the passage between the leaves stays free.
+        const left = sashes === 1 ? true : i === sashes - 1 ? false : true;
         return (
           <g key={i}>
             <rect x={x + 4} y={y0 + 4} width={sw - 8} height={H - 8} fill="#16d19d" fillOpacity="0.10" stroke="#8fa5a1" strokeWidth="1.5" />

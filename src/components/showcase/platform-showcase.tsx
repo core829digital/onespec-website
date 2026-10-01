@@ -57,22 +57,22 @@ function Drawing({ sashes, door, size }: { sashes: 1 | 2 | 3; door: boolean; siz
       <rect x={x0} y={y0} width={W} height={H} rx="2" fill="#0f1a1a" stroke="#cfd8d6" strokeWidth="3" />
       {Array.from({ length: sashes }).map((_, i) => {
         const x = x0 + i * sw;
-        // Hinges on the OUTER edges (left leaf hinged left, right leaf hinged right), handles
-        // towards the middle: the passage between the leaves stays free.
-        const left = sashes === 1 ? true : i === sashes - 1 ? false : true;
+        // Hinges on the OUTER edges, handles towards the middle; the triangle's tip points
+        // to the handle side (the inside of the pair).
+        const hingeLeft = sashes === 1 ? true : i !== sashes - 1;
         return (
           <g key={i}>
             <rect x={x + 4} y={y0 + 4} width={sw - 8} height={H - 8} fill="#16d19d" fillOpacity="0.10" stroke="#8fa5a1" strokeWidth="1.5" />
             {/* opening symbol: tilt & turn */}
             <path
-              d={left ? `M${x + sw - 4} ${y0 + 4} L${x + 4} ${y0 + H / 2} L${x + sw - 4} ${y0 + H - 4}` : `M${x + 4} ${y0 + 4} L${x + sw - 4} ${y0 + H / 2} L${x + 4} ${y0 + H - 4}`}
+              d={hingeLeft ? `M${x + 4} ${y0 + 4} L${x + sw - 4} ${y0 + H / 2} L${x + 4} ${y0 + H - 4}` : `M${x + sw - 4} ${y0 + 4} L${x + 4} ${y0 + H / 2} L${x + sw - 4} ${y0 + H - 4}`}
               fill="none"
               stroke="#16d19d"
               strokeWidth="1"
               strokeDasharray="3 3"
             />
             <path d={`M${x + 4} ${y0 + H - 4} L${x + sw / 2} ${y0 + 4} L${x + sw - 4} ${y0 + H - 4}`} fill="none" stroke="#16d19d" strokeOpacity="0.55" strokeWidth="1" strokeDasharray="3 3" />
-            <rect x={left ? x + sw - 10 : x + 6} y={y0 + H / 2 - 6} width="4" height="12" rx="2" fill="#cfd8d6" />
+            <rect x={hingeLeft ? x + sw - 10 : x + 6} y={y0 + H / 2 - 6} width="4" height="12" rx="2" fill="#cfd8d6" />
           </g>
         );
       })}

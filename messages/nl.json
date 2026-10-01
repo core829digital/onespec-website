@@ -537,17 +537,6 @@
     "activeColor": "Actieve kleur:",
     "colorAria": "Kleur {name}"
   },
-  "performanceCard": {
-    "title": "Configurator-analyse",
-    "live": "Live",
-    "visits": "Widgetbezoeken",
-    "quotes": "Offertes",
-    "last7days": "Laatste 7 dagen",
-    "details": "Details"
-  },
-  "phonePreview": {
-    "ariaLabel": "Voorbeeld van de configurator op smartphone"
-  },
   "supportTicket": {
     "ticketNumber": "TICKET NR."
   },
@@ -569,5 +558,155 @@
     "videoTitle": "OneSpec in actie",
     "videoSubtitle": "Eén minuut om te zien hoe OneSpec je website en showroom verandert in een offertemachine.",
     "note": "Beide demo's zijn interactief maar versturen niets: maak je account aan om echte aanvragen te ontvangen."
+  },
+  "platformShowcase": {
+    "ariaLabel": "Voorbeeld van de pagina Aanvragen van het onespec-platform",
+    "tenant": "Serramenti Demo",
+    "group": "Verkoop",
+    "nav": [
+      "Overzicht",
+      "Configurators",
+      "Aanvragen",
+      "Statistieken",
+      "Offertes (B2B)",
+      "Klanten"
+    ],
+    "title": "Aanvragen",
+    "subtitle": "Offertes ontvangen via de widgets",
+    "export": "Exporteer CSV",
+    "search": "Zoek op naam, e-mail of bedrijf...",
+    "tabs": [
+      "Alle",
+      "Nieuw",
+      "Benaderd",
+      "Offerte verzonden"
+    ],
+    "statuses": {
+      "new": "Nieuw",
+      "contacted": "Benaderd",
+      "quoted": "Offerte verzonden",
+      "won": "Gewonnen"
+    },
+    "sla": "reageer binnen 5 minuten",
+    "total": "Indicatief totaal",
+    "call": "Bellen",
+    "requests": [
+      {
+        "name": "Marco Rossi",
+        "company": "Rossi Bouw",
+        "product": "Kunststof raam · 2 vleugels",
+        "size": "1400×1500",
+        "sashes": 2,
+        "door": false,
+        "value": "€ 2.480",
+        "status": "new",
+        "time": "4 min geleden",
+        "specs": [
+          [
+            "Materiaal",
+            "PVC, 5 kamers"
+          ],
+          [
+            "Beglazing",
+            "Dubbel · Ug 1,1"
+          ],
+          [
+            "Kleur",
+            "Wit"
+          ],
+          [
+            "Beslag",
+            "Draai-kip"
+          ]
+        ]
+      },
+      {
+        "name": "Laura Conti",
+        "company": "Architectenbureau Conti",
+        "product": "Houten openslaande deur · 1 vleugel",
+        "size": "900×2200",
+        "sashes": 1,
+        "door": true,
+        "value": "€ 4.150",
+        "status": "new",
+        "time": "18 min geleden",
+        "specs": [
+          [
+            "Materiaal",
+            "Hout, eik"
+          ],
+          [
+            "Beglazing",
+            "Drievoudig · Ug 0,6"
+          ],
+          [
+            "Kleur",
+            "Noten"
+          ],
+          [
+            "Beslag",
+            "Draaivleugel"
+          ]
+        ]
+      },
+      {
+        "name": "Giorgio Ferri",
+        "company": "Ferri Vastgoed",
+        "product": "Aluminium raam · 3 vleugels",
+        "size": "2100×1400",
+        "sashes": 3,
+        "door": false,
+        "value": "€ 5.620",
+        "status": "contacted",
+        "time": "2 u geleden",
+        "specs": [
+          [
+            "Materiaal",
+            "Aluminium TB"
+          ],
+          [
+            "Beglazing",
+            "Drievoudig · Ug 0,7"
+          ],
+          [
+            "Kleur",
+            "RAL 7016"
+          ],
+          [
+            "Beslag",
+            "Draai-kip"
+          ]
+        ]
+      },
+      {
+        "name": "Anna Greco",
+        "company": "Particulier",
+        "product": "Kunststof raam · 1 vleugel",
+        "size": "900×1200",
+        "sashes": 1,
+        "door": false,
+        "value": "€ 1.120",
+        "status": "quoted",
+        "time": "gisteren",
+        "specs": [
+          [
+            "Materiaal",
+            "PVC, 7 kamers"
+          ],
+          [
+            "Beglazing",
+            "Dubbel · Ug 1,0"
+          ],
+          [
+            "Kleur",
+            "Wit"
+          ],
+          [
+            "Beslag",
+            "Draai-kip"
+          ]
+        ]
+      }
+    ]
   }
 }

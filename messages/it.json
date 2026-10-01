@@ -537,17 +537,6 @@
     "activeColor": "Colore attivo:",
     "colorAria": "Colore {name}"
   },
-  "performanceCard": {
-    "title": "Analisi configuratore",
-    "live": "Live",
-    "visits": "Visite widget",
-    "quotes": "Preventivi",
-    "last7days": "Ultimi 7 giorni",
-    "details": "Dettagli"
-  },
-  "phonePreview": {
-    "ariaLabel": "Anteprima del configuratore su smartphone"
-  },
   "supportTicket": {
     "ticketNumber": "TICKET N."
   },
@@ -569,5 +558,155 @@
     "videoTitle": "Guarda OneSpec in azione",
     "videoSubtitle": "Un minuto per capire come OneSpec trasforma il tuo sito e il tuo showroom in una macchina da preventivi.",
     "note": "Entrambe le demo sono interattive ma non inviano nulla: per ricevere richieste reali crea il tuo account."
+  },
+  "platformShowcase": {
+    "ariaLabel": "Anteprima della pagina Richieste della piattaforma onespec",
+    "tenant": "Serramenti Demo",
+    "group": "Vendite",
+    "nav": [
+      "Panoramica",
+      "Configuratori",
+      "Richieste",
+      "Statistiche",
+      "Preventivi (B2B)",
+      "Clienti"
+    ],
+    "title": "Richieste",
+    "subtitle": "Preventivi ricevuti dai widget",
+    "export": "Esporta CSV",
+    "search": "Cerca per nome, email o azienda...",
+    "tabs": [
+      "Tutte",
+      "Nuove",
+      "Contattate",
+      "Preventivo inviato"
+    ],
+    "statuses": {
+      "new": "Nuove",
+      "contacted": "Contattate",
+      "quoted": "Preventivo inviato",
+      "won": "Vinte"
+    },
+    "sla": "rispondi in meno di 5 minuti",
+    "total": "Totale indicativo",
+    "call": "Chiama",
+    "requests": [
+      {
+        "name": "Marco Rossi",
+        "company": "Rossi Costruzioni",
+        "product": "Finestra PVC · 2 ante",
+        "size": "1400×1500",
+        "sashes": 2,
+        "door": false,
+        "value": "€ 2.480",
+        "status": "new",
+        "time": "4 min fa",
+        "specs": [
+          [
+            "Materiale",
+            "PVC, 5 camere"
+          ],
+          [
+            "Vetro",
+            "Doppio · Ug 1,1"
+          ],
+          [
+            "Colore",
+            "Bianco"
+          ],
+          [
+            "Ferramenta",
+            "Anta-ribalta"
+          ]
+        ]
+      },
+      {
+        "name": "Laura Conti",
+        "company": "Studio Conti Architetti",
+        "product": "Portafinestra legno · 1 anta",
+        "size": "900×2200",
+        "sashes": 1,
+        "door": true,
+        "value": "€ 4.150",
+        "status": "new",
+        "time": "18 min fa",
+        "specs": [
+          [
+            "Materiale",
+            "Legno, rovere"
+          ],
+          [
+            "Vetro",
+            "Triplo · Ug 0,6"
+          ],
+          [
+            "Colore",
+            "Noce"
+          ],
+          [
+            "Ferramenta",
+            "Battente"
+          ]
+        ]
+      },
+      {
+        "name": "Giorgio Ferri",
+        "company": "Ferri Immobiliare",
+        "product": "Finestra alluminio · 3 ante",
+        "size": "2100×1400",
+        "sashes": 3,
+        "door": false,
+        "value": "€ 5.620",
+        "status": "contacted",
+        "time": "2 h fa",
+        "specs": [
+          [
+            "Materiale",
+            "Alluminio TT"
+          ],
+          [
+            "Vetro",
+            "Triplo · Ug 0,7"
+          ],
+          [
+            "Colore",
+            "RAL 7016"
+          ],
+          [
+            "Ferramenta",
+            "Anta-ribalta"
+          ]
+        ]
+      },
+      {
+        "name": "Anna Greco",
+        "company": "Privato",
+        "product": "Finestra PVC · 1 anta",
+        "size": "900×1200",
+        "sashes": 1,
+        "door": false,
+        "value": "€ 1.120",
+        "status": "quoted",
+        "time": "ieri",
+        "specs": [
+          [
+            "Materiale",
+            "PVC, 7 camere"
+          ],
+          [
+            "Vetro",
+            "Doppio · Ug 1,0"
+          ],
+          [
+            "Colore",
+            "Bianco"
+          ],
+          [
+            "Ferramenta",
+            "Anta-ribalta"
+          ]
+        ]
+      }
+    ]
   }
 }

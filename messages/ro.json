@@ -537,17 +537,6 @@
     "activeColor": "Culoare activa:",
     "colorAria": "Culoare {name}"
   },
-  "performanceCard": {
-    "title": "Analiza configuratorului",
-    "live": "Live",
-    "visits": "Vizite widget",
-    "quotes": "Oferte",
-    "last7days": "Ultimele 7 zile",
-    "details": "Detalii"
-  },
-  "phonePreview": {
-    "ariaLabel": "Previzualizare a configuratorului pe smartphone"
-  },
   "supportTicket": {
     "ticketNumber": "TICHET NR."
   },
@@ -569,5 +558,155 @@
     "videoTitle": "OneSpec în acțiune",
     "videoSubtitle": "Un minut ca să vezi cum OneSpec transformă site-ul și showroom-ul tău într-o mașină de oferte.",
     "note": "Ambele demo-uri sunt interactive, dar nu trimit nimic: creează-ți contul pentru a primi cereri reale."
+  },
+  "platformShowcase": {
+    "ariaLabel": "Previzualizare a paginii Cereri din platforma onespec",
+    "tenant": "Serramenti Demo",
+    "group": "Vânzări",
+    "nav": [
+      "Prezentare generală",
+      "Configuratoare",
+      "Cereri",
+      "Statistici",
+      "Oferte (B2B)",
+      "Clienți"
+    ],
+    "title": "Cereri",
+    "subtitle": "Oferte primite prin widget-uri",
+    "export": "Exportă CSV",
+    "search": "Caută după nume, email sau companie...",
+    "tabs": [
+      "Toate",
+      "Noi",
+      "Contactate",
+      "Ofertă trimisă"
+    ],
+    "statuses": {
+      "new": "Noi",
+      "contacted": "Contactate",
+      "quoted": "Ofertă trimisă",
+      "won": "Câștigate"
+    },
+    "sla": "răspunde în mai puțin de 5 minute",
+    "total": "Total orientativ",
+    "call": "Sună",
+    "requests": [
+      {
+        "name": "Marco Rossi",
+        "company": "Rossi Construcții",
+        "product": "Fereastră PVC · 2 canate",
+        "size": "1400×1500",
+        "sashes": 2,
+        "door": false,
+        "value": "2.480 €",
+        "status": "new",
+        "time": "acum 4 min",
+        "specs": [
+          [
+            "Material",
+            "PVC, 5 camere"
+          ],
+          [
+            "Geam",
+            "Dublu · Ug 1,1"
+          ],
+          [
+            "Culoare",
+            "Alb"
+          ],
+          [
+            "Feronerie",
+            "Oscilo-batant"
+          ]
+        ]
+      },
+      {
+        "name": "Laura Conti",
+        "company": "Birou Arhitecți Conti",
+        "product": "Ușă balcon lemn · 1 canat",
+        "size": "900×2200",
+        "sashes": 1,
+        "door": true,
+        "value": "4.150 €",
+        "status": "new",
+        "time": "acum 18 min",
+        "specs": [
+          [
+            "Material",
+            "Lemn, stejar"
+          ],
+          [
+            "Geam",
+            "Triplu · Ug 0,6"
+          ],
+          [
+            "Culoare",
+            "Nuc"
+          ],
+          [
+            "Feronerie",
+            "Batant"
+          ]
+        ]
+      },
+      {
+        "name": "Giorgio Ferri",
+        "company": "Ferri Imobiliare",
+        "product": "Fereastră aluminiu · 3 canate",
+        "size": "2100×1400",
+        "sashes": 3,
+        "door": false,
+        "value": "5.620 €",
+        "status": "contacted",
+        "time": "acum 2 h",
+        "specs": [
+          [
+            "Material",
+            "Aluminiu cu RPT"
+          ],
+          [
+            "Geam",
+            "Triplu · Ug 0,7"
+          ],
+          [
+            "Culoare",
+            "RAL 7016"
+          ],
+          [
+            "Feronerie",
+            "Oscilo-batant"
+          ]
+        ]
+      },
+      {
+        "name": "Anna Greco",
+        "company": "Persoană fizică",
+        "product": "Fereastră PVC · 1 canat",
+        "size": "900×1200",
+        "sashes": 1,
+        "door": false,
+        "value": "1.120 €",
+        "status": "quoted",
+        "time": "ieri",
+        "specs": [
+          [
+            "Material",
+            "PVC, 7 camere"
+          ],
+          [
+            "Geam",
+            "Dublu · Ug 1,0"
+          ],
+          [
+            "Culoare",
+            "Alb"
+          ],
+          [
+            "Feronerie",
+            "Oscilo-batant"
+          ]
+        ]
+      }
+    ]
   }
 }

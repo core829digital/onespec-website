@@ -537,17 +537,6 @@
     "activeColor": "Aktive Farbe:",
     "colorAria": "Farbe {name}"
   },
-  "performanceCard": {
-    "title": "Konfigurator-Analyse",
-    "live": "Live",
-    "visits": "Widget-Besuche",
-    "quotes": "Angebote",
-    "last7days": "Letzte 7 Tage",
-    "details": "Details"
-  },
-  "phonePreview": {
-    "ariaLabel": "Vorschau des Konfigurators auf dem Smartphone"
-  },
   "supportTicket": {
     "ticketNumber": "TICKET NR."
   },
@@ -569,5 +558,155 @@
     "videoTitle": "OneSpec in Aktion",
     "videoSubtitle": "Eine Minute, um zu sehen, wie OneSpec Ihre Website und Ihren Showroom in eine Angebotsmaschine verwandelt.",
     "note": "Beide Demos sind interaktiv, senden aber nichts: Erstellen Sie Ihr Konto, um echte Anfragen zu erhalten."
+  },
+  "platformShowcase": {
+    "ariaLabel": "Vorschau der Seite Anfragen der onespec-Plattform",
+    "tenant": "Serramenti Demo",
+    "group": "Vertrieb",
+    "nav": [
+      "Übersicht",
+      "Konfiguratoren",
+      "Anfragen",
+      "Statistiken",
+      "Angebote (B2B)",
+      "Kunden"
+    ],
+    "title": "Anfragen",
+    "subtitle": "Über die Widgets erhaltene Angebote",
+    "export": "CSV exportieren",
+    "search": "Suche nach Name, E-Mail oder Firma...",
+    "tabs": [
+      "Alle",
+      "Neu",
+      "Kontaktiert",
+      "Angebot gesendet"
+    ],
+    "statuses": {
+      "new": "Neu",
+      "contacted": "Kontaktiert",
+      "quoted": "Angebot gesendet",
+      "won": "Gewonnen"
+    },
+    "sla": "innerhalb von 5 Minuten antworten",
+    "total": "Voraussichtliche Summe",
+    "call": "Anrufen",
+    "requests": [
+      {
+        "name": "Marco Rossi",
+        "company": "Rossi Bau",
+        "product": "Kunststofffenster · 2 Flügel",
+        "size": "1400×1500",
+        "sashes": 2,
+        "door": false,
+        "value": "2.480 €",
+        "status": "new",
+        "time": "vor 4 Min.",
+        "specs": [
+          [
+            "Material",
+            "PVC, 5 Kammern"
+          ],
+          [
+            "Verglasung",
+            "Zweifach · Ug 1,1"
+          ],
+          [
+            "Farbe",
+            "Weiß"
+          ],
+          [
+            "Beschlag",
+            "Dreh-Kipp"
+          ]
+        ]
+      },
+      {
+        "name": "Laura Conti",
+        "company": "Büro Conti Architekten",
+        "product": "Holz-Balkontür · 1 Flügel",
+        "size": "900×2200",
+        "sashes": 1,
+        "door": true,
+        "value": "4.150 €",
+        "status": "new",
+        "time": "vor 18 Min.",
+        "specs": [
+          [
+            "Material",
+            "Holz, Eiche"
+          ],
+          [
+            "Verglasung",
+            "Dreifach · Ug 0,6"
+          ],
+          [
+            "Farbe",
+            "Nuss"
+          ],
+          [
+            "Beschlag",
+            "Drehflügel"
+          ]
+        ]
+      },
+      {
+        "name": "Giorgio Ferri",
+        "company": "Ferri Immobilien",
+        "product": "Alufenster · 3 Flügel",
+        "size": "2100×1400",
+        "sashes": 3,
+        "door": false,
+        "value": "5.620 €",
+        "status": "contacted",
+        "time": "vor 2 Std.",
+        "specs": [
+          [
+            "Material",
+            "Alu, thermisch getrennt"
+          ],
+          [
+            "Verglasung",
+            "Dreifach · Ug 0,7"
+          ],
+          [
+            "Farbe",
+            "RAL 7016"
+          ],
+          [
+            "Beschlag",
+            "Dreh-Kipp"
+          ]
+        ]
+      },
+      {
+        "name": "Anna Greco",
+        "company": "Privat",
+        "product": "Kunststofffenster · 1 Flügel",
+        "size": "900×1200",
+        "sashes": 1,
+        "door": false,
+        "value": "1.120 €",
+        "status": "quoted",
+        "time": "gestern",
+        "specs": [
+          [
+            "Material",
+            "PVC, 7 Kammern"
+          ],
+          [
+            "Verglasung",
+            "Zweifach · Ug 1,0"
+          ],
+          [
+            "Farbe",
+            "Weiß"
+          ],
+          [
+            "Beschlag",
+            "Dreh-Kipp"
+          ]
+        ]
+      }
+    ]
   }
 }

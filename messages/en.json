@@ -537,17 +537,6 @@
     "activeColor": "Active color:",
     "colorAria": "Color {name}"
   },
-  "performanceCard": {
-    "title": "Configurator analytics",
-    "live": "Live",
-    "visits": "Widget visits",
-    "quotes": "Quotes",
-    "last7days": "Last 7 days",
-    "details": "Details"
-  },
-  "phonePreview": {
-    "ariaLabel": "Preview of the configurator on smartphone"
-  },
   "supportTicket": {
     "ticketNumber": "TICKET NO."
   },
@@ -569,5 +558,155 @@
     "videoTitle": "See OneSpec in action",
     "videoSubtitle": "One minute to see how OneSpec turns your website and showroom into a quoting machine.",
     "note": "Both demos are interactive but send nothing: create your account to receive real requests."
+  },
+  "platformShowcase": {
+    "ariaLabel": "Preview of the Requests page of the onespec platform",
+    "tenant": "Serramenti Demo",
+    "group": "Sales",
+    "nav": [
+      "Overview",
+      "Configurators",
+      "Requests",
+      "Statistics",
+      "Quotes (B2B)",
+      "Clients"
+    ],
+    "title": "Requests",
+    "subtitle": "Quotes received from the widgets",
+    "export": "Export CSV",
+    "search": "Search by name, email or company...",
+    "tabs": [
+      "All",
+      "New",
+      "Contacted",
+      "Quote sent"
+    ],
+    "statuses": {
+      "new": "New",
+      "contacted": "Contacted",
+      "quoted": "Quote sent",
+      "won": "Won"
+    },
+    "sla": "reply within 5 minutes",
+    "total": "Estimated total",
+    "call": "Call",
+    "requests": [
+      {
+        "name": "Marco Rossi",
+        "company": "Rossi Construction",
+        "product": "PVC window · 2 sashes",
+        "size": "1400×1500",
+        "sashes": 2,
+        "door": false,
+        "value": "€2,480",
+        "status": "new",
+        "time": "4 min ago",
+        "specs": [
+          [
+            "Material",
+            "PVC, 5 chambers"
+          ],
+          [
+            "Glazing",
+            "Double · Ug 1.1"
+          ],
+          [
+            "Colour",
+            "White"
+          ],
+          [
+            "Hardware",
+            "Tilt & turn"
+          ]
+        ]
+      },
+      {
+        "name": "Laura Conti",
+        "company": "Conti Architects",
+        "product": "Wooden patio door · 1 sash",
+        "size": "900×2200",
+        "sashes": 1,
+        "door": true,
+        "value": "€4,150",
+        "status": "new",
+        "time": "18 min ago",
+        "specs": [
+          [
+            "Material",
+            "Wood, oak"
+          ],
+          [
+            "Glazing",
+            "Triple · Ug 0.6"
+          ],
+          [
+            "Colour",
+            "Walnut"
+          ],
+          [
+            "Hardware",
+            "Side-hung"
+          ]
+        ]
+      },
+      {
+        "name": "Giorgio Ferri",
+        "company": "Ferri Real Estate",
+        "product": "Aluminium window · 3 sashes",
+        "size": "2100×1400",
+        "sashes": 3,
+        "door": false,
+        "value": "€5,620",
+        "status": "contacted",
+        "time": "2 h ago",
+        "specs": [
+          [
+            "Material",
+            "Aluminium TB"
+          ],
+          [
+            "Glazing",
+            "Triple · Ug 0.7"
+          ],
+          [
+            "Colour",
+            "RAL 7016"
+          ],
+          [
+            "Hardware",
+            "Tilt & turn"
+          ]
+        ]
+      },
+      {
+        "name": "Anna Greco",
+        "company": "Private",
+        "product": "PVC window · 1 sash",
+        "size": "900×1200",
+        "sashes": 1,
+        "door": false,
+        "value": "€1,120",
+        "status": "quoted",
+        "time": "yesterday",
+        "specs": [
+          [
+            "Material",
+            "PVC, 7 chambers"
+          ],
+          [
+            "Glazing",
+            "Double · Ug 1.0"
+          ],
+          [
+            "Colour",
+            "White"
+          ],
+          [
+            "Hardware",
+            "Tilt & turn"
+          ]
+        ]
+      }
+    ]
   }
 }

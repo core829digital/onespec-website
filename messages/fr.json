@@ -537,17 +537,6 @@
     "activeColor": "Couleur active :",
     "colorAria": "Couleur {name}"
   },
-  "performanceCard": {
-    "title": "Analyse du configurateur",
-    "live": "En direct",
-    "visits": "Visites du widget",
-    "quotes": "Devis",
-    "last7days": "7 derniers jours",
-    "details": "Détails"
-  },
-  "phonePreview": {
-    "ariaLabel": "Aperçu du configurateur sur smartphone"
-  },
   "supportTicket": {
     "ticketNumber": "TICKET N°"
   },
@@ -569,5 +558,155 @@
     "videoTitle": "OneSpec en action",
     "videoSubtitle": "Une minute pour voir comment OneSpec transforme votre site et votre showroom en machine à devis.",
     "note": "Les deux démos sont interactives mais n'envoient rien : créez votre compte pour recevoir de vraies demandes."
+  },
+  "platformShowcase": {
+    "ariaLabel": "Aperçu de la page Demandes de la plateforme onespec",
+    "tenant": "Serramenti Demo",
+    "group": "Ventes",
+    "nav": [
+      "Aperçu",
+      "Configurateurs",
+      "Demandes",
+      "Statistiques",
+      "Devis (B2B)",
+      "Clients"
+    ],
+    "title": "Demandes",
+    "subtitle": "Devis reçus depuis les widgets",
+    "export": "Exporter en CSV",
+    "search": "Rechercher par nom, email ou entreprise...",
+    "tabs": [
+      "Toutes",
+      "Nouvelles",
+      "Contactées",
+      "Devis envoyé"
+    ],
+    "statuses": {
+      "new": "Nouvelles",
+      "contacted": "Contactées",
+      "quoted": "Devis envoyé",
+      "won": "Gagnées"
+    },
+    "sla": "répondez en moins de 5 minutes",
+    "total": "Total indicatif",
+    "call": "Appeler",
+    "requests": [
+      {
+        "name": "Marco Rossi",
+        "company": "Rossi Construction",
+        "product": "Fenêtre PVC · 2 vantaux",
+        "size": "1400×1500",
+        "sashes": 2,
+        "door": false,
+        "value": "2 480 €",
+        "status": "new",
+        "time": "il y a 4 min",
+        "specs": [
+          [
+            "Matériau",
+            "PVC, 5 chambres"
+          ],
+          [
+            "Vitrage",
+            "Double · Ug 1,1"
+          ],
+          [
+            "Couleur",
+            "Blanc"
+          ],
+          [
+            "Quincaillerie",
+            "Oscillo-battant"
+          ]
+        ]
+      },
+      {
+        "name": "Laura Conti",
+        "company": "Cabinet Conti Architectes",
+        "product": "Porte-fenêtre bois · 1 vantail",
+        "size": "900×2200",
+        "sashes": 1,
+        "door": true,
+        "value": "4 150 €",
+        "status": "new",
+        "time": "il y a 18 min",
+        "specs": [
+          [
+            "Matériau",
+            "Bois, chêne"
+          ],
+          [
+            "Vitrage",
+            "Triple · Ug 0,6"
+          ],
+          [
+            "Couleur",
+            "Noyer"
+          ],
+          [
+            "Quincaillerie",
+            "À la française"
+          ]
+        ]
+      },
+      {
+        "name": "Giorgio Ferri",
+        "company": "Ferri Immobilier",
+        "product": "Fenêtre aluminium · 3 vantaux",
+        "size": "2100×1400",
+        "sashes": 3,
+        "door": false,
+        "value": "5 620 €",
+        "status": "contacted",
+        "time": "il y a 2 h",
+        "specs": [
+          [
+            "Matériau",
+            "Aluminium RPT"
+          ],
+          [
+            "Vitrage",
+            "Triple · Ug 0,7"
+          ],
+          [
+            "Couleur",
+            "RAL 7016"
+          ],
+          [
+            "Quincaillerie",
+            "Oscillo-battant"
+          ]
+        ]
+      },
+      {
+        "name": "Anna Greco",
+        "company": "Particulier",
+        "product": "Fenêtre PVC · 1 vantail",
+        "size": "900×1200",
+        "sashes": 1,
+        "door": false,
+        "value": "1 120 €",
+        "status": "quoted",
+        "time": "hier",
+        "specs": [
+          [
+            "Matériau",
+            "PVC, 7 chambres"
+          ],
+          [
+            "Vitrage",
+            "Double · Ug 1,0"
+          ],
+          [
+            "Couleur",
+            "Blanc"
+          ],
+          [
+            "Quincaillerie",
+            "Oscillo-battant"
+          ]
+        ]
+      }
+    ]
   }
 }

@@ -14,8 +14,7 @@ import { PresentationVideo } from "@/components/showcase/presentation-video";
 import { DashboardMockup } from "@/components/showcase/dashboard-mockup";
 import { ColorPicker } from "@/components/showcase/color-picker";
 import { EmbedCodeCard } from "@/components/showcase/embed-code-card";
-import { PerformanceCard } from "@/components/showcase/performance-card";
-import { PhonePreview } from "@/components/showcase/phone-preview";
+import { PlatformShowcase } from "@/components/showcase/platform-showcase";
 import { SupportTicket } from "@/components/showcase/support-ticket";
 import type { AppLocale } from "@/i18n/routing";
 
@@ -171,14 +170,9 @@ function ProdottoContent() {
             </p>
           </Reveal>
 
-          <div className="mt-14 flex flex-wrap items-center justify-center gap-10">
-            <Reveal>
-              <PerformanceCard />
-            </Reveal>
-            <Reveal delay={0.1}>
-              <PhonePreview />
-            </Reveal>
-          </div>
+          <Reveal delay={0.1} className="mt-14">
+            <PlatformShowcase />
+          </Reveal>
 
           <Reveal className="mt-12 text-center">
             <Link

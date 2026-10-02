@@ -49,7 +49,7 @@ export function DashboardMockup() {
             return (
               <div
                 key={k.label}
-                className="rounded-xl border border-[var(--color-border-subtle)] bg-[var(--color-bg)] p-4"
+                className="min-w-0 rounded-xl border border-[var(--color-border-subtle)] bg-[var(--color-bg)] p-3 sm:p-4"
               >
                 <div className="flex items-start gap-2">
                   <Icon
@@ -57,11 +57,11 @@ export function DashboardMockup() {
                     weight="bold"
                     className="mt-px shrink-0 text-[var(--color-mint-dark)]"
                   />
-                  <span className="text-[11px] leading-tight font-medium text-[var(--color-text-secondary)]">
+                  <span className="min-w-0 break-words text-[11px] leading-tight font-medium text-[var(--color-text-secondary)]">
                     {k.label}
                   </span>
                 </div>
-                <p className="mt-2.5 font-mono text-xl font-semibold tabular-nums tracking-tight text-[var(--color-text)]">
+                <p className="mt-2.5 truncate font-mono text-lg font-semibold tabular-nums sm:text-xl tracking-tight text-[var(--color-text)]">
                   {k.value}
                 </p>
                 <span className="mt-1 inline-block text-[11px] font-semibold text-[var(--color-mint-dark)]">

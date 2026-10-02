@@ -115,7 +115,7 @@ function VersioniContent() {
       <section className="pt-20 pb-12 sm:pt-28">
         <div className="container-onespec text-center">
           <Reveal>
-            <h1 className="text-balance text-4xl font-semibold tracking-tight text-[var(--color-text)] sm:text-5xl">
+            <h1 className="text-balance break-words hyphens-auto text-3xl min-[400px]:text-4xl font-semibold tracking-tight text-[var(--color-text)] sm:text-5xl">
               {t("title")}
             </h1>
             <p className="mx-auto mt-5 max-w-xl text-balance text-lg leading-relaxed text-[var(--color-text-secondary)]">

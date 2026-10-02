@@ -3,6 +3,8 @@
   transform-style: preserve-3d;
   transform: perspective(1000px);
   padding: 12px 4px;
+  flex-wrap: wrap;
+  max-width: 100%;
 }
 
 .swatch {

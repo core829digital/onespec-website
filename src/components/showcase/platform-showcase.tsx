@@ -239,7 +239,7 @@ export function PlatformShowcase() {
                   <p className="text-[10.5px] uppercase tracking-wide text-white/40">{t("total")}</p>
                   <p className="font-mono text-xl font-semibold text-white">{cur.value}</p>
                 </div>
-                <div className="flex gap-2">
+                <div className="flex flex-wrap gap-2">
                   <span className="inline-flex items-center gap-1 rounded-lg bg-[#25D366] px-2.5 py-1.5 text-[11px] font-bold text-[#04231a]">
                     <WhatsappLogo size={13} weight="fill" /> WhatsApp
                   </span>

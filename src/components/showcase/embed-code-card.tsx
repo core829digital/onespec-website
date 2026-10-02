@@ -9,7 +9,7 @@ function Attr({ children }: { children: string }) {
 }
 function Val({ children }: { children: string }) {
   return (
-    <span className="relative inline-block rounded bg-[var(--color-mint)]/10 px-1 text-[#7ce8c9]">
+    <span className="relative inline-block max-w-full break-all rounded bg-[var(--color-mint)]/10 px-1 text-[#7ce8c9]">
       {children}
     </span>
   );

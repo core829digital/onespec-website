@@ -72,7 +72,10 @@ function Drawing({ sashes, door, size }: { sashes: 1 | 2 | 3; door: boolean; siz
               strokeDasharray="3 3"
             />
             <path d={`M${x + 4} ${y0 + H - 4} L${x + sw / 2} ${y0 + 4} L${x + sw - 4} ${y0 + H - 4}`} fill="none" stroke="#16d19d" strokeOpacity="0.55" strokeWidth="1" strokeDasharray="3 3" />
-            <rect x={hingeLeft ? x + sw - 10 : x + 6} y={y0 + H / 2 - 6} width="4" height="12" rx="2" fill="#cfd8d6" />
+            {/* technical handle: rosette plate on the stile, pivot, lever hanging down */}
+            <rect x={(hingeLeft ? x + sw - 8 : x + 8) - 3} y={y0 + H / 2 - 6} width="6" height="12" rx="2" fill="#cfd8d6" stroke="#0f1a1a" strokeWidth="0.8" />
+            <rect x={(hingeLeft ? x + sw - 8 : x + 8) - 1.9} y={y0 + H / 2 - 2} width="3.8" height="20" rx="1.9" fill="#cfd8d6" stroke="#0f1a1a" strokeWidth="0.8" />
+            <circle cx={(hingeLeft ? x + sw - 8 : x + 8)} cy={y0 + H / 2} r="1.6" fill="#0f1a1a" />
           </g>
         );
       })}

@@ -4,7 +4,8 @@
     "description": "onespec is de configuratiewidget voor ramen en deuren die u via iframe insluit: automatische offertes, altijd actuele prijzen, aan te passen aan uw merk.",
     "prezziTitle": "Prijzen",
     "prodottoTitle": "Product",
-    "versioniTitle": "Versies"
+    "versioniTitle": "Versies",
+    "invitiTitle": "Uitnodigingsprogramma"
   },
   "nav": {
     "prodotto": "Product",
@@ -30,7 +31,8 @@
     "tagline": "De kozijnconfigurator die voor u verkoopt.",
     "accedi": "Inloggen op het platform",
     "registrati": "Registreren",
-    "documenti": "Alle juridische documenten"
+    "documenti": "Alle juridische documenten",
+    "inviti": "Nodig een bedrijf uit"
   },
   "theme": {
     "toDark": "Overschakelen naar donkere modus",
@@ -720,5 +722,48 @@
     "body": "Er is een onverwachte fout opgetreden. Probeer het zo opnieuw; blijft het probleem bestaan, schrijf dan naar hello@onespec.eu.",
     "retry": "Opnieuw proberen",
     "home": "Terug naar home"
+  },
+  "referralPage": {
+    "metaTitle": "Uitnodigingsprogramma",
+    "metaDescription": "Breng een ander bedrijf naar OneSpec: jij ontvangt 10% van de abonnementsprijs, het bedrijf krijgt 10% korting op de eerste betaling.",
+    "badge": "Uitnodigingsprogramma",
+    "hero": {
+      "title": "Breng een ander bedrijf naar OneSpec en ontvang een beloning",
+      "subtitle": "Jij ontvangt 10% van de abonnementsprijs (excl. btw), als tegoed of als geld op je Stripe-account. Het bedrijf krijgt 10% korting op de eerste betaling."
+    },
+    "ctaRegister": "Maak je account aan",
+    "ctaCode": "Haal je uitnodigingscode op",
+    "stepsTitle": "Zo werkt het",
+    "steps": [
+      {
+        "title": "Deel je link",
+        "description": "In het platform krijg je een persoonlijke code en link om naar een ander bedrijf in de kozijnenbranche te sturen."
+      },
+      {
+        "title": "Het bedrijf meldt zich aan en kiest een abonnement",
+        "description": "De korting van 10% wordt automatisch toegepast op de eerste betaling, zonder code."
+      },
+      {
+        "title": "Jij ontvangt de beloning",
+        "description": "Na de eerste betaling en 30 dagen zonder terugbetaling ontvang je 10% van de abonnementsprijs, excl. btw: als tegoed op je abonnement of als geld op je Stripe-account."
+      }
+    ],
+    "amountsTitle": "Wat elke uitnodiging waard is",
+    "amountsNote": "De beloning is 10% van de catalogusprijs van het abonnement dat het uitgenodigde bedrijf kiest, excl. btw, eenmaal per bedrijf.",
+    "colPlan": "Abonnement van het uitgenodigde bedrijf",
+    "colPrice": "Maandprijs",
+    "colCredit": "Jouw beloning",
+    "colDiscount": "Hun korting",
+    "annualNote": "Bij jaarlijkse betaling (waar beschikbaar) zijn beloning en korting 10% van de jaarprijs. Prijzen excl. btw. Het Enterprise-abonnement spreken we samen af.",
+    "rulesTitle": "De regels in het kort",
+    "rules": [
+      "Eigenaren en beheerders van een account met een actief abonnement kunnen uitnodigen.",
+      "De beloning wordt verdiend na de eerste echte betaling van het uitgenodigde bedrijf en 30 dagen zonder terugbetaling of betwisting.",
+      "Maximaal 10 beloningen per 12 maanden per account.",
+      "Uitnodigingen tussen accounts van dezelfde persoon of hetzelfde bedrijf, of met dezelfde betaalkaart, geven geen recht op een beloning.",
+      "Een beloning in geld is een vergoeding voor de aanbeveling: de fiscale behandeling is voor de ontvanger."
+    ],
+    "legalPrefix": "Lees het",
+    "legalLink": "reglement van het uitnodigingsprogramma"
   }
 }

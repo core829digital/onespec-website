@@ -4,7 +4,8 @@
     "description": "onespec is the window and door configurator widget you embed via iframe: automatic quotes, always up-to-date pricing, brandable for your company.",
     "prezziTitle": "Pricing",
     "prodottoTitle": "Product",
-    "versioniTitle": "Changelog"
+    "versioniTitle": "Changelog",
+    "invitiTitle": "Invitation programme"
   },
   "nav": {
     "prodotto": "Product",
@@ -30,7 +31,8 @@
     "tagline": "The window & door configurator that sells for you.",
     "accedi": "Log in to the platform",
     "registrati": "Sign up",
-    "documenti": "All legal documents"
+    "documenti": "All legal documents",
+    "inviti": "Invite a company"
   },
   "theme": {
     "toDark": "Switch to dark mode",
@@ -720,5 +722,48 @@
     "body": "An unexpected error occurred. Try again in a moment; if it keeps happening, write to hello@onespec.eu.",
     "retry": "Try again",
     "home": "Back to home"
+  },
+  "referralPage": {
+    "metaTitle": "Invitation programme",
+    "metaDescription": "Bring another company to OneSpec: you receive 10% of its subscription price, it gets 10% off its first payment.",
+    "badge": "Invitation programme",
+    "hero": {
+      "title": "Bring another company to OneSpec and get a reward",
+      "subtitle": "You receive 10% of its subscription price (VAT excluded), as credit or as money in your Stripe account. It gets 10% off its first payment."
+    },
+    "ctaRegister": "Create your account",
+    "ctaCode": "Get your invitation code",
+    "stepsTitle": "How it works",
+    "steps": [
+      {
+        "title": "Share your link",
+        "description": "From the platform you get a personal code and link to send to another company in the window industry."
+      },
+      {
+        "title": "The company signs up and picks a plan",
+        "description": "Its 10% discount is applied automatically to the first payment, with no code to enter."
+      },
+      {
+        "title": "You receive the reward",
+        "description": "After the first payment and 30 days without refunds, you receive 10% of the plan price, VAT excluded: as credit on your subscription or as money in your Stripe account."
+      }
+    ],
+    "amountsTitle": "What each invitation is worth",
+    "amountsNote": "The reward is 10% of the list price of the plan chosen by the invited company, VAT excluded, once per company.",
+    "colPlan": "Invited company's plan",
+    "colPrice": "Monthly price",
+    "colCredit": "Your reward",
+    "colDiscount": "Its discount",
+    "annualNote": "With yearly billing (where available) reward and discount are 10% of the yearly price. Prices exclude VAT. The Enterprise plan is agreed with us.",
+    "rulesTitle": "The rules in short",
+    "rules": [
+      "Owners and admins of an account with an active subscription can invite.",
+      "The reward matures after the invited company's first real payment and 30 days without refunds or disputes.",
+      "At most 10 rewards every 12 months per account.",
+      "Invitations between accounts of the same person or company, or using the same payment card, do not earn a reward.",
+      "A cash reward is a fee for the referral: tax treatment is the recipient's responsibility."
+    ],
+    "legalPrefix": "Read the",
+    "legalLink": "invitation programme rules"
   }
 }

@@ -9,6 +9,7 @@ import { Footer } from "@/components/footer";
 import { ThemeScript } from "@/components/theme-script";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { SmoothScroll } from "@/components/smooth-scroll";
+import { ReferralLinkDecorator } from "@/components/referral-link-decorator";
 import { MotionConfig } from "framer-motion";
 import { routing } from "@/i18n/routing";
 import { SITE_URL } from "@/lib/site-config";
@@ -75,6 +76,7 @@ export default async function LocaleLayout({
           <MotionConfig reducedMotion="user">
             <Header />
             <SmoothScroll />
+            <ReferralLinkDecorator />
             <main className="flex-1">{children}</main>
             <Footer />
             <ThemeToggle />

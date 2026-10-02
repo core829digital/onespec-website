@@ -4,7 +4,8 @@
     "description": "onespec è il widget di configurazione infissi integrabile via iframe: preventivi automatici, prezzi sempre aggiornati, brandizzabile per la tua azienda.",
     "prezziTitle": "Prezzi",
     "prodottoTitle": "Prodotto",
-    "versioniTitle": "Versioni"
+    "versioniTitle": "Versioni",
+    "invitiTitle": "Programma inviti"
   },
   "nav": {
     "prodotto": "Prodotto",
@@ -30,7 +31,8 @@
     "tagline": "Il configuratore di infissi che vende al posto tuo.",
     "accedi": "Accedi alla piattaforma",
     "registrati": "Registrati",
-    "documenti": "Tutti i documenti legali"
+    "documenti": "Tutti i documenti legali",
+    "inviti": "Invita un'azienda"
   },
   "theme": {
     "toDark": "Passa alla modalità scura",
@@ -720,5 +722,48 @@
     "body": "Si è verificato un errore imprevisto. Riprova tra un attimo: se il problema continua, scrivici a hello@onespec.eu.",
     "retry": "Riprova",
     "home": "Torna alla home"
+  },
+  "referralPage": {
+    "metaTitle": "Programma inviti",
+    "metaDescription": "Porta un'altra azienda su OneSpec: tu ricevi il 10% del prezzo del suo abbonamento, lei il 10% di sconto sul primo pagamento.",
+    "badge": "Programma inviti",
+    "hero": {
+      "title": "Porta un'altra azienda su OneSpec e ricevi un premio",
+      "subtitle": "Tu ricevi il 10% del prezzo del suo abbonamento (IVA esclusa), come credito o come denaro sul tuo conto Stripe. Lei ha il 10% di sconto sul primo pagamento."
+    },
+    "ctaRegister": "Crea il tuo account",
+    "ctaCode": "Prendi il tuo codice invito",
+    "stepsTitle": "Come funziona",
+    "steps": [
+      {
+        "title": "Condividi il tuo link",
+        "description": "Dalla piattaforma ottieni un codice e un link personale da mandare a un'altra azienda del settore serramenti."
+      },
+      {
+        "title": "L'azienda si registra e sceglie un piano",
+        "description": "Il suo sconto del 10% viene applicato in automatico al primo pagamento, senza inserire codici."
+      },
+      {
+        "title": "Tu ricevi il premio",
+        "description": "Dopo il primo pagamento e 30 giorni senza rimborsi, ricevi il 10% del prezzo del piano, IVA esclusa: come credito sul tuo abbonamento o come denaro sul tuo conto Stripe."
+      }
+    ],
+    "amountsTitle": "Quanto vale ogni invito",
+    "amountsNote": "Il premio è il 10% del prezzo di listino del piano scelto dall'azienda invitata, IVA esclusa, una volta per ogni azienda.",
+    "colPlan": "Piano dell'azienda invitata",
+    "colPrice": "Prezzo mensile",
+    "colCredit": "Il tuo premio",
+    "colDiscount": "Sconto per lei",
+    "annualNote": "Con il pagamento annuale (dove disponibile) premio e sconto sono il 10% del prezzo annuale. Prezzi IVA esclusa. Il piano Enterprise si concorda con noi.",
+    "rulesTitle": "Le regole in breve",
+    "rules": [
+      "Possono invitare i titolari e gli amministratori di un account con abbonamento attivo.",
+      "Il premio matura dopo il primo pagamento reale dell'azienda invitata e 30 giorni senza rimborsi o contestazioni.",
+      "Massimo 10 premi ogni 12 mesi per account.",
+      "Non danno diritto al premio inviti fra account della stessa persona o della stessa azienda, o con la stessa carta di pagamento.",
+      "Il premio in denaro è un compenso per la segnalazione: la gestione fiscale è a carico di chi lo riceve."
+    ],
+    "legalPrefix": "Leggi il",
+    "legalLink": "regolamento del programma inviti"
   }
 }

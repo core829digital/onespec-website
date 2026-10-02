@@ -4,7 +4,8 @@
     "description": "onespec este widget-ul de configurare tamplarie integrabil prin iframe: oferte automate, preturi mereu actualizate, personalizabil cu brandul tau.",
     "prezziTitle": "Preturi",
     "prodottoTitle": "Produs",
-    "versioniTitle": "Versiuni"
+    "versioniTitle": "Versiuni",
+    "invitiTitle": "Program de invitații"
   },
   "nav": {
     "prodotto": "Produs",
@@ -30,7 +31,8 @@
     "tagline": "Configuratorul de tamplarie care vinde in locul tau.",
     "accedi": "Intră în platformă",
     "registrati": "Înregistrare",
-    "documenti": "Toate documentele juridice"
+    "documenti": "Toate documentele juridice",
+    "inviti": "Invită o companie"
   },
   "theme": {
     "toDark": "Comuta la modul intunecat",
@@ -720,5 +722,48 @@
     "body": "A apărut o eroare neașteptată. Încearcă din nou în câteva clipe; dacă problema persistă, scrie-ne la hello@onespec.eu.",
     "retry": "Încearcă din nou",
     "home": "Înapoi la prima pagină"
+  },
+  "referralPage": {
+    "metaTitle": "Program de invitații",
+    "metaDescription": "Adu o altă companie la OneSpec: tu primești 10% din prețul abonamentului ei, iar ea primește 10% reducere la prima plată.",
+    "badge": "Program de invitații",
+    "hero": {
+      "title": "Adu o altă companie la OneSpec și primești o recompensă",
+      "subtitle": "Primești 10% din prețul abonamentului ei (fără TVA), ca credit sau ca bani în contul tău Stripe. Ea primește 10% reducere la prima plată."
+    },
+    "ctaRegister": "Creează-ți contul",
+    "ctaCode": "Ia-ți codul de invitație",
+    "stepsTitle": "Cum funcționează",
+    "steps": [
+      {
+        "title": "Distribuie linkul tău",
+        "description": "Din platformă primești un cod și un link personal de trimis unei alte companii din domeniul tâmplăriei."
+      },
+      {
+        "title": "Compania se înregistrează și alege un plan",
+        "description": "Reducerea ei de 10% se aplică automat la prima plată, fără niciun cod de introdus."
+      },
+      {
+        "title": "Tu primești recompensa",
+        "description": "După prima plată și 30 de zile fără rambursări, primești 10% din prețul planului, fără TVA: ca credit pe abonamentul tău sau ca bani în contul tău Stripe."
+      }
+    ],
+    "amountsTitle": "Cât valorează fiecare invitație",
+    "amountsNote": "Recompensa este 10% din prețul de listă al planului ales de compania invitată, fără TVA, o singură dată pentru fiecare companie.",
+    "colPlan": "Planul companiei invitate",
+    "colPrice": "Preț lunar",
+    "colCredit": "Recompensa ta",
+    "colDiscount": "Reducerea ei",
+    "annualNote": "Cu plata anuală (acolo unde există), recompensa și reducerea sunt 10% din prețul anual. Prețurile nu includ TVA. Planul Enterprise se stabilește cu noi.",
+    "rulesTitle": "Regulile pe scurt",
+    "rules": [
+      "Pot invita proprietarii și administratorii unui cont cu abonament activ.",
+      "Recompensa se câștigă după prima plată reală a companiei invitate și 30 de zile fără rambursări sau contestații.",
+      "Cel mult 10 recompense la fiecare 12 luni pentru un cont.",
+      "Invitațiile între conturi ale aceleiași persoane sau companii, sau cu același card de plată, nu dau dreptul la recompensă.",
+      "O recompensă în bani este o remunerație pentru recomandare: tratamentul fiscal revine celui care o primește."
+    ],
+    "legalPrefix": "Citește",
+    "legalLink": "regulamentul programului de invitații"
   }
 }

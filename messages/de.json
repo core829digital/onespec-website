@@ -4,7 +4,8 @@
     "description": "onespec ist das Konfigurationswidget für Fenster und Türen, das Sie per iFrame einbinden: automatische Angebote, stets aktuelle Preise, mit Ihrer Marke individualisierbar.",
     "prezziTitle": "Preise",
     "prodottoTitle": "Produkt",
-    "versioniTitle": "Versionen"
+    "versioniTitle": "Versionen",
+    "invitiTitle": "Einladungsprogramm"
   },
   "nav": {
     "prodotto": "Produkt",
@@ -30,7 +31,8 @@
     "tagline": "Der Fenster- und Türkonfigurator, der für Sie verkauft.",
     "accedi": "Zur Plattform anmelden",
     "registrati": "Registrieren",
-    "documenti": "Alle rechtlichen Dokumente"
+    "documenti": "Alle rechtlichen Dokumente",
+    "inviti": "Unternehmen einladen"
   },
   "theme": {
     "toDark": "Zum dunklen Modus wechseln",
@@ -720,5 +722,48 @@
     "body": "Ein unerwarteter Fehler ist aufgetreten. Versuchen Sie es gleich noch einmal; falls das Problem bleibt, schreiben Sie an hello@onespec.eu.",
     "retry": "Erneut versuchen",
     "home": "Zur Startseite"
+  },
+  "referralPage": {
+    "metaTitle": "Einladungsprogramm",
+    "metaDescription": "Bringen Sie ein weiteres Unternehmen zu OneSpec: Sie erhalten 10 % des Abo-Preises, das Unternehmen 10 % Rabatt auf die erste Zahlung.",
+    "badge": "Einladungsprogramm",
+    "hero": {
+      "title": "Bringen Sie ein weiteres Unternehmen zu OneSpec und erhalten Sie eine Prämie",
+      "subtitle": "Sie erhalten 10 % des Abo-Preises (ohne MwSt.), als Guthaben oder als Geld auf Ihr Stripe-Konto. Das Unternehmen erhält 10 % Rabatt auf die erste Zahlung."
+    },
+    "ctaRegister": "Konto erstellen",
+    "ctaCode": "Einladungscode holen",
+    "stepsTitle": "So funktioniert es",
+    "steps": [
+      {
+        "title": "Teilen Sie Ihren Link",
+        "description": "In der Plattform erhalten Sie einen persönlichen Code und Link, den Sie an ein anderes Unternehmen der Fensterbranche senden."
+      },
+      {
+        "title": "Das Unternehmen registriert sich und wählt einen Tarif",
+        "description": "Der Rabatt von 10 % wird bei der ersten Zahlung automatisch angewendet, ohne Code."
+      },
+      {
+        "title": "Sie erhalten die Prämie",
+        "description": "Nach der ersten Zahlung und 30 Tagen ohne Rückerstattung erhalten Sie 10 % des Tarifpreises, ohne MwSt.: als Guthaben auf Ihr Abonnement oder als Geld auf Ihr Stripe-Konto."
+      }
+    ],
+    "amountsTitle": "Was jede Einladung wert ist",
+    "amountsNote": "Die Prämie beträgt 10 % des Listenpreises des vom eingeladenen Unternehmen gewählten Tarifs, ohne MwSt., einmal pro Unternehmen.",
+    "colPlan": "Tarif des eingeladenen Unternehmens",
+    "colPrice": "Monatspreis",
+    "colCredit": "Ihre Prämie",
+    "colDiscount": "Dessen Rabatt",
+    "annualNote": "Bei jährlicher Zahlung (wo verfügbar) betragen Prämie und Rabatt 10 % des Jahrespreises. Preise ohne MwSt. Der Enterprise-Tarif wird mit uns vereinbart.",
+    "rulesTitle": "Die Regeln in Kürze",
+    "rules": [
+      "Inhaber und Administratoren eines Kontos mit aktivem Abonnement können einladen.",
+      "Die Prämie wird nach der ersten echten Zahlung des eingeladenen Unternehmens und 30 Tagen ohne Rückerstattung oder Anfechtung fällig.",
+      "Höchstens 10 Prämien pro 12 Monate und Konto.",
+      "Einladungen zwischen Konten derselben Person oder desselben Unternehmens oder mit derselben Zahlungskarte geben keinen Anspruch auf die Prämie.",
+      "Eine Geldprämie ist eine Vergütung für die Empfehlung: die steuerliche Behandlung liegt beim Empfänger."
+    ],
+    "legalPrefix": "Lesen Sie die",
+    "legalLink": "Regeln des Einladungsprogramms"
   }
 }

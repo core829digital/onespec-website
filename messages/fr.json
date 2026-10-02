@@ -4,7 +4,8 @@
     "description": "onespec est le widget de configuration de fenetres et portes integrable via iframe : devis automatiques, tarifs toujours a jour, personnalisable a votre marque.",
     "prezziTitle": "Tarifs",
     "prodottoTitle": "Produit",
-    "versioniTitle": "Versions"
+    "versioniTitle": "Versions",
+    "invitiTitle": "Programme d'invitation"
   },
   "nav": {
     "prodotto": "Produit",
@@ -30,7 +31,8 @@
     "tagline": "Le configurateur de menuiseries qui vend a votre place.",
     "accedi": "Accéder à la plateforme",
     "registrati": "S'inscrire",
-    "documenti": "Tous les documents juridiques"
+    "documenti": "Tous les documents juridiques",
+    "inviti": "Inviter une entreprise"
   },
   "theme": {
     "toDark": "Passer en mode sombre",
@@ -720,5 +722,48 @@
     "body": "Une erreur inattendue s'est produite. Réessayez dans un instant ; si le problème persiste, écrivez-nous à hello@onespec.eu.",
     "retry": "Réessayer",
     "home": "Retour à l'accueil"
+  },
+  "referralPage": {
+    "metaTitle": "Programme d'invitation",
+    "metaDescription": "Amenez une autre entreprise chez OneSpec : vous recevez 10 % du prix de son abonnement, elle bénéficie de 10 % de remise sur son premier paiement.",
+    "badge": "Programme d'invitation",
+    "hero": {
+      "title": "Amenez une autre entreprise chez OneSpec et recevez une récompense",
+      "subtitle": "Vous recevez 10 % du prix de son abonnement (hors TVA), en crédit ou en argent sur votre compte Stripe. Elle bénéficie de 10 % de remise sur son premier paiement."
+    },
+    "ctaRegister": "Créer votre compte",
+    "ctaCode": "Obtenir votre code d'invitation",
+    "stepsTitle": "Comment ça marche",
+    "steps": [
+      {
+        "title": "Partagez votre lien",
+        "description": "Depuis la plateforme, vous obtenez un code et un lien personnels à envoyer à une autre entreprise du secteur des menuiseries."
+      },
+      {
+        "title": "L'entreprise s'inscrit et choisit une offre",
+        "description": "Sa remise de 10 % est appliquée automatiquement au premier paiement, sans saisir de code."
+      },
+      {
+        "title": "Vous recevez la récompense",
+        "description": "Après le premier paiement et 30 jours sans remboursement, vous recevez 10 % du prix de l'offre, hors TVA : en crédit sur votre abonnement ou en argent sur votre compte Stripe."
+      }
+    ],
+    "amountsTitle": "Ce que vaut chaque invitation",
+    "amountsNote": "La récompense est de 10 % du prix catalogue de l'offre choisie par l'entreprise invitée, hors TVA, une fois par entreprise.",
+    "colPlan": "Offre de l'entreprise invitée",
+    "colPrice": "Prix mensuel",
+    "colCredit": "Votre récompense",
+    "colDiscount": "Sa remise",
+    "annualNote": "Avec le paiement annuel (lorsqu'il existe), récompense et remise sont de 10 % du prix annuel. Prix hors TVA. L'offre Enterprise se convient avec nous.",
+    "rulesTitle": "Les règles en bref",
+    "rules": [
+      "Les propriétaires et administrateurs d'un compte avec abonnement actif peuvent inviter.",
+      "La récompense est acquise après le premier vrai paiement de l'entreprise invitée et 30 jours sans remboursement ni contestation.",
+      "10 récompenses maximum par période de 12 mois et par compte.",
+      "Les invitations entre comptes d'une même personne ou entreprise, ou avec la même carte de paiement, ne donnent pas droit à la récompense.",
+      "Une récompense en argent est une rémunération de la recommandation : le traitement fiscal incombe à celui qui la reçoit."
+    ],
+    "legalPrefix": "Lisez le",
+    "legalLink": "règlement du programme d'invitation"
   }
 }

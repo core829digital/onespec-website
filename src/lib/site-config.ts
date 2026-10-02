@@ -21,10 +21,11 @@ export const NAV_HREFS: Record<(typeof NAV_KEYS)[number], string> = {
   versioni: "/versioni",
 };
 
-export const FOOTER_PRODOTTO_KEYS = ["comeFunziona", "prezzi", "versioni"] as const;
+export const FOOTER_PRODOTTO_KEYS = ["comeFunziona", "prezzi", "inviti", "versioni"] as const;
 export const FOOTER_PRODOTTO_HREFS: Record<(typeof FOOTER_PRODOTTO_KEYS)[number], string> = {
   comeFunziona: "/prodotto",
   prezzi: "/prezzi",
+  inviti: "/inviti",
   versioni: "/versioni",
 };
 

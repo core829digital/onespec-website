@@ -14,7 +14,7 @@ function renderText(text: string, keyBase: string): ReactNode[] {
     return (
       <mark
         key={`${keyBase}-${i}`}
-        className="rounded bg-amber-500/15 px-1 py-0.5 text-[0.9em] font-medium text-amber-700"
+        className="rounded bg-amber-500/15 px-1 py-0.5 text-[0.9em] font-medium text-[var(--color-text)]"
       >
         da completare: {m[1]}
       </mark>

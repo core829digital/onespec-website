@@ -40,23 +40,23 @@ export function IframeExplainer() {
           {t("subtitle")}
         </p>
 
-        <dl className="mt-9 space-y-7">
+        <ol className="mt-9 space-y-7">
           {points.map((p, i) => (
-            <div key={p.title} className="flex gap-4">
+            <li key={p.title} className="flex gap-4">
               <span className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[var(--color-mint-light)] font-mono text-[12px] font-semibold text-[var(--color-mint-dark)]">
                 {i + 1}
               </span>
               <div>
-                <dt className="text-[16px] font-semibold text-[var(--color-text)]">
+                <p className="text-[16px] font-semibold text-[var(--color-text)]">
                   {p.title}
-                </dt>
-                <dd className="mt-1.5 text-[14px] leading-relaxed text-[var(--color-text-secondary)]">
+                </p>
+                <p className="mt-1.5 text-[14px] leading-relaxed text-[var(--color-text-secondary)]">
                   {p.body}
-                </dd>
+                </p>
               </div>
-            </div>
+            </li>
           ))}
-        </dl>
+        </ol>
       </div>
 
       {/* Snippet reale, copiabile. */}

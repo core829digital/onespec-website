@@ -708,5 +708,17 @@
         ]
       }
     ]
+  },
+  "notFound": {
+    "title": "Pagina nu a fost găsită",
+    "body": "Linkul accesat nu există sau a fost mutat. Revino la prima pagină sau vezi planurile.",
+    "home": "Înapoi la prima pagină",
+    "pricing": "Vezi planurile"
+  },
+  "errorPage": {
+    "title": "Ceva nu a funcționat",
+    "body": "A apărut o eroare neașteptată. Încearcă din nou în câteva clipe; dacă problema persistă, scrie-ne la hello@onespec.eu.",
+    "retry": "Încearcă din nou",
+    "home": "Înapoi la prima pagină"
   }
 }

@@ -708,5 +708,17 @@
         ]
       }
     ]
+  },
+  "notFound": {
+    "title": "Pagina non trovata",
+    "body": "Il link che hai seguito non esiste o è stato spostato. Torna alla home o guarda i piani.",
+    "home": "Torna alla home",
+    "pricing": "Vedi i piani"
+  },
+  "errorPage": {
+    "title": "Qualcosa è andato storto",
+    "body": "Si è verificato un errore imprevisto. Riprova tra un attimo: se il problema continua, scrivici a hello@onespec.eu.",
+    "retry": "Riprova",
+    "home": "Torna alla home"
   }
 }

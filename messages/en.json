@@ -708,5 +708,17 @@
         ]
       }
     ]
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "The link you followed doesn't exist or has moved. Go back home or see the plans.",
+    "home": "Back to home",
+    "pricing": "See the plans"
+  },
+  "errorPage": {
+    "title": "Something went wrong",
+    "body": "An unexpected error occurred. Try again in a moment; if it keeps happening, write to hello@onespec.eu.",
+    "retry": "Try again",
+    "home": "Back to home"
   }
 }

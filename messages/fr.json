@@ -708,5 +708,17 @@
         ]
       }
     ]
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "body": "Le lien que vous avez suivi n'existe pas ou a été déplacé. Retournez à l'accueil ou consultez les offres.",
+    "home": "Retour à l'accueil",
+    "pricing": "Voir les offres"
+  },
+  "errorPage": {
+    "title": "Une erreur est survenue",
+    "body": "Une erreur inattendue s'est produite. Réessayez dans un instant ; si le problème persiste, écrivez-nous à hello@onespec.eu.",
+    "retry": "Réessayer",
+    "home": "Retour à l'accueil"
   }
 }

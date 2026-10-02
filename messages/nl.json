@@ -708,5 +708,17 @@
         ]
       }
     ]
+  },
+  "notFound": {
+    "title": "Pagina niet gevonden",
+    "body": "De link die je volgde bestaat niet of is verplaatst. Ga terug naar home of bekijk de abonnementen.",
+    "home": "Terug naar home",
+    "pricing": "Bekijk de abonnementen"
+  },
+  "errorPage": {
+    "title": "Er is iets misgegaan",
+    "body": "Er is een onverwachte fout opgetreden. Probeer het zo opnieuw; blijft het probleem bestaan, schrijf dan naar hello@onespec.eu.",
+    "retry": "Opnieuw proberen",
+    "home": "Terug naar home"
   }
 }

@@ -708,5 +708,17 @@
         ]
       }
     ]
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "body": "Der angeklickte Link existiert nicht oder wurde verschoben. Zurück zur Startseite oder zu den Tarifen.",
+    "home": "Zur Startseite",
+    "pricing": "Tarife ansehen"
+  },
+  "errorPage": {
+    "title": "Etwas ist schiefgelaufen",
+    "body": "Ein unerwarteter Fehler ist aufgetreten. Versuchen Sie es gleich noch einmal; falls das Problem bleibt, schreiben Sie an hello@onespec.eu.",
+    "retry": "Erneut versuchen",
+    "home": "Zur Startseite"
   }
 }

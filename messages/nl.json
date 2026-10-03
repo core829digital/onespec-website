@@ -324,6 +324,19 @@
   ],
   "changelog": [
     {
+      "version": "1.7.0",
+      "date": "2026-10-03",
+      "title": "Technische tekeningen, beglazing en professionele afwerkingen",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Complete technische tekeningen: aanzicht binnen/buiten, plattegrond, doorsnede, beslag, inbouwdetail en opmetingsblad",
+        "Technische regels voor vleugels: vaste of beweegbare stijl, greep altijd op de actieve vleugel",
+        "Glaspakketten dubbel (24–28 mm) en drievoudig (32–52 mm) met de samenstellingen die naar hoogte worden aanbevolen",
+        "Bijna 200 kleuren en decors met kleurvlak-voorbeeld: realistische texturen op het kozijn, RAL en steenlook"
+      ]
+    },
+    {
       "version": "1.6.0",
       "date": "2026-09-30",
       "title": "Veiligere betalingen en toegang",

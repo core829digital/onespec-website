@@ -324,6 +324,19 @@
   ],
   "changelog": [
     {
+      "version": "1.7.0",
+      "date": "2026-10-03",
+      "title": "Desene tehnice, geam și finisaje profesionale",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Desene tehnice complete: fațadă interior/exterior, plan, secțiune, feronerie, detaliu de montaj și fișă de măsurare",
+        "Reguli tehnice pentru canate: montant fix sau mobil, mânerul mereu pe canatul activ",
+        "Pachete de geam dublu (24–28 mm) și triplu (32–52 mm) cu compozițiile recomandate în funcție de înălțime",
+        "Aproape 200 de culori și decoruri cu previzualizare pe pătrățele: texturi realiste pe toc, RAL și aspect de piatră"
+      ]
+    },
+    {
       "version": "1.6.0",
       "date": "2026-09-30",
       "title": "Plăți și acces mai sigure",

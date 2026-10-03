@@ -324,6 +324,19 @@
   ],
   "changelog": [
     {
+      "version": "1.7.0",
+      "date": "2026-10-03",
+      "title": "Disegni tecnici, vetri e colori professionali",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Disegni tecnici completi: prospetto interno/esterno, pianta, sezione, ferramenta, nodo di posa e tavola di rilievo",
+        "Regole tecniche delle ante: montante fisso o mobile e maniglia sempre sull'anta attiva",
+        "Pacchetti vetro doppio (24–28 mm) e triplo (32–52 mm) con le composizioni consigliate per altezza",
+        "Quasi 200 colori e decori con anteprima a quadratini: texture realistiche sul telaio, RAL ed effetto pietra"
+      ]
+    },
+    {
       "version": "1.6.0",
       "date": "2026-09-30",
       "title": "Pagamenti e accessi più sicuri",

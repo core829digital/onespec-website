@@ -324,6 +324,19 @@
   ],
   "changelog": [
     {
+      "version": "1.7.0",
+      "date": "2026-10-03",
+      "title": "Technische Zeichnungen, Verglasung und professionelle Oberflächen",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Vollständige technische Zeichnungen: Innen-/Außenansicht, Grundriss, Schnitt, Beschlag, Einbaudetail und Aufmaßblatt",
+        "Technische Regeln für Flügel: fester oder beweglicher Pfosten, Griff immer am Gangflügel",
+        "Glaspakete zweifach (24–28 mm) und dreifach (32–52 mm) mit den nach Höhe empfohlenen Aufbauten",
+        "Fast 200 Farben und Dekore mit Farbfeld-Vorschau: realistische Texturen auf dem Rahmen, RAL und Steinoptik"
+      ]
+    },
+    {
       "version": "1.6.0",
       "date": "2026-09-30",
       "title": "Sicherere Zahlungen und Zugänge",

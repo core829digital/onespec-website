@@ -324,6 +324,19 @@
   ],
   "changelog": [
     {
+      "version": "1.7.0",
+      "date": "2026-10-03",
+      "title": "Dessins techniques, vitrages et finitions professionnelles",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Dessins techniques complets : élévation intérieure/extérieure, plan, coupe, quincaillerie, nœud de pose et fiche de relevé",
+        "Règles techniques des vantaux : montant fixe ou mobile, poignée toujours sur le vantail actif",
+        "Packs de vitrage double (24–28 mm) et triple (32–52 mm) avec les compositions recommandées selon la hauteur",
+        "Près de 200 couleurs et décors avec aperçu en pastilles : textures réalistes sur le dormant, RAL et effet pierre"
+      ]
+    },
+    {
       "version": "1.6.0",
       "date": "2026-09-30",
       "title": "Paiements et accès plus sûrs",

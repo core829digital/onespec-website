@@ -324,6 +324,19 @@
   ],
   "changelog": [
     {
+      "version": "1.7.0",
+      "date": "2026-10-03",
+      "title": "Technical drawings, glazing and professional finishes",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Complete technical drawings: inside/outside elevation, plan, section, hardware, installation detail and survey sheet",
+        "Technical rules for leaves: fixed or movable mullion, handle always on the active leaf",
+        "Double (24–28 mm) and triple (32–52 mm) glazing packages with the compositions recommended by height",
+        "Nearly 200 colours and decors with swatch preview: realistic textures on the frame, RAL and stone effect"
+      ]
+    },
+    {
       "version": "1.6.0",
       "date": "2026-09-30",
       "title": "Safer payments and access",

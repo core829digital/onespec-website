@@ -5,7 +5,8 @@
     "prezziTitle": "Preise",
     "prodottoTitle": "Produkt",
     "versioniTitle": "Versionen",
-    "invitiTitle": "Einladungsprogramm"
+    "invitiTitle": "Einladungsprogramm",
+    "demoTitle": "Plattform-Demo"
   },
   "nav": {
     "prodotto": "Produkt",
@@ -14,7 +15,8 @@
     "apriMenu": "Menü öffnen",
     "chiudiMenu": "Menü schließen",
     "accedi": "Anmelden",
-    "inizia": "Jetzt starten"
+    "inizia": "Jetzt starten",
+    "demo": "Demo"
   },
   "footer": {
     "colProdotto": "Produkt",
@@ -32,7 +34,8 @@
     "accedi": "Zur Plattform anmelden",
     "registrati": "Registrieren",
     "documenti": "Alle rechtlichen Dokumente",
-    "inviti": "Unternehmen einladen"
+    "inviti": "Unternehmen einladen",
+    "demo": "Plattform-Demo"
   },
   "theme": {
     "toDark": "Zum dunklen Modus wechseln",
@@ -870,5 +873,22 @@
     ],
     "legalPrefix": "Lesen Sie die",
     "legalLink": "Regeln des Einladungsprogramms"
+  },
+  "platformDemo": {
+    "metaTitle": "Plattform-Demo",
+    "metaDescription": "Testen Sie die komplette onespec-Plattform im Demo-Modus: Beispieldaten, alle Seiten, auf Desktop, Tablet und Smartphone.",
+    "badge": "LIVE-DEMO",
+    "title": "Testen Sie die ganze Plattform, ohne Anmeldung",
+    "subtitle": "Kunden, Angebote, Baustellen, Leads, Anfragen, Lieferung, Aufmaße und Statistiken: alles mit Beispieldaten. Klicken, ändern, anlegen: nichts wird versendet.",
+    "deviceLabel": "Bildschirmgröße",
+    "desktop": "Desktop",
+    "tablet": "Tablet",
+    "phone": "Smartphone",
+    "openFull": "Im Vollbild öffnen",
+    "label": "onespec-Plattform — Demo",
+    "loading": "Demo wird geladen…",
+    "note": "Die Demo läuft in Ihrem Browser: Die Daten werden beim Schließen des Tabs zurückgesetzt; Zahlungen, externe Prüfungen und echter Versand sind deaktiviert.",
+    "ctaTitle": "Gefällt es Ihnen? Erstellen Sie Ihr Konto.",
+    "cta": "Jetzt starten"
   }
 }

@@ -5,7 +5,8 @@
     "prezziTitle": "Pricing",
     "prodottoTitle": "Product",
     "versioniTitle": "Changelog",
-    "invitiTitle": "Invitation programme"
+    "invitiTitle": "Invitation programme",
+    "demoTitle": "Platform demo"
   },
   "nav": {
     "prodotto": "Product",
@@ -14,7 +15,8 @@
     "apriMenu": "Open menu",
     "chiudiMenu": "Close menu",
     "accedi": "Log in",
-    "inizia": "Get started"
+    "inizia": "Get started",
+    "demo": "Demo"
   },
   "footer": {
     "colProdotto": "Product",
@@ -32,7 +34,8 @@
     "accedi": "Log in to the platform",
     "registrati": "Sign up",
     "documenti": "All legal documents",
-    "inviti": "Invite a company"
+    "inviti": "Invite a company",
+    "demo": "Platform demo"
   },
   "theme": {
     "toDark": "Switch to dark mode",
@@ -870,5 +873,22 @@
     ],
     "legalPrefix": "Read the",
     "legalLink": "invitation programme rules"
+  },
+  "platformDemo": {
+    "metaTitle": "Platform demo",
+    "metaDescription": "Try the complete onespec platform in demo mode: sample data, every page, on desktop, tablet and phone.",
+    "badge": "LIVE DEMO",
+    "title": "Try the whole platform, no sign-up",
+    "subtitle": "Clients, quotes, job sites, leads, requests, supply, surveys and statistics: all with sample data. Click, edit, create: nothing is sent.",
+    "deviceLabel": "Screen size",
+    "desktop": "Desktop",
+    "tablet": "Tablet",
+    "phone": "Phone",
+    "openFull": "Open full screen",
+    "label": "onespec platform — demo",
+    "loading": "Loading demo…",
+    "note": "The demo runs in your browser: data resets when you close the tab, and payments, external checks and real sending are turned off.",
+    "ctaTitle": "Like it? Create your account.",
+    "cta": "Get started"
   }
 }

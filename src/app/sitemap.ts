@@ -3,7 +3,7 @@ import { LEGAL_DOCS } from "@/content/legal";
 import { routing } from "@/i18n/routing";
 import { SITE_URL } from "@/lib/site-config";
 
-const PATHS = ["", "/prodotto", "/prezzi", "/inviti", "/versioni", "/legale", ...LEGAL_DOCS.map((d) => `/legale/${d.slug}`)];
+const PATHS = ["", "/prodotto", "/demo", "/prezzi", "/inviti", "/versioni", "/legale", ...LEGAL_DOCS.map((d) => `/legale/${d.slug}`)];
 
 /** Indirizzo pubblico di una pagina: l'italiano (lingua predefinita) non ha prefisso. */
 const url = (locale: string, path: string) =>

@@ -14,16 +14,18 @@ export const SITE = {
   salesEmail: "sales@onespec.eu",
 };
 
-export const NAV_KEYS = ["prodotto", "prezzi", "versioni"] as const;
+export const NAV_KEYS = ["prodotto", "demo", "prezzi", "versioni"] as const;
 export const NAV_HREFS: Record<(typeof NAV_KEYS)[number], string> = {
   prodotto: "/prodotto",
+  demo: "/demo",
   prezzi: "/prezzi",
   versioni: "/versioni",
 };
 
-export const FOOTER_PRODOTTO_KEYS = ["comeFunziona", "prezzi", "inviti", "versioni"] as const;
+export const FOOTER_PRODOTTO_KEYS = ["comeFunziona", "demo", "prezzi", "inviti", "versioni"] as const;
 export const FOOTER_PRODOTTO_HREFS: Record<(typeof FOOTER_PRODOTTO_KEYS)[number], string> = {
   comeFunziona: "/prodotto",
+  demo: "/demo",
   prezzi: "/prezzi",
   inviti: "/inviti",
   versioni: "/versioni",
@@ -49,6 +51,8 @@ export const FOOTER_LEGALE_HREFS: Record<(typeof FOOTER_LEGALE_KEYS)[number], st
  * registrazione diretta, pagamento Stripe e app. Il sito non ha account propri.
  */
 export const PLATFORM_URL = "https://platform.onespec.eu";
+/** The platform in demo mode (a separate host of the same app: in-browser database, nothing is sent). NEXT_PUBLIC_PLATFORM_DEMO_URL points it to a local build in tests. */
+export const DEMO_PLATFORM_URL = process.env.NEXT_PUBLIC_PLATFORM_DEMO_URL ?? "https://demo.onespec.eu";
 
 /** Pagina della piattaforma nella lingua del visitatore (l'italiano non ha prefisso). */
 export function platformUrl(path: string, locale: string): string {

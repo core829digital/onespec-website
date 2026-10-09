@@ -5,7 +5,8 @@
     "prezziTitle": "Prezzi",
     "prodottoTitle": "Prodotto",
     "versioniTitle": "Versioni",
-    "invitiTitle": "Programma inviti"
+    "invitiTitle": "Programma inviti",
+    "demoTitle": "Demo piattaforma"
   },
   "nav": {
     "prodotto": "Prodotto",
@@ -14,7 +15,8 @@
     "apriMenu": "Apri menu",
     "chiudiMenu": "Chiudi menu",
     "accedi": "Accedi",
-    "inizia": "Inizia ora"
+    "inizia": "Inizia ora",
+    "demo": "Demo"
   },
   "footer": {
     "colProdotto": "Prodotto",
@@ -32,7 +34,8 @@
     "accedi": "Accedi alla piattaforma",
     "registrati": "Registrati",
     "documenti": "Tutti i documenti legali",
-    "inviti": "Invita un'azienda"
+    "inviti": "Invita un'azienda",
+    "demo": "Demo della piattaforma"
   },
   "theme": {
     "toDark": "Passa alla modalità scura",
@@ -870,5 +873,22 @@
     ],
     "legalPrefix": "Leggi il",
     "legalLink": "regolamento del programma inviti"
+  },
+  "platformDemo": {
+    "metaTitle": "Demo piattaforma",
+    "metaDescription": "Prova la piattaforma onespec completa in demo: dati di esempio, tutte le pagine, su desktop, tablet e telefono.",
+    "badge": "DEMO LIVE",
+    "title": "Prova la piattaforma intera, senza registrarti",
+    "subtitle": "Clienti, preventivi, cantieri, leads, richieste, fornitura, rilievi e statistiche: tutto con dati di esempio. Clicca, modifica, crea: nulla viene inviato.",
+    "deviceLabel": "Dimensione schermo",
+    "desktop": "Desktop",
+    "tablet": "Tablet",
+    "phone": "Telefono",
+    "openFull": "Apri a schermo intero",
+    "label": "Piattaforma onespec — demo",
+    "loading": "Caricamento demo…",
+    "note": "La demo gira nel tuo browser: i dati si azzerano alla chiusura della scheda, e pagamenti, verifiche esterne e invii reali sono disattivati.",
+    "ctaTitle": "Ti piace? Crea il tuo account.",
+    "cta": "Inizia ora"
   }
 }

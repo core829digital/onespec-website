@@ -5,7 +5,8 @@
     "prezziTitle": "Tarifs",
     "prodottoTitle": "Produit",
     "versioniTitle": "Versions",
-    "invitiTitle": "Programme d'invitation"
+    "invitiTitle": "Programme d'invitation",
+    "demoTitle": "Démo de la plateforme"
   },
   "nav": {
     "prodotto": "Produit",
@@ -14,7 +15,8 @@
     "apriMenu": "Ouvrir le menu",
     "chiudiMenu": "Fermer le menu",
     "accedi": "Connexion",
-    "inizia": "Commencer"
+    "inizia": "Commencer",
+    "demo": "Démo"
   },
   "footer": {
     "colProdotto": "Produit",
@@ -32,7 +34,8 @@
     "accedi": "Accéder à la plateforme",
     "registrati": "S'inscrire",
     "documenti": "Tous les documents juridiques",
-    "inviti": "Inviter une entreprise"
+    "inviti": "Inviter une entreprise",
+    "demo": "Démo de la plateforme"
   },
   "theme": {
     "toDark": "Passer en mode sombre",
@@ -870,5 +873,22 @@
     ],
     "legalPrefix": "Lisez le",
     "legalLink": "règlement du programme d'invitation"
+  },
+  "platformDemo": {
+    "metaTitle": "Démo de la plateforme",
+    "metaDescription": "Essayez la plateforme onespec complète en démo : données d'exemple, toutes les pages, sur ordinateur, tablette et téléphone.",
+    "badge": "DÉMO EN DIRECT",
+    "title": "Essayez toute la plateforme, sans inscription",
+    "subtitle": "Clients, devis, chantiers, leads, demandes, approvisionnement, relevés et statistiques : tout avec des données d'exemple. Cliquez, modifiez, créez : rien n'est envoyé.",
+    "deviceLabel": "Taille d'écran",
+    "desktop": "Ordinateur",
+    "tablet": "Tablette",
+    "phone": "Téléphone",
+    "openFull": "Ouvrir en plein écran",
+    "label": "Plateforme onespec — démo",
+    "loading": "Chargement de la démo…",
+    "note": "La démo tourne dans votre navigateur : les données sont réinitialisées à la fermeture de l'onglet, et paiements, vérifications externes et envois réels sont désactivés.",
+    "ctaTitle": "Vous aimez ? Créez votre compte.",
+    "cta": "Commencer"
   }
 }

@@ -5,7 +5,8 @@
     "prezziTitle": "Prijzen",
     "prodottoTitle": "Product",
     "versioniTitle": "Versies",
-    "invitiTitle": "Uitnodigingsprogramma"
+    "invitiTitle": "Uitnodigingsprogramma",
+    "demoTitle": "Platformdemo"
   },
   "nav": {
     "prodotto": "Product",
@@ -14,7 +15,8 @@
     "apriMenu": "Menu openen",
     "chiudiMenu": "Menu sluiten",
     "accedi": "Inloggen",
-    "inizia": "Nu starten"
+    "inizia": "Nu starten",
+    "demo": "Demo"
   },
   "footer": {
     "colProdotto": "Product",
@@ -32,7 +34,8 @@
     "accedi": "Inloggen op het platform",
     "registrati": "Registreren",
     "documenti": "Alle juridische documenten",
-    "inviti": "Nodig een bedrijf uit"
+    "inviti": "Nodig een bedrijf uit",
+    "demo": "Platformdemo"
   },
   "theme": {
     "toDark": "Overschakelen naar donkere modus",
@@ -870,5 +873,22 @@
     ],
     "legalPrefix": "Lees het",
     "legalLink": "reglement van het uitnodigingsprogramma"
+  },
+  "platformDemo": {
+    "metaTitle": "Platformdemo",
+    "metaDescription": "Probeer het volledige onespec-platform in demo: voorbeelddata, alle pagina's, op desktop, tablet en telefoon.",
+    "badge": "LIVE DEMO",
+    "title": "Probeer het hele platform, zonder aanmelden",
+    "subtitle": "Klanten, offertes, bouwplaatsen, leads, aanvragen, levering, opmetingen en statistieken: alles met voorbeelddata. Klik, wijzig, maak aan: er wordt niets verzonden.",
+    "deviceLabel": "Schermgrootte",
+    "desktop": "Desktop",
+    "tablet": "Tablet",
+    "phone": "Telefoon",
+    "openFull": "Open op volledig scherm",
+    "label": "onespec-platform — demo",
+    "loading": "Demo laden…",
+    "note": "De demo draait in je browser: de data wordt gewist als je het tabblad sluit, en betalingen, externe controles en echt verzenden staan uit.",
+    "ctaTitle": "Bevalt het? Maak je account aan.",
+    "cta": "Begin nu"
   }
 }

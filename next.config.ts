@@ -5,11 +5,11 @@ const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
 const isProd = process.env.NODE_ENV === "production";
 
-// The only third-party origin the site loads is the platform, in the demo iframes
-// (/demo/widget and /demo/showroom). NEXT_PUBLIC_DEMO_ORIGIN lets local tests point
+// The only third-party origins the site loads are the platform (the widget/showroom demo iframes) and its demo host (the whole platform in demo mode). NEXT_PUBLIC_DEMO_ORIGIN lets local tests point
 // them at a local platform; it is never set in production.
 const demoOrigin = process.env.NEXT_PUBLIC_DEMO_ORIGIN;
-const frameSrc = ["https://platform.onespec.eu", ...(demoOrigin ? [demoOrigin] : [])].join(" ");
+const platformDemoOrigin = process.env.NEXT_PUBLIC_PLATFORM_DEMO_URL;
+const frameSrc = ["https://platform.onespec.eu", "https://demo.onespec.eu", ...(demoOrigin ? [demoOrigin] : []), ...(platformDemoOrigin ? [platformDemoOrigin] : [])].join(" ");
 
 const CSP = [
   "default-src 'self'",

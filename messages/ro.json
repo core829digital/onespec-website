@@ -5,7 +5,8 @@
     "prezziTitle": "Preturi",
     "prodottoTitle": "Produs",
     "versioniTitle": "Versiuni",
-    "invitiTitle": "Program de invitații"
+    "invitiTitle": "Program de invitații",
+    "demoTitle": "Demo platformă"
   },
   "nav": {
     "prodotto": "Produs",
@@ -14,7 +15,8 @@
     "apriMenu": "Deschide meniul",
     "chiudiMenu": "Inchide meniul",
     "accedi": "Autentificare",
-    "inizia": "Începe acum"
+    "inizia": "Începe acum",
+    "demo": "Demo"
   },
   "footer": {
     "colProdotto": "Produs",
@@ -32,7 +34,8 @@
     "accedi": "Intră în platformă",
     "registrati": "Înregistrare",
     "documenti": "Toate documentele juridice",
-    "inviti": "Invită o companie"
+    "inviti": "Invită o companie",
+    "demo": "Demo platformă"
   },
   "theme": {
     "toDark": "Comuta la modul intunecat",
@@ -870,5 +873,22 @@
     ],
     "legalPrefix": "Citește",
     "legalLink": "regulamentul programului de invitații"
+  },
+  "platformDemo": {
+    "metaTitle": "Demo platformă",
+    "metaDescription": "Încearcă platforma onespec completă în demo: date de exemplu, toate paginile, pe desktop, tabletă și telefon.",
+    "badge": "DEMO LIVE",
+    "title": "Încearcă toată platforma, fără înregistrare",
+    "subtitle": "Clienți, oferte, șantiere, lead-uri, cereri, aprovizionare, măsurători și statistici: totul cu date de exemplu. Apasă, modifică, creează: nu se trimite nimic.",
+    "deviceLabel": "Dimensiunea ecranului",
+    "desktop": "Desktop",
+    "tablet": "Tabletă",
+    "phone": "Telefon",
+    "openFull": "Deschide pe tot ecranul",
+    "label": "Platforma onespec — demo",
+    "loading": "Se încarcă demo-ul…",
+    "note": "Demo-ul rulează în browserul tău: datele se resetează la închiderea filei, iar plățile, verificările externe și trimiterile reale sunt dezactivate.",
+    "ctaTitle": "Îți place? Creează-ți contul.",
+    "cta": "Începe acum"
   }
 }

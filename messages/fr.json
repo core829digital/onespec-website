@@ -94,6 +94,21 @@
           "icon": "lightning",
           "title": "Mises a jour instantanees",
           "description": "Vous modifiez le configurateur depuis la plateforme onespec : les changements sont en ligne sur tous les sites ou il est installe, immediatement."
+        },
+        {
+          "icon": "palette",
+          "title": "Bicolore : extérieur différent de l'intérieur",
+          "description": "Choisissez une finition pour la face extérieure et une autre pour l'intérieure, avec prix et dessin corrects dans le widget, l'assistant, le Showroom, le devis et le PDF."
+        },
+        {
+          "icon": "file",
+          "title": "Leads et devis finaux",
+          "description": "Importez des listes Excel, CSV ou Word, transformez-les en clients et chantiers, et gardez le PDF du devis final dans la fiche client."
+        },
+        {
+          "icon": "shield",
+          "title": "Sûre et à essayer tout de suite",
+          "description": "Inscription avec contrôle de l'âge et DPA, envois vérifiés, webhooks signés. Et vous pouvez essayer toute la plateforme en démo, sans compte."
         }
       ]
     },
@@ -326,6 +341,19 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.15.0",
+      "date": "2026-10-09",
+      "title": "Démo de la plateforme complète",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Nouvelle page Démo : toute la plateforme (tableau de bord, devis, clients, chantiers, leads, demandes, approvisionnement, relevés, configurateurs, statistiques) avec des données d'exemple, directement depuis le site",
+        "Fonctionne sur ordinateur, tablette et téléphone ; s'ouvre aussi en plein écran et vous pouvez recommencer à tout moment",
+        "Tourne dans votre navigateur : rien n'est envoyé ; paiements, vérifications externes et envois réels sont désactivés avec un message clair",
+        "Correction d'un libellé manquant sur la page Chantiers (poignée de déplacement)"
+      ]
+    },
     {
       "version": "1.14.0",
       "date": "2026-10-09",

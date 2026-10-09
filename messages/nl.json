@@ -94,6 +94,21 @@
           "icon": "lightning",
           "title": "Directe updates",
           "description": "U wijzigt de configurator vanuit het onespec-platform: de wijzigingen zijn direct live op alle sites waar hij geïnstalleerd is."
+        },
+        {
+          "icon": "palette",
+          "title": "Tweekleurig: buiten anders dan binnen",
+          "description": "Kies één afwerking voor de buitenkant en een andere voor de binnenkant, met juiste prijs en tekening in widget, wizard, Showroom, offerte en pdf."
+        },
+        {
+          "icon": "file",
+          "title": "Leads en definitieve offertes",
+          "description": "Importeer lijsten uit Excel, CSV of Word, maak er klanten en bouwplaatsen van en bewaar de pdf van de definitieve offerte in het klantdossier."
+        },
+        {
+          "icon": "shield",
+          "title": "Veilig en direct te proberen",
+          "description": "Registratie met leeftijdscontrole en verwerkersovereenkomst, gecontroleerde uploads, ondertekende webhooks. En je kunt het hele platform in demo proberen, zonder account."
         }
       ]
     },
@@ -326,6 +341,19 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.15.0",
+      "date": "2026-10-09",
+      "title": "Demo van het volledige platform",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Nieuwe Demo-pagina: het hele platform (dashboard, offertes, klanten, bouwplaatsen, leads, aanvragen, levering, opmetingen, configurators, statistieken) met voorbeelddata, rechtstreeks vanaf de website",
+        "Werkt op desktop, tablet en telefoon; opent ook op volledig scherm en je kunt altijd opnieuw beginnen",
+        "Draait in je browser: er wordt niets verzonden; betalingen, externe controles en echt verzenden staan uit met een duidelijke melding",
+        "Ontbrekende tekst op de pagina Bouwplaatsen hersteld (sleephandvat)"
+      ]
+    },
     {
       "version": "1.14.0",
       "date": "2026-10-09",

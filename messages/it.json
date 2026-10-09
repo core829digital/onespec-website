@@ -94,6 +94,21 @@
           "icon": "lightning",
           "title": "Aggiornamenti instantanei",
           "description": "Modifichi il configuratore dalla piattaforma onespec: le modifiche sono live su tutti i siti dove è installato, subito."
+        },
+        {
+          "icon": "palette",
+          "title": "Bicolore: esterno diverso dall'interno",
+          "description": "Scegli una finitura per la faccia esterna e una per l'interna, con prezzo e disegno corretti in widget, wizard, Showroom, preventivo e PDF."
+        },
+        {
+          "icon": "file",
+          "title": "Leads e preventivi finali",
+          "description": "Importa liste da Excel, CSV o Word, trasformale in clienti e cantieri, e conserva nella scheda cliente il PDF del preventivo finale."
+        },
+        {
+          "icon": "shield",
+          "title": "Sicura e provabile subito",
+          "description": "Registrazione con controllo età e DPA, caricamenti verificati, webhook firmati. E puoi provare tutta la piattaforma in demo, senza account."
         }
       ]
     },
@@ -326,6 +341,19 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.15.0",
+      "date": "2026-10-09",
+      "title": "Demo della piattaforma completa",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Nuova pagina Demo: tutta la piattaforma (dashboard, preventivi, clienti, cantieri, leads, richieste, fornitura, rilievi, configuratori, statistiche) con dati di esempio, direttamente dal sito",
+        "Funziona su desktop, tablet e telefono; si apre anche a schermo intero e puoi ricominciare quando vuoi",
+        "Gira nel tuo browser: nulla viene inviato; pagamenti, verifiche esterne e invii reali sono disattivati con un messaggio chiaro",
+        "Corretto un testo mancante nella pagina Cantieri (maniglia di trascinamento)"
+      ]
+    },
     {
       "version": "1.14.0",
       "date": "2026-10-09",

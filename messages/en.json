@@ -94,6 +94,21 @@
           "icon": "lightning",
           "title": "Instant updates",
           "description": "You update the configurator from the onespec platform: changes go live on every site where it's installed, immediately."
+        },
+        {
+          "icon": "palette",
+          "title": "Two-tone: outside different from inside",
+          "description": "Pick one finish for the outer face and another for the inner, with correct price and drawing in the widget, wizard, Showroom, quote and PDF."
+        },
+        {
+          "icon": "file",
+          "title": "Leads and final quotes",
+          "description": "Import lists from Excel, CSV or Word, turn them into clients and job sites, and keep the final-quote PDF in the client record."
+        },
+        {
+          "icon": "shield",
+          "title": "Secure and ready to try",
+          "description": "Sign-up with age check and DPA, verified uploads, signed webhooks. And you can try the whole platform in demo, no account needed."
         }
       ]
     },
@@ -326,6 +341,19 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.15.0",
+      "date": "2026-10-09",
+      "title": "Complete platform demo",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "New Demo page: the whole platform (dashboard, quotes, clients, job sites, leads, requests, supply, surveys, configurators, statistics) with sample data, straight from the website",
+        "Works on desktop, tablet and phone; it also opens full screen and you can start over at any time",
+        "Runs in your browser: nothing is sent; payments, external checks and real sending are turned off with a clear message",
+        "Fixed a missing label on the Job sites page (drag handle)"
+      ]
+    },
     {
       "version": "1.14.0",
       "date": "2026-10-09",

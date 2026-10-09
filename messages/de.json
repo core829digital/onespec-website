@@ -94,6 +94,21 @@
           "icon": "lightning",
           "title": "Sofortige Updates",
           "description": "Sie ändern den Konfigurator über die onespec-Plattform: Die Änderungen sind sofort auf allen Websites live, auf denen er installiert ist."
+        },
+        {
+          "icon": "palette",
+          "title": "Zweifarbig: außen anders als innen",
+          "description": "Wählen Sie eine Oberfläche für die Außenseite und eine für die Innenseite, mit korrektem Preis und Zeichnung in Widget, Assistent, Showroom, Angebot und PDF."
+        },
+        {
+          "icon": "file",
+          "title": "Leads und Endangebote",
+          "description": "Importieren Sie Listen aus Excel, CSV oder Word, machen Sie daraus Kunden und Baustellen und legen Sie das PDF des Endangebots in der Kundenakte ab."
+        },
+        {
+          "icon": "shield",
+          "title": "Sicher und sofort testbar",
+          "description": "Registrierung mit Altersprüfung und AVV, geprüfte Uploads, signierte Webhooks. Und Sie können die ganze Plattform in der Demo testen, ohne Konto."
         }
       ]
     },
@@ -326,6 +341,19 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.15.0",
+      "date": "2026-10-09",
+      "title": "Demo der kompletten Plattform",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Neue Demo-Seite: die ganze Plattform (Dashboard, Angebote, Kunden, Baustellen, Leads, Anfragen, Lieferung, Aufmaße, Konfiguratoren, Statistiken) mit Beispieldaten, direkt von der Website",
+        "Funktioniert auf Desktop, Tablet und Smartphone; öffnet sich auch im Vollbild, und Sie können jederzeit neu starten",
+        "Läuft in Ihrem Browser: nichts wird versendet; Zahlungen, externe Prüfungen und echter Versand sind mit klarer Meldung deaktiviert",
+        "Fehlende Beschriftung auf der Baustellen-Seite behoben (Ziehgriff)"
+      ]
+    },
     {
       "version": "1.14.0",
       "date": "2026-10-09",

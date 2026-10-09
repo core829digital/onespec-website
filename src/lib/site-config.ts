@@ -125,3 +125,19 @@ export const CHANGELOG_META: ChangelogMeta[] = [
   { version: "1.1.0", date: "2026-09-28", tag: "Nuovo", channel: "prodotto" },
   { version: "1.0.0", date: "2026-09-26", tag: "Nuovo", channel: "prodotto" },
 ];
+
+const semverParts = (v: string) => v.split(".").map((n) => Number(n));
+const semverCompare = (a: string, b: string) => {
+  const [pa, pb] = [semverParts(a), semverParts(b)];
+  for (let i = 0; i < 3; i++) if ((pa[i] ?? 0) !== (pb[i] ?? 0)) return (pa[i] ?? 0) - (pb[i] ?? 0);
+  return 0;
+};
+
+/**
+ * The product's current version: the highest entry of the changelog above. It is the single source of truth: the "Versioni" page
+ * shows it, and the platform reads it from /api/version to print the same number in its side menu (so publishing a new changelog
+ * entry here updates the platform by itself, no platform deploy needed).
+ */
+export function currentVersion(): ChangelogMeta {
+  return CHANGELOG_META.reduce((best, m) => (semverCompare(m.version, best.version) > 0 ? m : best));
+}

@@ -589,7 +589,8 @@
       "Nuovo": "Nieuw",
       "Miglioramento": "Verbetering",
       "Fix": "Fix"
-    }
+    },
+    "current": "Huidige versie"
   },
   "prodotto": {
     "hero": {

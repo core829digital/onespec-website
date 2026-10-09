@@ -589,7 +589,8 @@
       "Nuovo": "New",
       "Miglioramento": "Improvement",
       "Fix": "Fix"
-    }
+    },
+    "current": "Current version"
   },
   "prodotto": {
     "hero": {

@@ -2,7 +2,7 @@ import { Package } from "@phosphor-icons/react/dist/ssr";
 import { useTranslations, useLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Reveal, RevealGroup, RevealItem } from "@/components/reveal";
-import { CHANGELOG_META, type ChangelogMeta } from "@/lib/site-config";
+import { CHANGELOG_META, currentVersion, type ChangelogMeta } from "@/lib/site-config";
 import type { AppLocale } from "@/i18n/routing";
 
 type ChangelogCopy = { title: string; items: string[] };
@@ -120,6 +120,9 @@ function VersioniContent() {
             </h1>
             <p className="mx-auto mt-5 max-w-xl text-balance text-lg leading-relaxed text-[var(--color-text-secondary)]">
               {t("subtitle")}
+            </p>
+            <p className="mt-6 inline-flex items-center gap-2 rounded-full bg-[var(--color-mint-light)] px-4 py-1.5 text-[13px] font-semibold text-[var(--color-mint-dark)]">
+              {t("current")} <span className="font-mono" data-testid="current-version">{`v${currentVersion().version}`}</span>
             </p>
           </Reveal>
         </div>

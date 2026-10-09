@@ -324,6 +324,98 @@
   ],
   "changelog": [
     {
+      "version": "1.14.0",
+      "date": "2026-10-09",
+      "title": "Bicolor și configuratoare perfecte pe telefon",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Bicolor: alegeți un finisaj pentru exterior și altul pentru interior, cu preț (media celor două finisaje plus un supliment pe m² stabilit de dumneavoastră) în widget, asistent, Showroom, oferta B2B, PDF și exporturi",
+        "Desenul arată fața interioară sau exterioară în culoarea corectă",
+        "Widget-ul și configuratorul pe o singură pagină sunt centrate și aliniate pe telefon; asistentul simplu are margini corecte și butoane ușor de atins"
+      ]
+    },
+    {
+      "version": "1.13.0",
+      "date": "2026-10-09",
+      "title": "Înregistrare completă și mai sigură",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Înregistrare într-un singur pas: date personale, data nașterii (verificarea majoratului), datele firmei și semnarea acordului de prelucrare a datelor (DPA) fără a trece prin profil",
+        "Afișare/ascundere parolă, verificări pe fiecare câmp și parole mai puternice la înregistrare, autentificare și recuperare",
+        "Notificările de livrare și de respingere a e-mailurilor sunt înregistrate corect, fără duplicate",
+        "Trimitere mai sigură a e-mailurilor; retrimiterile din administrare sunt înregistrate"
+      ]
+    },
+    {
+      "version": "1.12.0",
+      "date": "2026-10-09",
+      "title": "Leaduri și dosarul de documente al clientului",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Pagina Leaduri: importați liste din Excel (.xlsx), CSV și Word (.docx); coloanele sunt recunoscute automat și le puteți corecta înainte de import",
+        "Din listă adăugați un lead ca client sau legați-l de un șantier, chiar în bloc",
+        "Încărcați ofertele finale în PDF: rămân în dosarul clientului, legate de șantier și de oferta internă",
+        "Fiecare încărcare de fișier este verificată pe conținutul real și protejată împotriva abuzurilor"
+      ]
+    },
+    {
+      "version": "1.11.0",
+      "date": "2026-10-09",
+      "title": "Telefon și tabletă: mai mult spațiu și gesturi",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Fără bară sus pe telefon și tabletă: rămâne doar insula de jos, cu margini sigure pentru decupaj și bara de sistem",
+        "Gesturi de glisare: închideți meniurile și foile trăgând, deschideți meniul lateral de la margine",
+        "Meniul „Mai mult” cu tema luminoasă/întunecată, instalarea aplicației pe ecranul principal, limbă, cont, notificări, abonament și starea serviciului",
+        "Butoanele paginii Configuratoare rămân mereu în ecran"
+      ]
+    },
+    {
+      "version": "1.10.0",
+      "date": "2026-10-08",
+      "title": "Aplicație pe telefon, teste automate și meniuri mai bune",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Insulă jos în stil iPhone cu paginile principale și butonul „Adaugă pe ecranul principal” în orice browser",
+        "Meniuri derulante și controale în culorile onespec cu animații fluide, care respectă setarea de reducere a mișcării",
+        "Test automat în browser pe 27 de pagini ale platformei, de la ofertă până la semnătură și PDF",
+        "Corecție: cotele din desen pot fi din nou modificate cu un clic"
+      ]
+    },
+    {
+      "version": "1.9.0",
+      "date": "2026-10-06",
+      "title": "Echipe, ciorne și legături automate",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Echipe cu parolă: colegii intră cu link, cod unic și parolă, fără înregistrare; grade profesionale",
+        "Oferte în ciornă, editabile și ștergibile; din ofertă se creează automat clientul și șantierul, fără duplicate",
+        "Semnătură digitală corectată (alb pe fundal închis, negru pe fundal deschis) și semnături goale refuzate; PDF vizibil și descărcabil și de pe telefon",
+        "Traverse orizontale și panouri legate (forme în L și în U) în desen, cu o traversă diferită pentru fiecare canat",
+        "Securitate: politică de conținut cu nonce și verificări mai stricte la accesul la oferte"
+      ]
+    },
+    {
+      "version": "1.8.0",
+      "date": "2026-10-05",
+      "title": "Listă de prețuri standard, montaj și aprovizionare",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Listă de prețuri standard pe zonă (Nord, Centru, Sud) și marjă cu cursor și zecimale; prețuri fără TVA, cu TVA 0% intra-UE verificat prin VIES",
+        "Montaj opțional la preț pe m²: cu montaj sau doar livrare, inclusiv cu transportator și montator proprii",
+        "Aprovizionare: parteneri care produc sau livrează, flux Ofertă → Comandă → Producție → Livrare, export pentru contabil și profit net pe perioadă",
+        "Onboarding în 10 pași cu verificări pe țară pentru codul de TVA, codul poștal și telefon; calitate, profil și geam mereu compatibile",
+        "Dimensiunile fiecărui canat direct pe desen"
+      ]
+    },
+    {
       "version": "1.7.0",
       "date": "2026-10-03",
       "title": "Desene tehnice, geam și finisaje profesionale",

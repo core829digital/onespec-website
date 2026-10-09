@@ -324,6 +324,98 @@
   ],
   "changelog": [
     {
+      "version": "1.14.0",
+      "date": "2026-10-09",
+      "title": "Zweifarbig und Konfiguratoren, die auf jedes Handy passen",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Zweifarbig: eine Ausführung für außen und eine andere für innen, mit Preis (Durchschnitt beider Ausführungen plus Ihr Aufschlag pro m²) in Widget, Assistent, Showroom, B2B-Angebot, PDF und Exporten",
+        "Die Zeichnung zeigt die Innen- oder Außenseite in der richtigen Farbe",
+        "Widget und Ein-Seiten-Konfigurator auf dem Handy zentriert und ausgerichtet; der einfache Assistent hat saubere Ränder und gut tippbare Schaltflächen"
+      ]
+    },
+    {
+      "version": "1.13.0",
+      "date": "2026-10-09",
+      "title": "Vollständige und sicherere Registrierung",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Registrierung in einem Schritt: persönliche Daten, Geburtsdatum (Volljährigkeit), Firmendaten und Unterzeichnung der Auftragsverarbeitungsvereinbarung (AVV) ohne Umweg über das Profil",
+        "Passwort anzeigen/verbergen, Prüfungen aller Felder und stärkere Passwörter bei Registrierung, Anmeldung und Wiederherstellung",
+        "Zustellungs- und Bounce-Meldungen von E-Mails werden korrekt und ohne Duplikate erfasst",
+        "Sichererer E-Mail-Versand; erneutes Senden über die Administration wird protokolliert"
+      ]
+    },
+    {
+      "version": "1.12.0",
+      "date": "2026-10-09",
+      "title": "Leads und Dokumentenordner des Kunden",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Seite Leads: Listen aus Excel (.xlsx), CSV und Word (.docx) importieren; Spalten werden automatisch erkannt und lassen sich vor dem Import korrigieren",
+        "In der Liste einen Lead als Kunden übernehmen oder mit einer Baustelle verknüpfen, auch gesammelt",
+        "Endgültige Angebote als PDF hochladen: sie bleiben im Kundenordner, verknüpft mit Baustelle und internem Angebot",
+        "Jeder Datei-Upload wird am tatsächlichen Inhalt geprüft und gegen Missbrauch geschützt"
+      ]
+    },
+    {
+      "version": "1.11.0",
+      "date": "2026-10-09",
+      "title": "Handy und Tablet: mehr Platz und Gesten",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Keine obere Leiste mehr auf Handy und Tablet: nur die Insel unten bleibt, mit sicheren Rändern für Notch und Systemleiste",
+        "Wischgesten: Menüs und Blätter durch Ziehen schließen, das Seitenmenü vom Rand öffnen",
+        "Menü „Mehr“ mit hellem/dunklem Design, App-Installation auf dem Startbildschirm, Sprache, Konto, Benachrichtigungen, Tarif und Dienststatus",
+        "Die Schaltflächen der Seite Konfiguratoren bleiben immer im Bildschirm"
+      ]
+    },
+    {
+      "version": "1.10.0",
+      "date": "2026-10-08",
+      "title": "App auf dem Handy, automatische Tests und bessere Menüs",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Untere Insel im iPhone-Stil mit den Hauptseiten und Schaltfläche „Zum Startbildschirm hinzufügen“ in jedem Browser",
+        "Dropdown-Menüs und Bedienelemente in den onespec-Farben mit flüssigen Animationen, die die Einstellung „Bewegung reduzieren“ respektieren",
+        "Automatischer Browsertest von 27 Plattformseiten, vom Angebot bis zu Unterschrift und PDF",
+        "Korrektur: Zeichnungsmaße lassen sich wieder mit einem Klick bearbeiten"
+      ]
+    },
+    {
+      "version": "1.9.0",
+      "date": "2026-10-06",
+      "title": "Teams, Entwürfe und automatische Verknüpfungen",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Teams mit Passwort: Kollegen kommen mit Link, Einmalcode und Passwort herein, ohne Registrierung; Berufsgrade",
+        "Angebote als Entwurf, bearbeitbar und löschbar; aus dem Angebot entstehen automatisch Kunde und Baustelle, ohne Duplikate",
+        "Digitale Unterschrift korrigiert (weiß auf dunkel, schwarz auf hell), leere Unterschriften werden abgelehnt; PDF auch auf dem Handy ansehbar und ladbar",
+        "Horizontale Sprossen und verbundene Felder (L- und U-Formen) in der Zeichnung, mit eigener Sprosse je Flügel",
+        "Sicherheit: Nonce-basierte Inhaltsrichtlinie und strengere Prüfungen beim Zugriff auf Angebote"
+      ]
+    },
+    {
+      "version": "1.8.0",
+      "date": "2026-10-05",
+      "title": "Standardpreisliste, Montage und Beschaffung",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Standardpreisliste je Zone (Nord, Mitte, Süd) und Marge mit Regler und Dezimalstellen; Preise ohne MwSt., innergemeinschaftlich 0 % MwSt. mit VIES-Prüfung",
+        "Optionale Montage zum Preis pro m²: mit Montage oder nur Lieferung, auch mit eigenem Transporteur und Monteur",
+        "Beschaffung: Partner, die produzieren oder liefern, Ablauf Angebot → Bestellung → Produktion → Lieferung, Export für den Steuerberater und Nettogewinn je Zeitraum",
+        "Onboarding in 10 Schritten mit Länderprüfungen für USt-IdNr., PLZ und Telefon; Qualität, Profil und Verglasung immer zueinander passend",
+        "Flügelmaße direkt in der Zeichnung"
+      ]
+    },
+    {
       "version": "1.7.0",
       "date": "2026-10-03",
       "title": "Technische Zeichnungen, Verglasung und professionelle Oberflächen",

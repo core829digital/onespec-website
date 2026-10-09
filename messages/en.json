@@ -324,6 +324,98 @@
   ],
   "changelog": [
     {
+      "version": "1.14.0",
+      "date": "2026-10-09",
+      "title": "Bicolour and configurators that fit every phone",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Bicolour: pick one finish for the outside and another for the inside, priced (average of the two finishes plus a per-m² surcharge you set) in the widget, wizard, Showroom, B2B quote, PDF and exports",
+        "The drawing shows the inside or the outside face in the right colour",
+        "Widget and single-page configurator centred and aligned on phones; the simple wizard has proper margins and easy-to-tap buttons"
+      ]
+    },
+    {
+      "version": "1.13.0",
+      "date": "2026-10-09",
+      "title": "Complete and safer sign-up",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Sign up in one step: personal details, date of birth (adult check), company data and signing of the data processing agreement (DPA) without going through the profile",
+        "Show/hide password, checks on every field and stronger passwords on sign-up, login and recovery",
+        "Email delivery and bounce notifications are recorded correctly, without duplicates",
+        "Safer email sending and admin resends are logged"
+      ]
+    },
+    {
+      "version": "1.12.0",
+      "date": "2026-10-09",
+      "title": "Leads and the customer's document folder",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Leads page: import lists from Excel (.xlsx), CSV and Word (.docx); columns are recognised automatically and you can correct them before importing",
+        "From the list, add a lead as a customer or link it to a site, even in bulk",
+        "Upload final quotes as PDF: they stay in the customer's folder, linked to the site and the internal quote",
+        "Every file upload is checked on its real content and protected against abuse"
+      ]
+    },
+    {
+      "version": "1.11.0",
+      "date": "2026-10-09",
+      "title": "Phone and tablet: more room and gestures",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "No more top bar on phones and tablets: only the bottom island remains, with safe margins for the notch and system bar",
+        "Swipe gestures: close menus and sheets by dragging, open the side menu from the edge",
+        "\"More\" menu with light/dark theme, installing the app on the Home screen, language, account, notifications, plan and service status",
+        "Buttons on the Configurators page always stay inside the screen"
+      ]
+    },
+    {
+      "version": "1.10.0",
+      "date": "2026-10-08",
+      "title": "Phone app, automated tests and better menus",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "iPhone-style bottom island with the main pages and an \"Add to Home Screen\" button on every browser",
+        "Dropdown menus and controls in the onespec colours with smooth animations that respect the reduce-motion setting",
+        "Automatic browser test of 27 platform pages, from the quote to signature and PDF",
+        "Fix: drawing dimensions can be edited with one click again"
+      ]
+    },
+    {
+      "version": "1.9.0",
+      "date": "2026-10-06",
+      "title": "Teams, drafts and automatic links",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Teams with a password: colleagues join with a link, one-time code and password, without registering; professional grades",
+        "Draft quotes you can edit and delete; the customer and the site are created automatically from the quote, without duplicates",
+        "Digital signature fixed (white on dark, black on light) and empty signatures refused; PDF viewable and downloadable on a phone",
+        "Horizontal bars and linked panels (L and U shapes) in the drawing, with a different bar for each leaf",
+        "Security: nonce-based content policy and stricter checks on quote access"
+      ]
+    },
+    {
+      "version": "1.8.0",
+      "date": "2026-10-05",
+      "title": "Standard price list, fitting and supply",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Standard price list by zone (North, Centre, South) and margin with a slider and decimals; prices exclude VAT, with intra-EU 0% VAT checked against VIES",
+        "Optional fitting at a per-m² price: with fitting or supply only, also with your own transporter and fitter",
+        "Supply: partners that produce or deliver, Quote → Order → Production → Delivery flow, export for the accountant and net profit by period",
+        "10-step onboarding with per-country checks on VAT number, postcode and phone; quality, profile and glazing always compatible",
+        "Leaf dimensions edited directly on the drawing"
+      ]
+    },
+    {
       "version": "1.7.0",
       "date": "2026-10-03",
       "title": "Technical drawings, glazing and professional finishes",

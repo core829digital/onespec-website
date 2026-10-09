@@ -324,6 +324,98 @@
   ],
   "changelog": [
     {
+      "version": "1.14.0",
+      "date": "2026-10-09",
+      "title": "Bicolore e configuratori perfetti su telefono",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Bicolore: scegli una finitura per l'esterno e una diversa per l'interno, con prezzo (media delle due finiture + supplemento al m² deciso da te) in widget, wizard, Showroom, preventivo B2B, PDF ed esportazioni",
+        "Il disegno mostra la faccia interna o esterna con il colore giusto",
+        "Widget e configuratore a pagina singola centrati e allineati su telefono; il wizard semplice ha margini e pulsanti comodi da toccare"
+      ]
+    },
+    {
+      "version": "1.13.0",
+      "date": "2026-10-09",
+      "title": "Registrazione completa e più sicura",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Registrazione in un solo passaggio: dati personali, data di nascita (maggiore età), dati dell'azienda e firma dell'accordo sul trattamento dei dati (DPA) senza passare dal profilo",
+        "Mostra/nascondi password, controlli sui dati inseriti e password più robuste su registrazione, accesso e recupero",
+        "Notifiche di consegna e rimbalzo delle email registrate correttamente, senza doppioni",
+        "Invio email più sicuro e rinvii dal pannello admin tracciati"
+      ]
+    },
+    {
+      "version": "1.12.0",
+      "date": "2026-10-09",
+      "title": "Leads e cartella documenti del cliente",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Pagina Leads: importa elenchi da Excel (.xlsx), CSV e Word (.docx); le colonne vengono riconosciute da sole e puoi correggerle prima di importare",
+        "Dalla lista aggiungi un lead come cliente o collegalo a un cantiere, anche in blocco",
+        "Carica i preventivi finali in PDF: restano nella cartella del cliente, collegati a cantiere e preventivo interno",
+        "Tutti i caricamenti file sono controllati sul contenuto reale e protetti da abusi"
+      ]
+    },
+    {
+      "version": "1.11.0",
+      "date": "2026-10-09",
+      "title": "Telefono e tablet: più spazio e gesti",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Niente più barra in alto su telefono e tablet: resta solo l'isola in basso, con margini sicuri per notch e barra di sistema",
+        "Gesti swipe: chiudi menu e fogli trascinando, apri il menu laterale dal bordo",
+        "Menu «Altro» con tema chiaro/scuro, installazione dell'app sulla schermata Home, lingua, account, notifiche, piano e stato del servizio",
+        "Pulsanti della pagina Configuratori sempre dentro lo schermo"
+      ]
+    },
+    {
+      "version": "1.10.0",
+      "date": "2026-10-08",
+      "title": "App su telefono, test automatici e menu migliorati",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Isola in basso in stile iPhone con le pagine principali e pulsante «Aggiungi alla schermata Home» su tutti i browser",
+        "Menu a tendina e controlli con i colori onespec e animazioni fluide, che rispettano le impostazioni di riduzione del movimento",
+        "Prova automatica nel browser di 27 pagine della piattaforma, del preventivo fino alla firma e al PDF",
+        "Correzione: le quote del disegno tornano modificabili con un clic"
+      ]
+    },
+    {
+      "version": "1.9.0",
+      "date": "2026-10-06",
+      "title": "Squadre, bozze e collegamenti automatici",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Squadre con password: i colleghi entrano con link, codice monouso e password, senza registrarsi; gradi professionali",
+        "Preventivi in bozza, modificabili ed eliminabili; dal preventivo nascono in automatico cliente e cantiere, senza duplicati",
+        "Firma digitale corretta (bianco su scuro, nero su chiaro) e rifiuto delle firme vuote; PDF consultabile e scaricabile anche da telefono",
+        "Traversi orizzontali e pannelli collegati (forme a L e a U) nel disegno, con un traverso diverso per ogni anta",
+        "Sicurezza: politica dei contenuti con nonce, controlli più severi sugli accessi ai preventivi"
+      ]
+    },
+    {
+      "version": "1.8.0",
+      "date": "2026-10-05",
+      "title": "Listino standard, posa e fornitura",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Listino standard per zona (Nord, Centro, Sud) e margine con barra e decimali; prezzi al netto di IVA, con IVA 0% intra-UE verificata con VIES",
+        "Posa opzionale a prezzo al m²: prezzo con posa o solo fornitura, anche con trasportatore e montatore propri",
+        "Fornitura: fornitori che producono o consegnano, flusso Preventivo → Ordine → Produzione → Consegna, esportazione per il commercialista e profitto netto per periodo",
+        "Onboarding a 10 passi con controlli per paese su P.IVA, CAP e telefono; qualità, profilo e vetro sempre compatibili tra loro",
+        "Misure per anta direttamente sul disegno"
+      ]
+    },
+    {
       "version": "1.7.0",
       "date": "2026-10-03",
       "title": "Disegni tecnici, vetri e colori professionali",

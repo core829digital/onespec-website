@@ -104,6 +104,14 @@ export type ChangelogMeta = {
  * sono identici in ogni lingua, solo titolo e items cambiano).
  */
 export const CHANGELOG_META: ChangelogMeta[] = [
+  { version: "1.14.0", date: "2026-10-09", tag: "Nuovo", channel: "prodotto" },
+  { version: "1.13.0", date: "2026-10-09", tag: "Nuovo", channel: "prodotto" },
+  { version: "1.12.0", date: "2026-10-09", tag: "Nuovo", channel: "prodotto" },
+  { version: "1.11.0", date: "2026-10-09", tag: "Miglioramento", channel: "prodotto" },
+  { version: "1.10.0", date: "2026-10-08", tag: "Nuovo", channel: "prodotto" },
+  { version: "1.9.0", date: "2026-10-06", tag: "Nuovo", channel: "prodotto" },
+  { version: "1.8.0", date: "2026-10-05", tag: "Nuovo", channel: "prodotto" },
+  { version: "1.7.0", date: "2026-10-03", tag: "Nuovo", channel: "prodotto" },
   { version: "1.6.0", date: "2026-09-30", tag: "Nuovo", channel: "prodotto" },
   { version: "1.5.0", date: "2026-09-30", tag: "Miglioramento", channel: "prodotto" },
   { version: "1.4.0", date: "2026-09-29", tag: "Nuovo", channel: "prodotto" },

@@ -324,6 +324,98 @@
   ],
   "changelog": [
     {
+      "version": "1.14.0",
+      "date": "2026-10-09",
+      "title": "Bicolore et configurateurs parfaits sur téléphone",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Bicolore : choisissez une finition extérieure et une autre intérieure, avec prix (moyenne des deux finitions + supplément au m² fixé par vous) dans le widget, l'assistant, le Showroom, le devis B2B, le PDF et les exports",
+        "Le dessin montre la face intérieure ou extérieure avec la bonne couleur",
+        "Widget et configurateur en une page centrés et alignés sur téléphone ; l'assistant simple a de vraies marges et des boutons faciles à toucher"
+      ]
+    },
+    {
+      "version": "1.13.0",
+      "date": "2026-10-09",
+      "title": "Inscription complète et plus sûre",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Inscription en une étape : données personnelles, date de naissance (majorité), données de l'entreprise et signature de l'accord de traitement des données (DPA) sans passer par le profil",
+        "Afficher/masquer le mot de passe, contrôles sur chaque champ et mots de passe plus solides à l'inscription, à la connexion et à la récupération",
+        "Les notifications de livraison et de rebond des e-mails sont enregistrées correctement, sans doublons",
+        "Envoi d'e-mails plus sûr et renvois depuis l'administration tracés"
+      ]
+    },
+    {
+      "version": "1.12.0",
+      "date": "2026-10-09",
+      "title": "Leads et dossier de documents du client",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Page Leads : importez des listes depuis Excel (.xlsx), CSV et Word (.docx) ; les colonnes sont reconnues automatiquement et vous pouvez les corriger avant l'import",
+        "Depuis la liste, ajoutez un lead comme client ou liez-le à un chantier, même en lot",
+        "Téléversez les devis finaux en PDF : ils restent dans le dossier du client, liés au chantier et au devis interne",
+        "Chaque téléversement est contrôlé sur son contenu réel et protégé contre les abus"
+      ]
+    },
+    {
+      "version": "1.11.0",
+      "date": "2026-10-09",
+      "title": "Téléphone et tablette : plus de place et des gestes",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Plus de barre en haut sur téléphone et tablette : il ne reste que l'îlot en bas, avec des marges sûres pour l'encoche et la barre système",
+        "Gestes de balayage : fermez menus et feuilles en glissant, ouvrez le menu latéral depuis le bord",
+        "Menu « Plus » avec thème clair/sombre, installation de l'app sur l'écran d'accueil, langue, compte, notifications, abonnement et état du service",
+        "Les boutons de la page Configurateurs restent toujours dans l'écran"
+      ]
+    },
+    {
+      "version": "1.10.0",
+      "date": "2026-10-08",
+      "title": "Appli sur téléphone, tests automatiques et menus améliorés",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Îlot en bas façon iPhone avec les pages principales et bouton « Ajouter à l'écran d'accueil » sur tous les navigateurs",
+        "Menus déroulants et contrôles aux couleurs onespec avec animations fluides respectant le réglage de réduction des animations",
+        "Test automatique dans le navigateur de 27 pages de la plateforme, du devis à la signature et au PDF",
+        "Correction : les cotes du dessin sont de nouveau modifiables d'un clic"
+      ]
+    },
+    {
+      "version": "1.9.0",
+      "date": "2026-10-06",
+      "title": "Équipes, brouillons et liens automatiques",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Équipes avec mot de passe : les collègues entrent avec lien, code à usage unique et mot de passe, sans s'inscrire ; grades professionnels",
+        "Devis en brouillon, modifiables et supprimables ; le client et le chantier sont créés automatiquement depuis le devis, sans doublons",
+        "Signature numérique corrigée (blanc sur fond sombre, noir sur fond clair) et signatures vides refusées ; PDF consultable et téléchargeable sur téléphone",
+        "Traverses horizontales et panneaux liés (formes en L et en U) dans le dessin, avec une traverse différente par vantail",
+        "Sécurité : politique de contenu avec nonce et contrôles plus stricts sur l'accès aux devis"
+      ]
+    },
+    {
+      "version": "1.8.0",
+      "date": "2026-10-05",
+      "title": "Tarif standard, pose et approvisionnement",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Tarif standard par zone (Nord, Centre, Sud) et marge avec curseur et décimales ; prix hors TVA, avec TVA 0 % intra-UE vérifiée via VIES",
+        "Pose optionnelle au prix au m² : avec pose ou fourniture seule, y compris avec votre propre transporteur et poseur",
+        "Approvisionnement : partenaires qui fabriquent ou livrent, flux Devis → Commande → Production → Livraison, export pour le comptable et bénéfice net par période",
+        "Onboarding en 10 étapes avec contrôles par pays sur le numéro de TVA, le code postal et le téléphone ; qualité, profilé et vitrage toujours compatibles",
+        "Dimensions par vantail directement sur le dessin"
+      ]
+    },
+    {
       "version": "1.7.0",
       "date": "2026-10-03",
       "title": "Dessins techniques, vitrages et finitions professionnelles",

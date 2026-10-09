@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "check:legal-sync": "node scripts/check-legal-sync.mjs"
+    "check:legal-sync": "node scripts/check-legal-sync.mjs",
+    "check:changelog": "node scripts/check-changelog-sync.mjs"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.10",

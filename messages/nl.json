@@ -324,6 +324,98 @@
   ],
   "changelog": [
     {
+      "version": "1.14.0",
+      "date": "2026-10-09",
+      "title": "Tweekleurig en configurators die op elke telefoon passen",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Tweekleurig: kies een afwerking voor buiten en een andere voor binnen, met prijs (gemiddelde van beide afwerkingen plus een toeslag per m² die jij bepaalt) in widget, wizard, Showroom, B2B-offerte, pdf en exports",
+        "De tekening toont de binnen- of buitenzijde in de juiste kleur",
+        "Widget en eenpagina-configurator gecentreerd en uitgelijnd op telefoon; de eenvoudige wizard heeft nette marges en knoppen die makkelijk aan te tikken zijn"
+      ]
+    },
+    {
+      "version": "1.13.0",
+      "date": "2026-10-09",
+      "title": "Volledige en veiligere registratie",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Registreren in één stap: persoonsgegevens, geboortedatum (meerderjarigheid), bedrijfsgegevens en ondertekening van de verwerkersovereenkomst (DPA) zonder omweg via het profiel",
+        "Wachtwoord tonen/verbergen, controles op elk veld en sterkere wachtwoorden bij registratie, inloggen en herstel",
+        "Bezorg- en bounce-meldingen van e-mails worden correct en zonder dubbelen vastgelegd",
+        "Veiliger e-mails versturen; opnieuw verzenden via het beheer wordt gelogd"
+      ]
+    },
+    {
+      "version": "1.12.0",
+      "date": "2026-10-09",
+      "title": "Leads en de documentenmap van de klant",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Pagina Leads: importeer lijsten uit Excel (.xlsx), CSV en Word (.docx); kolommen worden automatisch herkend en je kunt ze vóór het importeren aanpassen",
+        "Voeg in de lijst een lead toe als klant of koppel hem aan een project, ook in bulk",
+        "Upload definitieve offertes als pdf: ze blijven in de map van de klant, gekoppeld aan het project en de interne offerte",
+        "Elke bestandsupload wordt op de echte inhoud gecontroleerd en tegen misbruik beschermd"
+      ]
+    },
+    {
+      "version": "1.11.0",
+      "date": "2026-10-09",
+      "title": "Telefoon en tablet: meer ruimte en gebaren",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Geen bovenbalk meer op telefoon en tablet: alleen het eiland onderaan blijft, met veilige marges voor notch en systeembalk",
+        "Veeggebaren: sluit menu's en vensters door te slepen, open het zijmenu vanaf de rand",
+        "Menu \"Meer\" met licht/donker thema, de app op het startscherm zetten, taal, account, meldingen, abonnement en servicestatus",
+        "De knoppen op de pagina Configurators blijven altijd binnen het scherm"
+      ]
+    },
+    {
+      "version": "1.10.0",
+      "date": "2026-10-08",
+      "title": "App op telefoon, automatische tests en betere menu's",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Eiland onderaan in iPhone-stijl met de hoofdpagina's en een knop \"Toevoegen aan beginscherm\" in elke browser",
+        "Keuzemenu's en bedieningselementen in de onespec-kleuren met vloeiende animaties die de instelling voor minder beweging respecteren",
+        "Automatische browsertest van 27 platformpagina's, van offerte tot handtekening en pdf",
+        "Fix: maten in de tekening zijn weer met één klik aan te passen"
+      ]
+    },
+    {
+      "version": "1.9.0",
+      "date": "2026-10-06",
+      "title": "Teams, concepten en automatische koppelingen",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Teams met wachtwoord: collega's komen binnen met link, eenmalige code en wachtwoord, zonder te registreren; beroepsgraden",
+        "Offertes als concept, bewerkbaar en verwijderbaar; uit de offerte ontstaan automatisch klant en project, zonder dubbelen",
+        "Digitale handtekening verbeterd (wit op donker, zwart op licht) en lege handtekeningen geweigerd; pdf ook op telefoon te bekijken en te downloaden",
+        "Horizontale roedes en gekoppelde panelen (L- en U-vormen) in de tekening, met een andere roede per vleugel",
+        "Beveiliging: inhoudsbeleid met nonce en strengere controles op toegang tot offertes"
+      ]
+    },
+    {
+      "version": "1.8.0",
+      "date": "2026-10-05",
+      "title": "Standaardprijslijst, montage en levering",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Standaardprijslijst per zone (Noord, Midden, Zuid) en marge met schuifbalk en decimalen; prijzen exclusief btw, met 0% btw binnen de EU gecontroleerd via VIES",
+        "Optionele montage tegen een prijs per m²: met montage of alleen levering, ook met eigen transporteur en monteur",
+        "Levering: partners die produceren of leveren, stroom Offerte → Bestelling → Productie → Levering, export voor de boekhouder en nettowinst per periode",
+        "Onboarding in 10 stappen met landcontroles op btw-nummer, postcode en telefoon; kwaliteit, profiel en beglazing altijd op elkaar afgestemd",
+        "Vleugelmaten direct in de tekening"
+      ]
+    },
+    {
       "version": "1.7.0",
       "date": "2026-10-03",
       "title": "Technische tekeningen, beglazing en professionele afwerkingen",

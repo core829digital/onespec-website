@@ -342,6 +342,18 @@
   ],
   "changelog": [
     {
+      "version": "1.16.0",
+      "date": "2026-10-11",
+      "title": "Version in the menu and a steadier phone experience",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "The product version now appears in the side menu (and in the “More” sheet on phones) next to your plan, identical to the one on this page and updated automatically with every release",
+        "Phone: text fields no longer trigger automatic zoom on iPhone and no page drifts sideways; the widget grid and the chart tooltips are fixed and now always stay on screen",
+        "Security: the web framework (Next.js) is updated to a patched release, on both the platform and the website"
+      ]
+    },
+    {
       "version": "1.15.0",
       "date": "2026-10-09",
       "title": "Complete platform demo",

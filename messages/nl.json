@@ -342,6 +342,18 @@
   ],
   "changelog": [
     {
+      "version": "1.16.0",
+      "date": "2026-10-11",
+      "title": "Versie in het menu en stabielere telefoonweergave",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Het productversienummer staat nu in het zijmenu (en op de telefoon in het blad ‘Meer’) naast je abonnement, gelijk aan dat op deze pagina en bij elke release automatisch bijgewerkt",
+        "Telefoon: tekstvelden veroorzaken op iPhone geen automatische zoom meer en geen enkele pagina schuift zijwaarts; het widgetraster en de grafiektooltips zijn hersteld en blijven altijd op het scherm",
+        "Beveiliging: het webframework (Next.js) is bijgewerkt naar een verbeterde versie, op platform en website"
+      ]
+    },
+    {
       "version": "1.15.0",
       "date": "2026-10-09",
       "title": "Demo van het volledige platform",

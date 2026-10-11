@@ -342,6 +342,18 @@
   ],
   "changelog": [
     {
+      "version": "1.16.0",
+      "date": "2026-10-11",
+      "title": "Versiunea în meniu și telefon mai stabil",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Numărul versiunii produsului apare acum în meniul lateral (și în foaia „Mai mult” pe telefon) lângă planul tău, identic cu cel de pe această pagină și actualizat automat la fiecare noutate",
+        "Telefon: câmpurile de text nu mai declanșează zoom automat pe iPhone și nicio pagină nu se mai mută lateral; grila widgetului și descrierile graficelor sunt corectate și rămân mereu pe ecran",
+        "Securitate: framework-ul web (Next.js) a fost actualizat la o versiune corectată, pe platformă și pe site"
+      ]
+    },
+    {
       "version": "1.15.0",
       "date": "2026-10-09",
       "title": "Demo a platformei complete",

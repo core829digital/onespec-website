@@ -342,6 +342,18 @@
   ],
   "changelog": [
     {
+      "version": "1.16.0",
+      "date": "2026-10-11",
+      "title": "Versione nel menu e telefono più solido",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Il numero di versione del prodotto compare nel menu laterale (e nel foglio «Altro» su telefono) accanto al tuo piano, identico a quello di questa pagina e aggiornato in automatico a ogni novità",
+        "Telefono: i campi di testo non provocano più lo zoom automatico su iPhone e nessuna pagina si sposta lateralmente; corrette la griglia del widget e le descrizioni dei grafici, che ora restano sempre dentro lo schermo",
+        "Sicurezza: aggiornato il framework web (Next.js) a una versione corretta, su piattaforma e sito"
+      ]
+    },
+    {
       "version": "1.15.0",
       "date": "2026-10-09",
       "title": "Demo della piattaforma completa",

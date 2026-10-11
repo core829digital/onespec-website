@@ -342,6 +342,18 @@
   ],
   "changelog": [
     {
+      "version": "1.16.0",
+      "date": "2026-10-11",
+      "title": "Version im Menü und stabileres Smartphone-Erlebnis",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Die Produktversion erscheint jetzt im Seitenmenü (und auf dem Smartphone im Blatt „Mehr“) neben deinem Tarif, identisch mit der Angabe auf dieser Seite und bei jedem Update automatisch aktualisiert",
+        "Smartphone: Textfelder lösen auf dem iPhone keinen automatischen Zoom mehr aus und keine Seite verschiebt sich seitlich; Widget-Raster und Diagramm-Tooltips sind korrigiert und bleiben immer im Bildschirm",
+        "Sicherheit: Das Web-Framework (Next.js) wurde auf eine korrigierte Version aktualisiert, auf Plattform und Website"
+      ]
+    },
+    {
       "version": "1.15.0",
       "date": "2026-10-09",
       "title": "Demo der kompletten Plattform",

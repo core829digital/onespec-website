@@ -342,6 +342,19 @@
   ],
   "changelog": [
     {
+      "version": "1.17.0",
+      "date": "2026-10-11",
+      "title": "Supportticketsysteem",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Nieuw onderdeel «Support» in het platform: open een ticket per categorie, volg het gesprek met het CORE829-team, antwoord, sluit en beoordeel de support",
+        "Elk ticket is alleen zichtbaar voor de opsteller en de verantwoordelijken van uw bedrijf; interne notities van het team zijn nooit zichtbaar voor de klant",
+        "Het team werkt vanuit een wachtrij met prioriteit, toewijzing en doel voor de eerste reactie; antwoorden komen ook als melding binnen",
+        "Beschikbaar in het Italiaans, Engels, Frans, Duits, Nederlands en Roemeens"
+      ]
+    },
+    {
       "version": "1.16.0",
       "date": "2026-10-11",
       "title": "Versie in het menu en stabielere telefoonweergave",

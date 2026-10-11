@@ -342,6 +342,19 @@
   ],
   "changelog": [
     {
+      "version": "1.17.0",
+      "date": "2026-10-11",
+      "title": "Sistema di supporto con ticket",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Nuova sezione «Supporto» nella piattaforma: apri un ticket scegliendo la categoria, segui la conversazione con il team CORE829, rispondi, chiudi e valuta l'assistenza",
+        "Ogni ticket è visibile solo a chi lo ha aperto e ai responsabili della tua azienda; le note interne del team non sono mai visibili al cliente",
+        "Il team gestisce i ticket da una coda con priorità, assegnazione e obiettivo di prima risposta; le risposte arrivano anche come notifica",
+        "Disponibile in italiano, inglese, francese, tedesco, olandese e rumeno"
+      ]
+    },
+    {
       "version": "1.16.0",
       "date": "2026-10-11",
       "title": "Versione nel menu e telefono più solido",

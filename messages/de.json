@@ -342,6 +342,19 @@
   ],
   "changelog": [
     {
+      "version": "1.17.0",
+      "date": "2026-10-11",
+      "title": "Support-Ticketsystem",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Neuer Bereich «Support» in der Plattform: Ticket nach Kategorie eröffnen, die Unterhaltung mit dem CORE829-Team verfolgen, antworten, schließen und den Support bewerten",
+        "Jedes Ticket ist nur für den Verfasser und die Verantwortlichen Ihres Unternehmens sichtbar; interne Notizen des Teams sind für Kunden nie sichtbar",
+        "Das Team arbeitet in einer Warteschlange mit Priorität, Zuweisung und Ziel für die erste Antwort; Antworten kommen auch als Benachrichtigung",
+        "Verfügbar auf Italienisch, Englisch, Französisch, Deutsch, Niederländisch und Rumänisch"
+      ]
+    },
+    {
       "version": "1.16.0",
       "date": "2026-10-11",
       "title": "Version im Menü und stabileres Smartphone-Erlebnis",

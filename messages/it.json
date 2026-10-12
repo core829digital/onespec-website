@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.23.0",
+      "date": "2026-10-12",
+      "title": "Allegati protetti: scansione di sicurezza, firma e download firmato",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Ogni allegato dei ticket è controllato automaticamente (contenuti dannosi, struttura del file) e firmato; i file sospetti vengono respinti",
+        "Il download avviene tramite un collegamento HTTPS temporaneo con intestazioni di sicurezza e firma di integrità; il team può verificare l'integrità di ogni file",
+        "L'esportazione dei dati include ora anche le note interne dei tuoi ticket; testi legali aggiornati (portabilità, controlli di sicurezza)"
+      ]
+    },
+    {
       "version": "1.22.0",
       "date": "2026-10-12",
       "title": "Privacy e assistenza: dati nell'esportazione, cancellazione, risposte «Contattaci»",

@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.23.0",
+      "date": "2026-10-12",
+      "title": "Atașamente protejate: scanare de securitate, semnătură și descărcare semnată",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Fiecare atașament de tichet este verificat automat (conținut periculos, structura fișierului) și semnat; fișierele suspecte sunt respinse",
+        "Descărcarea se face printr-un link HTTPS temporar, cu antete de securitate și semnătură de integritate; echipa poate verifica integritatea oricărui fișier",
+        "Exportul datelor tale include acum și notele interne ale tichetelor; texte juridice actualizate (portabilitate, controale de securitate)"
+      ]
+    },
+    {
       "version": "1.22.0",
       "date": "2026-10-12",
       "title": "Confidențialitate și suport: export, ștergere, răspunsuri «Contact»",

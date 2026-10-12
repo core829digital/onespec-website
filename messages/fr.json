@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.23.0",
+      "date": "2026-10-12",
+      "title": "Pièces jointes protégées : analyse de sécurité, signature et téléchargement signé",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Chaque pièce jointe de ticket est contrôlée automatiquement (contenu dangereux, structure du fichier) et signée ; les fichiers suspects sont refusés",
+        "Le téléchargement passe par un lien HTTPS temporaire avec en-têtes de sécurité et signature d’intégrité ; l’équipe peut vérifier l’intégrité de chaque fichier",
+        "L’export de vos données inclut désormais les notes internes de vos tickets ; textes juridiques mis à jour (portabilité, contrôles de sécurité)"
+      ]
+    },
+    {
       "version": "1.22.0",
       "date": "2026-10-12",
       "title": "Confidentialité et assistance : export, effacement, réponses « Contact »",

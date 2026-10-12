@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.23.0",
+      "date": "2026-10-12",
+      "title": "Geschützte Anhänge: Sicherheitsprüfung, Signatur und signierter Download",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Jeder Ticket-Anhang wird automatisch geprüft (schädliche Inhalte, Dateistruktur) und signiert; verdächtige Dateien werden abgelehnt",
+        "Der Download erfolgt über einen temporären HTTPS-Link mit Sicherheits-Headern und Integritätssignatur; das Team kann die Integrität jeder Datei prüfen",
+        "Ihr Datenexport enthält jetzt auch die internen Notizen Ihrer Tickets; Rechtstexte aktualisiert (Übertragbarkeit, Sicherheitsprüfungen)"
+      ]
+    },
+    {
       "version": "1.22.0",
       "date": "2026-10-12",
       "title": "Datenschutz und Support: Datenexport, Löschung, Antworten auf „Kontakt“",

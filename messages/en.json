@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.23.0",
+      "date": "2026-10-12",
+      "title": "Protected attachments: security scan, signature and signed download",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Every ticket attachment is automatically checked (harmful content, file structure) and signed; suspicious files are rejected",
+        "Downloads use a temporary HTTPS link with security headers and an integrity signature; the team can verify the integrity of any file",
+        "Your data export now also includes the internal notes of your tickets; legal texts updated (portability, security checks)"
+      ]
+    },
+    {
       "version": "1.22.0",
       "date": "2026-10-12",
       "title": "Privacy and support: data export, erasure, “Contact us” replies",

@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.23.0",
+      "date": "2026-10-12",
+      "title": "Beschermde bijlagen: beveiligingsscan, handtekening en ondertekende download",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Elke ticketbijlage wordt automatisch gecontroleerd (schadelijke inhoud, bestandsstructuur) en ondertekend; verdachte bestanden worden geweigerd",
+        "Downloaden gaat via een tijdelijke HTTPS-link met beveiligingsheaders en integriteitshandtekening; het team kan de integriteit van elk bestand controleren",
+        "Uw gegevensexport bevat nu ook de interne notities van uw tickets; juridische teksten bijgewerkt (overdraagbaarheid, beveiligingscontroles)"
+      ]
+    },
+    {
       "version": "1.22.0",
       "date": "2026-10-12",
       "title": "Privacy en support: export, verwijdering, antwoorden op “Contact”",

@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.22.0",
+      "date": "2026-10-12",
+      "title": "Privacy en support: export, verwijdering, antwoorden op “Contact”",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Supporttickets en berichten via de pagina “Contact” zitten nu in de export van uw gegevens (JSON) en worden samen met uw account verwijderd",
+        "Privacyverklaring, AVG-rechten, servicevoorwaarden en cookieteksten bijgewerkt: bewaartermijnen van support, rollen, leveranciers en toezichthouder (ANSPDCP)",
+        "Het team kan berichten van “Contact” direct vanuit het platform beantwoorden en ziet het dagelijkse verloop en statistieken per medewerker; zoeken vindt ook op bedrijfsnaam"
+      ]
+    },
+    {
       "version": "1.21.0",
       "date": "2026-10-12",
       "title": "Statistieken en zoeken voor het supportteam",

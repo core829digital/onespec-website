@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.22.0",
+      "date": "2026-10-12",
+      "title": "Privacy e assistenza: dati nell'esportazione, cancellazione, risposte «Contattaci»",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "I ticket di assistenza e i messaggi inviati dalla pagina «Contattaci» sono ora inclusi nell'esportazione dei tuoi dati (JSON) e vengono cancellati insieme all'account",
+        "Informativa privacy, diritti GDPR, termini di servizio e cookie aggiornati: tempi di conservazione dell'assistenza, ruoli, fornitori e autorità di controllo (ANSPDCP)",
+        "Il team può rispondere ai messaggi «Contattaci» direttamente dalla piattaforma e vedere l'andamento giornaliero e le statistiche per agente; la ricerca trova anche per nome azienda"
+      ]
+    },
+    {
       "version": "1.21.0",
       "date": "2026-10-12",
       "title": "Statistiche e ricerca per il team di supporto",

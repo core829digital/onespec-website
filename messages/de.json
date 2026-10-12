@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.22.0",
+      "date": "2026-10-12",
+      "title": "Datenschutz und Support: Datenexport, Löschung, Antworten auf „Kontakt“",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Support-Tickets und über die Seite „Kontakt“ gesendete Nachrichten sind jetzt im Export Ihrer Daten (JSON) enthalten und werden zusammen mit Ihrem Konto gelöscht",
+        "Datenschutzerklärung, DSGVO-Rechte, Nutzungsbedingungen und Cookie-Texte aktualisiert: Aufbewahrungsfristen des Supports, Rollen, Dienstleister und Aufsichtsbehörde (ANSPDCP)",
+        "Das Team kann Nachrichten von „Kontakt“ direkt aus der Plattform beantworten und sieht den Tagesverlauf sowie Statistiken pro Mitarbeiter; die Suche findet auch nach Firmenname"
+      ]
+    },
+    {
       "version": "1.21.0",
       "date": "2026-10-12",
       "title": "Statistiken und Suche für das Support-Team",

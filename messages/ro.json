@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.22.0",
+      "date": "2026-10-12",
+      "title": "Confidențialitate și suport: export, ștergere, răspunsuri «Contact»",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Tichetele de suport și mesajele trimise din pagina «Contact» sunt acum incluse în exportul datelor tale (JSON) și se șterg odată cu contul",
+        "Politica de confidențialitate, drepturile GDPR, termenii de serviciu și cookie-urile au fost actualizate: perioadele de păstrare ale suportului, rolurile, furnizorii și autoritatea de supraveghere (ANSPDCP)",
+        "Echipa poate răspunde mesajelor «Contact» direct din platformă și vede evoluția zilnică și statisticile pe agent; căutarea găsește și după numele companiei"
+      ]
+    },
+    {
       "version": "1.21.0",
       "date": "2026-10-12",
       "title": "Statistici și căutare pentru echipa de suport",

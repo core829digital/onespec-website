@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.22.0",
+      "date": "2026-10-12",
+      "title": "Confidentialité et assistance : export, effacement, réponses « Contact »",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Les tickets d'assistance et les messages envoyés depuis la page « Contact » sont désormais inclus dans l'export de vos données (JSON) et supprimés avec votre compte",
+        "Politique de confidentialité, droits RGPD, conditions de service et cookies mis à jour : durées de conservation de l'assistance, rôles, prestataires et autorité de contrôle (ANSPDCP)",
+        "L'équipe peut répondre aux messages « Contact » directement depuis la plateforme et voir l'évolution quotidienne et les statistiques par agent ; la recherche trouve aussi par nom d'entreprise"
+      ]
+    },
+    {
       "version": "1.21.0",
       "date": "2026-10-12",
       "title": "Statistiques et recherche pour l'équipe de support",

@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.22.0",
+      "date": "2026-10-12",
+      "title": "Privacy and support: data export, erasure, “Contact us” replies",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Support tickets and messages sent from the “Contact us” page are now included in your data export (JSON) and are deleted together with your account",
+        "Privacy notice, GDPR rights, terms of service and cookie texts updated: support retention periods, roles, providers and supervisory authority (ANSPDCP)",
+        "The team can answer “Contact us” messages directly from the platform and see the daily trend and per-agent statistics; search also finds by company name"
+      ]
+    },
+    {
       "version": "1.21.0",
       "date": "2026-10-12",
       "title": "Statistics and search for the support team",

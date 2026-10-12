@@ -342,6 +342,18 @@
   ],
   "changelog": [
     {
+      "version": "1.18.0",
+      "date": "2026-10-12",
+      "title": "Tickets: E-Mail und Anhänge",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Wenn das Team antwortet oder ein Ticket löst, erhalten Sie zusätzlich eine E-Mail in Ihrer Sprache; die E-Mail enthält nie den Nachrichtentext, nur die Ticketnummer und einen Link zum Öffnen",
+        "Sie können bis zu 3 Dateien pro Nachricht anhängen (PNG-, JPG-, WebP-Bilder oder PDF, max. 8 MB): Jede Datei wird vom Server geprüft, bevor sie akzeptiert wird",
+        "Dateien sind nur für diejenigen sichtbar, die das Ticket sehen, und öffnen sich über einen temporären Link"
+      ]
+    },
+    {
       "version": "1.17.0",
       "date": "2026-10-11",
       "title": "Support-Ticketsystem",

@@ -342,6 +342,18 @@
   ],
   "changelog": [
     {
+      "version": "1.18.0",
+      "date": "2026-10-12",
+      "title": "Tickets : e-mail et pièces jointes",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Lorsque l'équipe répond ou résout un ticket, vous recevez aussi un e-mail dans votre langue ; l'e-mail ne contient jamais le texte du message, seulement le numéro du ticket et un lien pour l'ouvrir",
+        "Vous pouvez joindre jusqu'à 3 fichiers par message (images PNG, JPG, WebP ou PDF, 8 Mo maximum) : chaque fichier est contrôlé par le serveur avant d'être accepté",
+        "Les fichiers ne sont visibles que par ceux qui voient le ticket et s'ouvrent via un lien temporaire"
+      ]
+    },
+    {
       "version": "1.17.0",
       "date": "2026-10-11",
       "title": "Système de support par tickets",

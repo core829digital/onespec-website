@@ -342,6 +342,18 @@
   ],
   "changelog": [
     {
+      "version": "1.18.0",
+      "date": "2026-10-12",
+      "title": "Tickets: e-mail en bijlagen",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Wanneer het team antwoordt of een ticket oplost, ontvangt u ook een e-mail in uw taal; de e-mail bevat nooit de berichttekst, alleen het ticketnummer en een link om het te openen",
+        "U kunt tot 3 bestanden per bericht toevoegen (PNG-, JPG-, WebP-afbeeldingen of PDF, max. 8 MB): elk bestand wordt door de server gecontroleerd voordat het wordt geaccepteerd",
+        "Bestanden zijn alleen zichtbaar voor wie het ticket kan zien en openen via een tijdelijke link"
+      ]
+    },
+    {
       "version": "1.17.0",
       "date": "2026-10-11",
       "title": "Supportticketsysteem",

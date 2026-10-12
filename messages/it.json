@@ -342,6 +342,18 @@
   ],
   "changelog": [
     {
+      "version": "1.18.0",
+      "date": "2026-10-12",
+      "title": "Ticket: email e allegati",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Quando il team risponde o risolve un ticket ricevi anche un'email, nella tua lingua; l'email non contiene il testo del messaggio, solo il numero del ticket e un link per aprirlo",
+        "Puoi allegare fino a 3 file per messaggio (immagini PNG, JPG, WebP o PDF, massimo 8 MB): ogni file viene controllato dal server prima di essere accettato",
+        "I file sono visibili solo a chi vede il ticket e si aprono con un link temporaneo"
+      ]
+    },
+    {
       "version": "1.17.0",
       "date": "2026-10-11",
       "title": "Sistema di supporto con ticket",

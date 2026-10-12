@@ -342,6 +342,18 @@
   ],
   "changelog": [
     {
+      "version": "1.18.0",
+      "date": "2026-10-12",
+      "title": "Tichete: e-mail și atașamente",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Când echipa răspunde sau rezolvă un tichet primești și un e-mail, în limba ta; e-mailul nu conține niciodată textul mesajului, doar numărul tichetului și un link pentru a-l deschide",
+        "Poți atașa până la 3 fișiere pe mesaj (imagini PNG, JPG, WebP sau PDF, maximum 8 MB): fiecare fișier este verificat de server înainte de a fi acceptat",
+        "Fișierele sunt vizibile doar celor care văd tichetul și se deschid printr-un link temporar"
+      ]
+    },
+    {
       "version": "1.17.0",
       "date": "2026-10-11",
       "title": "Sistem de suport cu tichete",

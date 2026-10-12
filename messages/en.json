@@ -342,6 +342,18 @@
   ],
   "changelog": [
     {
+      "version": "1.18.0",
+      "date": "2026-10-12",
+      "title": "Tickets: email and attachments",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "When the team replies or resolves a ticket you also get an email, in your language; the email never contains the message text, only the ticket number and a link to open it",
+        "You can attach up to 3 files per message (PNG, JPG, WebP images or PDF, 8 MB max): every file is checked by the server before it is accepted",
+        "Files are visible only to those who can see the ticket and open through a temporary link"
+      ]
+    },
+    {
       "version": "1.17.0",
       "date": "2026-10-11",
       "title": "Support ticket system",

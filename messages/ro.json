@@ -342,6 +342,18 @@
   ],
   "changelog": [
     {
+      "version": "1.19.0",
+      "date": "2026-10-12",
+      "title": "Indicator de răspunsuri necitite și pagina Contact",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "În meniul «Suport» apare un contor (un punct pe telefon) când echipa a răspuns la unul dintre tichetele tale și nu l-ai citit încă",
+        "Pagină nouă «Contact», accesibilă din ecranul de autentificare: cine nu se poate conecta poate scrie echipei fără cont, cu protecție anti-spam",
+        "Mesajele ajung într-o căsuță rezervată echipei și sunt șterse după o perioadă limitată"
+      ]
+    },
+    {
       "version": "1.18.0",
       "date": "2026-10-12",
       "title": "Tichete: e-mail și atașamente",

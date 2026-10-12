@@ -342,6 +342,18 @@
   ],
   "changelog": [
     {
+      "version": "1.19.0",
+      "date": "2026-10-12",
+      "title": "Unread-reply badge and “Contact us” page",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "A counter (a dot on phones) appears on the “Support” menu when the team has replied to one of your tickets and you have not read it yet",
+        "New “Contact us” page reachable from the sign-in screen: people who cannot sign in can write to the team without an account, with anti-spam protection",
+        "Messages arrive in an inbox reserved for the team and are deleted after a limited period"
+      ]
+    },
+    {
       "version": "1.18.0",
       "date": "2026-10-12",
       "title": "Tickets: email and attachments",

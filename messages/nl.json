@@ -342,6 +342,18 @@
   ],
   "changelog": [
     {
+      "version": "1.19.0",
+      "date": "2026-10-12",
+      "title": "Melding van ongelezen antwoorden en contactpagina",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "In het menu “Support” verschijnt een teller (op de telefoon een stip) wanneer het team op een van uw tickets heeft geantwoord en u het nog niet heeft gelezen",
+        "Nieuwe pagina “Contact”, bereikbaar vanaf het inlogscherm: wie niet kan inloggen kan het team zonder account schrijven, met spambeveiliging",
+        "Berichten komen in een inbox voor het team en worden na een beperkte periode verwijderd"
+      ]
+    },
+    {
       "version": "1.18.0",
       "date": "2026-10-12",
       "title": "Tickets: e-mail en bijlagen",

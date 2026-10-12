@@ -342,6 +342,18 @@
   ],
   "changelog": [
     {
+      "version": "1.19.0",
+      "date": "2026-10-12",
+      "title": "Pallino delle risposte e pagina «Contattaci»",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Sul menu «Supporto» compare un contatore (e un puntino su telefono) quando il team ha risposto a un tuo ticket e non l'hai ancora letto",
+        "Nuova pagina «Contattaci» raggiungibile dalla schermata di accesso: chi non riesce a entrare può scrivere al team senza avere un account, con protezione anti-spam",
+        "I messaggi arrivano in una casella riservata al team e vengono cancellati dopo un periodo limitato"
+      ]
+    },
+    {
       "version": "1.18.0",
       "date": "2026-10-12",
       "title": "Ticket: email e allegati",

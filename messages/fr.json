@@ -342,6 +342,18 @@
   ],
   "changelog": [
     {
+      "version": "1.19.0",
+      "date": "2026-10-12",
+      "title": "Pastille de réponses non lues et page « Contact »",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Un compteur (un point sur téléphone) apparaît sur le menu « Support » lorsque l'équipe a répondu à l'un de vos tickets et que vous ne l'avez pas encore lu",
+        "Nouvelle page « Contact » accessible depuis l'écran de connexion : ceux qui ne peuvent pas se connecter peuvent écrire à l'équipe sans compte, avec protection anti-spam",
+        "Les messages arrivent dans une boîte réservée à l'équipe et sont supprimés après une durée limitée"
+      ]
+    },
+    {
       "version": "1.18.0",
       "date": "2026-10-12",
       "title": "Tickets : e-mail et pièces jointes",

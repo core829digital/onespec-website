@@ -342,6 +342,18 @@
   ],
   "changelog": [
     {
+      "version": "1.19.0",
+      "date": "2026-10-12",
+      "title": "Anzeige ungelesener Antworten und Kontaktseite",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Im Menü „Support“ erscheint ein Zähler (auf dem Telefon ein Punkt), wenn das Team auf eines Ihrer Tickets geantwortet hat und Sie es noch nicht gelesen haben",
+        "Neue Seite „Kontakt“, erreichbar vom Anmeldebildschirm: Wer sich nicht anmelden kann, kann dem Team ohne Konto schreiben, mit Spam-Schutz",
+        "Die Nachrichten landen in einem dem Team vorbehaltenen Posteingang und werden nach begrenzter Zeit gelöscht"
+      ]
+    },
+    {
       "version": "1.18.0",
       "date": "2026-10-12",
       "title": "Tickets: E-Mail und Anhänge",

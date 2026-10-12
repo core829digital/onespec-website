@@ -343,6 +343,17 @@
   ],
   "changelog": [
     {
+      "version": "1.20.0",
+      "date": "2026-10-12",
+      "title": "Snelle antwoorden en achterstandsmelding voor het team",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Het supportteam heeft nu kant-en-klare antwoordsjablonen om in te voegen en te bewerken voor het verzenden: antwoorden zijn sneller en consistenter",
+        "Krijgt een ticket binnen het doel geen eerste reactie, dan wordt het team automatisch (eenmaal per ticket) gewaarschuwd via melding en e-mail"
+      ]
+    },
+    {
       "version": "1.19.1",
       "date": "2026-10-12",
       "title": "Link “Support” op de website",

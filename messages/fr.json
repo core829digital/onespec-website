@@ -343,6 +343,17 @@
   ],
   "changelog": [
     {
+      "version": "1.20.0",
+      "date": "2026-10-12",
+      "title": "Réponses rapides et alertes de retard pour l'équipe",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "L'équipe de support dispose désormais de modèles de réponse prêts à insérer et à modifier avant l'envoi : les réponses sont plus rapides et plus cohérentes",
+        "Si un ticket ne reçoit pas de première réponse dans l'objectif prévu, l'équipe est alertée automatiquement (une fois par ticket) par notification et par e-mail"
+      ]
+    },
+    {
       "version": "1.19.1",
       "date": "2026-10-12",
       "title": "Lien « Assistance » sur le site",

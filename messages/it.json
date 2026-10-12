@@ -343,6 +343,17 @@
   ],
   "changelog": [
     {
+      "version": "1.20.0",
+      "date": "2026-10-12",
+      "title": "Risposte rapide e avviso di ritardo per il team",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Il team di supporto dispone di modelli di risposta pronti, da inserire e modificare prima dell'invio: le risposte sono più rapide e coerenti",
+        "Se un ticket non riceve una prima risposta entro l'obiettivo previsto, il team viene avvisato automaticamente (una sola volta per ticket) con una notifica e un'email"
+      ]
+    },
+    {
       "version": "1.19.1",
       "date": "2026-10-12",
       "title": "Link «Assistenza» nel sito",

@@ -343,6 +343,17 @@
   ],
   "changelog": [
     {
+      "version": "1.20.0",
+      "date": "2026-10-12",
+      "title": "Schnellantworten und Verzugsmeldung für das Team",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Das Support-Team hat jetzt fertige Antwortvorlagen, die vor dem Senden eingefügt und bearbeitet werden können: Antworten werden schneller und einheitlicher",
+        "Erhält ein Ticket innerhalb des Ziels keine erste Antwort, wird das Team automatisch (einmal pro Ticket) per Benachrichtigung und E-Mail gewarnt"
+      ]
+    },
+    {
       "version": "1.19.1",
       "date": "2026-10-12",
       "title": "Link „Support“ auf der Website",

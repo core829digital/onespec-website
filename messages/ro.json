@@ -343,6 +343,17 @@
   ],
   "changelog": [
     {
+      "version": "1.20.0",
+      "date": "2026-10-12",
+      "title": "Răspunsuri rapide și alertă de întârziere pentru echipă",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Echipa de suport are acum modele de răspuns gata făcute, de inserat și modificat înainte de trimitere: răspunsurile sunt mai rapide și mai coerente",
+        "Dacă un tichet nu primește un prim răspuns în ținta prevăzută, echipa este avertizată automat (o singură dată pe tichet) prin notificare și e-mail"
+      ]
+    },
+    {
       "version": "1.19.1",
       "date": "2026-10-12",
       "title": "Link «Asistență» pe site",

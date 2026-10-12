@@ -343,6 +343,17 @@
   ],
   "changelog": [
     {
+      "version": "1.20.0",
+      "date": "2026-10-12",
+      "title": "Quick replies and overdue alerts for the team",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "The support team now has ready-made reply templates to insert and edit before sending: answers are faster and more consistent",
+        "If a ticket gets no first reply within its target, the team is alerted automatically (once per ticket) with a notification and an email"
+      ]
+    },
+    {
       "version": "1.19.1",
       "date": "2026-10-12",
       "title": "“Support” link on the website",

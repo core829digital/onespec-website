@@ -343,6 +343,17 @@
   ],
   "changelog": [
     {
+      "version": "1.21.0",
+      "date": "2026-10-12",
+      "title": "Statistiche e ricerca per il team di supporto",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Il team dispone di statistiche sul supporto (tempi di prima risposta, rispetto degli obiettivi, tempo di risoluzione, valutazione media) su 7, 30 o 90 giorni",
+        "Nella coda dei ticket si può cercare per numero, oggetto o parole di un messaggio e filtrare per categoria, così ogni richiesta si ritrova in pochi secondi"
+      ]
+    },
+    {
       "version": "1.20.0",
       "date": "2026-10-12",
       "title": "Risposte rapide e avviso di ritardo per il team",

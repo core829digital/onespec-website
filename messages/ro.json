@@ -343,6 +343,17 @@
   ],
   "changelog": [
     {
+      "version": "1.21.0",
+      "date": "2026-10-12",
+      "title": "Statistici și căutare pentru echipa de suport",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Echipa are acum statistici de suport (timp până la primul răspuns, respectarea țintelor, timp de rezolvare, evaluare medie) pe 7, 30 sau 90 de zile",
+        "În coada de tichete se poate căuta după număr, subiect sau cuvinte dintr-un mesaj și se poate filtra după categorie, astfel încât orice cerere se găsește în câteva secunde"
+      ]
+    },
+    {
       "version": "1.20.0",
       "date": "2026-10-12",
       "title": "Răspunsuri rapide și alertă de întârziere pentru echipă",

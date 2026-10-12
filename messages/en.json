@@ -343,6 +343,17 @@
   ],
   "changelog": [
     {
+      "version": "1.21.0",
+      "date": "2026-10-12",
+      "title": "Statistics and search for the support team",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "The team now has support statistics (first-response times, target compliance, time to resolve, average rating) over 7, 30 or 90 days",
+        "In the ticket queue you can search by number, subject or words in a message and filter by category, so any request is found in seconds"
+      ]
+    },
+    {
       "version": "1.20.0",
       "date": "2026-10-12",
       "title": "Quick replies and overdue alerts for the team",

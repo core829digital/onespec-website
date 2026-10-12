@@ -343,6 +343,17 @@
   ],
   "changelog": [
     {
+      "version": "1.21.0",
+      "date": "2026-10-12",
+      "title": "Statistiken und Suche für das Support-Team",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Das Team hat jetzt Support-Statistiken (Zeit bis zur ersten Antwort, Einhaltung der Ziele, Lösungszeit, Durchschnittsbewertung) für 7, 30 oder 90 Tage",
+        "In der Ticket-Warteschlange kann nach Nummer, Betreff oder Wörtern in einer Nachricht gesucht und nach Kategorie gefiltert werden, sodass jede Anfrage in Sekunden gefunden wird"
+      ]
+    },
+    {
       "version": "1.20.0",
       "date": "2026-10-12",
       "title": "Schnellantworten und Verzugsmeldung für das Team",

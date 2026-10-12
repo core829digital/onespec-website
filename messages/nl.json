@@ -343,6 +343,17 @@
   ],
   "changelog": [
     {
+      "version": "1.21.0",
+      "date": "2026-10-12",
+      "title": "Statistieken en zoeken voor het supportteam",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Het team heeft nu supportstatistieken (tijd tot eerste reactie, naleving van doelen, oplostijd, gemiddelde beoordeling) over 7, 30 of 90 dagen",
+        "In de ticketwachtrij kan worden gezocht op nummer, onderwerp of woorden in een bericht en gefilterd op categorie, zodat elke aanvraag in seconden wordt gevonden"
+      ]
+    },
+    {
       "version": "1.20.0",
       "date": "2026-10-12",
       "title": "Snelle antwoorden en achterstandsmelding voor het team",

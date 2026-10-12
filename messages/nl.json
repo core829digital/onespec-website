@@ -35,7 +35,8 @@
     "registrati": "Registreren",
     "documenti": "Alle juridische documenten",
     "inviti": "Nodig een bedrijf uit",
-    "demo": "Platformdemo"
+    "demo": "Platformdemo",
+    "assistenza": "Support"
   },
   "theme": {
     "toDark": "Overschakelen naar donkere modus",
@@ -341,6 +342,16 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.19.1",
+      "date": "2026-10-12",
+      "title": "Link “Support” op de website",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "In de voettekst van de website staat nu “Support”: die opent de contactpagina van het platform in uw taal, ook handig voor wie niet kan inloggen"
+      ]
+    },
     {
       "version": "1.19.0",
       "date": "2026-10-12",

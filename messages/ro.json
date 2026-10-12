@@ -35,7 +35,8 @@
     "registrati": "Înregistrare",
     "documenti": "Toate documentele juridice",
     "inviti": "Invită o companie",
-    "demo": "Demo platformă"
+    "demo": "Demo platformă",
+    "assistenza": "Asistență"
   },
   "theme": {
     "toDark": "Comuta la modul intunecat",
@@ -341,6 +342,16 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.19.1",
+      "date": "2026-10-12",
+      "title": "Link «Asistență» pe site",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "În subsolul site-ului apare «Asistență»: deschide pagina «Contact» a platformei în limba ta, utilă și celor care nu se pot conecta"
+      ]
+    },
     {
       "version": "1.19.0",
       "date": "2026-10-12",

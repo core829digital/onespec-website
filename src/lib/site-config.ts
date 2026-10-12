@@ -31,10 +31,11 @@ export const FOOTER_PRODOTTO_HREFS: Record<(typeof FOOTER_PRODOTTO_KEYS)[number]
   versioni: "/versioni",
 };
 
-export const FOOTER_AZIENDA_KEYS = ["accedi", "registrati", "contatti"] as const;
+export const FOOTER_AZIENDA_KEYS = ["accedi", "registrati", "assistenza", "contatti"] as const;
 export const FOOTER_AZIENDA_HREFS: Record<(typeof FOOTER_AZIENDA_KEYS)[number], string> = {
   accedi: "login",
   registrati: "register",
+  assistenza: "support",
   contatti: `mailto:${SITE.email}`,
 };
 
@@ -61,6 +62,8 @@ export function platformUrl(path: string, locale: string): string {
 }
 export const platformLogin = (locale: string) => platformUrl("/auth/login", locale);
 export const platformRegister = (locale: string) => platformUrl("/auth/register", locale);
+/** Pagina pubblica «Contattaci» della piattaforma (anche per chi non riesce ad accedere). */
+export const platformSupport = (locale: string) => platformUrl("/auth/contact", locale);
 
 export type PricingTierMeta = {
   id: string;
@@ -108,6 +111,7 @@ export type ChangelogMeta = {
  * sono identici in ogni lingua, solo titolo e items cambiano).
  */
 export const CHANGELOG_META: ChangelogMeta[] = [
+  { version: "1.19.1", date: "2026-10-12", tag: "Miglioramento", channel: "prodotto" },
   { version: "1.19.0", date: "2026-10-12", tag: "Miglioramento", channel: "prodotto" },
   { version: "1.18.0", date: "2026-10-12", tag: "Miglioramento", channel: "prodotto" },
   { version: "1.17.0", date: "2026-10-11", tag: "Miglioramento", channel: "prodotto" },

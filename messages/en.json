@@ -35,7 +35,8 @@
     "registrati": "Sign up",
     "documenti": "All legal documents",
     "inviti": "Invite a company",
-    "demo": "Platform demo"
+    "demo": "Platform demo",
+    "assistenza": "Support"
   },
   "theme": {
     "toDark": "Switch to dark mode",
@@ -341,6 +342,16 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.19.1",
+      "date": "2026-10-12",
+      "title": "“Support” link on the website",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "A “Support” link now appears in the website footer: it opens the platform's “Contact us” page in your language, useful also for people who cannot sign in"
+      ]
+    },
     {
       "version": "1.19.0",
       "date": "2026-10-12",

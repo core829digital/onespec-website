@@ -35,7 +35,8 @@
     "registrati": "S'inscrire",
     "documenti": "Tous les documents juridiques",
     "inviti": "Inviter une entreprise",
-    "demo": "Démo de la plateforme"
+    "demo": "Démo de la plateforme",
+    "assistenza": "Assistance"
   },
   "theme": {
     "toDark": "Passer en mode sombre",
@@ -341,6 +342,16 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.19.1",
+      "date": "2026-10-12",
+      "title": "Lien « Assistance » sur le site",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Un lien « Assistance » apparaît dans le pied de page du site : il ouvre la page « Contact » de la plateforme dans votre langue, utile aussi à ceux qui ne peuvent pas se connecter"
+      ]
+    },
     {
       "version": "1.19.0",
       "date": "2026-10-12",

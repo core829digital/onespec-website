@@ -35,7 +35,8 @@
     "registrati": "Registrati",
     "documenti": "Tutti i documenti legali",
     "inviti": "Invita un'azienda",
-    "demo": "Demo della piattaforma"
+    "demo": "Demo della piattaforma",
+    "assistenza": "Assistenza"
   },
   "theme": {
     "toDark": "Passa alla modalità scura",
@@ -341,6 +342,16 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.19.1",
+      "date": "2026-10-12",
+      "title": "Link «Assistenza» nel sito",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Nel piè di pagina del sito compare «Assistenza»: porta alla pagina «Contattaci» della piattaforma, nella tua lingua, utile anche a chi non riesce ad accedere"
+      ]
+    },
     {
       "version": "1.19.0",
       "date": "2026-10-12",

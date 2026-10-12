@@ -2,7 +2,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Logo } from "@/components/logo";
 import { BrandCube } from "@/components/showcase/brand-cube";
-import { SITE, platformLogin, platformRegister } from "@/lib/site-config";
+import { SITE, platformLogin, platformRegister, platformSupport } from "@/lib/site-config";
 import {
   FOOTER_PRODOTTO_KEYS,
   FOOTER_PRODOTTO_HREFS,
@@ -44,8 +44,8 @@ export function Footer() {
               <ul className="mt-4 space-y-2.5">
                 {col.keys.map((key) => {
                   const raw = (col.hrefs as Record<string, string>)[key];
-                  // "login" / "register" non sono percorsi del sito: portano alla piattaforma.
-                  const href = raw === "login" ? platformLogin(locale) : raw === "register" ? platformRegister(locale) : raw;
+                  // "login" / "register" / "support" non sono percorsi del sito: portano alla piattaforma.
+                  const href = raw === "login" ? platformLogin(locale) : raw === "register" ? platformRegister(locale) : raw === "support" ? platformSupport(locale) : raw;
                   const className =
                     "text-[13px] text-[var(--color-text)] transition-colors hover:text-[var(--color-mint-dark)]";
                   // mailto:/http(s) sono link esterni al routing i18n: usare

@@ -35,7 +35,8 @@
     "registrati": "Registrieren",
     "documenti": "Alle rechtlichen Dokumente",
     "inviti": "Unternehmen einladen",
-    "demo": "Plattform-Demo"
+    "demo": "Plattform-Demo",
+    "assistenza": "Support"
   },
   "theme": {
     "toDark": "Zum dunklen Modus wechseln",
@@ -341,6 +342,16 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.19.1",
+      "date": "2026-10-12",
+      "title": "Link „Support“ auf der Website",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Im Fußbereich der Website erscheint „Support“: Er öffnet die Kontaktseite der Plattform in Ihrer Sprache, auch nützlich für alle, die sich nicht anmelden können"
+      ]
+    },
     {
       "version": "1.19.0",
       "date": "2026-10-12",

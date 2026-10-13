@@ -343,6 +343,20 @@
   ],
   "changelog": [
     {
+      "version": "1.25.0",
+      "date": "2026-10-13",
+      "title": "Vloeiend laden op het hele platform en vernieuwd slepen",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Elke pagina schuift trapsgewijs van onderen in en bij het laden verschijnen skeletten met een lichtgolf, in de vorm van de echte inhoud: geen sprongen",
+        "Dashboard met zwevende kaarten en oplopende cijfers; elastische schakelaars en knoppen; vensters ontstaan waar je drukt",
+        "Slepen opnieuw gebouwd in Deals en Werven: de kaart tilt op, volgt je vinger of muis en landt met een veer; werkt op telefoon en lege kolommen accepteren nu kaarten",
+        "In de demo beweegt de knop “Laat zien hoe het werkt” een cursor en sleept een kaart voor je",
+        "Alles gaat uit als “beweging verminderen” op je apparaat aan staat"
+      ]
+    },
+    {
       "version": "1.24.0",
       "date": "2026-10-13",
       "title": "Verificatie in twee stappen met authenticator-app",

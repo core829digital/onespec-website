@@ -343,6 +343,20 @@
   ],
   "changelog": [
     {
+      "version": "1.25.0",
+      "date": "2026-10-13",
+      "title": "Flüssiges Laden auf der ganzen Plattform und neues Drag-and-drop",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Jede Seite fährt von unten kaskadierend ein, und beim Laden erscheinen Skelette mit einer Lichtwelle in der Form des echten Inhalts: keine Sprünge",
+        "Dashboard mit schwebenden Karten und hochzählenden Zahlen; elastische Schalter und Buttons; Fenster entstehen dort, wo du drückst",
+        "Drag-and-drop in Verhandlungen und Baustellen neu gebaut: Die Karte hebt ab, folgt Finger oder Maus und setzt mit einer Feder auf; funktioniert auf dem Handy, leere Spalten nehmen jetzt Karten an",
+        "In der Demo bewegt die Schaltfläche „Zeig mir, wie es geht“ einen Cursor und zieht eine Karte für dich",
+        "Alles schaltet sich ab, wenn auf deinem Gerät „Bewegung reduzieren“ aktiv ist"
+      ]
+    },
+    {
       "version": "1.24.0",
       "date": "2026-10-13",
       "title": "Bestätigung in zwei Schritten mit Authenticator-App",

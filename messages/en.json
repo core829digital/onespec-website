@@ -343,6 +343,20 @@
   ],
   "changelog": [
     {
+      "version": "1.25.0",
+      "date": "2026-10-13",
+      "title": "Fluid loading across the platform and a reworked drag and drop",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Every page rises in from below and loading shows skeletons with a wave of light, shaped like the real content: no jumps",
+        "Dashboard with floating cards and counting numbers; elastic switches and buttons; dialogs grow out of the spot you pressed",
+        "Drag and drop rebuilt in Deals and Work sites: the card lifts, follows your finger or mouse and settles with a spring; it works on phones and empty columns now accept cards",
+        "In the demo, the “Show me how” button moves a cursor and drags a card for you",
+        "Everything switches off when “reduce motion” is on in your device"
+      ]
+    },
+    {
       "version": "1.24.0",
       "date": "2026-10-13",
       "title": "Two-step verification with an authenticator app",

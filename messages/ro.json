@@ -343,6 +343,20 @@
   ],
   "changelog": [
     {
+      "version": "1.25.0",
+      "date": "2026-10-13",
+      "title": "Încărcare fluidă pe toată platforma și tragere reînnoită",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Fiecare pagină intră în cascadă de jos și la încărcare apar schelete cu un val de lumină, în forma conținutului real: fără salturi",
+        "Panou cu carduri plutitoare și numere care cresc; întrerupătoare și butoane elastice; ferestrele apar de unde apeși",
+        "Tragerea refăcută în Negocieri și Șantiere: cardul se ridică, urmează degetul sau mouse-ul și se așază cu un resort; funcționează pe telefon, iar coloanele goale acceptă acum carduri",
+        "În demo, butonul «Arată-mi cum se face» mută un cursor și trage un card în locul tău",
+        "Totul se oprește dacă pe dispozitiv este activat «reduce animațiile»"
+      ]
+    },
+    {
       "version": "1.24.0",
       "date": "2026-10-13",
       "title": "Verificare în doi pași cu aplicație de autentificare",

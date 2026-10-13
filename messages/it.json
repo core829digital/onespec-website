@@ -343,6 +343,20 @@
   ],
   "changelog": [
     {
+      "version": "1.25.0",
+      "date": "2026-10-13",
+      "title": "Caricamento fluido su tutta la piattaforma e trascinamento rinnovato",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Ogni pagina entra a cascata dal basso e i caricamenti mostrano scheletri con un'onda di luce, della stessa forma del contenuto: niente salti",
+        "Dashboard a schede fluttuanti con numeri che crescono; interruttori e pulsanti con rimbalzo elastico; le finestre nascono dal punto in cui premi",
+        "Trascinamento rifatto in Trattative e Cantieri: la scheda si solleva, segue il dito o il mouse e si posa con una molla; funziona anche da telefono e le colonne vuote ora accettano le schede",
+        "Nella demo, il pulsante «Mostrami come si fa» muove un cursore e trascina una scheda al posto tuo",
+        "Tutto si disattiva se nel dispositivo è attivo «riduci animazioni»"
+      ]
+    },
+    {
       "version": "1.24.0",
       "date": "2026-10-13",
       "title": "Verifica in due passaggi con app di autenticazione",

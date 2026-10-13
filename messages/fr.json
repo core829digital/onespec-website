@@ -343,6 +343,20 @@
   ],
   "changelog": [
     {
+      "version": "1.25.0",
+      "date": "2026-10-13",
+      "title": "Chargement fluide sur toute la plateforme et glisser-déposer repensé",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Chaque page entre en cascade par le bas et les chargements affichent des squelettes avec une vague de lumière, à la forme du vrai contenu : pas de saut",
+        "Tableau de bord à cartes flottantes et chiffres qui grandissent ; interrupteurs et boutons élastiques ; les fenêtres naissent là où vous appuyez",
+        "Glisser-déposer refait dans Affaires et Chantiers : la fiche se soulève, suit le doigt ou la souris et se pose avec un ressort ; fonctionne sur téléphone et les colonnes vides acceptent désormais des fiches",
+        "Dans la démo, le bouton « Montrez-moi comment faire » déplace un curseur et glisse une fiche à votre place",
+        "Tout se désactive si « réduire les animations » est activé sur votre appareil"
+      ]
+    },
+    {
       "version": "1.24.0",
       "date": "2026-10-13",
       "title": "Vérification en deux étapes avec une application d’authentification",

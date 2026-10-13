@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.25.2",
+      "date": "2026-10-13",
+      "title": "Telefoon: knoppen en links makkelijker aan te tikken",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Links, filters en kleine knoppen hebben een groter aanraakgebied (tot 44 px) zonder dat de pagina er anders uitziet",
+        "Scrollende filterchips (aanvragen, meldingen) zijn iets hoger voor een zekere tik",
+        "Nieuwe toegankelijkheidsscan: nul problemen op telefoon en desktop"
+      ]
+    },
+    {
       "version": "1.25.1",
       "date": "2026-10-13",
       "title": "Toegankelijkheid en leesbaarheid: volledige controle van het platform",

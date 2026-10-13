@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.25.2",
+      "date": "2026-10-13",
+      "title": "Phone: buttons and links easier to tap",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Links, filters and small buttons have a larger touch area (up to 44 px) without changing how the page looks",
+        "Scrolling filter chips (requests, notifications) are slightly taller for a sure tap",
+        "New accessibility scan: zero issues on phone and desktop"
+      ]
+    },
+    {
       "version": "1.25.1",
       "date": "2026-10-13",
       "title": "Accessibility and readability: full platform check",

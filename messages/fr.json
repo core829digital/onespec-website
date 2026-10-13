@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.25.2",
+      "date": "2026-10-13",
+      "title": "Téléphone : boutons et liens plus faciles à toucher",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Les liens, filtres et petits boutons ont une zone de toucher plus large (jusqu'à 44 px) sans changer l'aspect de la page",
+        "Les filtres défilants (demandes, notifications) sont un peu plus hauts pour un toucher sûr",
+        "Nouveau scan d'accessibilité : zéro problème sur téléphone et ordinateur"
+      ]
+    },
+    {
       "version": "1.25.1",
       "date": "2026-10-13",
       "title": "Accessibilité et lisibilité : contrôle complet de la plateforme",

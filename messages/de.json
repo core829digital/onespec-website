@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.25.2",
+      "date": "2026-10-13",
+      "title": "Handy: Schaltflächen und Links leichter antippbar",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Links, Filter und kleine Schaltflächen haben eine größere Tippfläche (bis 44 px), ohne das Aussehen der Seite zu ändern",
+        "Scrollende Filter-Chips (Anfragen, Benachrichtigungen) sind etwas höher für sicheres Tippen",
+        "Neuer Barrierefreiheits-Scan: null Probleme auf Handy und Desktop"
+      ]
+    },
+    {
       "version": "1.25.1",
       "date": "2026-10-13",
       "title": "Barrierefreiheit und Lesbarkeit: vollständige Plattformprüfung",

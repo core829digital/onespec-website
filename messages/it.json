@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.25.2",
+      "date": "2026-10-13",
+      "title": "Telefono: pulsanti e link più facili da toccare",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Link, filtri e piccoli pulsanti hanno un'area di tocco più ampia (fino a 44 px) senza cambiare l'aspetto della pagina",
+        "I filtri a scorrimento (richieste, notifiche) sono un po' più alti per un tocco sicuro",
+        "Nuova scansione di accessibilità: zero problemi su telefono e computer"
+      ]
+    },
+    {
       "version": "1.25.1",
       "date": "2026-10-13",
       "title": "Accessibilità e leggibilità: controllo completo della piattaforma",

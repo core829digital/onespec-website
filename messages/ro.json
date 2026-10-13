@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.25.2",
+      "date": "2026-10-13",
+      "title": "Telefon: butoane și linkuri mai ușor de atins",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Linkurile, filtrele și butoanele mici au o zonă de atingere mai mare (până la 44 px) fără a schimba aspectul paginii",
+        "Filtrele derulante (cereri, notificări) sunt puțin mai înalte pentru o atingere sigură",
+        "Scanare nouă de accesibilitate: zero probleme pe telefon și desktop"
+      ]
+    },
+    {
       "version": "1.25.1",
       "date": "2026-10-13",
       "title": "Accesibilitate și lizibilitate: verificare completă a platformei",

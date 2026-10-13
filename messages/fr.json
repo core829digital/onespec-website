@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.25.1",
+      "date": "2026-10-13",
+      "title": "Accessibilité et lisibilité : contrôle complet de la plateforme",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Les interrupteurs, menus déroulants et champs numériques ont désormais un nom lisible par les lecteurs d'écran ; le menu mobile fermé n'est plus accessible avec Tab",
+        "Meilleurs contrastes de couleurs en thème clair (texte secondaire, vert et rouge d'erreur) et titres dans le bon ordre sur chaque page",
+        "Tableaux défilants accessibles au clavier ; bouton de fermeture du menu mobile plus grand"
+      ]
+    },
+    {
       "version": "1.25.0",
       "date": "2026-10-13",
       "title": "Chargement fluide sur toute la plateforme et glisser-déposer repensé",

@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.25.1",
+      "date": "2026-10-13",
+      "title": "Accesibilitate și lizibilitate: verificare completă a platformei",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Comutatoarele, listele derulante și câmpurile numerice au acum nume pe care cititoarele de ecran le pot citi; meniul mobil închis nu mai poate fi accesat cu Tab",
+        "Contraste de culoare mai bune în tema deschisă (text secundar, verde și roșu de eroare) și titluri în ordinea corectă pe fiecare pagină",
+        "Tabele derulabile accesibile de la tastatură; buton de închidere mai mare în meniul mobil"
+      ]
+    },
+    {
       "version": "1.25.0",
       "date": "2026-10-13",
       "title": "Încărcare fluidă pe toată platforma și tragere reînnoită",

@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.25.1",
+      "date": "2026-10-13",
+      "title": "Accessibilità e leggibilità: controllo completo della piattaforma",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Interruttori, menu a tendina e campi numerici ora hanno un nome leggibile dagli screen reader; il menu mobile chiuso non è più raggiungibile con Tab",
+        "Contrasti dei colori migliorati nel tema chiaro (testo secondario, verde e rosso di errore) e titoli in ordine corretto in tutte le pagine",
+        "Tabelle scorrevoli raggiungibili da tastiera; pulsante di chiusura del menu mobile più grande"
+      ]
+    },
+    {
       "version": "1.25.0",
       "date": "2026-10-13",
       "title": "Caricamento fluido su tutta la piattaforma e trascinamento rinnovato",

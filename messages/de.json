@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.25.1",
+      "date": "2026-10-13",
+      "title": "Barrierefreiheit und Lesbarkeit: vollständige Plattformprüfung",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Schalter, Dropdowns und Zahlenfelder haben jetzt Namen, die Screenreader vorlesen können; das geschlossene mobile Menü ist per Tab nicht mehr erreichbar",
+        "Bessere Farbkontraste im hellen Design (Sekundärtext, Grün und Fehlerrot) und Überschriften in korrekter Reihenfolge auf jeder Seite",
+        "Scrollbare Tabellen per Tastatur erreichbar; größere Schließen-Schaltfläche im mobilen Menü"
+      ]
+    },
+    {
       "version": "1.25.0",
       "date": "2026-10-13",
       "title": "Flüssiges Laden auf der ganzen Plattform und neues Drag-and-drop",

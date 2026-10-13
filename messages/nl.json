@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.25.1",
+      "date": "2026-10-13",
+      "title": "Toegankelijkheid en leesbaarheid: volledige controle van het platform",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Schakelaars, keuzelijsten en getalvelden hebben nu namen die schermlezers kunnen voorlezen; het gesloten mobiele menu is niet meer bereikbaar met Tab",
+        "Betere kleurcontrasten in het lichte thema (secundaire tekst, groen en foutrood) en koppen in de juiste volgorde op elke pagina",
+        "Scrollbare tabellen bereikbaar met het toetsenbord; grotere sluitknop in het mobiele menu"
+      ]
+    },
+    {
       "version": "1.25.0",
       "date": "2026-10-13",
       "title": "Vloeiend laden op het hele platform en vernieuwd slepen",

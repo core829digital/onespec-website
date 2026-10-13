@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.25.1",
+      "date": "2026-10-13",
+      "title": "Accessibility and readability: full platform check",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Toggles, dropdowns and number fields now have names that screen readers can read; the closed mobile menu can no longer be reached with Tab",
+        "Better colour contrast in the light theme (secondary text, green and error red) and headings in the correct order on every page",
+        "Scrollable tables reachable by keyboard; larger close button on the mobile menu"
+      ]
+    },
+    {
       "version": "1.25.0",
       "date": "2026-10-13",
       "title": "Fluid loading across the platform and a reworked drag and drop",

@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.24.0",
+      "date": "2026-10-13",
+      "title": "Two-step verification with an authenticator app",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Turn on two-step verification from the Account page (Google Authenticator, Microsoft Authenticator, 1Password, Authy…): besides your password you need a one-time code",
+        "Ten one-time recovery codes in case you lose your phone; the code is also required to reset your password",
+        "Encrypted secret, codes usable only once and a lock after five wrong attempts"
+      ]
+    },
+    {
       "version": "1.23.0",
       "date": "2026-10-12",
       "title": "Protected attachments: security scan, signature and signed download",

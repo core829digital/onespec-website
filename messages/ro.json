@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.24.0",
+      "date": "2026-10-13",
+      "title": "Verificare în doi pași cu aplicație de autentificare",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Activează verificarea în doi pași din pagina Cont (Google Authenticator, Microsoft Authenticator, 1Password, Authy…): pe lângă parolă ai nevoie de un cod unic",
+        "Zece coduri de recuperare de unică folosință, în caz că pierzi telefonul; codul este cerut și la resetarea parolei",
+        "Secret criptat, coduri utilizabile o singură dată și blocare după cinci încercări greșite"
+      ]
+    },
+    {
       "version": "1.23.0",
       "date": "2026-10-12",
       "title": "Atașamente protejate: scanare de securitate, semnătură și descărcare semnată",

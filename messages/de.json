@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.24.0",
+      "date": "2026-10-13",
+      "title": "Bestätigung in zwei Schritten mit Authenticator-App",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Aktiviere die Bestätigung in zwei Schritten auf der Kontoseite (Google Authenticator, Microsoft Authenticator, 1Password, Authy…): Zusätzlich zum Passwort brauchst du einen Einmalcode",
+        "Zehn Einmal-Wiederherstellungscodes für den Fall, dass du dein Telefon verlierst; der Code ist auch zum Zurücksetzen des Passworts nötig",
+        "Verschlüsseltes Geheimnis, nur einmal nutzbare Codes und Sperre nach fünf Fehlversuchen"
+      ]
+    },
+    {
       "version": "1.23.0",
       "date": "2026-10-12",
       "title": "Geschützte Anhänge: Sicherheitsprüfung, Signatur und signierter Download",

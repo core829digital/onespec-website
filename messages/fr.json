@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.24.0",
+      "date": "2026-10-13",
+      "title": "Vérification en deux étapes avec une application d’authentification",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Activez la vérification en deux étapes depuis la page Compte (Google Authenticator, Microsoft Authenticator, 1Password, Authy…) : en plus du mot de passe, un code à usage unique est demandé",
+        "Dix codes de secours à usage unique si vous perdez votre téléphone ; le code est aussi demandé pour réinitialiser le mot de passe",
+        "Secret chiffré, codes utilisables une seule fois et blocage après cinq tentatives erronées"
+      ]
+    },
+    {
       "version": "1.23.0",
       "date": "2026-10-12",
       "title": "Pièces jointes protégées : analyse de sécurité, signature et téléchargement signé",

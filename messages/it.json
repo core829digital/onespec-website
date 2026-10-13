@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.24.0",
+      "date": "2026-10-13",
+      "title": "Verifica in due passaggi con app di autenticazione",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Puoi attivare dalla pagina Account la verifica in due passaggi (Google Authenticator, Microsoft Authenticator, 1Password, Authy…): oltre alla password serve un codice monouso",
+        "Dieci codici di recupero monouso per il caso in cui perdi il telefono; il codice è richiesto anche per reimpostare la password",
+        "Segreto cifrato, codici usabili una sola volta e blocco dopo cinque tentativi errati"
+      ]
+    },
+    {
       "version": "1.23.0",
       "date": "2026-10-12",
       "title": "Allegati protetti: scansione di sicurezza, firma e download firmato",

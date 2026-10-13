@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.24.0",
+      "date": "2026-10-13",
+      "title": "Verificatie in twee stappen met authenticator-app",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Schakel verificatie in twee stappen in op de accountpagina (Google Authenticator, Microsoft Authenticator, 1Password, Authy…): naast je wachtwoord heb je een eenmalige code nodig",
+        "Tien eenmalige herstelcodes voor als je je telefoon kwijtraakt; de code is ook nodig om je wachtwoord te resetten",
+        "Versleuteld geheim, codes die maar één keer werken en een blokkade na vijf foute pogingen"
+      ]
+    },
+    {
       "version": "1.23.0",
       "date": "2026-10-12",
       "title": "Beschermde bijlagen: beveiligingsscan, handtekening en ondertekende download",

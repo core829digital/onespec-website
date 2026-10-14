@@ -343,6 +343,16 @@
   ],
   "changelog": [
     {
+      "version": "1.26.2",
+      "date": "2026-10-14",
+      "title": "Schermata di avvio: più spazio sotto il cubo",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Il cubo che ruota non tocca più il messaggio sotto di sé"
+      ]
+    },
+    {
       "version": "1.26.1",
       "date": "2026-10-14",
       "title": "La schermata di avvio compare a ogni apertura",

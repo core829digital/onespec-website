@@ -343,6 +343,16 @@
   ],
   "changelog": [
     {
+      "version": "1.26.2",
+      "date": "2026-10-14",
+      "title": "Startbildschirm: mehr Platz unter dem Würfel",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Der drehende Würfel berührt die Meldung darunter nicht mehr"
+      ]
+    },
+    {
       "version": "1.26.1",
       "date": "2026-10-14",
       "title": "Der Startbildschirm erscheint bei jedem Öffnen",

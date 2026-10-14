@@ -343,6 +343,16 @@
   ],
   "changelog": [
     {
+      "version": "1.26.2",
+      "date": "2026-10-14",
+      "title": "Ecran de pornire: mai mult spațiu sub cub",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Cubul care se rotește nu mai atinge mesajul de sub el"
+      ]
+    },
+    {
       "version": "1.26.1",
       "date": "2026-10-14",
       "title": "Ecranul de pornire apare la fiecare deschidere",

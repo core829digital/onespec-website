@@ -343,6 +343,16 @@
   ],
   "changelog": [
     {
+      "version": "1.26.2",
+      "date": "2026-10-14",
+      "title": "Start screen: more room under the cube",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "The turning cube no longer touches the message below it"
+      ]
+    },
+    {
       "version": "1.26.1",
       "date": "2026-10-14",
       "title": "The start screen now shows on every opening",

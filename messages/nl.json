@@ -343,6 +343,16 @@
   ],
   "changelog": [
     {
+      "version": "1.26.2",
+      "date": "2026-10-14",
+      "title": "Startscherm: meer ruimte onder de kubus",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "De draaiende kubus raakt het bericht eronder niet meer"
+      ]
+    },
+    {
       "version": "1.26.1",
       "date": "2026-10-14",
       "title": "Het startscherm verschijnt bij elke opening",

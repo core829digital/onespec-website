@@ -343,6 +343,17 @@
   ],
   "changelog": [
     {
+      "version": "1.26.1",
+      "date": "2026-10-14",
+      "title": "La schermata di avvio compare a ogni apertura",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Il cubo OneSpec con la barra di 8 secondi ora si vede ogni volta che apri la piattaforma, non solo la prima volta della sessione",
+        "Navigando tra le pagine dentro la piattaforma non riappare"
+      ]
+    },
+    {
       "version": "1.26.0",
       "date": "2026-10-14",
       "title": "Nuova schermata di avvio con il cubo OneSpec",

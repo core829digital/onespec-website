@@ -343,6 +343,17 @@
   ],
   "changelog": [
     {
+      "version": "1.26.1",
+      "date": "2026-10-14",
+      "title": "L'écran de démarrage s'affiche à chaque ouverture",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Le cube OneSpec avec la barre de 8 secondes apparaît désormais à chaque ouverture de la plateforme, et non plus seulement la première fois de la session",
+        "Il ne revient pas lorsque vous naviguez entre les pages à l'intérieur de la plateforme"
+      ]
+    },
+    {
       "version": "1.26.0",
       "date": "2026-10-14",
       "title": "Nouvel écran de démarrage avec le cube OneSpec",

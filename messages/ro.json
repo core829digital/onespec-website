@@ -343,6 +343,17 @@
   ],
   "changelog": [
     {
+      "version": "1.26.1",
+      "date": "2026-10-14",
+      "title": "Ecranul de pornire apare la fiecare deschidere",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Cubul OneSpec cu bara de 8 secunde apare acum de fiecare dată când deschizi platforma, nu doar prima dată într-o sesiune",
+        "Nu reapare când navighezi între paginile din interiorul platformei"
+      ]
+    },
+    {
       "version": "1.26.0",
       "date": "2026-10-14",
       "title": "Ecran nou de pornire cu cubul OneSpec",

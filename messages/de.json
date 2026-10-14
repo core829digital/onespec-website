@@ -343,6 +343,17 @@
   ],
   "changelog": [
     {
+      "version": "1.26.1",
+      "date": "2026-10-14",
+      "title": "Der Startbildschirm erscheint bei jedem Öffnen",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Der OneSpec-Würfel mit dem 8-Sekunden-Balken erscheint jetzt bei jedem Öffnen der Plattform, nicht nur beim ersten Mal in einer Sitzung",
+        "Beim Wechseln zwischen Seiten innerhalb der Plattform erscheint er nicht erneut"
+      ]
+    },
+    {
       "version": "1.26.0",
       "date": "2026-10-14",
       "title": "Neuer Startbildschirm mit dem OneSpec-Würfel",

@@ -343,6 +343,17 @@
   ],
   "changelog": [
     {
+      "version": "1.26.1",
+      "date": "2026-10-14",
+      "title": "Het startscherm verschijnt bij elke opening",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "De OneSpec-kubus met de balk van 8 seconden verschijnt nu elke keer dat u het platform opent, niet alleen de eerste keer van een sessie",
+        "Bij het navigeren tussen pagina's binnen het platform komt hij niet terug"
+      ]
+    },
+    {
       "version": "1.26.0",
       "date": "2026-10-14",
       "title": "Nieuw startscherm met de OneSpec-kubus",

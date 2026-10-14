@@ -343,6 +343,17 @@
   ],
   "changelog": [
     {
+      "version": "1.26.1",
+      "date": "2026-10-14",
+      "title": "The start screen now shows on every opening",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "The OneSpec cube with the 8-second bar now appears every time you open the platform, not only the first time in a session",
+        "It does not come back while you move between pages inside the platform"
+      ]
+    },
+    {
       "version": "1.26.0",
       "date": "2026-10-14",
       "title": "New start screen with the OneSpec cube",

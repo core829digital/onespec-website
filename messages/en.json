@@ -343,6 +343,17 @@
   ],
   "changelog": [
     {
+      "version": "1.26.0",
+      "date": "2026-10-14",
+      "title": "New start screen with the OneSpec cube",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "When the platform opens, the OneSpec cube appears with an 8-second loading bar and changing messages (\"Setting up your platform\")",
+        "Shown once per session: reopening the page in the same session goes straight in"
+      ]
+    },
+    {
       "version": "1.25.2",
       "date": "2026-10-13",
       "title": "Phone: buttons and links easier to tap",

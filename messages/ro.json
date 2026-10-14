@@ -343,6 +343,17 @@
   ],
   "changelog": [
     {
+      "version": "1.26.0",
+      "date": "2026-10-14",
+      "title": "Ecran nou de pornire cu cubul OneSpec",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "La deschiderea platformei apare cubul OneSpec cu o bară de încărcare de 8 secunde și mesaje care se schimbă („Se configurează platforma ta”)",
+        "Apare o dată pe sesiune: redeschizând pagina în aceeași sesiune se intră direct"
+      ]
+    },
+    {
       "version": "1.25.2",
       "date": "2026-10-13",
       "title": "Telefon: butoane și linkuri mai ușor de atins",

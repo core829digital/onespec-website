@@ -343,6 +343,17 @@
   ],
   "changelog": [
     {
+      "version": "1.26.0",
+      "date": "2026-10-14",
+      "title": "Nieuw startscherm met de OneSpec-kubus",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Bij het openen van het platform verschijnt de OneSpec-kubus met een laadbalk van 8 seconden en wisselende berichten („Uw platform wordt ingesteld”)",
+        "Eén keer per sessie: de pagina opnieuw openen in dezelfde sessie gaat direct naar binnen"
+      ]
+    },
+    {
       "version": "1.25.2",
       "date": "2026-10-13",
       "title": "Telefoon: knoppen en links makkelijker aan te tikken",

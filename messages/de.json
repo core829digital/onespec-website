@@ -343,6 +343,17 @@
   ],
   "changelog": [
     {
+      "version": "1.26.0",
+      "date": "2026-10-14",
+      "title": "Neuer Startbildschirm mit dem OneSpec-Würfel",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Beim Öffnen der Plattform erscheint der OneSpec-Würfel mit einem 8-Sekunden-Ladebalken und wechselnden Meldungen („Ihre Plattform wird eingerichtet“)",
+        "Einmal pro Sitzung: Wird die Seite in derselben Sitzung erneut geöffnet, geht es direkt hinein"
+      ]
+    },
+    {
       "version": "1.25.2",
       "date": "2026-10-13",
       "title": "Handy: Schaltflächen und Links leichter antippbar",

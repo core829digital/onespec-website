@@ -343,6 +343,17 @@
   ],
   "changelog": [
     {
+      "version": "1.26.0",
+      "date": "2026-10-14",
+      "title": "Nouvel écran de démarrage avec le cube OneSpec",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "À l'ouverture de la plateforme, le cube OneSpec apparaît avec une barre de chargement de 8 secondes et des messages qui changent (« Configuration de votre plateforme »)",
+        "Affiché une fois par session : en rouvrant la page dans la même session, on entre directement"
+      ]
+    },
+    {
       "version": "1.25.2",
       "date": "2026-10-13",
       "title": "Téléphone : boutons et liens plus faciles à toucher",

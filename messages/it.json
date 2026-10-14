@@ -343,6 +343,17 @@
   ],
   "changelog": [
     {
+      "version": "1.26.0",
+      "date": "2026-10-14",
+      "title": "Nuova schermata di avvio con il cubo OneSpec",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "All'apertura della piattaforma compare il cubo OneSpec con una barra di caricamento di 8 secondi e messaggi che cambiano («Configurando la tua piattaforma»)",
+        "Si vede una volta per sessione: se riapri la pagina nella stessa sessione si entra subito"
+      ]
+    },
+    {
       "version": "1.25.2",
       "date": "2026-10-13",
       "title": "Telefono: pulsanti e link più facili da toccare",

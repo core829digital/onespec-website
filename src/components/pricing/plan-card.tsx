@@ -88,7 +88,7 @@ export function PlanCard({ meta, copy, locale }: { meta: PricingTierMeta; copy: 
       <a
         // Self-serve (Level, Base, Pro, Agency): registrazione diretta sulla piattaforma, poi
         // scelta del piano e pagamento Stripe. Enterprise e' commerciale (selfServeCheckout: false).
-        href={enterprise ? `mailto:${SITE.salesEmail}` : platformRegister(locale)}
+        href={enterprise ? `mailto:${SITE.email}` : platformRegister(locale)}
         className={
           meta.highlighted
             ? "mt-8 inline-flex cursor-pointer items-center justify-center rounded-full bg-[var(--color-mint)] px-5 py-3 text-[14px] font-medium text-[#04231a] transition-transform duration-200 ease-out hover:scale-[1.02] active:scale-[0.98]"

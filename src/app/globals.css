@@ -154,3 +154,41 @@ button,
 :root[data-theme="light"] .logo-light {
   display: block;
 }
+
+/* Carosello della hero: scorre in loop continuo, senza pause. La lista è
+   duplicata nel markup e la traccia si sposta di metà della sua larghezza,
+   così il punto di ripartenza è identico a quello di partenza (nessun salto). */
+@keyframes os-marquee {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.os-marquee {
+  -webkit-mask-image: linear-gradient(to right, transparent 0, #000 6%, #000 94%, transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0, #000 6%, #000 94%, transparent 100%);
+}
+
+.os-marquee-track {
+  display: flex;
+  width: max-content;
+  animation: os-marquee var(--os-marquee-duration, 60s) linear infinite;
+  will-change: transform;
+}
+
+/* Chi ha chiesto meno movimento al sistema operativo vede la stessa fila,
+   ferma e scorribile a mano (la copia duplicata viene nascosta). */
+@media (prefers-reduced-motion: reduce) {
+  .os-marquee {
+    overflow-x: auto;
+  }
+  .os-marquee-track {
+    animation: none;
+  }
+  .os-marquee-track [data-marquee-copy] {
+    display: none;
+  }
+}

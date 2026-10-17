@@ -10,15 +10,71 @@ export const SITE_URL = "https://onespec.eu";
 
 export const SITE = {
   name: "onespec",
+  /** Assistenza clienti e richieste per il piano Enterprise su misura. */
   email: "hello@onespec.eu",
-  salesEmail: "sales@onespec.eu",
 };
 
-export const NAV_KEYS = ["prodotto", "demo", "prezzi", "versioni"] as const;
+/**
+ * OneSpec è un prodotto digitale di CORE829 SRL. Dati societari verificati
+ * dal registro (gli stessi delle pagine legali, src/content/legal-values.ts):
+ * unica fonte per footer, pagina «Chi siamo» e hero.
+ * Email aziendali pubblicate: solo office@ e sales@ (hello@, projects@ e
+ * partnerships@ di core829.net restano interne per scelta della società).
+ */
+export const COMPANY = {
+  legalName: "CORE829 SRL",
+  address: "Str. Mihai Eminescu 10, Roman, România",
+  /** Codice fiscale / partita IVA romena (CUI/CIF). */
+  vatId: "RO54616345",
+  /** Numero del Registro del commercio (ONRC). */
+  tradeRegister: "J2026029428009",
+  emails: {
+    support: "hello@onespec.eu",
+    office: "office@core829.net",
+    sales: "sales@core829.net",
+  },
+} as const;
+
+export type Founder = {
+  id: "stefan" | "vasile";
+  name: string;
+  /** Chiave di traduzione del ruolo (aboutPage.founders.roles). */
+  role: "founder" | "cofounder";
+  phones: { display: string; tel: string }[];
+  /** Numero WhatsApp in formato internazionale senza «+» (wa.me). */
+  whatsapp?: string;
+};
+
+export const FOUNDERS: Founder[] = [
+  {
+    id: "stefan",
+    name: "Stefan Serban",
+    role: "founder",
+    phones: [
+      { display: "+40 766 668 482", tel: "+40766668482" },
+      { display: "+39 375 946 8881", tel: "+393759468881" },
+    ],
+  },
+  {
+    id: "vasile",
+    name: "Vasile Serban",
+    role: "cofounder",
+    phones: [{ display: "+40 766 231 632", tel: "+40766231632" }],
+    whatsapp: "40766231632",
+  },
+];
+
+export const SOCIALS = [
+  { id: "tiktok", label: "TikTok", handle: "@onespec_eu", href: "https://www.tiktok.com/@onespec_eu" },
+  { id: "instagram", label: "Instagram", handle: "@onespec.eu", href: "https://www.instagram.com/onespec.eu/" },
+] as const;
+
+export const NAV_KEYS = ["prodotto", "demo", "prezzi", "chiSiamo", "versioni"] as const;
 export const NAV_HREFS: Record<(typeof NAV_KEYS)[number], string> = {
   prodotto: "/prodotto",
   demo: "/demo",
   prezzi: "/prezzi",
+  chiSiamo: "/chi-siamo",
   versioni: "/versioni",
 };
 
@@ -31,8 +87,9 @@ export const FOOTER_PRODOTTO_HREFS: Record<(typeof FOOTER_PRODOTTO_KEYS)[number]
   versioni: "/versioni",
 };
 
-export const FOOTER_AZIENDA_KEYS = ["accedi", "registrati", "assistenza", "contatti"] as const;
+export const FOOTER_AZIENDA_KEYS = ["chiSiamo", "accedi", "registrati", "assistenza", "contatti"] as const;
 export const FOOTER_AZIENDA_HREFS: Record<(typeof FOOTER_AZIENDA_KEYS)[number], string> = {
+  chiSiamo: "/chi-siamo",
   accedi: "login",
   registrati: "register",
   assistenza: "support",
@@ -111,6 +168,7 @@ export type ChangelogMeta = {
  * sono identici in ogni lingua, solo titolo e items cambiano).
  */
 export const CHANGELOG_META: ChangelogMeta[] = [
+  { version: "1.27.0", date: "2026-10-17", tag: "Nuovo", channel: "prodotto" },
   { version: "1.26.3", date: "2026-10-17", tag: "Fix", channel: "prodotto" },
   { version: "1.26.2", date: "2026-10-14", tag: "Miglioramento", channel: "prodotto" },
   { version: "1.26.1", date: "2026-10-14", tag: "Miglioramento", channel: "prodotto" },

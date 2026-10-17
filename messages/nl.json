@@ -16,7 +16,8 @@
     "chiudiMenu": "Menu sluiten",
     "accedi": "Inloggen",
     "inizia": "Nu starten",
-    "demo": "Demo"
+    "demo": "Demo",
+    "chiSiamo": "Over ons"
   },
   "footer": {
     "colProdotto": "Product",
@@ -36,7 +37,19 @@
     "documenti": "Alle juridische documenten",
     "inviti": "Nodig een bedrijf uit",
     "demo": "Platformdemo",
-    "assistenza": "Support"
+    "assistenza": "Support",
+    "chiSiamo": "Over ons",
+    "colContatti": "Contact",
+    "productOf": "OneSpec is een digitaal product van CORE829 SRL.",
+    "vat": "Btw-nr. (CUI)",
+    "register": "Handelsreg.",
+    "founder": "Oprichter",
+    "cofounder": "Medeoprichter",
+    "support": "Support",
+    "office": "Administratie",
+    "sales": "Verkoop",
+    "social": "Volg ons",
+    "whatsapp": "WhatsApp"
   },
   "theme": {
     "toDark": "Overschakelen naar donkere modus",
@@ -51,7 +64,54 @@
     "subtitle": "Een widget die u met een iFrame-code op uw site plaatst. Automatische offertes, altijd actuele prijslijst, uw merk.",
     "ctaPrimary": "Nu starten",
     "ctaSecondary": "Bekijk de live configurator",
-    "scroll": "Scroll"
+    "scroll": "Scroll",
+    "social": "Volg ons",
+    "trustTitle": "Gemaakt door kozijnmonteurs, voor kozijnmonteurs",
+    "highlightsAria": "Wat OneSpec doet",
+    "reviewsAria": "Klantbeoordelingen",
+    "reviews": [],
+    "highlights": [
+      {
+        "title": "Prijs in realtime",
+        "text": "op je site, berekend op je prijslijst"
+      },
+      {
+        "title": "Complete aanvragen",
+        "text": "maten, keuzes en contactgegevens erbij"
+      },
+      {
+        "title": "Spam gefilterd",
+        "text": "en aanvragen gesorteerd op waarde"
+      },
+      {
+        "title": "Offerte met technische tekening",
+        "text": "pdf klaar om te versturen"
+      },
+      {
+        "title": "Ondertekenen met de telefoon",
+        "text": "de klant tekent de offerte online"
+      },
+      {
+        "title": "Jouw prijslijst",
+        "text": "via csv of de standaardlijst per regio"
+      },
+      {
+        "title": "Tweekleurig en afwerkingen",
+        "text": "kleur- en decorstalen"
+      },
+      {
+        "title": "Klanten en projecten gekoppeld",
+        "text": "van aanvraag tot montage"
+      },
+      {
+        "title": "6 talen",
+        "text": "IT, EN, FR, DE, NL, RO"
+      },
+      {
+        "title": "Demo zonder account",
+        "text": "probeer meteen, er wordt niets verstuurd"
+      }
+    ]
   },
   "home": {
     "configurator": {
@@ -342,6 +402,19 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.27.0",
+      "date": "2026-10-17",
+      "title": "Over ons, bedrijfsgegevens en een beter leesbare homepage",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Nieuwe pagina ‘Over ons’: OneSpec is gemaakt door kozijnmonteurs voor kozijnmonteurs, met het probleem dat het oplost, de oprichters en de gegevens van CORE829 SRL",
+        "Footer met vestiging, btw-nummer en handelsregister van CORE829 SRL, de telefoonnummers van de oprichters, WhatsApp en de e-mailadressen voor support, kantoor en verkoop",
+        "Homepage: badge en logo leesbaar op elke achtergrond, links naar TikTok en Instagram en een doorlopende strook met wat OneSpec echt doet",
+        "Platform: aanvragen voor het Enterprise-abonnement gaan naar hello@onespec.eu en de juridische pagina’s tonen de gegevens en contacten van CORE829 SRL"
+      ]
+    },
     {
       "version": "1.26.3",
       "date": "2026-10-17",
@@ -1119,5 +1192,106 @@
     "note": "De demo draait in je browser: de data wordt gewist als je het tabblad sluit, en betalingen, externe controles en echt verzenden staan uit.",
     "ctaTitle": "Bevalt het? Maak je account aan.",
     "cta": "Begin nu"
+  },
+  "aboutPage": {
+    "metaTitle": "Over ons",
+    "metaDescription": "OneSpec is gemaakt door kozijnmonteurs voor kozijnmonteurs: een digitaal product van CORE829 SRL dat configurator, offertes, klanten en projecten op één plek samenbrengt.",
+    "badge": "Over ons",
+    "hero": {
+      "title": "Gemaakt door kozijnmonteurs, voor kozijnmonteurs",
+      "subtitle": "OneSpec komt voort uit het dagelijkse werk in de kozijnenbranche: inmeten, maten, prijslijsten, offertes en projecten. We bouwden het om monteurs de uren terug te geven die ze nu tussen spreadsheets en telefoon doorbrengen."
+    },
+    "painTitle": "Het probleem dat we van dichtbij zagen",
+    "painIntro": "Wie kozijnen plaatst, kent deze moeite: nog voordat er iets verdiend is, gaat tijd verloren aan stappen die niemand betaalt.",
+    "pains": [
+      {
+        "title": "Offertes voor niets",
+        "text": "Uren meten, rekenen en bellen voor een offerte die vaak nooit een opdracht wordt."
+      },
+      {
+        "title": "De prijs komt als laatste",
+        "text": "De klant hoort de prijs pas na het inmeten en de offerte: wie buiten budget valt, merkt het als de tijd al besteed is."
+      },
+      {
+        "title": "Alles verspreid over spreadsheets en chats",
+        "text": "Prijslijsten, klanten, projecten en leveringen staan in verschillende bestanden en chats: dezelfde gegevens worden steeds opnieuw ingetypt."
+      },
+      {
+        "title": "Een website die niet voor je werkt",
+        "text": "De bedrijfssite toont foto's en een contactformulier, maar helpt de klant niet te begrijpen wat hij wil en wat het kost."
+      }
+    ],
+    "solutionTitle": "Ons antwoord: OneSpec",
+    "solutionIntro": "Twee tools die samenwerken. Gebruik er één of allebei, afhankelijk van hoe je bedrijf is ingericht.",
+    "solutions": [
+      {
+        "kicker": "Modulaire widget",
+        "title": "De configurator op je website",
+        "text": "Hij komt met één regel code op je website, in jouw kleuren en met jouw logo. De klant kiest maten, kleuren en glas, ziet de prijs en stuurt je een complete aanvraag.",
+        "points": [
+          "Prijs berekend op je prijslijst",
+          "Aanvragen met maten, keuzes en contactgegevens",
+          "Spamfilter en sorteren op waarde"
+        ]
+      },
+      {
+        "kicker": "Platform",
+        "title": "Je hele bedrijf op één plek",
+        "text": "Offertes met technische tekening en digitale handtekening, klanten, projecten, inmetingen, inkoop, logistiek en opleveringen: alles verbonden, van aanvraag tot montage.",
+        "points": [
+          "Offerte met technische tekening en pdf",
+          "Handtekening van de klant via de telefoon",
+          "Klanten, projecten en leveringen gekoppeld"
+        ]
+      }
+    ],
+    "howTitle": "Hoe we werken",
+    "how": [
+      {
+        "title": "Van de bouwplaats naar de code",
+        "text": "Elke functie begint bij een echt probleem uit het werk van de monteur, niet bij een verlanglijst."
+      },
+      {
+        "title": "Voortdurende verbeteringen",
+        "text": "We brengen voortdurend updates uit en publiceren ze met datum en details op de pagina Versies."
+      },
+      {
+        "title": "Je praat met wie het bouwt",
+        "text": "Support zit in het platform en het team dat OneSpec ontwikkelt geeft antwoord."
+      },
+      {
+        "title": "Gemaakt voor Europa",
+        "text": "Zes talen en prijsregels voor Italië, Frankrijk, België, Nederland, Duitsland en Luxemburg."
+      }
+    ],
+    "foundersTitle": "Wie er achter OneSpec zit",
+    "foundersIntro": "OneSpec wordt geleid door de oprichters. Je kunt ze rechtstreeks bereiken.",
+    "founders": {
+      "roles": {
+        "founder": "Oprichter",
+        "cofounder": "Medeoprichter"
+      },
+      "call": "Bellen",
+      "whatsapp": "WhatsApp"
+    },
+    "companyTitle": "Het bedrijf",
+    "companyText": "OneSpec is een digitaal product van CORE829 SRL, een Roemeens bedrijf voor softwareontwikkeling, marketing en digitale diensten.",
+    "company": {
+      "legalName": "Bedrijfsnaam",
+      "address": "Statutaire zetel",
+      "vat": "CUI / btw-nummer",
+      "register": "Handelsregister",
+      "support": "Klantensupport",
+      "office": "Administratie",
+      "sales": "Verkoop"
+    },
+    "socialTitle": "Volg ons",
+    "socialText": "Video's, nieuws en tips voor kozijnmonteurs op onze kanalen.",
+    "cta": {
+      "title": "Probeer OneSpec op je eigen werk",
+      "text": "Bekijk de demo zonder account of maak je account aan: het Pro-pakket heeft 14 dagen gratis proef.",
+      "primary": "Account aanmaken",
+      "secondary": "Demo bekijken"
+    }
   }
 }

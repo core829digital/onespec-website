@@ -16,7 +16,8 @@
     "chiudiMenu": "Inchide meniul",
     "accedi": "Autentificare",
     "inizia": "Începe acum",
-    "demo": "Demo"
+    "demo": "Demo",
+    "chiSiamo": "Despre noi"
   },
   "footer": {
     "colProdotto": "Produs",
@@ -36,7 +37,19 @@
     "documenti": "Toate documentele juridice",
     "inviti": "Invită o companie",
     "demo": "Demo platformă",
-    "assistenza": "Asistență"
+    "assistenza": "Asistență",
+    "chiSiamo": "Despre noi",
+    "colContatti": "Contact",
+    "productOf": "OneSpec este un produs digital al CORE829 SRL.",
+    "vat": "CUI/CIF",
+    "register": "Nr. Reg. Com.",
+    "founder": "Fondator",
+    "cofounder": "Cofondator",
+    "support": "Asistență",
+    "office": "Administrație",
+    "sales": "Vânzări",
+    "social": "Urmărește-ne",
+    "whatsapp": "WhatsApp"
   },
   "theme": {
     "toDark": "Comuta la modul intunecat",
@@ -51,7 +64,54 @@
     "subtitle": "Un widget pe care il incluzi pe site cu un cod iFrame. Oferte automate, lista de preturi mereu actualizata, brandul tau.",
     "ctaPrimary": "Începe acum",
     "ctaSecondary": "Vezi configuratorul live",
-    "scroll": "Deruleaza"
+    "scroll": "Deruleaza",
+    "social": "Urmărește-ne",
+    "trustTitle": "Făcut de montatori de tâmplărie, pentru montatori",
+    "highlightsAria": "Ce face OneSpec",
+    "reviewsAria": "Recenzii clienți",
+    "reviews": [],
+    "highlights": [
+      {
+        "title": "Preț în timp real",
+        "text": "pe site-ul tău, calculat pe lista ta de prețuri"
+      },
+      {
+        "title": "Cereri complete",
+        "text": "dimensiuni, opțiuni și contact incluse"
+      },
+      {
+        "title": "Spam filtrat",
+        "text": "și cereri ordonate după valoare"
+      },
+      {
+        "title": "Ofertă cu desen tehnic",
+        "text": "PDF gata de trimis"
+      },
+      {
+        "title": "Semnătură de pe telefon",
+        "text": "clientul semnează oferta online"
+      },
+      {
+        "title": "Lista ta de prețuri",
+        "text": "din CSV sau lista standard pe zone"
+      },
+      {
+        "title": "Bicolor și finisaje",
+        "text": "mostre de culori și decoruri"
+      },
+      {
+        "title": "Clienți și șantiere legate",
+        "text": "de la cerere la montaj"
+      },
+      {
+        "title": "6 limbi",
+        "text": "IT, EN, FR, DE, NL, RO"
+      },
+      {
+        "title": "Demo fără cont",
+        "text": "încearc-o acum, nu se trimite nimic"
+      }
+    ]
   },
   "home": {
     "configurator": {
@@ -342,6 +402,19 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.27.0",
+      "date": "2026-10-17",
+      "title": "Despre noi, date de contact ale companiei și o pagină principală mai lizibilă",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Pagină nouă „Despre noi”: OneSpec este făcut de montatori de tâmplărie pentru montatori, cu problema pe care o rezolvă, fondatorii și datele CORE829 SRL",
+        "Footer cu sediul, CUI-ul și numărul de înregistrare ale CORE829 SRL, telefoanele fondatorilor, WhatsApp și adresele de e-mail pentru asistență, birou și vânzări",
+        "Pagina principală: insigna și logo-ul se citesc pe orice fundal, linkuri TikTok și Instagram și o bandă care rulează continuu cu ce face cu adevărat OneSpec",
+        "Platformă: cererile pentru planul Enterprise ajung la hello@onespec.eu, iar paginile legale afișează datele și contactele CORE829 SRL"
+      ]
+    },
     {
       "version": "1.26.3",
       "date": "2026-10-17",
@@ -1119,5 +1192,106 @@
     "note": "Demo-ul rulează în browserul tău: datele se resetează la închiderea filei, iar plățile, verificările externe și trimiterile reale sunt dezactivate.",
     "ctaTitle": "Îți place? Creează-ți contul.",
     "cta": "Începe acum"
+  },
+  "aboutPage": {
+    "metaTitle": "Despre noi",
+    "metaDescription": "OneSpec este făcut de montatori de tâmplărie pentru montatori: un produs digital al CORE829 SRL care aduce configuratorul, ofertele, clienții și șantierele într-un singur loc.",
+    "badge": "Despre noi",
+    "hero": {
+      "title": "Făcut de montatori, pentru montatori",
+      "subtitle": "OneSpec s-a născut din munca de zi cu zi în tâmplăria termopan: măsurători, liste de prețuri, oferte și șantiere. L-am construit ca să le dăm montatorilor înapoi orele pe care le petrec azi între Excel și telefon."
+    },
+    "painTitle": "Problema pe care am văzut-o de aproape",
+    "painIntro": "Cine montează ferestre cunoaște bine efortul acesta: înainte de a câștiga ceva, timpul se pierde în pași pe care nu îi plătește nimeni.",
+    "pains": [
+      {
+        "title": "Oferte în gol",
+        "text": "Ore de măsurători, calcule și telefoane pentru o ofertă care adesea nu devine niciodată comandă."
+      },
+      {
+        "title": "Prețul vine la final",
+        "text": "Clientul află prețul abia după măsurători și ofertă: cine depășește bugetul își dă seama când timpul e deja pierdut."
+      },
+      {
+        "title": "Totul împrăștiat între Excel și WhatsApp",
+        "text": "Liste de prețuri, clienți, șantiere și aprovizionări stau în fișiere și conversații diferite: aceleași date se rescriu de mai multe ori."
+      },
+      {
+        "title": "Un site care nu lucrează pentru tine",
+        "text": "Site-ul firmei arată poze și un formular de contact, dar nu îl ajută pe client să înțeleagă ce vrea și cât costă."
+      }
+    ],
+    "solutionTitle": "Răspunsul nostru: OneSpec",
+    "solutionIntro": "Două instrumente care lucrează împreună. Folosește unul singur sau pe amândouă, în funcție de cum e organizată firma ta.",
+    "solutions": [
+      {
+        "kicker": "Widget modular",
+        "title": "Configuratorul pe site-ul tău",
+        "text": "Se pune pe site-ul tău cu o singură linie de cod, în culorile tale și cu logo-ul tău. Clientul alege dimensiuni, culori și sticlă, vede prețul și îți trimite o cerere completă.",
+        "points": [
+          "Preț calculat pe lista ta de prețuri",
+          "Cereri cu dimensiuni, opțiuni și contact",
+          "Filtru antispam și ordonare după valoare"
+        ]
+      },
+      {
+        "kicker": "Platformă",
+        "title": "Toată firma într-un singur loc",
+        "text": "Oferte cu desen tehnic și semnătură digitală, clienți, șantiere, măsurători, aprovizionare, logistică și recepții: totul legat, de la cerere la montaj.",
+        "points": [
+          "Ofertă cu desen tehnic și PDF",
+          "Semnătura clientului de pe telefon",
+          "Clienți, șantiere și aprovizionări legate"
+        ]
+      }
+    ],
+    "howTitle": "Cum lucrăm",
+    "how": [
+      {
+        "title": "De pe șantier în cod",
+        "text": "Fiecare funcție pornește de la o problemă reală din munca montatorului, nu de la o listă de dorințe."
+      },
+      {
+        "title": "Îmbunătățiri continue",
+        "text": "Lansăm actualizări în mod constant și le publicăm, cu dată și detalii, în pagina Versiuni."
+      },
+      {
+        "title": "Vorbești cu cei care îl construiesc",
+        "text": "Asistența este în platformă și îți răspunde echipa care dezvoltă OneSpec."
+      },
+      {
+        "title": "Gândit pentru Europa",
+        "text": "Șase limbi și reguli de preț pentru Italia, Franța, Belgia, Țările de Jos, Germania și Luxemburg."
+      }
+    ],
+    "foundersTitle": "Cine este în spatele OneSpec",
+    "foundersIntro": "OneSpec este condus de fondatorii săi. Îi poți contacta direct.",
+    "founders": {
+      "roles": {
+        "founder": "Fondator",
+        "cofounder": "Cofondator"
+      },
+      "call": "Sună",
+      "whatsapp": "WhatsApp"
+    },
+    "companyTitle": "Compania",
+    "companyText": "OneSpec este un produs digital al CORE829 SRL, companie românească de dezvoltare software, marketing și servicii digitale.",
+    "company": {
+      "legalName": "Denumire",
+      "address": "Sediu social",
+      "vat": "CUI / CIF",
+      "register": "Registrul Comerțului",
+      "support": "Asistență clienți",
+      "office": "Administrație",
+      "sales": "Vânzări"
+    },
+    "socialTitle": "Urmărește-ne",
+    "socialText": "Video-uri, noutăți și sfaturi pentru montatori pe canalele noastre.",
+    "cta": {
+      "title": "Încearcă OneSpec pe munca ta",
+      "text": "Vezi demo-ul fără cont sau creează-ți contul: planul Pro include 14 zile de probă gratuită.",
+      "primary": "Creează-ți contul",
+      "secondary": "Vezi demo-ul"
+    }
   }
 }

@@ -253,7 +253,7 @@ function HomeContent() {
                     {copy.description}
                   </p>
                   <a
-                    href={enterprise ? `mailto:${SITE.salesEmail}` : platformRegister(locale)}
+                    href={enterprise ? `mailto:${SITE.email}` : platformRegister(locale)}
                     className="mt-6 inline-flex cursor-pointer items-center justify-center rounded-full border border-[var(--color-border)] px-4 py-2.5 text-[13px] font-medium text-[var(--color-text)] transition-colors hover:bg-[var(--color-bg-alt)]"
                   >
                     {copy.cta}

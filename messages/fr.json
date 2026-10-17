@@ -16,7 +16,8 @@
     "chiudiMenu": "Fermer le menu",
     "accedi": "Connexion",
     "inizia": "Commencer",
-    "demo": "Démo"
+    "demo": "Démo",
+    "chiSiamo": "Qui sommes-nous"
   },
   "footer": {
     "colProdotto": "Produit",
@@ -36,7 +37,19 @@
     "documenti": "Tous les documents juridiques",
     "inviti": "Inviter une entreprise",
     "demo": "Démo de la plateforme",
-    "assistenza": "Assistance"
+    "assistenza": "Assistance",
+    "chiSiamo": "Qui sommes-nous",
+    "colContatti": "Contacts",
+    "productOf": "OneSpec est un produit numérique de CORE829 SRL.",
+    "vat": "N° TVA (CUI)",
+    "register": "Reg. com.",
+    "founder": "Fondateur",
+    "cofounder": "Cofondateur",
+    "support": "Assistance",
+    "office": "Administration",
+    "sales": "Commercial",
+    "social": "Suivez-nous",
+    "whatsapp": "WhatsApp"
   },
   "theme": {
     "toDark": "Passer en mode sombre",
@@ -51,7 +64,54 @@
     "subtitle": "Un widget a coller sur votre site avec un code iFrame. Devis automatiques, tarifs toujours a jour, votre marque.",
     "ctaPrimary": "Commencer",
     "ctaSecondary": "Voir le configurateur en direct",
-    "scroll": "Defiler"
+    "scroll": "Defiler",
+    "social": "Suivez-nous",
+    "trustTitle": "Conçu par des menuisiers poseurs, pour des menuisiers poseurs",
+    "highlightsAria": "Ce que fait OneSpec",
+    "reviewsAria": "Avis clients",
+    "reviews": [],
+    "highlights": [
+      {
+        "title": "Prix en temps réel",
+        "text": "sur votre site, calculé sur votre tarif"
+      },
+      {
+        "title": "Demandes complètes",
+        "text": "dimensions, choix et coordonnées inclus"
+      },
+      {
+        "title": "Spam filtré",
+        "text": "et demandes triées par valeur"
+      },
+      {
+        "title": "Devis avec dessin technique",
+        "text": "PDF prêt à envoyer"
+      },
+      {
+        "title": "Signé depuis le téléphone",
+        "text": "le client signe le devis en ligne"
+      },
+      {
+        "title": "Votre tarif",
+        "text": "depuis un CSV ou le tarif standard par zone"
+      },
+      {
+        "title": "Bicolore et finitions",
+        "text": "échantillons de couleurs et décors"
+      },
+      {
+        "title": "Clients et chantiers liés",
+        "text": "de la demande à la pose"
+      },
+      {
+        "title": "6 langues",
+        "text": "IT, EN, FR, DE, NL, RO"
+      },
+      {
+        "title": "Démo sans compte",
+        "text": "essayez-la tout de suite, rien n'est envoyé"
+      }
+    ]
   },
   "home": {
     "configurator": {
@@ -342,6 +402,19 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.27.0",
+      "date": "2026-10-17",
+      "title": "Qui sommes-nous, coordonnées de l’entreprise et page d’accueil plus lisible",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Nouvelle page « Qui sommes-nous » : OneSpec est conçu par des menuisiers pour des menuisiers, avec le problème qu’il résout, les fondateurs et les données de CORE829 SRL",
+        "Pied de page avec le siège, le numéro fiscal et le registre du commerce de CORE829 SRL, les téléphones des fondateurs, WhatsApp et les e-mails d’assistance, de bureau et commercial",
+        "Accueil : badge et logo lisibles sur tout fond, liens TikTok et Instagram et un bandeau qui défile sans s’arrêter avec ce que fait vraiment OneSpec",
+        "Plateforme : les demandes de forfait Enterprise vont à hello@onespec.eu et les pages légales affichent les données et contacts de CORE829 SRL"
+      ]
+    },
     {
       "version": "1.26.3",
       "date": "2026-10-17",
@@ -1119,5 +1192,106 @@
     "note": "La démo tourne dans votre navigateur : les données sont réinitialisées à la fermeture de l'onglet, et paiements, vérifications externes et envois réels sont désactivés.",
     "ctaTitle": "Vous aimez ? Créez votre compte.",
     "cta": "Commencer"
+  },
+  "aboutPage": {
+    "metaTitle": "Qui sommes-nous",
+    "metaDescription": "OneSpec est conçu par des menuisiers poseurs pour des menuisiers poseurs : un produit numérique de CORE829 SRL qui réunit configurateur, devis, clients et chantiers au même endroit.",
+    "badge": "Qui sommes-nous",
+    "hero": {
+      "title": "Conçu par des menuisiers poseurs, pour des menuisiers poseurs",
+      "subtitle": "OneSpec est né du travail quotidien dans la menuiserie : métrés, prises de cotes, tarifs, devis et chantiers. Nous l'avons construit pour rendre au poseur les heures qu'il passe aujourd'hui entre tableurs et téléphone."
+    },
+    "painTitle": "Le problème que nous avons vu de près",
+    "painIntro": "Quiconque pose des fenêtres connaît cette fatigue : avant même de gagner quelque chose, le temps se perd dans des étapes que personne ne paie.",
+    "pains": [
+      {
+        "title": "Des devis pour rien",
+        "text": "Des heures de mesures, de calculs et d'appels pour un devis qui, souvent, ne devient jamais une commande."
+      },
+      {
+        "title": "Le prix arrive en dernier",
+        "text": "Le client découvre le prix seulement après le métré et le devis : celui qui dépasse son budget s'en rend compte quand le temps est déjà perdu."
+      },
+      {
+        "title": "Tout est dispersé entre tableurs et messageries",
+        "text": "Tarifs, clients, chantiers et fournitures vivent dans des fichiers et des discussions différents : la même donnée est ressaisie plusieurs fois."
+      },
+      {
+        "title": "Un site qui ne travaille pas pour vous",
+        "text": "Le site de l'entreprise montre des photos et un formulaire de contact, mais n'aide pas le client à comprendre ce qu'il veut et combien cela coûte."
+      }
+    ],
+    "solutionTitle": "Notre réponse : OneSpec",
+    "solutionIntro": "Deux outils qui travaillent ensemble. Utilisez-en un seul ou les deux, selon l'organisation de votre entreprise.",
+    "solutions": [
+      {
+        "kicker": "Widget modulaire",
+        "title": "Le configurateur sur votre site",
+        "text": "Il s'intègre à votre site avec une ligne de code, à vos couleurs et avec votre logo. Le client choisit dimensions, couleurs et vitrages, voit le prix et vous envoie une demande complète.",
+        "points": [
+          "Prix calculé sur votre tarif",
+          "Demandes avec dimensions, choix et coordonnées",
+          "Filtre anti-spam et tri par valeur"
+        ]
+      },
+      {
+        "kicker": "Plateforme",
+        "title": "Toute l'entreprise au même endroit",
+        "text": "Devis avec dessin technique et signature électronique, clients, chantiers, métrés, approvisionnement, logistique et réceptions : tout est relié, de la demande à la pose.",
+        "points": [
+          "Devis avec dessin technique et PDF",
+          "Signature du client depuis le téléphone",
+          "Clients, chantiers et fournitures reliés"
+        ]
+      }
+    ],
+    "howTitle": "Notre façon de travailler",
+    "how": [
+      {
+        "title": "Du chantier au code",
+        "text": "Chaque fonction naît d'un vrai problème du métier de poseur, pas d'une liste de souhaits."
+      },
+      {
+        "title": "Des améliorations continues",
+        "text": "Nous publions des mises à jour en continu, avec date et détails, sur la page Versions."
+      },
+      {
+        "title": "Vous parlez à ceux qui le construisent",
+        "text": "L'assistance est intégrée à la plateforme et c'est l'équipe qui développe OneSpec qui vous répond."
+      },
+      {
+        "title": "Pensé pour l'Europe",
+        "text": "Six langues et des règles de prix pour l'Italie, la France, la Belgique, les Pays-Bas, l'Allemagne et le Luxembourg."
+      }
+    ],
+    "foundersTitle": "Qui est derrière OneSpec",
+    "foundersIntro": "OneSpec est dirigé par ses fondateurs. Vous pouvez les contacter directement.",
+    "founders": {
+      "roles": {
+        "founder": "Fondateur",
+        "cofounder": "Cofondateur"
+      },
+      "call": "Appeler",
+      "whatsapp": "WhatsApp"
+    },
+    "companyTitle": "L'entreprise",
+    "companyText": "OneSpec est un produit numérique de CORE829 SRL, société roumaine de développement logiciel, de marketing et de services numériques.",
+    "company": {
+      "legalName": "Raison sociale",
+      "address": "Siège social",
+      "vat": "CUI / N° de TVA",
+      "register": "Registre du commerce",
+      "support": "Assistance clients",
+      "office": "Administration",
+      "sales": "Commercial"
+    },
+    "socialTitle": "Suivez-nous",
+    "socialText": "Vidéos, nouveautés et conseils pour les poseurs sur nos réseaux.",
+    "cta": {
+      "title": "Essayez OneSpec sur votre activité",
+      "text": "Regardez la démo sans compte ou créez votre compte : l'offre Pro inclut 14 jours d'essai gratuit.",
+      "primary": "Créer votre compte",
+      "secondary": "Voir la démo"
+    }
   }
 }

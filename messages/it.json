@@ -16,7 +16,8 @@
     "chiudiMenu": "Chiudi menu",
     "accedi": "Accedi",
     "inizia": "Inizia ora",
-    "demo": "Demo"
+    "demo": "Demo",
+    "chiSiamo": "Chi siamo"
   },
   "footer": {
     "colProdotto": "Prodotto",
@@ -36,7 +37,19 @@
     "documenti": "Tutti i documenti legali",
     "inviti": "Invita un'azienda",
     "demo": "Demo della piattaforma",
-    "assistenza": "Assistenza"
+    "assistenza": "Assistenza",
+    "chiSiamo": "Chi siamo",
+    "colContatti": "Contatti",
+    "productOf": "OneSpec è un prodotto digitale di CORE829 SRL.",
+    "vat": "CUI/P.IVA",
+    "register": "Reg. com.",
+    "founder": "Fondatore",
+    "cofounder": "Co-fondatore",
+    "support": "Assistenza",
+    "office": "Amministrazione",
+    "sales": "Commerciale",
+    "social": "Seguici",
+    "whatsapp": "WhatsApp"
   },
   "theme": {
     "toDark": "Passa alla modalità scura",
@@ -51,7 +64,54 @@
     "subtitle": "Un widget da incollare sul tuo sito con un codice iFrame. Preventivi automatici, listino sempre aggiornato, il tuo brand.",
     "ctaPrimary": "Inizia ora",
     "ctaSecondary": "Vedi il configuratore live",
-    "scroll": "Scorri"
+    "scroll": "Scorri",
+    "social": "Seguici",
+    "trustTitle": "Fatto da serramentisti per serramentisti",
+    "highlightsAria": "Cosa fa OneSpec",
+    "reviewsAria": "Recensioni dei clienti",
+    "reviews": [],
+    "highlights": [
+      {
+        "title": "Prezzo in tempo reale",
+        "text": "sul tuo sito, calcolato sul tuo listino"
+      },
+      {
+        "title": "Richieste complete",
+        "text": "misure, scelte e contatti già dentro"
+      },
+      {
+        "title": "Spam filtrato",
+        "text": "e richieste ordinate per valore"
+      },
+      {
+        "title": "Preventivo con disegno tecnico",
+        "text": "PDF pronto da inviare"
+      },
+      {
+        "title": "Firma dal telefono",
+        "text": "il cliente firma il preventivo online"
+      },
+      {
+        "title": "Il tuo listino",
+        "text": "da CSV o standard per zona Nord, Centro, Sud"
+      },
+      {
+        "title": "Bicolore e finiture",
+        "text": "campioni di colori e decori"
+      },
+      {
+        "title": "Clienti e cantieri collegati",
+        "text": "dalla richiesta alla posa"
+      },
+      {
+        "title": "6 lingue",
+        "text": "IT, EN, FR, DE, NL, RO"
+      },
+      {
+        "title": "Demo senza account",
+        "text": "provala subito, non si invia nulla"
+      }
+    ]
   },
   "home": {
     "configurator": {
@@ -342,6 +402,19 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.27.0",
+      "date": "2026-10-17",
+      "title": "Chi siamo, contatti aziendali e home più leggibile",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Nuova pagina «Chi siamo»: OneSpec è fatto da serramentisti per serramentisti, con il problema che risolve, i fondatori e i dati di CORE829 SRL",
+        "Footer con sede, CUI e registro di CORE829 SRL, telefoni dei fondatori, WhatsApp ed email di assistenza, ufficio e commerciale",
+        "Home: badge e logo leggibili su qualsiasi sfondo, link a TikTok e Instagram e una fascia che scorre senza fermarsi con ciò che OneSpec fa davvero",
+        "Piattaforma: le richieste per il piano Enterprise vanno a hello@onespec.eu e le pagine legali mostrano i dati e i contatti di CORE829 SRL"
+      ]
+    },
     {
       "version": "1.26.3",
       "date": "2026-10-17",
@@ -1119,5 +1192,106 @@
     "note": "La demo gira nel tuo browser: i dati si azzerano alla chiusura della scheda, e pagamenti, verifiche esterne e invii reali sono disattivati.",
     "ctaTitle": "Ti piace? Crea il tuo account.",
     "cta": "Inizia ora"
+  },
+  "aboutPage": {
+    "metaTitle": "Chi siamo",
+    "metaDescription": "OneSpec è fatto dai serramentisti per i serramentisti: un prodotto digitale di CORE829 SRL che porta configuratore, preventivi, clienti e cantieri in un unico posto.",
+    "badge": "Chi siamo",
+    "hero": {
+      "title": "Fatto dai serramentisti, per i serramentisti",
+      "subtitle": "OneSpec nasce dal lavoro di tutti i giorni nel mondo dei serramenti: sopralluoghi, misure, listini, preventivi e cantieri. Lo abbiamo costruito per restituire al serramentista le ore che oggi passa tra Excel e telefono."
+    },
+    "painTitle": "Il problema che abbiamo visto da vicino",
+    "painIntro": "Chi monta finestre conosce bene questa fatica: prima ancora di guadagnare, il tempo si perde in passaggi che nessuno paga.",
+    "pains": [
+      {
+        "title": "Preventivi a vuoto",
+        "text": "Ore di misure, calcoli e telefonate per un preventivo che spesso non diventa un ordine."
+      },
+      {
+        "title": "Il prezzo arriva per ultimo",
+        "text": "Il cliente scopre il prezzo solo dopo sopralluogo e preventivo: chi è fuori budget lo capisce quando il tempo è già speso."
+      },
+      {
+        "title": "Tutto sparso tra Excel e WhatsApp",
+        "text": "Listini, clienti, cantieri e forniture vivono in file e chat diverse: lo stesso dato si riscrive più volte."
+      },
+      {
+        "title": "Un sito che non lavora",
+        "text": "Il sito aziendale mostra foto e un modulo contatti, ma non aiuta il cliente a capire cosa vuole e quanto costa."
+      }
+    ],
+    "solutionTitle": "La nostra risposta: OneSpec",
+    "solutionIntro": "Due strumenti che lavorano insieme. Puoi usarne uno solo o entrambi, in base a come è organizzata la tua azienda.",
+    "solutions": [
+      {
+        "kicker": "Widget modulare",
+        "title": "Il configuratore sul tuo sito",
+        "text": "Si inserisce nel tuo sito con una riga di codice, con i tuoi colori e il tuo logo. Il cliente sceglie misure, colori e vetri, vede il prezzo e ti manda una richiesta completa.",
+        "points": [
+          "Prezzo calcolato sul tuo listino",
+          "Richieste con misure, scelte e contatti",
+          "Filtro antispam e ordinamento per valore"
+        ]
+      },
+      {
+        "kicker": "Piattaforma",
+        "title": "Tutta l'azienda in un unico posto",
+        "text": "Preventivi con disegno tecnico e firma digitale, clienti, cantieri, rilievi, fornitura, logistica e collaudi: tutto collegato, dalla richiesta alla posa.",
+        "points": [
+          "Preventivo con disegno tecnico e PDF",
+          "Firma del cliente dal telefono",
+          "Clienti, cantieri e forniture collegati"
+        ]
+      }
+    ],
+    "howTitle": "Come lavoriamo",
+    "how": [
+      {
+        "title": "Dal cantiere al codice",
+        "text": "Ogni funzione nasce da un problema reale del lavoro del serramentista, non da una lista di desideri."
+      },
+      {
+        "title": "Miglioramenti continui",
+        "text": "Rilasciamo aggiornamenti di continuo e li pubblichiamo nella pagina Versioni, con data e dettagli."
+      },
+      {
+        "title": "Parli con chi lo costruisce",
+        "text": "L'assistenza è dentro la piattaforma e ti risponde il team che sviluppa OneSpec."
+      },
+      {
+        "title": "Pensato per l'Europa",
+        "text": "Sei lingue e regole di prezzo per Italia, Francia, Belgio, Paesi Bassi, Germania e Lussemburgo."
+      }
+    ],
+    "foundersTitle": "Chi c'è dietro OneSpec",
+    "foundersIntro": "OneSpec è guidato dai suoi fondatori. Puoi contattarli direttamente.",
+    "founders": {
+      "roles": {
+        "founder": "Fondatore",
+        "cofounder": "Co-fondatore"
+      },
+      "call": "Chiama",
+      "whatsapp": "WhatsApp"
+    },
+    "companyTitle": "L'azienda",
+    "companyText": "OneSpec è un prodotto digitale di CORE829 SRL, società romena di sviluppo software, marketing e servizi digitali.",
+    "company": {
+      "legalName": "Ragione sociale",
+      "address": "Sede legale",
+      "vat": "CUI / Partita IVA",
+      "register": "Registro del commercio",
+      "support": "Assistenza clienti",
+      "office": "Amministrazione",
+      "sales": "Commerciale"
+    },
+    "socialTitle": "Seguici",
+    "socialText": "Video, novità e consigli per serramentisti sui nostri canali.",
+    "cta": {
+      "title": "Prova OneSpec sul tuo lavoro",
+      "text": "Guarda la demo senza account oppure crea il tuo account: il piano Pro include 14 giorni di prova gratuita.",
+      "primary": "Crea il tuo account",
+      "secondary": "Guarda la demo"
+    }
   }
 }

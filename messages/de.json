@@ -16,7 +16,8 @@
     "chiudiMenu": "Menü schließen",
     "accedi": "Anmelden",
     "inizia": "Jetzt starten",
-    "demo": "Demo"
+    "demo": "Demo",
+    "chiSiamo": "Über uns"
   },
   "footer": {
     "colProdotto": "Produkt",
@@ -36,7 +37,19 @@
     "documenti": "Alle rechtlichen Dokumente",
     "inviti": "Unternehmen einladen",
     "demo": "Plattform-Demo",
-    "assistenza": "Support"
+    "assistenza": "Support",
+    "chiSiamo": "Über uns",
+    "colContatti": "Kontakt",
+    "productOf": "OneSpec ist ein digitales Produkt der CORE829 SRL.",
+    "vat": "USt-IdNr. (CUI)",
+    "register": "Handelsreg.",
+    "founder": "Gründer",
+    "cofounder": "Mitgründer",
+    "support": "Support",
+    "office": "Verwaltung",
+    "sales": "Vertrieb",
+    "social": "Folge uns",
+    "whatsapp": "WhatsApp"
   },
   "theme": {
     "toDark": "Zum dunklen Modus wechseln",
@@ -51,7 +64,54 @@
     "subtitle": "Ein Widget, das Sie mit einem iFrame-Code auf Ihrer Website einbetten. Automatische Angebote, stets aktuelle Preisliste, Ihre Marke.",
     "ctaPrimary": "Jetzt starten",
     "ctaSecondary": "Konfigurator live ansehen",
-    "scroll": "Scrollen"
+    "scroll": "Scrollen",
+    "social": "Folge uns",
+    "trustTitle": "Von Fensterbauern für Fensterbauer",
+    "highlightsAria": "Was OneSpec macht",
+    "reviewsAria": "Kundenbewertungen",
+    "reviews": [],
+    "highlights": [
+      {
+        "title": "Preis in Echtzeit",
+        "text": "auf deiner Website, nach deiner Preisliste"
+      },
+      {
+        "title": "Vollständige Anfragen",
+        "text": "Maße, Auswahl und Kontakt inklusive"
+      },
+      {
+        "title": "Spam gefiltert",
+        "text": "und Anfragen nach Wert sortiert"
+      },
+      {
+        "title": "Angebot mit technischer Zeichnung",
+        "text": "PDF fertig zum Versand"
+      },
+      {
+        "title": "Unterschrift per Handy",
+        "text": "der Kunde unterschreibt online"
+      },
+      {
+        "title": "Deine Preisliste",
+        "text": "per CSV oder Standardliste nach Region"
+      },
+      {
+        "title": "Zweifarbig und Dekore",
+        "text": "Farb- und Dekormuster"
+      },
+      {
+        "title": "Kunden und Baustellen verknüpft",
+        "text": "von der Anfrage bis zur Montage"
+      },
+      {
+        "title": "6 Sprachen",
+        "text": "IT, EN, FR, DE, NL, RO"
+      },
+      {
+        "title": "Demo ohne Konto",
+        "text": "sofort testen, nichts wird gesendet"
+      }
+    ]
   },
   "home": {
     "configurator": {
@@ -342,6 +402,19 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.27.0",
+      "date": "2026-10-17",
+      "title": "Über uns, Unternehmenskontakte und eine besser lesbare Startseite",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Neue Seite „Über uns“: OneSpec ist von Fensterbauern für Fensterbauer gemacht, mit dem Problem, das es löst, den Gründern und den Daten der CORE829 SRL",
+        "Footer mit Sitz, Steuernummer und Handelsregister der CORE829 SRL, den Telefonnummern der Gründer, WhatsApp sowie den E-Mails für Support, Büro und Vertrieb",
+        "Startseite: Badge und Logo auf jedem Hintergrund lesbar, Links zu TikTok und Instagram und ein durchlaufendes Band mit dem, was OneSpec wirklich kann",
+        "Plattform: Anfragen zum Enterprise-Tarif gehen an hello@onespec.eu und die Rechtsseiten zeigen die Daten und Kontakte der CORE829 SRL"
+      ]
+    },
     {
       "version": "1.26.3",
       "date": "2026-10-17",
@@ -1119,5 +1192,106 @@
     "note": "Die Demo läuft in Ihrem Browser: Die Daten werden beim Schließen des Tabs zurückgesetzt; Zahlungen, externe Prüfungen und echter Versand sind deaktiviert.",
     "ctaTitle": "Gefällt es Ihnen? Erstellen Sie Ihr Konto.",
     "cta": "Jetzt starten"
+  },
+  "aboutPage": {
+    "metaTitle": "Über uns",
+    "metaDescription": "OneSpec ist von Fensterbauern für Fensterbauer gemacht: ein digitales Produkt der CORE829 SRL, das Konfigurator, Angebote, Kunden und Baustellen an einem Ort zusammenführt.",
+    "badge": "Über uns",
+    "hero": {
+      "title": "Von Fensterbauern, für Fensterbauer",
+      "subtitle": "OneSpec entsteht aus der täglichen Arbeit im Fenster- und Türenbau: Aufmaß, Maße, Preislisten, Angebote und Baustellen. Wir haben es gebaut, um Fensterbauern die Stunden zurückzugeben, die sie heute zwischen Tabellen und Telefon verbringen."
+    },
+    "painTitle": "Das Problem, das wir aus der Nähe kennen",
+    "painIntro": "Wer Fenster montiert, kennt diese Mühe: Noch bevor etwas verdient ist, geht Zeit in Schritten verloren, die niemand bezahlt.",
+    "pains": [
+      {
+        "title": "Angebote ins Leere",
+        "text": "Stunden für Aufmaß, Kalkulation und Telefonate für ein Angebot, das oft nie zum Auftrag wird."
+      },
+      {
+        "title": "Der Preis kommt zuletzt",
+        "text": "Der Kunde erfährt den Preis erst nach Aufmaß und Angebot: Wer über dem Budget liegt, merkt es, wenn die Zeit schon verbraucht ist."
+      },
+      {
+        "title": "Alles verstreut in Tabellen und Chats",
+        "text": "Preislisten, Kunden, Baustellen und Lieferungen liegen in verschiedenen Dateien und Chats: Dieselben Daten werden mehrfach abgetippt."
+      },
+      {
+        "title": "Eine Website, die nicht für dich arbeitet",
+        "text": "Die Firmenwebsite zeigt Fotos und ein Kontaktformular, hilft dem Kunden aber nicht zu verstehen, was er will und was es kostet."
+      }
+    ],
+    "solutionTitle": "Unsere Antwort: OneSpec",
+    "solutionIntro": "Zwei Werkzeuge, die zusammenarbeiten. Nutze eines oder beide, je nachdem, wie dein Betrieb organisiert ist.",
+    "solutions": [
+      {
+        "kicker": "Modulares Widget",
+        "title": "Der Konfigurator auf deiner Website",
+        "text": "Er kommt mit einer Codezeile auf deine Website, in deinen Farben und mit deinem Logo. Der Kunde wählt Maße, Farben und Verglasung, sieht den Preis und schickt dir eine vollständige Anfrage.",
+        "points": [
+          "Preis nach deiner Preisliste",
+          "Anfragen mit Maßen, Auswahl und Kontakt",
+          "Spamfilter und Sortierung nach Wert"
+        ]
+      },
+      {
+        "kicker": "Plattform",
+        "title": "Der ganze Betrieb an einem Ort",
+        "text": "Angebote mit technischer Zeichnung und digitaler Unterschrift, Kunden, Baustellen, Aufmaße, Beschaffung, Logistik und Abnahmen: alles verbunden, von der Anfrage bis zur Montage.",
+        "points": [
+          "Angebot mit technischer Zeichnung und PDF",
+          "Unterschrift des Kunden per Handy",
+          "Kunden, Baustellen und Lieferungen verknüpft"
+        ]
+      }
+    ],
+    "howTitle": "So arbeiten wir",
+    "how": [
+      {
+        "title": "Von der Baustelle in den Code",
+        "text": "Jede Funktion entsteht aus einem echten Problem im Alltag des Fensterbauers, nicht aus einer Wunschliste."
+      },
+      {
+        "title": "Laufende Verbesserungen",
+        "text": "Wir veröffentlichen ständig Updates, mit Datum und Details, auf der Seite Versionen."
+      },
+      {
+        "title": "Du sprichst mit denen, die es bauen",
+        "text": "Der Support ist in die Plattform integriert, und es antwortet das Team, das OneSpec entwickelt."
+      },
+      {
+        "title": "Für Europa gemacht",
+        "text": "Sechs Sprachen und Preisregeln für Italien, Frankreich, Belgien, die Niederlande, Deutschland und Luxemburg."
+      }
+    ],
+    "foundersTitle": "Wer hinter OneSpec steht",
+    "foundersIntro": "OneSpec wird von seinen Gründern geführt. Du kannst sie direkt kontaktieren.",
+    "founders": {
+      "roles": {
+        "founder": "Gründer",
+        "cofounder": "Mitgründer"
+      },
+      "call": "Anrufen",
+      "whatsapp": "WhatsApp"
+    },
+    "companyTitle": "Das Unternehmen",
+    "companyText": "OneSpec ist ein digitales Produkt der CORE829 SRL, eines rumänischen Unternehmens für Softwareentwicklung, Marketing und digitale Dienstleistungen.",
+    "company": {
+      "legalName": "Firmenname",
+      "address": "Sitz",
+      "vat": "CUI / USt-IdNr.",
+      "register": "Handelsregister",
+      "support": "Kundensupport",
+      "office": "Verwaltung",
+      "sales": "Vertrieb"
+    },
+    "socialTitle": "Folge uns",
+    "socialText": "Videos, Neuigkeiten und Tipps für Fensterbauer auf unseren Kanälen.",
+    "cta": {
+      "title": "Teste OneSpec mit deiner Arbeit",
+      "text": "Sieh dir die Demo ohne Konto an oder erstelle dein Konto: Der Pro-Tarif enthält 14 Tage kostenlosen Test.",
+      "primary": "Konto erstellen",
+      "secondary": "Demo ansehen"
+    }
   }
 }

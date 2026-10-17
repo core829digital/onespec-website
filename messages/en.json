@@ -16,7 +16,8 @@
     "chiudiMenu": "Close menu",
     "accedi": "Log in",
     "inizia": "Get started",
-    "demo": "Demo"
+    "demo": "Demo",
+    "chiSiamo": "About us"
   },
   "footer": {
     "colProdotto": "Product",
@@ -36,7 +37,19 @@
     "documenti": "All legal documents",
     "inviti": "Invite a company",
     "demo": "Platform demo",
-    "assistenza": "Support"
+    "assistenza": "Support",
+    "chiSiamo": "About us",
+    "colContatti": "Contacts",
+    "productOf": "OneSpec is a digital product of CORE829 SRL.",
+    "vat": "VAT ID (CUI)",
+    "register": "Trade reg.",
+    "founder": "Founder",
+    "cofounder": "Co-founder",
+    "support": "Support",
+    "office": "Office",
+    "sales": "Sales",
+    "social": "Follow us",
+    "whatsapp": "WhatsApp"
   },
   "theme": {
     "toDark": "Switch to dark mode",
@@ -51,7 +64,54 @@
     "subtitle": "A widget you embed on your site with an iFrame code. Automatic quotes, an always-current price list, your brand.",
     "ctaPrimary": "Get started",
     "ctaSecondary": "See the live configurator",
-    "scroll": "Scroll"
+    "scroll": "Scroll",
+    "social": "Follow us",
+    "trustTitle": "Built by window installers, for window installers",
+    "highlightsAria": "What OneSpec does",
+    "reviewsAria": "Customer reviews",
+    "reviews": [],
+    "highlights": [
+      {
+        "title": "Real-time price",
+        "text": "on your site, calculated on your price list"
+      },
+      {
+        "title": "Complete requests",
+        "text": "sizes, choices and contacts included"
+      },
+      {
+        "title": "Spam filtered",
+        "text": "and requests sorted by value"
+      },
+      {
+        "title": "Quote with technical drawing",
+        "text": "PDF ready to send"
+      },
+      {
+        "title": "Signed from the phone",
+        "text": "the customer signs the quote online"
+      },
+      {
+        "title": "Your price list",
+        "text": "from CSV or the standard list by area"
+      },
+      {
+        "title": "Two-colour and finishes",
+        "text": "colour and woodgrain swatches"
+      },
+      {
+        "title": "Customers and job sites linked",
+        "text": "from request to installation"
+      },
+      {
+        "title": "6 languages",
+        "text": "IT, EN, FR, DE, NL, RO"
+      },
+      {
+        "title": "Demo without an account",
+        "text": "try it now, nothing is sent"
+      }
+    ]
   },
   "home": {
     "configurator": {
@@ -342,6 +402,19 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.27.0",
+      "date": "2026-10-17",
+      "title": "About us, company contacts and a clearer homepage",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "New “About us” page: OneSpec is made by window installers for window installers, with the problem it solves, the founders and CORE829 SRL’s company details",
+        "Footer with CORE829 SRL’s registered office, tax ID and trade register number, the founders’ phone numbers, WhatsApp and the support, office and sales emails",
+        "Homepage: badge and logo readable on any background, TikTok and Instagram links and a continuously scrolling strip showing what OneSpec really does",
+        "Platform: Enterprise plan requests go to hello@onespec.eu and the legal pages show CORE829 SRL’s details and contacts"
+      ]
+    },
     {
       "version": "1.26.3",
       "date": "2026-10-17",
@@ -1119,5 +1192,106 @@
     "note": "The demo runs in your browser: data resets when you close the tab, and payments, external checks and real sending are turned off.",
     "ctaTitle": "Like it? Create your account.",
     "cta": "Get started"
+  },
+  "aboutPage": {
+    "metaTitle": "About us",
+    "metaDescription": "OneSpec is built by window installers for window installers: a digital product of CORE829 SRL that brings configurator, quotes, customers and job sites into one place.",
+    "badge": "About us",
+    "hero": {
+      "title": "Built by window installers, for window installers",
+      "subtitle": "OneSpec comes from everyday work in the window and door trade: site surveys, measurements, price lists, quotes and job sites. We built it to give installers back the hours they now spend between spreadsheets and the phone."
+    },
+    "painTitle": "The problem we saw up close",
+    "painIntro": "Anyone who installs windows knows this struggle: before earning anything, time is lost in steps nobody pays for.",
+    "pains": [
+      {
+        "title": "Quotes that go nowhere",
+        "text": "Hours of measuring, calculating and calling for a quote that often never becomes an order."
+      },
+      {
+        "title": "The price comes last",
+        "text": "Customers only find out the price after the survey and the quote: those over budget realise it when the time is already spent."
+      },
+      {
+        "title": "Everything scattered across spreadsheets and chats",
+        "text": "Price lists, customers, job sites and supplies live in different files and chats: the same data gets retyped again and again."
+      },
+      {
+        "title": "A website that doesn't work for you",
+        "text": "The company site shows photos and a contact form, but doesn't help customers understand what they want and what it costs."
+      }
+    ],
+    "solutionTitle": "Our answer: OneSpec",
+    "solutionIntro": "Two tools that work together. Use one or both, depending on how your company is organised.",
+    "solutions": [
+      {
+        "kicker": "Modular widget",
+        "title": "The configurator on your website",
+        "text": "It goes on your website with one line of code, with your colours and your logo. Customers choose sizes, colours and glass, see the price and send you a complete request.",
+        "points": [
+          "Price calculated on your price list",
+          "Requests with sizes, choices and contacts",
+          "Spam filter and sorting by value"
+        ]
+      },
+      {
+        "kicker": "Platform",
+        "title": "Your whole company in one place",
+        "text": "Quotes with technical drawings and digital signature, customers, job sites, surveys, supply, logistics and acceptance tests: all connected, from request to installation.",
+        "points": [
+          "Quote with technical drawing and PDF",
+          "Customer signature from the phone",
+          "Customers, job sites and supplies linked"
+        ]
+      }
+    ],
+    "howTitle": "How we work",
+    "how": [
+      {
+        "title": "From the job site to the code",
+        "text": "Every feature starts from a real problem in an installer's work, not from a wish list."
+      },
+      {
+        "title": "Continuous improvements",
+        "text": "We ship updates all the time and publish them on the Changelog page, with date and details."
+      },
+      {
+        "title": "Talk to the people who build it",
+        "text": "Support is built into the platform and the team that develops OneSpec answers you."
+      },
+      {
+        "title": "Designed for Europe",
+        "text": "Six languages and pricing rules for Italy, France, Belgium, the Netherlands, Germany and Luxembourg."
+      }
+    ],
+    "foundersTitle": "Who is behind OneSpec",
+    "foundersIntro": "OneSpec is led by its founders. You can contact them directly.",
+    "founders": {
+      "roles": {
+        "founder": "Founder",
+        "cofounder": "Co-founder"
+      },
+      "call": "Call",
+      "whatsapp": "WhatsApp"
+    },
+    "companyTitle": "The company",
+    "companyText": "OneSpec is a digital product of CORE829 SRL, a Romanian company for software development, marketing and digital services.",
+    "company": {
+      "legalName": "Company name",
+      "address": "Registered office",
+      "vat": "CUI / VAT ID",
+      "register": "Trade register",
+      "support": "Customer support",
+      "office": "Office",
+      "sales": "Sales"
+    },
+    "socialTitle": "Follow us",
+    "socialText": "Videos, news and tips for window installers on our channels.",
+    "cta": {
+      "title": "Try OneSpec on your own work",
+      "text": "Watch the demo without an account or create your account: the Pro plan includes a 14-day free trial.",
+      "primary": "Create your account",
+      "secondary": "Watch the demo"
+    }
   }
 }

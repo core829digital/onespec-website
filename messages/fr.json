@@ -51,10 +51,6 @@
     "social": "Suivez-nous",
     "whatsapp": "WhatsApp"
   },
-  "theme": {
-    "toDark": "Passer en mode sombre",
-    "toLight": "Passer en mode clair"
-  },
   "languageSwitcher": {
     "label": "Langue"
   },

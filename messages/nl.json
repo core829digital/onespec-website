@@ -51,10 +51,6 @@
     "social": "Volg ons",
     "whatsapp": "WhatsApp"
   },
-  "theme": {
-    "toDark": "Overschakelen naar donkere modus",
-    "toLight": "Overschakelen naar lichte modus"
-  },
   "languageSwitcher": {
     "label": "Taal"
   },

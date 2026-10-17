@@ -10,15 +10,7 @@ export function Logo({ className }: { className?: string }) {
         width={2000}
         height={700}
         priority
-        className="logo-dark h-full w-auto"
-      />
-      <Image
-        src="/onespec-logo-light.png"
-        alt="onespec"
-        width={2000}
-        height={700}
-        priority
-        className="logo-light h-full w-auto"
+        className="h-full w-auto"
       />
     </span>
   );

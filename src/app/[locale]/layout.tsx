@@ -6,8 +6,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
-import { ThemeScript } from "@/components/theme-script";
-import { ThemeToggle } from "@/components/theme-toggle";
 import { SmoothScroll } from "@/components/smooth-scroll";
 import { ReferralLinkDecorator } from "@/components/referral-link-decorator";
 import { MotionConfig } from "framer-motion";
@@ -81,7 +79,6 @@ export default async function LocaleLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col bg-[var(--color-bg)] text-[var(--color-text)]">
-        <ThemeScript />
         <NextIntlClientProvider>
           <MotionConfig reducedMotion="user">
             <Header />
@@ -89,7 +86,6 @@ export default async function LocaleLayout({
             <ReferralLinkDecorator />
             <main className="flex-1">{children}</main>
             <Footer />
-            <ThemeToggle />
           </MotionConfig>
         </NextIntlClientProvider>
       </body>

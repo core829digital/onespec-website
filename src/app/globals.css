@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  /* Dark is the default theme. */
+  /* The site has a single, dark theme. */
   --color-bg: #0a0b0d;
   --color-bg-alt: #141618;
   --color-bg-inverse: #000000;
@@ -17,21 +17,6 @@
 
   --ease-out-apple: cubic-bezier(0.16, 1, 0.3, 1);
   --ease-in-out-apple: cubic-bezier(0.65, 0, 0.35, 1);
-}
-
-:root[data-theme="light"] {
-  --color-bg: #ffffff;
-  --color-bg-alt: #f5f5f7;
-  --color-bg-inverse: #0b0c0e;
-  --color-text: #1d1d1f;
-  --color-text-secondary: #6e6e73;
-  --color-text-inverse: #f5f5f7;
-  --color-border: #d2d2d7;
-  --color-border-subtle: #e8e8ed;
-  --color-mint: #0fbf8f;
-  --color-mint-dark: #0a9c74;
-  --color-mint-light: #e3f9f2;
-  --color-danger: #d9363e;
 }
 
 @theme inline {
@@ -135,24 +120,6 @@ button,
 
 .text-balance {
   text-wrap: balance;
-}
-
-/* Logo: due varianti PNG, la giusta e mostrata via CSS in base al tema
-   (niente JS/hydration flash, coerente con lo script di init tema). */
-.logo-dark {
-  display: block;
-}
-
-.logo-light {
-  display: none;
-}
-
-:root[data-theme="light"] .logo-dark {
-  display: none;
-}
-
-:root[data-theme="light"] .logo-light {
-  display: block;
 }
 
 /* Carosello della hero: scorre in loop continuo, senza pause. La lista è

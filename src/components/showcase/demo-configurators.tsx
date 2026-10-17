@@ -19,18 +19,8 @@ type Kind = "widget" | "showroom";
 export function DemoConfigurators() {
   const t = useTranslations("demoConfigurators");
   const locale = useLocale();
-  const [theme, setTheme] = useState<"light" | "dark">("dark");
   const [heights, setHeights] = useState<Record<Kind, number>>({ widget: 900, showroom: 1400 });
   const [loaded, setLoaded] = useState<Record<Kind, boolean>>({ widget: false, showroom: false });
-
-  useEffect(() => {
-    const read = () =>
-      setTheme(document.documentElement.getAttribute("data-theme") === "light" ? "light" : "dark");
-    read();
-    const mo = new MutationObserver(read);
-    mo.observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
-    return () => mo.disconnect();
-  }, []);
 
   useEffect(() => {
     function onMessage(e: MessageEvent) {
@@ -82,7 +72,7 @@ export function DemoConfigurators() {
                 </div>
               )}
               <iframe
-                src={`${p.url}?lang=${locale}&theme=${theme}`}
+                src={`${p.url}?lang=${locale}&theme=dark`}
                 title={p.label}
                 loading="lazy"
                 onLoad={() => setLoaded((l) => ({ ...l, [p.kind]: true }))}

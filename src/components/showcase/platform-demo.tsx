@@ -12,7 +12,10 @@ const DEVICES = [
 ] as const;
 type DeviceId = (typeof DEVICES)[number]["id"];
 
-/** The whole platform in demo mode (served by demo.<domain>, running in the visitor's browser), shown at desktop, tablet or phone width. */
+/**
+ * The whole platform in demo mode (served by demo.<domain>, running in the visitor's browser), shown at desktop, tablet or phone width.
+ * Switching device only resizes the frame: the platform is responsive, and reloading it would start the demo again from zero.
+ */
 export function PlatformDemo() {
   const t = useTranslations("platformDemo");
   const locale = useLocale();
@@ -59,7 +62,7 @@ export function PlatformDemo() {
                 <span className="text-[13px] text-[var(--color-text-secondary)]">{t("loading")}</span>
               </div>
             )}
-            <iframe key={`${device}`} src={src} title={t("label")} loading="lazy" onLoad={() => setLoaded(true)} className="block h-[78vh] min-h-[560px] w-full border-0" />
+            <iframe src={src} title={t("label")} loading="lazy" onLoad={() => setLoaded(true)} className="block h-[78vh] min-h-[560px] w-full border-0" />
           </div>
         </div>
       </div>

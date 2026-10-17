@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.26.3",
+      "date": "2026-10-17",
+      "title": "Zahlungen: Ein abgelaufener Tarif lässt sich immer reaktivieren",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Wer gekündigt hatte, kann sich ohne Fehler erneut anmelden: Die Zahlungsseite öffnet sich auch, wenn die bisherigen Rechnungsdaten nicht mehr gültig sind",
+        "Nach der Zahlung wird der Tarif sofort reaktiviert, und ein altes, beendetes Abonnement kann ihn nicht mehr sperren",
+        "Klare Hinweise, wenn der Zahlungsdienst vorübergehend nicht erreichbar ist"
+      ]
+    },
+    {
       "version": "1.26.2",
       "date": "2026-10-14",
       "title": "Startbildschirm: mehr Platz unter dem Würfel",

@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.26.3",
+      "date": "2026-10-17",
+      "title": "Payments: reactivating an expired plan always works",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Customers who cancelled can subscribe again without errors: the payment page opens even if the previous billing details are no longer valid",
+        "After payment the plan is reactivated immediately and an old, closed subscription can no longer suspend it",
+        "Clear messages if the payment service is temporarily unavailable"
+      ]
+    },
+    {
       "version": "1.26.2",
       "date": "2026-10-14",
       "title": "Start screen: more room under the cube",

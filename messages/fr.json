@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.26.3",
+      "date": "2026-10-17",
+      "title": "Paiements : réactiver une offre expirée fonctionne toujours",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Les clients qui avaient résilié peuvent se réabonner sans erreur : la page de paiement s'ouvre même si les anciennes données de facturation ne sont plus valides",
+        "Après le paiement, l'offre est réactivée immédiatement et un ancien abonnement clôturé ne peut plus la suspendre",
+        "Messages clairs si le service de paiement est momentanément indisponible"
+      ]
+    },
+    {
       "version": "1.26.2",
       "date": "2026-10-14",
       "title": "Écran de démarrage : plus d'espace sous le cube",

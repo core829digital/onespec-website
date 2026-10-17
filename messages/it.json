@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.26.3",
+      "date": "2026-10-17",
+      "title": "Pagamenti: riattivare un piano scaduto funziona sempre",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Chi aveva disdetto può riabbonarsi senza errori: la pagina di pagamento si apre anche se i dati di fatturazione precedenti non sono più validi",
+        "Dopo il pagamento il piano si riattiva subito e un vecchio abbonamento chiuso non può più sospenderlo",
+        "Messaggi chiari se il servizio di pagamento è momentaneamente non disponibile"
+      ]
+    },
+    {
       "version": "1.26.2",
       "date": "2026-10-14",
       "title": "Schermata di avvio: più spazio sotto il cubo",

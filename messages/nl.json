@@ -343,6 +343,18 @@
   ],
   "changelog": [
     {
+      "version": "1.26.3",
+      "date": "2026-10-17",
+      "title": "Betalingen: een verlopen pakket opnieuw activeren werkt altijd",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Wie had opgezegd, kan zonder fouten opnieuw abonneren: de betaalpagina opent ook als de vorige factuurgegevens niet meer geldig zijn",
+        "Na betaling wordt het pakket meteen weer actief en kan een oud, beëindigd abonnement het niet meer opschorten",
+        "Duidelijke meldingen als de betaaldienst tijdelijk niet beschikbaar is"
+      ]
+    },
+    {
       "version": "1.26.2",
       "date": "2026-10-14",
       "title": "Startscherm: meer ruimte onder de kubus",

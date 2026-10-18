@@ -80,26 +80,12 @@
     },
     "valueProp": {
       "title": "Chaque jour, vous perdez du temps avec des demandes qui n'aboutissent a rien",
-      "body": "Appels par curiosite, visites inutiles, concurrents deguises en clients qui veulent juste votre prix pour casser le marche. onespec place un configurateur entre vous et ces demandes : qui arrive jusqu'a vous a deja compris le produit et le budget."
+      "body": "Appels par curiosite, visites inutiles, concurrents deguises en clients qui veulent juste votre prix pour casser le marche. onespec place un configurateur entre vous et ces demandes : qui arrive jusqu'a vous a deja compris le produit et le budget.",
+      "link": "Voir comment OneSpec le résout"
     },
     "features": {
       "title": "Tout ce qu'il faut, rien de superflu",
       "items": [
-        {
-          "icon": "code",
-          "title": "Un iFrame, et c'est en ligne",
-          "description": "Vous collez un code sur votre site et le configurateur apparait, deja fonctionnel. Aucun developpement, aucune maintenance technique."
-        },
-        {
-          "icon": "palette",
-          "title": "Personnalisable a 100 %",
-          "description": "Couleurs, polices et logo de votre configurateur s'alignent sur votre marque. Le client ne sait meme pas qu'onespec existe."
-        },
-        {
-          "icon": "file",
-          "title": "Tarifs depuis CSV, toujours à jour",
-          "description": "Importez vos tarifs depuis un fichier CSV (matériaux, vitrages, finitions, quincaillerie) et affinez-les depuis la plateforme. Chaque modification est immédiatement en ligne partout où le widget est installé."
-        },
         {
           "icon": "shield",
           "title": "Filtre ceux qui ne sont pas de vrais clients",
@@ -136,31 +122,6 @@
       "title": "Les devis arrivent, vous les voyez en temps reel",
       "subtitle": "Chaque demande du configurateur apparaît aussitôt dans la page Demandes, avec client, coordonnées, montant et statut : vous la filtrez, l'ouvrez et la suivez jusqu'au devis."
     },
-    "steps": {
-      "title": "De la liste de prix au devis en direct en quatre etapes",
-      "items": [
-        {
-          "n": "01",
-          "title": "Importez vos tarifs",
-          "description": "Chargez un fichier CSV avec matériaux, vitrages, finitions et prix, puis complétez dimensions et règles depuis la plateforme."
-        },
-        {
-          "n": "02",
-          "title": "Vous personnalisez le widget",
-          "description": "Couleurs, logo, textes et regles de prix depuis la plateforme. Aucune ligne de code."
-        },
-        {
-          "n": "03",
-          "title": "Vous collez le code iFrame",
-          "description": "Le configurateur apparait sur votre site, adaptatif sur ordinateur et mobile, pret a recueillir des demandes."
-        },
-        {
-          "n": "04",
-          "title": "Vous recevez des devis qualifies",
-          "description": "Chaque demande arrive deja avec dimensions, materiaux et budget indicatif du client."
-        }
-      ]
-    },
     "pricing": {
       "title": "Choisissez le plan qui vous convient",
       "subtitle": "Du devis en ligne sur votre site à la plateforme complète : tous les plans et les prix sont sur la page dédiée.",
@@ -193,56 +154,6 @@
     "copy": "Copier",
     "copied": "Copie",
     "footnote": "Une seule ligne change d'un client a l'autre : <id>tuo-id</id>. Le reste est identique pour tout le monde."
-  },
-  "dashboardMockup": {
-    "ariaLabel": "Apercu du tableau de bord onespec : indicateurs de demandes de devis, tendance mensuelle et dernieres demandes recues",
-    "windowLabel": "platform.onespec.eu · Aperçu",
-    "kpis": [
-      {
-        "label": "Demandes de devis",
-        "value": "128",
-        "delta": "+18 %"
-      },
-      {
-        "label": "Configurateurs ouverts",
-        "value": "2 940",
-        "delta": "+9 %"
-      },
-      {
-        "label": "Taux de conversion",
-        "value": "4,3 %",
-        "delta": "+0,6 pt"
-      },
-      {
-        "label": "Valeur moyenne demande",
-        "value": "2 480 €",
-        "delta": "+4 %"
-      }
-    ],
-    "chartTitle": "Demandes par mois",
-    "recentTitle": "Dernieres demandes",
-    "recent": [
-      {
-        "product": "Fenetre PVC · 2 vantaux",
-        "size": "1400×1800",
-        "value": "2 480 €"
-      },
-      {
-        "product": "Porte-fenetre bois",
-        "size": "1200×2300",
-        "value": "4 150 €"
-      },
-      {
-        "product": "Fenetre aluminium",
-        "size": "1500×1200",
-        "value": "1 870 €"
-      },
-      {
-        "product": "Fenetre PVC · 1 vantail",
-        "size": "900×1400",
-        "value": "1 120 €"
-      }
-    ]
   },
   "pricingTiers": [
     {
@@ -359,6 +270,20 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.29.3",
+      "date": "2026-10-18",
+      "title": "Page Produit racontée comme une histoire, démo plus fiable",
+      "tag": "Nouveau",
+      "channel": "prodotto",
+      "items": [
+        "Site : la page Produit raconte une histoire, du client qui demande un prix à 22 h à la demande complète qui vous arrive",
+        "« OneSpec en action » avec des écrans réels étape par étape et la liste de ce que le client peut choisir",
+        "« Le tableau de bord qui pilote tout » avec l'écran réel de la plateforme, dans chaque langue",
+        "Configurateur Showroom uniquement sur la page Démo ; sections répétées retirées du site",
+        "Démo de la plateforme : les demandes s'ouvrent, la vue d'ensemble affiche les ouvertures du widget, période traduite dans chaque langue"
+      ]
+    },
     {
       "version": "1.29.2",
       "date": "2026-10-18",
@@ -874,13 +799,121 @@
   },
   "prodotto": {
     "hero": {
-      "title": "Un widget, pas un projet logiciel",
-      "subtitle": "onespec est ne d'une demande directe d'entreprises de fabrication et de vente de menuiseries : un configurateur interactif qui fait gagner du temps, filtre les demandes serieuses et protege vos prix de la concurrence deloyale."
+      "kicker": "Une scène que vous connaissez",
+      "title": "Il est 22 h. Un client vous demande combien coûtent six fenêtres.",
+      "subtitle": "Vous êtes encore sur le chantier, le tarif est au bureau et demain vous avez trois métrés. Quand vous pouvez enfin répondre, il a déjà demandé à quelqu'un d'autre. OneSpec change la fin : c'est votre site qui lui donne le prix, tout de suite, avec votre tarif.",
+      "ctaPrimary": "Voir comment la fin change",
+      "ctaSecondary": "Essayer le configurateur"
     },
-    "configurator": {
-      "kicker": "Demo interactive",
-      "title": "Essayez-le comme le fait votre client",
-      "subtitle": "Deux démos interactives, identiques au produit. Essayez-les côte à côte : le configurateur pour vos clients et celui pour votre équipe. Sur votre site, vous utilisez votre tarif et votre marque."
+    "problem": {
+      "title": "Le problème, ce n'est pas le client. C'est tout ce qui se passe avant le devis.",
+      "items": [
+        {
+          "title": "Les devis se font le soir",
+          "body": "Dimensions, matériaux, vitrages, TVA : chaque demande est un calcul à refaire à la main après le travail. Et plus le client attend, plus il refroidit."
+        },
+        {
+          "title": "Beaucoup d'appels, peu de clients",
+          "body": "Des curieux sans budget, des métrés pour des dimensions que le client n'a pas encore choisies. Des heures que personne ne vous paie."
+        },
+        {
+          "title": "Votre prix tombe entre de mauvaises mains",
+          "body": "Celui qui demande un devis uniquement pour le transmettre à un concurrent emporte votre travail gratuitement, sans que vous le sachiez."
+        }
+      ]
+    },
+    "inAction": {
+      "kicker": "Le tournant",
+      "title": "OneSpec en action",
+      "subtitle": "Le configurateur vit sur votre site. Le client choisit, voit le dessin et le prix, puis vous envoie une demande complète : vous recevez un contact qui sait déjà ce qu'il veut et combien cela coûte.",
+      "sample": "Écrans réels · données d'exemple",
+      "steps": [
+        {
+          "label": "Sur votre site",
+          "title": "Le client choisit le produit et les dimensions",
+          "body": "Fenêtre ou porte-fenêtre, largeur, hauteur, quantité et nombre de vantaux. Le configurateur signale les dimensions hors limites et indique quand il faut un vantail de plus.",
+          "alt": "Première étape du configurateur : type de produit, largeur, hauteur, quantité et nombre de vantaux"
+        },
+        {
+          "label": "Sur votre site",
+          "title": "Il voit le dessin technique de sa fenêtre",
+          "body": "Le dessin se met à jour à chaque choix : ouverture de chaque vantail, cotes, vue intérieure ou extérieure. Touchez un vantail pour le changer, une cote pour la modifier.",
+          "alt": "Dessin technique d'une fenêtre à deux vantaux avec les cotes en millimètres"
+        },
+        {
+          "label": "Sur votre site",
+          "title": "Il voit le prix, TVA comprise",
+          "body": "Calculé à partir de votre tarif : surface, dormant, options et taux de TVA. Une estimation claire, présentée comme telle, pas un chiffre au hasard.",
+          "alt": "Récapitulatif du devis avec montant HT, TVA et total estimé"
+        },
+        {
+          "label": "Dans votre plateforme",
+          "title": "La demande vous arrive, complète",
+          "body": "Contact, dimensions, matériau, vitrage, finition et total sur une seule fiche. Répondez sur WhatsApp en un clic, appelez, imprimez le PDF ou transformez la demande en devis.",
+          "alt": "Fiche d'une demande reçue dans la plateforme OneSpec avec contact, détail du prix et produits"
+        }
+      ],
+      "tryLive": "Essayez-le comme votre client",
+      "tryDemo": "Explorer la plateforme en démo",
+      "videoLabel": "Film de présentation de OneSpec",
+      "videoCaption": "Le film de présentation de OneSpec.",
+      "optionsTitle": "Ce que votre client peut choisir",
+      "optionsSubtitle": "Les options et les prix sont ceux de votre tarif : vous ne montrez que ce que vous vendez. Le client choisit le parcours guidé, en quelques étapes, ou toutes les options.",
+      "options": [
+        {
+          "title": "Matériau et profilé",
+          "body": "PVC, bois ou aluminium, avec nombre de chambres et système de profilé."
+        },
+        {
+          "title": "Dimensions et quantité",
+          "body": "Largeur, hauteur, pièces et nombre de vantaux, avec les limites techniques signalées."
+        },
+        {
+          "title": "Ouverture de chaque vantail",
+          "body": "Fixe, à la française, oscillo-battant ou coulissant, avec le sens d'ouverture."
+        },
+        {
+          "title": "Vitrage",
+          "body": "Double ou triple : d'abord l'épaisseur, puis la composition, avec un conseil selon les dimensions."
+        },
+        {
+          "title": "Couleurs et finitions",
+          "body": "Nuanciers RAL et décors bois, bicolore aussi : extérieur différent de l'intérieur."
+        },
+        {
+          "title": "Quincaillerie et poignée",
+          "body": "Marque et couleur de la quincaillerie, hauteur de la poignée."
+        },
+        {
+          "title": "Moustiquaires",
+          "body": "À charnière, à ressort, plissée et les autres types de votre tarif."
+        },
+        {
+          "title": "Pose",
+          "body": "Avec ou sans pose, au prix que vous fixez."
+        },
+        {
+          "title": "TVA et aides",
+          "body": "Le bon taux de TVA et, en Italie, l'Ecobonus dans le calcul."
+        },
+        {
+          "title": "Dessin technique interactif",
+          "body": "Vue intérieure et extérieure, une cote par vantail, modifications d'un geste."
+        },
+        {
+          "title": "Plusieurs produits par demande",
+          "body": "Fenêtres et portes-fenêtres dans la même demande."
+        },
+        {
+          "title": "Envoi en un clic",
+          "body": "Le client laisse son nom et ses coordonnées et la demande arrive dans votre plateforme."
+        }
+      ]
+    },
+    "setup": {
+      "kicker": "La mise en ligne",
+      "title": "De votre tarif à votre site en quatre étapes",
+      "subtitle": "Aucun développement : vous préparez le configurateur dans la plateforme et vous le collez dans votre site."
     },
     "blocks": [
       {
@@ -909,13 +942,30 @@
       }
     ],
     "dashboard": {
-      "title": "Le tableau de bord qui controle tout",
-      "subtitle": "Demandes recues, produits les plus configures, valeur moyenne du devis. C'est ici que vous mettez a jour listes de prix et regles, et les changements sont en ligne partout ou le widget est installe."
-    },
-    "midCta": {
-      "title": "Moins de temps sur les curieux, plus de temps sur les acheteurs prets",
-      "subtitle": "Le configurateur recueille dimensions, materiaux et budget avant meme que vous ne repondiez au telephone. Qui vous ecrit apres avoir configure a deja decide d'acheter.",
-      "button": "Voir les formules"
+      "kicker": "Après la demande",
+      "title": "Le tableau de bord qui pilote tout",
+      "subtitle": "Ouvrez la plateforme et vous voyez d'un coup d'œil combien de personnes ont ouvert le configurateur, combien vous ont écrit et ce que vaut le travail. C'est l'écran réel, avec les données d'exemple de la démo.",
+      "windowLabel": "Plateforme OneSpec · Vue d'ensemble",
+      "alt": "Vue d'ensemble de la plateforme OneSpec avec ouvertures du widget, demandes, conversion, valeur gagnée, utilisation du forfait et logistique",
+      "callouts": [
+        {
+          "title": "Qui arrive et qui écrit",
+          "body": "Ouvertures du configurateur, demandes reçues et part des visiteurs qui deviennent des demandes."
+        },
+        {
+          "title": "Ce que vaut le travail",
+          "body": "Valeur des devis gagnés et valeur moyenne, sur la période de votre choix."
+        },
+        {
+          "title": "Votre forfait sous contrôle",
+          "body": "Devis du mois, configurateurs actifs et membres de l'équipe par rapport aux limites du forfait."
+        },
+        {
+          "title": "Matériel et livraisons",
+          "body": "Livraisons de la semaine, matériel reçu et matériel en stock."
+        }
+      ],
+      "cta": "Explorer le tableau de bord en démo"
     },
     "support": {
       "title": "Assistance incluse dans chaque formule",
@@ -943,6 +993,12 @@
           "color": "#1d1d1f"
         }
       ]
+    },
+    "finalCta": {
+      "title": "La fin, c'est vous qui l'écrivez",
+      "subtitle": "La prochaine fois qu'un client vous demande un prix à 22 h, c'est votre site qui répond. Le lendemain matin, vous trouvez une demande complète et vous appelez quelqu'un qui a déjà vu le prix.",
+      "button": "Voir les forfaits",
+      "demo": "Essayer la démo"
     }
   },
   "legal": {
@@ -974,160 +1030,7 @@
     "widgetCaption": "ce que voit votre client final sur votre site : il choisit, configure et vous envoie sa demande.",
     "showroomLabel": "Configurateur Showroom",
     "showroomCaption": "l'outil de votre équipe : devis instantané avec TVA, aides et paiement échelonné.",
-    "videoTitle": "OneSpec en action",
-    "videoSubtitle": "Une minute pour voir comment OneSpec transforme votre site et votre showroom en machine à devis.",
-    "note": "Les deux démos sont interactives mais n'envoient rien : créez votre compte pour recevoir de vraies demandes.",
     "noteSingle": "La démo est interactive mais n'envoie rien : créez votre compte pour recevoir de vraies demandes."
-  },
-  "platformShowcase": {
-    "ariaLabel": "Aperçu de la page Demandes de la plateforme onespec",
-    "tenant": "Serramenti Demo",
-    "group": "Ventes",
-    "nav": [
-      "Aperçu",
-      "Configurateurs",
-      "Demandes",
-      "Statistiques",
-      "Devis (B2B)",
-      "Clients"
-    ],
-    "title": "Demandes",
-    "subtitle": "Devis reçus depuis les widgets",
-    "export": "Exporter en CSV",
-    "search": "Rechercher par nom, email ou entreprise...",
-    "tabs": [
-      "Toutes",
-      "Nouvelles",
-      "Contactées",
-      "Devis envoyé"
-    ],
-    "statuses": {
-      "new": "Nouvelles",
-      "contacted": "Contactées",
-      "quoted": "Devis envoyé",
-      "won": "Gagnées"
-    },
-    "sla": "répondez en moins de 5 minutes",
-    "total": "Total indicatif",
-    "call": "Appeler",
-    "requests": [
-      {
-        "name": "Marco Rossi",
-        "company": "Rossi Construction",
-        "product": "Fenêtre PVC · 2 vantaux",
-        "size": "1400×1500",
-        "sashes": 2,
-        "door": false,
-        "value": "2 480 €",
-        "status": "new",
-        "time": "il y a 4 min",
-        "specs": [
-          [
-            "Matériau",
-            "PVC, 5 chambres"
-          ],
-          [
-            "Vitrage",
-            "Double · Ug 1,1"
-          ],
-          [
-            "Couleur",
-            "Blanc"
-          ],
-          [
-            "Quincaillerie",
-            "Oscillo-battant"
-          ]
-        ]
-      },
-      {
-        "name": "Laura Conti",
-        "company": "Cabinet Conti Architectes",
-        "product": "Porte-fenêtre bois · 1 vantail",
-        "size": "900×2200",
-        "sashes": 1,
-        "door": true,
-        "value": "4 150 €",
-        "status": "new",
-        "time": "il y a 18 min",
-        "specs": [
-          [
-            "Matériau",
-            "Bois, chêne"
-          ],
-          [
-            "Vitrage",
-            "Triple · Ug 0,6"
-          ],
-          [
-            "Couleur",
-            "Noyer"
-          ],
-          [
-            "Quincaillerie",
-            "À la française"
-          ]
-        ]
-      },
-      {
-        "name": "Giorgio Ferri",
-        "company": "Ferri Immobilier",
-        "product": "Fenêtre aluminium · 3 vantaux",
-        "size": "2100×1400",
-        "sashes": 3,
-        "door": false,
-        "value": "5 620 €",
-        "status": "contacted",
-        "time": "il y a 2 h",
-        "specs": [
-          [
-            "Matériau",
-            "Aluminium RPT"
-          ],
-          [
-            "Vitrage",
-            "Triple · Ug 0,7"
-          ],
-          [
-            "Couleur",
-            "RAL 7016"
-          ],
-          [
-            "Quincaillerie",
-            "Oscillo-battant"
-          ]
-        ]
-      },
-      {
-        "name": "Anna Greco",
-        "company": "Particulier",
-        "product": "Fenêtre PVC · 1 vantail",
-        "size": "900×1200",
-        "sashes": 1,
-        "door": false,
-        "value": "1 120 €",
-        "status": "quoted",
-        "time": "hier",
-        "specs": [
-          [
-            "Matériau",
-            "PVC, 7 chambres"
-          ],
-          [
-            "Vitrage",
-            "Double · Ug 1,0"
-          ],
-          [
-            "Couleur",
-            "Blanc"
-          ],
-          [
-            "Quincaillerie",
-            "Oscillo-battant"
-          ]
-        ]
-      }
-    ]
   },
   "notFound": {
     "title": "Page introuvable",

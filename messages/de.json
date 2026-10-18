@@ -80,26 +80,12 @@
     },
     "valueProp": {
       "title": "Jeden Tag verlieren Sie Zeit mit Anfragen, die zu nichts führen",
-      "body": "Anrufe aus Neugier, sinnlose Vor-Ort-Termine, Wettbewerber, die sich als Kunden ausgeben, nur um Ihren Preis für Dumping zu bekommen. onespec setzt einen Konfigurator zwischen Sie und diese Anfragen: Wer bei Ihnen ankommt, hat Produkt und Budget bereits verstanden."
+      "body": "Anrufe aus Neugier, sinnlose Vor-Ort-Termine, Wettbewerber, die sich als Kunden ausgeben, nur um Ihren Preis für Dumping zu bekommen. onespec setzt einen Konfigurator zwischen Sie und diese Anfragen: Wer bei Ihnen ankommt, hat Produkt und Budget bereits verstanden.",
+      "link": "Sehen, wie OneSpec das löst"
     },
     "features": {
       "title": "Alles, was Sie brauchen, nichts Überflüssiges",
       "items": [
-        {
-          "icon": "code",
-          "title": "Ein iFrame, und Sie sind live",
-          "description": "Sie fügen einen Code auf Ihrer Website ein und der Konfigurator erscheint, sofort funktionsfähig. Keine Entwicklung, keine technische Wartung."
-        },
-        {
-          "icon": "palette",
-          "title": "100 % individualisierbar",
-          "description": "Farben, Schriften und Logo Ihres Konfigurators passen sich Ihrer Marke an. Der Kunde merkt nicht einmal, dass es onespec gibt."
-        },
-        {
-          "icon": "file",
-          "title": "Preisliste aus CSV, immer aktuell",
-          "description": "Importieren Sie Ihre Preisliste aus einer CSV-Datei (Materialien, Verglasung, Oberflächen, Beschläge) und verfeinern Sie sie in der Plattform. Jede Änderung ist sofort überall live, wo das Widget eingebunden ist."
-        },
         {
           "icon": "shield",
           "title": "Filtert alle heraus, die keine echten Kunden sind",
@@ -136,31 +122,6 @@
       "title": "Die Angebote kommen an, Sie sehen sie in Echtzeit",
       "subtitle": "Jede Anfrage aus dem Konfigurator erscheint sofort auf der Seite Anfragen, mit Kunde, Kontaktdaten, Wert und Status: filtern, öffnen und bis zum Angebot verfolgen."
     },
-    "steps": {
-      "title": "Von der Preisliste zum Live-Angebot in vier Schritten",
-      "items": [
-        {
-          "n": "01",
-          "title": "Preisliste importieren",
-          "description": "Laden Sie eine CSV-Datei mit Materialien, Verglasung, Oberflächen und Preisen hoch und ergänzen Sie dann Maße und Regeln in der Plattform."
-        },
-        {
-          "n": "02",
-          "title": "Sie individualisieren das Widget",
-          "description": "Farben, Logo, Texte und Preisregeln über die Plattform. Keine Codezeile nötig."
-        },
-        {
-          "n": "03",
-          "title": "Sie fügen den iFrame-Code ein",
-          "description": "Der Konfigurator erscheint auf Ihrer Website, responsiv auf Desktop und Mobilgeräten, bereit, Anfragen zu sammeln."
-        },
-        {
-          "n": "04",
-          "title": "Sie erhalten qualifizierte Angebote",
-          "description": "Jede Anfrage kommt bereits mit Maßen, Materialien und dem indikativen Budget des Kunden an."
-        }
-      ]
-    },
     "pricing": {
       "title": "Wählen Sie den passenden Plan",
       "subtitle": "Vom Angebotstool auf Ihrer Website bis zur kompletten Plattform: alle Pläne und Preise finden Sie auf der eigenen Seite.",
@@ -193,56 +154,6 @@
     "copy": "Kopieren",
     "copied": "Kopiert",
     "footnote": "Nur eine Zeile ändert sich von Kunde zu Kunde: <id>tuo-id</id>. Der Rest ist für alle identisch."
-  },
-  "dashboardMockup": {
-    "ariaLabel": "Vorschau des onespec-Dashboards: Kennzahlen zu Angebotsanfragen, monatlicher Verlauf und zuletzt eingegangene Anfragen",
-    "windowLabel": "platform.onespec.eu · Übersicht",
-    "kpis": [
-      {
-        "label": "Angebotsanfragen",
-        "value": "128",
-        "delta": "+18 %"
-      },
-      {
-        "label": "Geöffnete Konfiguratoren",
-        "value": "2.940",
-        "delta": "+9 %"
-      },
-      {
-        "label": "Konversionsrate",
-        "value": "4,3 %",
-        "delta": "+0,6 Pkt."
-      },
-      {
-        "label": "Durchschnittlicher Anfragewert",
-        "value": "3.180 €",
-        "delta": "+4 %"
-      }
-    ],
-    "chartTitle": "Anfragen pro Monat",
-    "recentTitle": "Letzte Anfragen",
-    "recent": [
-      {
-        "product": "PVC-Fenster · 2 Flügel",
-        "size": "1400×1800",
-        "value": "2.480 €"
-      },
-      {
-        "product": "Holz-Balkontür",
-        "size": "1200×2300",
-        "value": "4.150 €"
-      },
-      {
-        "product": "Aluminiumfenster",
-        "size": "1500×1200",
-        "value": "1.870 €"
-      },
-      {
-        "product": "PVC-Fenster · 1 Flügel",
-        "size": "900×1400",
-        "value": "1.120 €"
-      }
-    ]
   },
   "pricingTiers": [
     {
@@ -359,6 +270,20 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.29.3",
+      "date": "2026-10-18",
+      "title": "Produktseite als Geschichte, zuverlässigere Demo",
+      "tag": "Neu",
+      "channel": "prodotto",
+      "items": [
+        "Website: Die Produktseite erzählt eine Geschichte, vom Kunden, der um 22 Uhr nach einem Preis fragt, bis zur vollständigen Anfrage bei Ihnen",
+        "„OneSpec in Aktion“ mit echten Bildschirmen Schritt für Schritt und der Liste dessen, was der Kunde wählen kann",
+        "„Das Dashboard, mit dem Sie alles steuern“ mit dem echten Bildschirm der Plattform, in jeder Sprache",
+        "Showroom-Konfigurator nur noch auf der Demo-Seite; wiederholte Abschnitte von der Website entfernt",
+        "Plattform-Demo: Anfragen lassen sich öffnen, die Übersicht zeigt Widget-Aufrufe, Zeitraum in jeder Sprache übersetzt"
+      ]
+    },
     {
       "version": "1.29.2",
       "date": "2026-10-18",
@@ -874,13 +799,121 @@
   },
   "prodotto": {
     "hero": {
-      "title": "Ein Widget, kein Softwareprojekt",
-      "subtitle": "onespec entstand aus der direkten Nachfrage von Fenster- und Türherstellern und -händlern: ein interaktiver Konfigurator, der Zeit spart, ernsthafte Anfragen filtert und Ihre Preise vor unlauterem Wettbewerb schützt."
+      "kicker": "Eine Szene, die Sie kennen",
+      "title": "Es ist 22 Uhr. Ein Kunde fragt, was sechs Fenster kosten.",
+      "subtitle": "Sie sind noch auf der Baustelle, die Preisliste liegt im Büro und morgen stehen drei Aufmaße an. Wenn Sie endlich antworten können, hat er schon jemand anderen gefragt. OneSpec ändert das Ende: Ihre Website nennt ihm den Preis, sofort, aus Ihrer Preisliste.",
+      "ctaPrimary": "Sehen, wie sich das Ende ändert",
+      "ctaSecondary": "Konfigurator ausprobieren"
     },
-    "configurator": {
-      "kicker": "Interaktive Demo",
-      "title": "Probieren Sie ihn so aus wie Ihr Kunde",
-      "subtitle": "Zwei interaktive Demos, identisch mit dem Produkt. Probieren Sie sie nebeneinander aus: der Konfigurator für Ihre Kunden und der für Ihr Team. Auf Ihrer Website nutzen Sie Ihre Preisliste und Ihre Marke."
+    "problem": {
+      "title": "Das Problem ist nicht der Kunde. Es ist alles, was vor dem Angebot passiert.",
+      "items": [
+        {
+          "title": "Angebote entstehen am Abend",
+          "body": "Maße, Materialien, Verglasung, MwSt.: Jede Anfrage ist eine Rechnung, die nach Feierabend von Hand gemacht wird. Und je länger der Kunde wartet, desto kälter wird er."
+        },
+        {
+          "title": "Viele Anrufe, wenige Kunden",
+          "body": "Neugierige ohne Budget, Aufmaße für Größen, die der Kunde noch gar nicht entschieden hat. Ihre Stunden, die niemand bezahlt."
+        },
+        {
+          "title": "Ihr Preis landet in den falschen Händen",
+          "body": "Wer ein Angebot nur anfragt, um es an die Konkurrenz weiterzugeben, nimmt Ihre Arbeit kostenlos mit, und Sie erfahren es nie."
+        }
+      ]
+    },
+    "inAction": {
+      "kicker": "Die Wende",
+      "title": "OneSpec in Aktion",
+      "subtitle": "Der Konfigurator lebt auf Ihrer Website. Der Kunde wählt, sieht Zeichnung und Preis und schickt Ihnen eine vollständige Anfrage: Sie bekommen einen Kontakt, der schon weiß, was er will und was es kostet.",
+      "sample": "Echte Bildschirme · Beispieldaten",
+      "steps": [
+        {
+          "label": "Auf Ihrer Website",
+          "title": "Der Kunde wählt Produkt und Maße",
+          "body": "Fenster oder Balkontür, Breite, Höhe, Stückzahl und Anzahl der Flügel. Der Konfigurator markiert Maße außerhalb der Grenzen und zeigt, wann ein weiterer Flügel nötig ist.",
+          "alt": "Erster Schritt des Konfigurators: Produkttyp, Breite, Höhe, Stückzahl und Anzahl der Flügel"
+        },
+        {
+          "label": "Auf Ihrer Website",
+          "title": "Er sieht die technische Zeichnung seines Fensters",
+          "body": "Die Zeichnung aktualisiert sich bei jeder Wahl: Öffnung jedes Flügels, Maße, Innen- oder Außenansicht. Flügel antippen, um ihn zu ändern, Maß antippen, um es zu bearbeiten.",
+          "alt": "Technische Zeichnung eines zweiflügeligen Fensters mit Maßen in Millimetern"
+        },
+        {
+          "label": "Auf Ihrer Website",
+          "title": "Er sieht den Preis inklusive MwSt.",
+          "body": "Berechnet aus Ihrer Preisliste: Fläche, Rahmen, Optionen und MwSt.-Satz. Eine klare Schätzung, als solche gekennzeichnet, keine Zahl ins Blaue.",
+          "alt": "Angebotsübersicht mit Nettobetrag, MwSt. und geschätztem Gesamtbetrag"
+        },
+        {
+          "label": "In Ihrer Plattform",
+          "title": "Die Anfrage kommt vollständig bei Ihnen an",
+          "body": "Kontakt, Maße, Material, Verglasung, Oberfläche und Gesamtbetrag auf einer Seite. Mit einem Klick per WhatsApp antworten, anrufen, das PDF drucken oder die Anfrage in ein Angebot verwandeln.",
+          "alt": "Eine in der OneSpec-Plattform eingegangene Anfrage mit Kontakt, Preisdetails und Produkten"
+        }
+      ],
+      "tryLive": "Selbst ausprobieren, wie Ihr Kunde",
+      "tryDemo": "Plattform in der Demo erkunden",
+      "videoLabel": "Präsentationsfilm von OneSpec",
+      "videoCaption": "Der Präsentationsfilm von OneSpec.",
+      "optionsTitle": "Was Ihr Kunde wählen kann",
+      "optionsSubtitle": "Positionen und Preise stammen aus Ihrer Preisliste: Sie zeigen nur, was Sie verkaufen. Der Kunde wählt den geführten Weg in wenigen Schritten oder sieht alle Optionen.",
+      "options": [
+        {
+          "title": "Material und Profil",
+          "body": "Kunststoff, Holz oder Aluminium, mit Kammeranzahl und Profilsystem."
+        },
+        {
+          "title": "Maße und Stückzahl",
+          "body": "Breite, Höhe, Stückzahl und Anzahl der Flügel, mit markierten technischen Grenzen."
+        },
+        {
+          "title": "Öffnung jedes Flügels",
+          "body": "Fest, Dreh, Dreh-Kipp oder Schiebe, mit Öffnungsseite."
+        },
+        {
+          "title": "Verglasung",
+          "body": "Zweifach oder dreifach: erst die Stärke, dann der Aufbau, mit Empfehlung nach Maß."
+        },
+        {
+          "title": "Farben und Oberflächen",
+          "body": "RAL-Farben und Holzdekore als Muster, auch zweifarbig: außen anders als innen."
+        },
+        {
+          "title": "Beschlag und Griff",
+          "body": "Marke und Farbe des Beschlags, Griffhöhe."
+        },
+        {
+          "title": "Insektenschutz",
+          "body": "Drehtür, Rollo, Plissee und die anderen Arten aus Ihrer Preisliste."
+        },
+        {
+          "title": "Montage",
+          "body": "Mit oder ohne Montage, zu dem Preis, den Sie festlegen."
+        },
+        {
+          "title": "MwSt. und Förderung",
+          "body": "Der richtige MwSt.-Satz und, in Italien, der Ecobonus in der Berechnung."
+        },
+        {
+          "title": "Interaktive technische Zeichnung",
+          "body": "Innen- und Außenansicht, ein Maß pro Flügel, Änderungen per Fingertipp."
+        },
+        {
+          "title": "Mehrere Produkte pro Anfrage",
+          "body": "Fenster und Balkontüren in derselben Anfrage."
+        },
+        {
+          "title": "Mit einem Klick gesendet",
+          "body": "Der Kunde hinterlässt Namen und Kontaktdaten, die Anfrage landet in Ihrer Plattform."
+        }
+      ]
+    },
+    "setup": {
+      "kicker": "So geht es online",
+      "title": "Von Ihrer Preisliste auf Ihre Website in vier Schritten",
+      "subtitle": "Keine Entwicklung: Sie bereiten den Konfigurator in der Plattform vor und fügen ihn in Ihre Website ein."
     },
     "blocks": [
       {
@@ -909,13 +942,30 @@
       }
     ],
     "dashboard": {
-      "title": "Das Dashboard, mit dem Sie alles kontrollieren",
-      "subtitle": "Eingegangene Anfragen, meistkonfigurierte Produkte, durchschnittlicher Angebotswert. Von hier aus aktualisieren Sie Preislisten und Regeln, und die Änderungen sind überall live, wo das Widget installiert ist."
-    },
-    "midCta": {
-      "title": "Weniger Zeit mit Neugierigen, mehr Zeit mit kaufbereiten Kunden",
-      "subtitle": "Der Konfigurator erfasst Maße, Materialien und Budget, noch bevor Sie zum Telefon greifen. Wer sich nach der Konfiguration meldet, hat sich bereits zum Kauf entschieden.",
-      "button": "Pläne ansehen"
+      "kicker": "Nach der Anfrage",
+      "title": "Das Dashboard, mit dem Sie alles steuern",
+      "subtitle": "Öffnen Sie die Plattform und Sie sehen auf einen Blick, wie viele den Konfigurator geöffnet haben, wie viele Ihnen geschrieben haben und was die Arbeit wert ist. Das ist der echte Bildschirm, mit den Beispieldaten der Demo.",
+      "windowLabel": "OneSpec-Plattform · Übersicht",
+      "alt": "Übersicht der OneSpec-Plattform mit Widget-Aufrufen, Anfragen, Conversion, gewonnenem Wert, Tarifauslastung und Logistik",
+      "callouts": [
+        {
+          "title": "Wer kommt und wer schreibt",
+          "body": "Aufrufe des Konfigurators, eingegangene Anfragen und der Anteil der Besucher, die anfragen."
+        },
+        {
+          "title": "Was die Arbeit wert ist",
+          "body": "Wert der gewonnenen Angebote und Durchschnittswert, im gewählten Zeitraum."
+        },
+        {
+          "title": "Ihr Tarif im Blick",
+          "body": "Angebote des Monats, aktive Konfiguratoren und Teammitglieder im Verhältnis zu den Tarifgrenzen."
+        },
+        {
+          "title": "Material und Lieferungen",
+          "body": "Lieferungen der Woche, erhaltenes Material und Lagerbestand."
+        }
+      ],
+      "cta": "Dashboard in der Demo erkunden"
     },
     "support": {
       "title": "Support in jedem Plan inbegriffen",
@@ -943,6 +993,12 @@
           "color": "#1d1d1f"
         }
       ]
+    },
+    "finalCta": {
+      "title": "Das Ende schreiben Sie",
+      "subtitle": "Wenn ein Kunde das nächste Mal um 22 Uhr nach einem Preis fragt, antwortet Ihre Website. Am nächsten Morgen finden Sie eine vollständige Anfrage und rufen jemanden an, der den Preis schon kennt.",
+      "button": "Tarife ansehen",
+      "demo": "Demo ausprobieren"
     }
   },
   "legal": {
@@ -974,160 +1030,7 @@
     "widgetCaption": "was Ihr Endkunde auf Ihrer Website sieht: auswählen, konfigurieren und die Anfrage an Sie senden.",
     "showroomLabel": "Showroom-Konfigurator",
     "showroomCaption": "das Werkzeug Ihres Teams: Sofortangebot mit MwSt., Förderungen und Ratenzahlung.",
-    "videoTitle": "OneSpec in Aktion",
-    "videoSubtitle": "Eine Minute, um zu sehen, wie OneSpec Ihre Website und Ihren Showroom in eine Angebotsmaschine verwandelt.",
-    "note": "Beide Demos sind interaktiv, senden aber nichts: Erstellen Sie Ihr Konto, um echte Anfragen zu erhalten.",
     "noteSingle": "Die Demo ist interaktiv, sendet aber nichts: Erstellen Sie Ihr Konto, um echte Anfragen zu erhalten."
-  },
-  "platformShowcase": {
-    "ariaLabel": "Vorschau der Seite Anfragen der onespec-Plattform",
-    "tenant": "Serramenti Demo",
-    "group": "Vertrieb",
-    "nav": [
-      "Übersicht",
-      "Konfiguratoren",
-      "Anfragen",
-      "Statistiken",
-      "Angebote (B2B)",
-      "Kunden"
-    ],
-    "title": "Anfragen",
-    "subtitle": "Über die Widgets erhaltene Angebote",
-    "export": "CSV exportieren",
-    "search": "Suche nach Name, E-Mail oder Firma...",
-    "tabs": [
-      "Alle",
-      "Neu",
-      "Kontaktiert",
-      "Angebot gesendet"
-    ],
-    "statuses": {
-      "new": "Neu",
-      "contacted": "Kontaktiert",
-      "quoted": "Angebot gesendet",
-      "won": "Gewonnen"
-    },
-    "sla": "innerhalb von 5 Minuten antworten",
-    "total": "Voraussichtliche Summe",
-    "call": "Anrufen",
-    "requests": [
-      {
-        "name": "Marco Rossi",
-        "company": "Rossi Bau",
-        "product": "Kunststofffenster · 2 Flügel",
-        "size": "1400×1500",
-        "sashes": 2,
-        "door": false,
-        "value": "2.480 €",
-        "status": "new",
-        "time": "vor 4 Min.",
-        "specs": [
-          [
-            "Material",
-            "PVC, 5 Kammern"
-          ],
-          [
-            "Verglasung",
-            "Zweifach · Ug 1,1"
-          ],
-          [
-            "Farbe",
-            "Weiß"
-          ],
-          [
-            "Beschlag",
-            "Dreh-Kipp"
-          ]
-        ]
-      },
-      {
-        "name": "Laura Conti",
-        "company": "Büro Conti Architekten",
-        "product": "Holz-Balkontür · 1 Flügel",
-        "size": "900×2200",
-        "sashes": 1,
-        "door": true,
-        "value": "4.150 €",
-        "status": "new",
-        "time": "vor 18 Min.",
-        "specs": [
-          [
-            "Material",
-            "Holz, Eiche"
-          ],
-          [
-            "Verglasung",
-            "Dreifach · Ug 0,6"
-          ],
-          [
-            "Farbe",
-            "Nuss"
-          ],
-          [
-            "Beschlag",
-            "Drehflügel"
-          ]
-        ]
-      },
-      {
-        "name": "Giorgio Ferri",
-        "company": "Ferri Immobilien",
-        "product": "Alufenster · 3 Flügel",
-        "size": "2100×1400",
-        "sashes": 3,
-        "door": false,
-        "value": "5.620 €",
-        "status": "contacted",
-        "time": "vor 2 Std.",
-        "specs": [
-          [
-            "Material",
-            "Alu, thermisch getrennt"
-          ],
-          [
-            "Verglasung",
-            "Dreifach · Ug 0,7"
-          ],
-          [
-            "Farbe",
-            "RAL 7016"
-          ],
-          [
-            "Beschlag",
-            "Dreh-Kipp"
-          ]
-        ]
-      },
-      {
-        "name": "Anna Greco",
-        "company": "Privat",
-        "product": "Kunststofffenster · 1 Flügel",
-        "size": "900×1200",
-        "sashes": 1,
-        "door": false,
-        "value": "1.120 €",
-        "status": "quoted",
-        "time": "gestern",
-        "specs": [
-          [
-            "Material",
-            "PVC, 7 Kammern"
-          ],
-          [
-            "Verglasung",
-            "Zweifach · Ug 1,0"
-          ],
-          [
-            "Farbe",
-            "Weiß"
-          ],
-          [
-            "Beschlag",
-            "Dreh-Kipp"
-          ]
-        ]
-      }
-    ]
   },
   "notFound": {
     "title": "Seite nicht gefunden",

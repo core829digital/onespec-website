@@ -80,26 +80,12 @@
     },
     "valueProp": {
       "title": "Ogni giorno perdi tempo con richieste che non portano a niente",
-      "body": "Telefonate per curiosita, sopralluoghi inutili, concorrenti travestiti da clienti che vogliono solo il tuo prezzo per fare dumping. onespec mette un configuratore tra te e queste richieste: chi arriva a te ha già capito prodotto e budget."
+      "body": "Telefonate per curiosita, sopralluoghi inutili, concorrenti travestiti da clienti che vogliono solo il tuo prezzo per fare dumping. onespec mette un configuratore tra te e queste richieste: chi arriva a te ha già capito prodotto e budget.",
+      "link": "Scopri come lo risolve OneSpec"
     },
     "features": {
       "title": "Tutto quello che serve, niente di superfluo",
       "items": [
-        {
-          "icon": "code",
-          "title": "Un iFrame, e sei live",
-          "description": "Incolli un codice sul tuo sito e il configuratore appare, già funzionante. Nessuno sviluppo, nessuna manutenzione tecnica."
-        },
-        {
-          "icon": "palette",
-          "title": "Brandizzabile al 100%",
-          "description": "Colori, font e logo del tuo configuratore si allineano al tuo brand. Il cliente non sa nemmeno che esiste onespec."
-        },
-        {
-          "icon": "file",
-          "title": "Listino da CSV, sempre aggiornato",
-          "description": "Importi il tuo listino da un file CSV (materiali, vetri, finiture, ferramenta) e lo rifinisci dalla piattaforma. Ogni modifica è subito live dove il widget è installato."
-        },
         {
           "icon": "shield",
           "title": "Filtra chi non è cliente vero",
@@ -136,31 +122,6 @@
       "title": "I preventivi arrivano, tu li vedi in tempo reale",
       "subtitle": "Ogni richiesta del configuratore compare subito nella pagina Richieste, con cliente, contatti, valore e stato: la filtri, la apri e la segui fino al preventivo."
     },
-    "steps": {
-      "title": "Da listino a preventivo live in quattro passaggi",
-      "items": [
-        {
-          "n": "01",
-          "title": "Importi il tuo listino",
-          "description": "Carichi un file CSV con materiali, vetri, finiture e prezzi, poi completi misure e regole dalla piattaforma."
-        },
-        {
-          "n": "02",
-          "title": "Personalizzi il widget",
-          "description": "Colori, logo, testi e regole di prezzo dalla piattaforma. Nessuna riga di codice."
-        },
-        {
-          "n": "03",
-          "title": "Incolli il codice iFrame",
-          "description": "Il configuratore appare sul tuo sito, adattivo su desktop e mobile, pronto a raccogliere richieste."
-        },
-        {
-          "n": "04",
-          "title": "Ricevi preventivi qualificati",
-          "description": "Ogni richiesta arriva già con misure, materiali e budget indicativo del cliente."
-        }
-      ]
-    },
     "pricing": {
       "title": "Scegli il piano giusto per te",
       "subtitle": "Dal preventivatore sul tuo sito alla piattaforma completa: tutti i piani e i prezzi sono nella pagina dedicata.",
@@ -193,56 +154,6 @@
     "copy": "Copia",
     "copied": "Copiato",
     "footnote": "Una sola riga cambia tra un cliente e l'altro: <id>tuo-id</id>. Il resto è identico per tutti."
-  },
-  "dashboardMockup": {
-    "ariaLabel": "Anteprima della dashboard onespec: indicatori richieste preventivo, andamento mensile e ultime richieste ricevute",
-    "windowLabel": "platform.onespec.eu · Panoramica",
-    "kpis": [
-      {
-        "label": "Richieste preventivo",
-        "value": "128",
-        "delta": "+18%"
-      },
-      {
-        "label": "Configuratori aperti",
-        "value": "2.940",
-        "delta": "+9%"
-      },
-      {
-        "label": "Tasso di conversione",
-        "value": "4,3%",
-        "delta": "+0,6pt"
-      },
-      {
-        "label": "Valore medio richiesta",
-        "value": "€ 3.180",
-        "delta": "+4%"
-      }
-    ],
-    "chartTitle": "Richieste per mese",
-    "recentTitle": "Ultime richieste",
-    "recent": [
-      {
-        "product": "Finestra PVC · 2 ante",
-        "size": "1400×1800",
-        "value": "€ 2.480"
-      },
-      {
-        "product": "Portafinestra legno",
-        "size": "1200×2300",
-        "value": "€ 4.150"
-      },
-      {
-        "product": "Finestra alluminio",
-        "size": "1500×1200",
-        "value": "€ 1.870"
-      },
-      {
-        "product": "Finestra PVC · 1 anta",
-        "size": "900×1400",
-        "value": "€ 1.120"
-      }
-    ]
   },
   "pricingTiers": [
     {
@@ -359,6 +270,20 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.29.3",
+      "date": "2026-10-18",
+      "title": "Pagina Prodotto come una storia, demo più affidabile",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Sito: la pagina Prodotto racconta una storia, dal cliente che chiede un prezzo alle 22 alla richiesta completa che arriva a te",
+        "«Guarda OneSpec in azione» con schermate reali passo per passo e l'elenco di ciò che il cliente può scegliere",
+        "«La dashboard da cui controlli tutto» con la schermata vera della piattaforma, in ogni lingua",
+        "Configuratore Showroom solo nella pagina Demo; tolte dal sito le sezioni ripetute",
+        "Demo della piattaforma: le richieste si aprono, la panoramica mostra le aperture del widget, periodo tradotto in ogni lingua"
+      ]
+    },
     {
       "version": "1.29.2",
       "date": "2026-10-18",
@@ -874,13 +799,121 @@
   },
   "prodotto": {
     "hero": {
-      "title": "Un widget, non un progetto software",
-      "subtitle": "onespec nasce dalla richiesta diretta di aziende di produzione e rivendita infissi: un configuratore interattivo che risparmia tempo, filtra le richieste serie e protegge i tuoi prezzi dalla concorrenza sleale."
+      "kicker": "Una scena che conosci",
+      "title": "Sono le 22. Un cliente ti chiede quanto costano sei finestre.",
+      "subtitle": "Sei ancora in cantiere, il listino è in ufficio e domani hai tre sopralluoghi. Quando riesci a rispondere, lui ha già chiesto a qualcun altro. OneSpec cambia il finale: il prezzo glielo dà il tuo sito, subito, con il tuo listino.",
+      "ctaPrimary": "Guarda come cambia il finale",
+      "ctaSecondary": "Prova il configuratore"
     },
-    "configurator": {
-      "kicker": "Demo interattiva",
-      "title": "Provalo come lo prova il tuo cliente",
-      "subtitle": "Due demo interattive, le stesse del prodotto. Provale affiancate: il configuratore per i tuoi clienti e quello per il tuo team. Sul tuo sito usi il tuo listino e il tuo marchio."
+    "problem": {
+      "title": "Il problema non è il cliente. È tutto quello che succede prima del preventivo.",
+      "items": [
+        {
+          "title": "Il preventivo si fa la sera",
+          "body": "Misure, materiali, vetri, IVA: ogni richiesta è un conto da rifare a mano dopo il lavoro. E più il cliente aspetta, più si raffredda."
+        },
+        {
+          "title": "Tante telefonate, pochi clienti",
+          "body": "Curiosi senza budget, sopralluoghi per misure che il cliente non ha ancora deciso. Ore tue che nessuno ti paga."
+        },
+        {
+          "title": "Il tuo prezzo finisce nelle mani sbagliate",
+          "body": "Chi chiede un preventivo solo per girarlo al concorrente si porta via il tuo lavoro gratis, e tu non lo sai."
+        }
+      ]
+    },
+    "inAction": {
+      "kicker": "La svolta",
+      "title": "Guarda OneSpec in azione",
+      "subtitle": "Il configuratore vive sul tuo sito. Il cliente sceglie, vede il disegno e il prezzo, e ti invia una richiesta completa: ricevi un contatto che sa già cosa vuole e quanto costa.",
+      "sample": "Schermate reali · dati di esempio",
+      "steps": [
+        {
+          "label": "Sul tuo sito",
+          "title": "Il cliente sceglie prodotto e misure",
+          "body": "Finestra o porta balcone, larghezza, altezza, quantità e numero di ante. Il configuratore segnala le misure fuori limite e suggerisce quando serve un'anta in più.",
+          "alt": "Primo passo del configuratore: tipo di prodotto, larghezza, altezza, quantità e numero di ante"
+        },
+        {
+          "label": "Sul tuo sito",
+          "title": "Vede il disegno tecnico della sua finestra",
+          "body": "Il disegno si aggiorna a ogni scelta: apertura di ogni anta, quote, vista interno o esterno. Tocca un'anta per cambiarla, tocca una misura per modificarla.",
+          "alt": "Disegno tecnico di una finestra a due ante con le quote in millimetri"
+        },
+        {
+          "label": "Sul tuo sito",
+          "title": "Vede il prezzo, IVA inclusa",
+          "body": "Calcolato dal tuo listino: superficie, telaio, opzioni e aliquota IVA. Una stima chiara e dichiarata come tale, non un numero a caso.",
+          "alt": "Riepilogo del preventivo con imponibile, IVA e totale stimato"
+        },
+        {
+          "label": "Nella tua piattaforma",
+          "title": "La richiesta arriva a te, completa",
+          "body": "Contatto, misure, materiale, vetro, finitura e totale in un'unica scheda. Rispondi su WhatsApp con un clic, chiami, stampi il PDF o trasformi la richiesta in preventivo.",
+          "alt": "Scheda di una richiesta ricevuta nella piattaforma OneSpec con contatti, dettaglio economico e prodotti"
+        }
+      ],
+      "tryLive": "Provalo tu, come un tuo cliente",
+      "tryDemo": "Esplora la piattaforma in demo",
+      "videoLabel": "Film di presentazione di OneSpec",
+      "videoCaption": "Il film di presentazione di OneSpec.",
+      "optionsTitle": "Cosa può scegliere il tuo cliente",
+      "optionsSubtitle": "Voci e prezzi sono quelli del tuo listino: mostri solo ciò che vendi. Il cliente sceglie se seguire il percorso guidato, in pochi passi, o vedere tutte le opzioni.",
+      "options": [
+        {
+          "title": "Materiale e profilo",
+          "body": "PVC, legno o alluminio, con numero di camere e sistema di profilo."
+        },
+        {
+          "title": "Misure e quantità",
+          "body": "Larghezza, altezza, pezzi e numero di ante, con i limiti tecnici segnalati."
+        },
+        {
+          "title": "Apertura di ogni anta",
+          "body": "Fissa, a battente, anta-ribalta o scorrevole, con il lato di apertura."
+        },
+        {
+          "title": "Vetro",
+          "body": "Doppio o triplo: prima lo spessore, poi la composizione, con un consiglio in base alle misure."
+        },
+        {
+          "title": "Colori e finiture",
+          "body": "Campioni di colori RAL e decori, anche bicolore: esterno diverso dall'interno."
+        },
+        {
+          "title": "Ferramenta e maniglia",
+          "body": "Marca e colore della ferramenta, altezza della maniglia."
+        },
+        {
+          "title": "Zanzariere",
+          "body": "A cerniera, a molla, plissettata e gli altri tipi del tuo listino."
+        },
+        {
+          "title": "Posa",
+          "body": "Con o senza posa, al prezzo che decidi tu."
+        },
+        {
+          "title": "IVA e detrazioni",
+          "body": "L'aliquota IVA giusta e, in Italia, l'Ecobonus nel calcolo."
+        },
+        {
+          "title": "Disegno tecnico interattivo",
+          "body": "Vista interno ed esterno, quota per ogni anta, modifiche con un tocco."
+        },
+        {
+          "title": "Più prodotti in una richiesta",
+          "body": "Finestre e porte balcone nella stessa richiesta."
+        },
+        {
+          "title": "Invio in un clic",
+          "body": "Il cliente lascia nome e contatti e la richiesta arriva nella tua piattaforma."
+        }
+      ]
+    },
+    "setup": {
+      "kicker": "Come si mette online",
+      "title": "Dal tuo listino al tuo sito in quattro passi",
+      "subtitle": "Nessuno sviluppo: prepari il configuratore dalla piattaforma e lo incolli nel tuo sito."
     },
     "blocks": [
       {
@@ -909,13 +942,30 @@
       }
     ],
     "dashboard": {
+      "kicker": "Dopo la richiesta",
       "title": "La dashboard da cui controlli tutto",
-      "subtitle": "Richieste ricevute, prodotti più configurati, valore medio del preventivo. Da qui aggiorni listini e regole, e le modifiche vanno live ovunque il widget sia installato."
-    },
-    "midCta": {
-      "title": "Meno tempo su curiosi, più tempo su clienti pronti",
-      "subtitle": "Il configuratore raccoglie misure, materiali e budget prima ancora che tu risponda al telefono. Chi ti scrive dopo aver configurato ha già deciso di comprare.",
-      "button": "Vedi i piani"
+      "subtitle": "Apri la piattaforma e in un colpo d'occhio sai quante persone hanno aperto il configuratore, quante ti hanno scritto e quanto vale il lavoro. È la schermata vera, con i dati di esempio della demo.",
+      "windowLabel": "Piattaforma OneSpec · Panoramica",
+      "alt": "Panoramica della piattaforma OneSpec con aperture del widget, richieste, conversione, valore vinto, uso del piano e logistica",
+      "callouts": [
+        {
+          "title": "Chi arriva e chi scrive",
+          "body": "Aperture del configuratore, richieste ricevute e quota di visitatori che diventano richieste."
+        },
+        {
+          "title": "Quanto vale il lavoro",
+          "body": "Valore dei preventivi vinti e valore medio, nel periodo che scegli."
+        },
+        {
+          "title": "Il piano sotto controllo",
+          "body": "Preventivi del mese, configuratori attivi e membri del team rispetto ai limiti del piano."
+        },
+        {
+          "title": "Materiale e consegne",
+          "body": "Consegne della settimana, materiale ricevuto e quello in magazzino."
+        }
+      ],
+      "cta": "Esplora la dashboard in demo"
     },
     "support": {
       "title": "Assistenza inclusa in ogni piano",
@@ -943,6 +993,12 @@
           "color": "#1d1d1f"
         }
       ]
+    },
+    "finalCta": {
+      "title": "Il finale lo scrivi tu",
+      "subtitle": "La prossima volta che un cliente ti chiede un prezzo alle 22, glielo dà il tuo sito. La mattina dopo trovi una richiesta completa e chiami chi ha già visto il prezzo.",
+      "button": "Vedi i piani",
+      "demo": "Prova la demo"
     }
   },
   "legal": {
@@ -974,160 +1030,7 @@
     "widgetCaption": "quello che vede il cliente finale sul tuo sito: sceglie, configura e ti invia la richiesta.",
     "showroomLabel": "Configuratore Showroom",
     "showroomCaption": "lo strumento del tuo team: preventivo istantaneo con IVA, agevolazioni e rateizzazione.",
-    "videoTitle": "Guarda OneSpec in azione",
-    "videoSubtitle": "Un minuto per capire come OneSpec trasforma il tuo sito e il tuo showroom in una macchina da preventivi.",
-    "note": "Entrambe le demo sono interattive ma non inviano nulla: per ricevere richieste reali crea il tuo account.",
     "noteSingle": "La demo è interattiva ma non invia nulla: per ricevere richieste reali crea il tuo account."
-  },
-  "platformShowcase": {
-    "ariaLabel": "Anteprima della pagina Richieste della piattaforma onespec",
-    "tenant": "Serramenti Demo",
-    "group": "Vendite",
-    "nav": [
-      "Panoramica",
-      "Configuratori",
-      "Richieste",
-      "Statistiche",
-      "Preventivi (B2B)",
-      "Clienti"
-    ],
-    "title": "Richieste",
-    "subtitle": "Preventivi ricevuti dai widget",
-    "export": "Esporta CSV",
-    "search": "Cerca per nome, email o azienda...",
-    "tabs": [
-      "Tutte",
-      "Nuove",
-      "Contattate",
-      "Preventivo inviato"
-    ],
-    "statuses": {
-      "new": "Nuove",
-      "contacted": "Contattate",
-      "quoted": "Preventivo inviato",
-      "won": "Vinte"
-    },
-    "sla": "rispondi in meno di 5 minuti",
-    "total": "Totale indicativo",
-    "call": "Chiama",
-    "requests": [
-      {
-        "name": "Marco Rossi",
-        "company": "Rossi Costruzioni",
-        "product": "Finestra PVC · 2 ante",
-        "size": "1400×1500",
-        "sashes": 2,
-        "door": false,
-        "value": "€ 2.480",
-        "status": "new",
-        "time": "4 min fa",
-        "specs": [
-          [
-            "Materiale",
-            "PVC, 5 camere"
-          ],
-          [
-            "Vetro",
-            "Doppio · Ug 1,1"
-          ],
-          [
-            "Colore",
-            "Bianco"
-          ],
-          [
-            "Ferramenta",
-            "Anta-ribalta"
-          ]
-        ]
-      },
-      {
-        "name": "Laura Conti",
-        "company": "Studio Conti Architetti",
-        "product": "Portafinestra legno · 1 anta",
-        "size": "900×2200",
-        "sashes": 1,
-        "door": true,
-        "value": "€ 4.150",
-        "status": "new",
-        "time": "18 min fa",
-        "specs": [
-          [
-            "Materiale",
-            "Legno, rovere"
-          ],
-          [
-            "Vetro",
-            "Triplo · Ug 0,6"
-          ],
-          [
-            "Colore",
-            "Noce"
-          ],
-          [
-            "Ferramenta",
-            "Battente"
-          ]
-        ]
-      },
-      {
-        "name": "Giorgio Ferri",
-        "company": "Ferri Immobiliare",
-        "product": "Finestra alluminio · 3 ante",
-        "size": "2100×1400",
-        "sashes": 3,
-        "door": false,
-        "value": "€ 5.620",
-        "status": "contacted",
-        "time": "2 h fa",
-        "specs": [
-          [
-            "Materiale",
-            "Alluminio TT"
-          ],
-          [
-            "Vetro",
-            "Triplo · Ug 0,7"
-          ],
-          [
-            "Colore",
-            "RAL 7016"
-          ],
-          [
-            "Ferramenta",
-            "Anta-ribalta"
-          ]
-        ]
-      },
-      {
-        "name": "Anna Greco",
-        "company": "Privato",
-        "product": "Finestra PVC · 1 anta",
-        "size": "900×1200",
-        "sashes": 1,
-        "door": false,
-        "value": "€ 1.120",
-        "status": "quoted",
-        "time": "ieri",
-        "specs": [
-          [
-            "Materiale",
-            "PVC, 7 camere"
-          ],
-          [
-            "Vetro",
-            "Doppio · Ug 1,0"
-          ],
-          [
-            "Colore",
-            "Bianco"
-          ],
-          [
-            "Ferramenta",
-            "Anta-ribalta"
-          ]
-        ]
-      }
-    ]
   },
   "notFound": {
     "title": "Pagina non trovata",

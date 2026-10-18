@@ -80,26 +80,12 @@
     },
     "valueProp": {
       "title": "Every day you lose time on requests that go nowhere",
-      "body": "Curiosity calls, pointless site visits, competitors posing as customers just to undercut you on price. onespec puts a configurator between you and these requests: whoever reaches you has already figured out the product and the budget."
+      "body": "Curiosity calls, pointless site visits, competitors posing as customers just to undercut you on price. onespec puts a configurator between you and these requests: whoever reaches you has already figured out the product and the budget.",
+      "link": "See how OneSpec solves it"
     },
     "features": {
       "title": "Everything you need, nothing you don't",
       "items": [
-        {
-          "icon": "code",
-          "title": "One iFrame, and you're live",
-          "description": "You paste a code on your site and the configurator appears, already working. No development, no technical maintenance."
-        },
-        {
-          "icon": "palette",
-          "title": "100% brandable",
-          "description": "Colors, fonts and logo of your configurator match your brand. Your customer won't even know onespec exists."
-        },
-        {
-          "icon": "file",
-          "title": "Price list from CSV, always up to date",
-          "description": "Import your price list from a CSV file (materials, glazing, finishes, hardware) and refine it from the platform. Every change is instantly live wherever the widget is installed."
-        },
         {
           "icon": "shield",
           "title": "Filters out anyone who isn't a real buyer",
@@ -136,31 +122,6 @@
       "title": "Quotes come in, you see them in real time",
       "subtitle": "Every configurator request shows up at once on the Requests page, with customer, contact details, value and status: filter it, open it and follow it through to the quote."
     },
-    "steps": {
-      "title": "From price list to a live quote in four steps",
-      "items": [
-        {
-          "n": "01",
-          "title": "Import your price list",
-          "description": "Upload a CSV file with materials, glazing, finishes and prices, then complete sizes and rules from the platform."
-        },
-        {
-          "n": "02",
-          "title": "Brand the widget",
-          "description": "Colors, logo, copy and pricing rules from the platform. No code required."
-        },
-        {
-          "n": "03",
-          "title": "Paste the iFrame code",
-          "description": "The configurator appears on your site, responsive on desktop and mobile, ready to collect requests."
-        },
-        {
-          "n": "04",
-          "title": "Receive qualified quotes",
-          "description": "Every request arrives already with sizes, materials and the customer's indicative budget."
-        }
-      ]
-    },
     "pricing": {
       "title": "Choose the plan that fits you",
       "subtitle": "From the quote tool on your site to the complete platform: all plans and prices are on the dedicated page.",
@@ -193,56 +154,6 @@
     "copy": "Copy",
     "copied": "Copied",
     "footnote": "Only one line changes from customer to customer: <id>tuo-id</id>. Everything else is identical for everyone."
-  },
-  "dashboardMockup": {
-    "ariaLabel": "Preview of the onespec dashboard: quote request metrics, monthly trend and latest requests received",
-    "windowLabel": "platform.onespec.eu · Overview",
-    "kpis": [
-      {
-        "label": "Quote requests",
-        "value": "128",
-        "delta": "+18%"
-      },
-      {
-        "label": "Configurators opened",
-        "value": "2,940",
-        "delta": "+9%"
-      },
-      {
-        "label": "Conversion rate",
-        "value": "4.3%",
-        "delta": "+0.6pt"
-      },
-      {
-        "label": "Average request value",
-        "value": "€ 3,180",
-        "delta": "+4%"
-      }
-    ],
-    "chartTitle": "Requests per month",
-    "recentTitle": "Latest requests",
-    "recent": [
-      {
-        "product": "PVC window · 2 sashes",
-        "size": "1400×1800",
-        "value": "€ 2,480"
-      },
-      {
-        "product": "Wood French door",
-        "size": "1200×2300",
-        "value": "€ 4,150"
-      },
-      {
-        "product": "Aluminium window",
-        "size": "1500×1200",
-        "value": "€ 1,870"
-      },
-      {
-        "product": "PVC window · 1 sash",
-        "size": "900×1400",
-        "value": "€ 1,120"
-      }
-    ]
   },
   "pricingTiers": [
     {
@@ -359,6 +270,20 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.29.3",
+      "date": "2026-10-18",
+      "title": "Product page as a story, more reliable demo",
+      "tag": "New",
+      "channel": "prodotto",
+      "items": [
+        "Site: the Product page tells a story, from the customer asking for a price at 10 pm to the complete request reaching you",
+        "\"See OneSpec in action\" with real screens step by step and the list of what the customer can choose",
+        "\"The dashboard where you control everything\" with the platform's real screen, in every language",
+        "Showroom configurator on the Demo page only; repeated sections removed from the site",
+        "Platform demo: requests open, the overview shows widget opens, the period selector is translated in every language"
+      ]
+    },
     {
       "version": "1.29.2",
       "date": "2026-10-18",
@@ -874,13 +799,121 @@
   },
   "prodotto": {
     "hero": {
-      "title": "A widget, not a software project",
-      "subtitle": "onespec was born from a direct request by window and door manufacturers and dealers: an interactive configurator that saves time, filters out serious requests and protects your prices from unfair competition."
+      "kicker": "A scene you know",
+      "title": "It's 10 pm. A customer asks how much six windows cost.",
+      "subtitle": "You're still on site, the price list is at the office and tomorrow you have three surveys. By the time you can answer, they have already asked someone else. OneSpec changes the ending: your website gives them the price, right away, from your own price list.",
+      "ctaPrimary": "See how the ending changes",
+      "ctaSecondary": "Try the configurator"
     },
-    "configurator": {
-      "kicker": "Interactive demo",
-      "title": "Try it the way your customer does",
-      "subtitle": "Two interactive demos, identical to the product. Try them side by side: the configurator for your customers and the one for your team. On your site you use your own price list and brand."
+    "problem": {
+      "title": "The problem isn't the customer. It's everything that happens before the quote.",
+      "items": [
+        {
+          "title": "Quotes get done in the evening",
+          "body": "Sizes, materials, glazing, VAT: every request is a sum to redo by hand after work. And the longer the customer waits, the colder they get."
+        },
+        {
+          "title": "Lots of calls, few customers",
+          "body": "Browsers with no budget, site surveys for sizes the customer hasn't decided yet. Your hours, paid by no one."
+        },
+        {
+          "title": "Your price ends up in the wrong hands",
+          "body": "Someone who asks for a quote only to pass it to a competitor takes your work for free, and you never know."
+        }
+      ]
+    },
+    "inAction": {
+      "kicker": "The turning point",
+      "title": "See OneSpec in action",
+      "subtitle": "The configurator lives on your website. The customer chooses, sees the drawing and the price, and sends you a complete request: you get a contact who already knows what they want and what it costs.",
+      "sample": "Real screens · sample data",
+      "steps": [
+        {
+          "label": "On your website",
+          "title": "The customer picks the product and sizes",
+          "body": "Window or balcony door, width, height, quantity and number of sashes. The configurator flags sizes out of range and suggests when an extra sash is needed.",
+          "alt": "First step of the configurator: product type, width, height, quantity and number of sashes"
+        },
+        {
+          "label": "On your website",
+          "title": "They see the technical drawing of their window",
+          "body": "The drawing updates with every choice: opening of each sash, dimensions, inside or outside view. Tap a sash to change it, tap a dimension to edit it.",
+          "alt": "Technical drawing of a two-sash window with dimensions in millimetres"
+        },
+        {
+          "label": "On your website",
+          "title": "They see the price, VAT included",
+          "body": "Calculated from your price list: area, frame, options and VAT rate. A clear estimate, stated as such, not a random number.",
+          "alt": "Quote summary with net amount, VAT and estimated total"
+        },
+        {
+          "label": "In your platform",
+          "title": "The request reaches you, complete",
+          "body": "Contact, sizes, material, glazing, finish and total on one page. Reply on WhatsApp in one click, call, print the PDF or turn the request into a quote.",
+          "alt": "A request received in the OneSpec platform with contact details, price breakdown and products"
+        }
+      ],
+      "tryLive": "Try it yourself, like your customer",
+      "tryDemo": "Explore the platform demo",
+      "videoLabel": "OneSpec presentation film",
+      "videoCaption": "The OneSpec presentation film.",
+      "optionsTitle": "What your customer can choose",
+      "optionsSubtitle": "Items and prices come from your price list: you only show what you sell. The customer can follow the guided path, in a few steps, or see every option.",
+      "options": [
+        {
+          "title": "Material and profile",
+          "body": "PVC, wood or aluminium, with number of chambers and profile system."
+        },
+        {
+          "title": "Sizes and quantity",
+          "body": "Width, height, pieces and number of sashes, with technical limits flagged."
+        },
+        {
+          "title": "Opening of each sash",
+          "body": "Fixed, side-hung, tilt and turn or sliding, with the opening side."
+        },
+        {
+          "title": "Glazing",
+          "body": "Double or triple: thickness first, then the build-up, with advice based on the sizes."
+        },
+        {
+          "title": "Colours and finishes",
+          "body": "RAL colour and woodgrain swatches, bicolour too: outside different from inside."
+        },
+        {
+          "title": "Hardware and handle",
+          "body": "Hardware brand and colour, handle height."
+        },
+        {
+          "title": "Insect screens",
+          "body": "Hinged, spring-loaded, pleated and the other types in your price list."
+        },
+        {
+          "title": "Installation",
+          "body": "With or without installation, at the price you set."
+        },
+        {
+          "title": "VAT and incentives",
+          "body": "The right VAT rate and, in Italy, the Ecobonus in the calculation."
+        },
+        {
+          "title": "Interactive technical drawing",
+          "body": "Inside and outside view, a dimension for each sash, edits with a tap."
+        },
+        {
+          "title": "Several products in one request",
+          "body": "Windows and balcony doors in the same request."
+        },
+        {
+          "title": "Sent in one click",
+          "body": "The customer leaves a name and contact details and the request lands in your platform."
+        }
+      ]
+    },
+    "setup": {
+      "kicker": "How it goes live",
+      "title": "From your price list to your website in four steps",
+      "subtitle": "No development: you prepare the configurator in the platform and paste it into your website."
     },
     "blocks": [
       {
@@ -909,13 +942,30 @@
       }
     ],
     "dashboard": {
-      "title": "The dashboard that controls it all",
-      "subtitle": "Requests received, most configured products, average quote value. From here you update price lists and rules, and changes go live wherever the widget is installed."
-    },
-    "midCta": {
-      "title": "Less time on curious visitors, more time on ready buyers",
-      "subtitle": "The configurator collects sizes, materials and budget before you even pick up the phone. Whoever contacts you after configuring has already decided to buy.",
-      "button": "See the plans"
+      "kicker": "After the request",
+      "title": "The dashboard where you control everything",
+      "subtitle": "Open the platform and at a glance you know how many people opened the configurator, how many wrote to you and what the work is worth. This is the real screen, with the demo's sample data.",
+      "windowLabel": "OneSpec platform · Overview",
+      "alt": "Overview of the OneSpec platform with widget opens, requests, conversion, won value, plan usage and logistics",
+      "callouts": [
+        {
+          "title": "Who comes and who writes",
+          "body": "Configurator opens, requests received and the share of visitors who become requests."
+        },
+        {
+          "title": "What the work is worth",
+          "body": "Value of won quotes and average value, over the period you choose."
+        },
+        {
+          "title": "Your plan at a glance",
+          "body": "Quotes this month, active configurators and team members against your plan's limits."
+        },
+        {
+          "title": "Materials and deliveries",
+          "body": "Deliveries this week, materials received and what is in stock."
+        }
+      ],
+      "cta": "Explore the dashboard in the demo"
     },
     "support": {
       "title": "Support included in every plan",
@@ -943,6 +993,12 @@
           "color": "#1d1d1f"
         }
       ]
+    },
+    "finalCta": {
+      "title": "You write the ending",
+      "subtitle": "Next time a customer asks for a price at 10 pm, your website answers. The next morning you find a complete request and call someone who has already seen the price.",
+      "button": "See the plans",
+      "demo": "Try the demo"
     }
   },
   "legal": {
@@ -974,160 +1030,7 @@
     "widgetCaption": "what your end customer sees on your website: they choose, configure and send you the request.",
     "showroomLabel": "Showroom configurator",
     "showroomCaption": "your team's tool: instant quote with VAT, incentives and instalments.",
-    "videoTitle": "See OneSpec in action",
-    "videoSubtitle": "One minute to see how OneSpec turns your website and showroom into a quoting machine.",
-    "note": "Both demos are interactive but send nothing: create your account to receive real requests.",
     "noteSingle": "The demo is interactive but sends nothing: create your account to receive real requests."
-  },
-  "platformShowcase": {
-    "ariaLabel": "Preview of the Requests page of the onespec platform",
-    "tenant": "Serramenti Demo",
-    "group": "Sales",
-    "nav": [
-      "Overview",
-      "Configurators",
-      "Requests",
-      "Statistics",
-      "Quotes (B2B)",
-      "Clients"
-    ],
-    "title": "Requests",
-    "subtitle": "Quotes received from the widgets",
-    "export": "Export CSV",
-    "search": "Search by name, email or company...",
-    "tabs": [
-      "All",
-      "New",
-      "Contacted",
-      "Quote sent"
-    ],
-    "statuses": {
-      "new": "New",
-      "contacted": "Contacted",
-      "quoted": "Quote sent",
-      "won": "Won"
-    },
-    "sla": "reply within 5 minutes",
-    "total": "Estimated total",
-    "call": "Call",
-    "requests": [
-      {
-        "name": "Marco Rossi",
-        "company": "Rossi Construction",
-        "product": "PVC window · 2 sashes",
-        "size": "1400×1500",
-        "sashes": 2,
-        "door": false,
-        "value": "€2,480",
-        "status": "new",
-        "time": "4 min ago",
-        "specs": [
-          [
-            "Material",
-            "PVC, 5 chambers"
-          ],
-          [
-            "Glazing",
-            "Double · Ug 1.1"
-          ],
-          [
-            "Colour",
-            "White"
-          ],
-          [
-            "Hardware",
-            "Tilt & turn"
-          ]
-        ]
-      },
-      {
-        "name": "Laura Conti",
-        "company": "Conti Architects",
-        "product": "Wooden patio door · 1 sash",
-        "size": "900×2200",
-        "sashes": 1,
-        "door": true,
-        "value": "€4,150",
-        "status": "new",
-        "time": "18 min ago",
-        "specs": [
-          [
-            "Material",
-            "Wood, oak"
-          ],
-          [
-            "Glazing",
-            "Triple · Ug 0.6"
-          ],
-          [
-            "Colour",
-            "Walnut"
-          ],
-          [
-            "Hardware",
-            "Side-hung"
-          ]
-        ]
-      },
-      {
-        "name": "Giorgio Ferri",
-        "company": "Ferri Real Estate",
-        "product": "Aluminium window · 3 sashes",
-        "size": "2100×1400",
-        "sashes": 3,
-        "door": false,
-        "value": "€5,620",
-        "status": "contacted",
-        "time": "2 h ago",
-        "specs": [
-          [
-            "Material",
-            "Aluminium TB"
-          ],
-          [
-            "Glazing",
-            "Triple · Ug 0.7"
-          ],
-          [
-            "Colour",
-            "RAL 7016"
-          ],
-          [
-            "Hardware",
-            "Tilt & turn"
-          ]
-        ]
-      },
-      {
-        "name": "Anna Greco",
-        "company": "Private",
-        "product": "PVC window · 1 sash",
-        "size": "900×1200",
-        "sashes": 1,
-        "door": false,
-        "value": "€1,120",
-        "status": "quoted",
-        "time": "yesterday",
-        "specs": [
-          [
-            "Material",
-            "PVC, 7 chambers"
-          ],
-          [
-            "Glazing",
-            "Double · Ug 1.0"
-          ],
-          [
-            "Colour",
-            "White"
-          ],
-          [
-            "Hardware",
-            "Tilt & turn"
-          ]
-        ]
-      }
-    ]
   },
   "notFound": {
     "title": "Page not found",

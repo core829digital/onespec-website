@@ -159,3 +159,21 @@ button,
     display: none;
   }
 }
+
+/* Pagina Prodotto, "in azione": la barretta sotto il passo attivo si riempie
+   nel tempo in cui il passo resta a schermo (durata impostata inline). */
+@keyframes os-step-progress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.os-step-progress {
+  transform-origin: left;
+  animation-name: os-step-progress;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}

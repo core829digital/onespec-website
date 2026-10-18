@@ -80,26 +80,12 @@
     },
     "valueProp": {
       "title": "Elke dag verliest u tijd aan aanvragen die nergens toe leiden",
-      "body": "Telefoontjes uit nieuwsgierigheid, nutteloze bezoeken ter plaatse, concurrenten die zich voordoen als klanten om alleen uw prijs te weten voor dumping. onespec plaatst een configurator tussen u en deze aanvragen: wie bij u terechtkomt, heeft product en budget al begrepen."
+      "body": "Telefoontjes uit nieuwsgierigheid, nutteloze bezoeken ter plaatse, concurrenten die zich voordoen als klanten om alleen uw prijs te weten voor dumping. onespec plaatst een configurator tussen u en deze aanvragen: wie bij u terechtkomt, heeft product en budget al begrepen.",
+      "link": "Zie hoe OneSpec het oplost"
     },
     "features": {
       "title": "Alles wat nodig is, niets overbodigs",
       "items": [
-        {
-          "icon": "code",
-          "title": "Eén iFrame, en u bent live",
-          "description": "U plakt een code op uw site en de configurator verschijnt, direct werkend. Geen ontwikkeling, geen technisch onderhoud."
-        },
-        {
-          "icon": "palette",
-          "title": "100% aan te passen aan uw merk",
-          "description": "Kleuren, lettertype en logo van uw configurator sluiten aan bij uw merk. De klant weet niet eens dat onespec bestaat."
-        },
-        {
-          "icon": "file",
-          "title": "Prijslijst uit CSV, altijd actueel",
-          "description": "Importeer je prijslijst uit een CSV-bestand (materialen, beglazing, afwerkingen, beslag) en werk hem bij in het platform. Elke wijziging staat meteen live overal waar de widget is geïnstalleerd."
-        },
         {
           "icon": "shield",
           "title": "Filtert wie geen echte klant is",
@@ -136,31 +122,6 @@
       "title": "De offertes komen binnen, u ziet ze in realtime",
       "subtitle": "Elke aanvraag uit de configurator verschijnt meteen op de pagina Aanvragen, met klant, contactgegevens, waarde en status: filteren, openen en opvolgen tot de offerte."
     },
-    "steps": {
-      "title": "Van prijslijst naar live offerte in vier stappen",
-      "items": [
-        {
-          "n": "01",
-          "title": "Importeer je prijslijst",
-          "description": "Upload een CSV-bestand met materialen, beglazing, afwerkingen en prijzen en vul daarna maten en regels aan in het platform."
-        },
-        {
-          "n": "02",
-          "title": "U past de widget aan",
-          "description": "Kleuren, logo, teksten en prijsregels vanuit het platform. Geen regel code nodig."
-        },
-        {
-          "n": "03",
-          "title": "U plakt de iFrame-code",
-          "description": "De configurator verschijnt op uw site, responsief op desktop en mobiel, klaar om aanvragen te ontvangen."
-        },
-        {
-          "n": "04",
-          "title": "U ontvangt gekwalificeerde offertes",
-          "description": "Elke aanvraag komt al binnen met afmetingen, materialen en het indicatieve budget van de klant."
-        }
-      ]
-    },
     "pricing": {
       "title": "Kies het plan dat bij u past",
       "subtitle": "Van de offertetool op uw site tot het complete platform: alle plannen en prijzen staan op de speciale pagina.",
@@ -193,56 +154,6 @@
     "copy": "Kopiëren",
     "copied": "Gekopieerd",
     "footnote": "Slechts één regel verandert van klant tot klant: <id>tuo-id</id>. De rest is voor iedereen identiek."
-  },
-  "dashboardMockup": {
-    "ariaLabel": "Voorbeeld van het onespec-dashboard: indicatoren voor offerteaanvragen, maandelijkse trend en laatst ontvangen aanvragen",
-    "windowLabel": "platform.onespec.eu · Overzicht",
-    "kpis": [
-      {
-        "label": "Offerteaanvragen",
-        "value": "128",
-        "delta": "+18%"
-      },
-      {
-        "label": "Geopende configuratoren",
-        "value": "2.940",
-        "delta": "+9%"
-      },
-      {
-        "label": "Conversieratio",
-        "value": "4,3%",
-        "delta": "+0,6pt"
-      },
-      {
-        "label": "Gemiddelde aanvraagwaarde",
-        "value": "€ 3.180",
-        "delta": "+4%"
-      }
-    ],
-    "chartTitle": "Aanvragen per maand",
-    "recentTitle": "Laatste aanvragen",
-    "recent": [
-      {
-        "product": "PVC-raam · 2 vleugels",
-        "size": "1400×1800",
-        "value": "€ 2.480"
-      },
-      {
-        "product": "Houten openslaande deur",
-        "size": "1200×2300",
-        "value": "€ 4.150"
-      },
-      {
-        "product": "Aluminium raam",
-        "size": "1500×1200",
-        "value": "€ 1.870"
-      },
-      {
-        "product": "PVC-raam · 1 vleugel",
-        "size": "900×1400",
-        "value": "€ 1.120"
-      }
-    ]
   },
   "pricingTiers": [
     {
@@ -359,6 +270,20 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.29.3",
+      "date": "2026-10-18",
+      "title": "Productpagina als verhaal, betrouwbaardere demo",
+      "tag": "Nieuw",
+      "channel": "prodotto",
+      "items": [
+        "Site: de productpagina vertelt een verhaal, van de klant die om 22 uur een prijs vraagt tot de volledige aanvraag die bij u binnenkomt",
+        "‘Bekijk OneSpec in actie’ met echte schermen stap voor stap en de lijst van wat de klant kan kiezen",
+        "‘Het dashboard waarmee u alles beheert’ met het echte scherm van het platform, in elke taal",
+        "Showroom-configurator alleen op de demopagina; herhaalde secties van de site verwijderd",
+        "Platformdemo: aanvragen openen, het overzicht toont widgetweergaven, periode vertaald in elke taal"
+      ]
+    },
     {
       "version": "1.29.2",
       "date": "2026-10-18",
@@ -874,13 +799,121 @@
   },
   "prodotto": {
     "hero": {
-      "title": "Een widget, geen softwareproject",
-      "subtitle": "onespec is ontstaan uit een directe vraag van fabrikanten en verkopers van ramen en deuren: een interactieve configurator die tijd bespaart, serieuze aanvragen filtert en uw prijzen beschermt tegen oneerlijke concurrentie."
+      "kicker": "Een scène die u kent",
+      "title": "Het is 22 uur. Een klant vraagt wat zes ramen kosten.",
+      "subtitle": "U staat nog op de werf, de prijslijst ligt op kantoor en morgen hebt u drie opmetingen. Tegen de tijd dat u kunt antwoorden, heeft hij het al aan iemand anders gevraagd. OneSpec verandert het einde: uw website geeft hem de prijs, meteen, uit uw eigen prijslijst.",
+      "ctaPrimary": "Zie hoe het einde verandert",
+      "ctaSecondary": "Probeer de configurator"
     },
-    "configurator": {
-      "kicker": "Interactieve demo",
-      "title": "Probeer hem zoals uw klant dat doet",
-      "subtitle": "Twee interactieve demo's, identiek aan het product. Probeer ze naast elkaar: de configurator voor je klanten en die voor je team. Op je site gebruik je je eigen prijslijst en merk."
+    "problem": {
+      "title": "Het probleem is niet de klant. Het is alles wat er vóór de offerte gebeurt.",
+      "items": [
+        {
+          "title": "Offertes maak je 's avonds",
+          "body": "Maten, materialen, beglazing, btw: elke aanvraag is een berekening die je na het werk met de hand overdoet. En hoe langer de klant wacht, hoe kouder hij wordt."
+        },
+        {
+          "title": "Veel telefoons, weinig klanten",
+          "body": "Nieuwsgierigen zonder budget, opmetingen voor maten waar de klant nog niet over beslist heeft. Uw uren, door niemand betaald."
+        },
+        {
+          "title": "Uw prijs komt in de verkeerde handen",
+          "body": "Wie een offerte vraagt om ze door te geven aan een concurrent, neemt uw werk gratis mee, en u weet het niet."
+        }
+      ]
+    },
+    "inAction": {
+      "kicker": "Het keerpunt",
+      "title": "Bekijk OneSpec in actie",
+      "subtitle": "De configurator draait op uw website. De klant kiest, ziet de tekening en de prijs en stuurt u een volledige aanvraag: u krijgt een contact dat al weet wat hij wil en wat het kost.",
+      "sample": "Echte schermen · voorbeeldgegevens",
+      "steps": [
+        {
+          "label": "Op uw website",
+          "title": "De klant kiest product en maten",
+          "body": "Raam of balkondeur, breedte, hoogte, aantal en aantal vleugels. De configurator markeert maten buiten de grenzen en geeft aan wanneer er een extra vleugel nodig is.",
+          "alt": "Eerste stap van de configurator: producttype, breedte, hoogte, aantal en aantal vleugels"
+        },
+        {
+          "label": "Op uw website",
+          "title": "Hij ziet de technische tekening van zijn raam",
+          "body": "De tekening past zich aan bij elke keuze: opening van elke vleugel, maten, binnen- of buitenaanzicht. Tik op een vleugel om hem te wijzigen, tik op een maat om ze aan te passen.",
+          "alt": "Technische tekening van een raam met twee vleugels en maten in millimeter"
+        },
+        {
+          "label": "Op uw website",
+          "title": "Hij ziet de prijs, inclusief btw",
+          "body": "Berekend uit uw prijslijst: oppervlakte, kader, opties en btw-tarief. Een duidelijke schatting, als zodanig vermeld, geen willekeurig getal.",
+          "alt": "Overzicht van de offerte met bedrag excl. btw, btw en geschat totaal"
+        },
+        {
+          "label": "In uw platform",
+          "title": "De aanvraag komt volledig bij u binnen",
+          "body": "Contact, maten, materiaal, beglazing, afwerking en totaal op één fiche. Antwoord met één klik via WhatsApp, bel, print de pdf of maak van de aanvraag een offerte.",
+          "alt": "Een aanvraag ontvangen in het OneSpec-platform met contactgegevens, prijsdetails en producten"
+        }
+      ],
+      "tryLive": "Probeer het zelf, zoals uw klant",
+      "tryDemo": "Ontdek het platform in de demo",
+      "videoLabel": "Presentatiefilm van OneSpec",
+      "videoCaption": "De presentatiefilm van OneSpec.",
+      "optionsTitle": "Wat uw klant kan kiezen",
+      "optionsSubtitle": "Opties en prijzen komen uit uw prijslijst: u toont alleen wat u verkoopt. De klant kiest het begeleide pad in een paar stappen, of ziet alle opties.",
+      "options": [
+        {
+          "title": "Materiaal en profiel",
+          "body": "PVC, hout of aluminium, met aantal kamers en profielsysteem."
+        },
+        {
+          "title": "Maten en aantal",
+          "body": "Breedte, hoogte, stuks en aantal vleugels, met gemarkeerde technische grenzen."
+        },
+        {
+          "title": "Opening van elke vleugel",
+          "body": "Vast, draai, draai-kiep of schuif, met de openingszijde."
+        },
+        {
+          "title": "Beglazing",
+          "body": "Dubbel of driedubbel: eerst de dikte, dan de opbouw, met advies volgens de maten."
+        },
+        {
+          "title": "Kleuren en afwerkingen",
+          "body": "Stalen van RAL-kleuren en houtdecors, ook tweekleurig: buiten anders dan binnen."
+        },
+        {
+          "title": "Beslag en kruk",
+          "body": "Merk en kleur van het beslag, hoogte van de kruk."
+        },
+        {
+          "title": "Insectenhorren",
+          "body": "Draai, rol, plissé en de andere types uit uw prijslijst."
+        },
+        {
+          "title": "Plaatsing",
+          "body": "Met of zonder plaatsing, aan de prijs die u bepaalt."
+        },
+        {
+          "title": "Btw en premies",
+          "body": "Het juiste btw-tarief en, in Italië, de Ecobonus in de berekening."
+        },
+        {
+          "title": "Interactieve technische tekening",
+          "body": "Binnen- en buitenaanzicht, een maat per vleugel, wijzigen met een tik."
+        },
+        {
+          "title": "Meerdere producten per aanvraag",
+          "body": "Ramen en balkondeuren in dezelfde aanvraag."
+        },
+        {
+          "title": "Verzonden met één klik",
+          "body": "De klant laat naam en contactgegevens achter en de aanvraag komt in uw platform."
+        }
+      ]
+    },
+    "setup": {
+      "kicker": "Zo gaat het online",
+      "title": "Van uw prijslijst naar uw website in vier stappen",
+      "subtitle": "Geen ontwikkeling: u bereidt de configurator voor in het platform en plakt hem in uw website."
     },
     "blocks": [
       {
@@ -909,13 +942,30 @@
       }
     ],
     "dashboard": {
-      "title": "Het dashboard waarmee u alles bestuurt",
-      "subtitle": "Ontvangen aanvragen, meest geconfigureerde producten, gemiddelde offertewaarde. Van hieruit werkt u prijslijsten en regels bij, en de wijzigingen zijn overal live waar de widget is geïnstalleerd."
-    },
-    "midCta": {
-      "title": "Minder tijd aan nieuwsgierigen, meer tijd aan klaar-om-te-kopen klanten",
-      "subtitle": "De configurator verzamelt afmetingen, materialen en budget nog voordat u de telefoon opneemt. Wie na het configureren contact opneemt, heeft al besloten te kopen.",
-      "button": "Bekijk de plannen"
+      "kicker": "Na de aanvraag",
+      "title": "Het dashboard waarmee u alles beheert",
+      "subtitle": "Open het platform en u ziet in één oogopslag hoeveel mensen de configurator openden, hoeveel u schreven en wat het werk waard is. Dit is het echte scherm, met de voorbeeldgegevens van de demo.",
+      "windowLabel": "OneSpec-platform · Overzicht",
+      "alt": "Overzicht van het OneSpec-platform met widgetweergaven, aanvragen, conversie, gewonnen waarde, abonnementsgebruik en logistiek",
+      "callouts": [
+        {
+          "title": "Wie komt en wie schrijft",
+          "body": "Openingen van de configurator, ontvangen aanvragen en het aandeel bezoekers dat een aanvraag doet."
+        },
+        {
+          "title": "Wat het werk waard is",
+          "body": "Waarde van gewonnen offertes en gemiddelde waarde, over de periode die u kiest."
+        },
+        {
+          "title": "Uw abonnement onder controle",
+          "body": "Offertes van de maand, actieve configurators en teamleden tegenover de limieten van uw abonnement."
+        },
+        {
+          "title": "Materiaal en leveringen",
+          "body": "Leveringen van de week, ontvangen materiaal en wat in voorraad is."
+        }
+      ],
+      "cta": "Ontdek het dashboard in de demo"
     },
     "support": {
       "title": "Ondersteuning inbegrepen in elk plan",
@@ -943,6 +993,12 @@
           "color": "#1d1d1f"
         }
       ]
+    },
+    "finalCta": {
+      "title": "Het einde schrijft u zelf",
+      "subtitle": "De volgende keer dat een klant om 22 uur naar een prijs vraagt, antwoordt uw website. De volgende ochtend vindt u een volledige aanvraag en belt u iemand die de prijs al gezien heeft.",
+      "button": "Bekijk de abonnementen",
+      "demo": "Probeer de demo"
     }
   },
   "legal": {
@@ -974,160 +1030,7 @@
     "widgetCaption": "wat je eindklant op je website ziet: kiezen, configureren en de aanvraag naar jou sturen.",
     "showroomLabel": "Showroom-configurator",
     "showroomCaption": "het gereedschap van je team: directe offerte met btw, subsidies en termijnbetaling.",
-    "videoTitle": "OneSpec in actie",
-    "videoSubtitle": "Eén minuut om te zien hoe OneSpec je website en showroom verandert in een offertemachine.",
-    "note": "Beide demo's zijn interactief maar versturen niets: maak je account aan om echte aanvragen te ontvangen.",
     "noteSingle": "De demo is interactief maar verstuurt niets: maak uw account aan om echte aanvragen te ontvangen."
-  },
-  "platformShowcase": {
-    "ariaLabel": "Voorbeeld van de pagina Aanvragen van het onespec-platform",
-    "tenant": "Serramenti Demo",
-    "group": "Verkoop",
-    "nav": [
-      "Overzicht",
-      "Configurators",
-      "Aanvragen",
-      "Statistieken",
-      "Offertes (B2B)",
-      "Klanten"
-    ],
-    "title": "Aanvragen",
-    "subtitle": "Offertes ontvangen via de widgets",
-    "export": "Exporteer CSV",
-    "search": "Zoek op naam, e-mail of bedrijf...",
-    "tabs": [
-      "Alle",
-      "Nieuw",
-      "Benaderd",
-      "Offerte verzonden"
-    ],
-    "statuses": {
-      "new": "Nieuw",
-      "contacted": "Benaderd",
-      "quoted": "Offerte verzonden",
-      "won": "Gewonnen"
-    },
-    "sla": "reageer binnen 5 minuten",
-    "total": "Indicatief totaal",
-    "call": "Bellen",
-    "requests": [
-      {
-        "name": "Marco Rossi",
-        "company": "Rossi Bouw",
-        "product": "Kunststof raam · 2 vleugels",
-        "size": "1400×1500",
-        "sashes": 2,
-        "door": false,
-        "value": "€ 2.480",
-        "status": "new",
-        "time": "4 min geleden",
-        "specs": [
-          [
-            "Materiaal",
-            "PVC, 5 kamers"
-          ],
-          [
-            "Beglazing",
-            "Dubbel · Ug 1,1"
-          ],
-          [
-            "Kleur",
-            "Wit"
-          ],
-          [
-            "Beslag",
-            "Draai-kip"
-          ]
-        ]
-      },
-      {
-        "name": "Laura Conti",
-        "company": "Architectenbureau Conti",
-        "product": "Houten openslaande deur · 1 vleugel",
-        "size": "900×2200",
-        "sashes": 1,
-        "door": true,
-        "value": "€ 4.150",
-        "status": "new",
-        "time": "18 min geleden",
-        "specs": [
-          [
-            "Materiaal",
-            "Hout, eik"
-          ],
-          [
-            "Beglazing",
-            "Drievoudig · Ug 0,6"
-          ],
-          [
-            "Kleur",
-            "Noten"
-          ],
-          [
-            "Beslag",
-            "Draaivleugel"
-          ]
-        ]
-      },
-      {
-        "name": "Giorgio Ferri",
-        "company": "Ferri Vastgoed",
-        "product": "Aluminium raam · 3 vleugels",
-        "size": "2100×1400",
-        "sashes": 3,
-        "door": false,
-        "value": "€ 5.620",
-        "status": "contacted",
-        "time": "2 u geleden",
-        "specs": [
-          [
-            "Materiaal",
-            "Aluminium TB"
-          ],
-          [
-            "Beglazing",
-            "Drievoudig · Ug 0,7"
-          ],
-          [
-            "Kleur",
-            "RAL 7016"
-          ],
-          [
-            "Beslag",
-            "Draai-kip"
-          ]
-        ]
-      },
-      {
-        "name": "Anna Greco",
-        "company": "Particulier",
-        "product": "Kunststof raam · 1 vleugel",
-        "size": "900×1200",
-        "sashes": 1,
-        "door": false,
-        "value": "€ 1.120",
-        "status": "quoted",
-        "time": "gisteren",
-        "specs": [
-          [
-            "Materiaal",
-            "PVC, 7 kamers"
-          ],
-          [
-            "Beglazing",
-            "Dubbel · Ug 1,0"
-          ],
-          [
-            "Kleur",
-            "Wit"
-          ],
-          [
-            "Beslag",
-            "Draai-kip"
-          ]
-        ]
-      }
-    ]
   },
   "notFound": {
     "title": "Pagina niet gevonden",

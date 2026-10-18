@@ -80,26 +80,12 @@
     },
     "valueProp": {
       "title": "In fiecare zi pierzi timp cu solicitari care nu duc nicaieri",
-      "body": "Telefoane din curiozitate, vizite inutile la fata locului, concurenti deghizati in clienti care vor doar pretul tau ca sa faca dumping. onespec pune un configurator intre tine si aceste solicitari: cine ajunge la tine a inteles deja produsul si bugetul."
+      "body": "Telefoane din curiozitate, vizite inutile la fata locului, concurenti deghizati in clienti care vor doar pretul tau ca sa faca dumping. onespec pune un configurator intre tine si aceste solicitari: cine ajunge la tine a inteles deja produsul si bugetul.",
+      "link": "Vedeți cum rezolvă OneSpec"
     },
     "features": {
       "title": "Tot ce ai nevoie, nimic in plus",
       "items": [
-        {
-          "icon": "code",
-          "title": "Un iFrame, si esti live",
-          "description": "Incluzi un cod pe site si configuratorul apare, deja functional. Fara dezvoltare, fara mentenanta tehnica."
-        },
-        {
-          "icon": "palette",
-          "title": "Personalizabil 100%",
-          "description": "Culorile, fontul si logo-ul configuratorului tau se aliniaza cu brandul tau. Clientul nici nu stie ca exista onespec."
-        },
-        {
-          "icon": "file",
-          "title": "Listă de prețuri din CSV, mereu actualizată",
-          "description": "Importi lista de prețuri dintr-un fișier CSV (materiale, geamuri, finisaje, feronerie) și o rafinezi din platformă. Fiecare modificare este imediat activă oriunde este instalat widgetul."
-        },
         {
           "icon": "shield",
           "title": "Filtreaza pe cei care nu sunt clienti reali",
@@ -136,31 +122,6 @@
       "title": "Ofertele ajung, tu le vezi in timp real",
       "subtitle": "Fiecare cerere din configurator apare imediat în pagina Cereri, cu client, date de contact, valoare și status: o filtrezi, o deschizi și o urmărești până la ofertă."
     },
-    "steps": {
-      "title": "De la lista de preturi la oferta live in patru pasi",
-      "items": [
-        {
-          "n": "01",
-          "title": "Imporți lista de prețuri",
-          "description": "Încarci un fișier CSV cu materiale, geamuri, finisaje și prețuri, apoi completezi dimensiunile și regulile din platformă."
-        },
-        {
-          "n": "02",
-          "title": "Personalizezi widget-ul",
-          "description": "Culori, logo, texte si reguli de pret din platforma. Fara nicio linie de cod."
-        },
-        {
-          "n": "03",
-          "title": "Incluzi codul iFrame",
-          "description": "Configuratorul apare pe site-ul tau, adaptiv pe desktop si mobil, gata sa primeasca solicitari."
-        },
-        {
-          "n": "04",
-          "title": "Primesti oferte calificate",
-          "description": "Fiecare solicitare ajunge deja cu dimensiuni, materiale si bugetul orientativ al clientului."
-        }
-      ]
-    },
     "pricing": {
       "title": "Alege planul potrivit pentru tine",
       "subtitle": "De la instrumentul de ofertare de pe site-ul tău până la platforma completă: toate planurile și prețurile sunt pe pagina dedicată.",
@@ -193,56 +154,6 @@
     "copy": "Copiaza",
     "copied": "Copiat",
     "footnote": "O singura linie se schimba de la un client la altul: <id>tuo-id</id>. Restul este identic pentru toti."
-  },
-  "dashboardMockup": {
-    "ariaLabel": "Previzualizare a dashboard-ului onespec: indicatori solicitari de oferta, evolutie lunara si ultimele solicitari primite",
-    "windowLabel": "platform.onespec.eu · Prezentare",
-    "kpis": [
-      {
-        "label": "Solicitari de oferta",
-        "value": "128",
-        "delta": "+18%"
-      },
-      {
-        "label": "Configuratoare deschise",
-        "value": "2.940",
-        "delta": "+9%"
-      },
-      {
-        "label": "Rata de conversie",
-        "value": "4,3%",
-        "delta": "+0,6pp"
-      },
-      {
-        "label": "Valoare medie solicitare",
-        "value": "3.180 €",
-        "delta": "+4%"
-      }
-    ],
-    "chartTitle": "Solicitari pe luna",
-    "recentTitle": "Ultimele solicitari",
-    "recent": [
-      {
-        "product": "Fereastra PVC · 2 canate",
-        "size": "1400×1800",
-        "value": "2.480 €"
-      },
-      {
-        "product": "Usa de balcon lemn",
-        "size": "1200×2300",
-        "value": "4.150 €"
-      },
-      {
-        "product": "Fereastra aluminiu",
-        "size": "1500×1200",
-        "value": "1.870 €"
-      },
-      {
-        "product": "Fereastra PVC · 1 canat",
-        "size": "900×1400",
-        "value": "1.120 €"
-      }
-    ]
   },
   "pricingTiers": [
     {
@@ -359,6 +270,20 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.29.3",
+      "date": "2026-10-18",
+      "title": "Pagina Produs ca o poveste, demo mai fiabil",
+      "tag": "Nou",
+      "channel": "prodotto",
+      "items": [
+        "Site: pagina Produs spune o poveste, de la clientul care cere un preț la ora 22 până la cererea completă care ajunge la dumneavoastră",
+        "„OneSpec în acțiune” cu ecrane reale pas cu pas și lista a ce poate alege clientul",
+        "„Panoul din care controlați totul” cu ecranul real al platformei, în fiecare limbă",
+        "Configuratorul Showroom doar pe pagina Demo; secțiunile repetate au fost scoase de pe site",
+        "Demo platformă: cererile se deschid, prezentarea generală arată deschiderile widgetului, perioada tradusă în fiecare limbă"
+      ]
+    },
     {
       "version": "1.29.2",
       "date": "2026-10-18",
@@ -874,13 +799,121 @@
   },
   "prodotto": {
     "hero": {
-      "title": "Un widget, nu un proiect software",
-      "subtitle": "onespec s-a nascut din cererea directa a companiilor de productie si vanzare tamplarie: un configurator interactiv care economiseste timp, filtreaza solicitarile serioase si iti protejeaza preturile de concurenta neloiala."
+      "kicker": "O scenă pe care o cunoașteți",
+      "title": "E ora 22. Un client vă întreabă cât costă șase ferestre.",
+      "subtitle": "Sunteți încă pe șantier, lista de prețuri e la birou și mâine aveți trei măsurători. Până reușiți să răspundeți, el a întrebat deja pe altcineva. OneSpec schimbă finalul: prețul i-l dă site-ul dumneavoastră, imediat, din lista dumneavoastră de prețuri.",
+      "ctaPrimary": "Vedeți cum se schimbă finalul",
+      "ctaSecondary": "Încercați configuratorul"
     },
-    "configurator": {
-      "kicker": "Demo interactiv",
-      "title": "Incearca-l asa cum o face clientul tau",
-      "subtitle": "Două demo-uri interactive, identice cu produsul. Încearcă-le alăturat: configuratorul pentru clienții tăi și cel pentru echipa ta. Pe site-ul tău folosești lista ta de prețuri și marca ta."
+    "problem": {
+      "title": "Problema nu este clientul. Este tot ce se întâmplă înainte de ofertă.",
+      "items": [
+        {
+          "title": "Ofertele se fac seara",
+          "body": "Dimensiuni, materiale, sticlă, TVA: fiecare cerere este un calcul refăcut de mână după program. Și cu cât clientul așteaptă mai mult, cu atât se răcește."
+        },
+        {
+          "title": "Multe telefoane, puțini clienți",
+          "body": "Curioși fără buget, măsurători pentru dimensiuni pe care clientul nu le-a decis încă. Ore din timpul dumneavoastră pe care nu le plătește nimeni."
+        },
+        {
+          "title": "Prețul dumneavoastră ajunge pe mâini greșite",
+          "body": "Cine cere o ofertă doar ca s-o dea concurenței vă ia munca gratis, iar dumneavoastră nu aflați."
+        }
+      ]
+    },
+    "inAction": {
+      "kicker": "Punctul de cotitură",
+      "title": "OneSpec în acțiune",
+      "subtitle": "Configuratorul trăiește pe site-ul dumneavoastră. Clientul alege, vede desenul și prețul și vă trimite o cerere completă: primiți un contact care știe deja ce vrea și cât costă.",
+      "sample": "Ecrane reale · date de exemplu",
+      "steps": [
+        {
+          "label": "Pe site-ul dumneavoastră",
+          "title": "Clientul alege produsul și dimensiunile",
+          "body": "Fereastră sau ușă de balcon, lățime, înălțime, cantitate și număr de canate. Configuratorul semnalează dimensiunile în afara limitelor și arată când e nevoie de încă un canat.",
+          "alt": "Primul pas al configuratorului: tip de produs, lățime, înălțime, cantitate și număr de canate"
+        },
+        {
+          "label": "Pe site-ul dumneavoastră",
+          "title": "Vede desenul tehnic al ferestrei sale",
+          "body": "Desenul se actualizează la fiecare alegere: deschiderea fiecărui canat, cote, vedere din interior sau din exterior. Atingeți un canat ca să-l schimbați, o cotă ca s-o modificați.",
+          "alt": "Desen tehnic al unei ferestre cu două canate, cu cote în milimetri"
+        },
+        {
+          "label": "Pe site-ul dumneavoastră",
+          "title": "Vede prețul, cu TVA inclus",
+          "body": "Calculat din lista dumneavoastră de prețuri: suprafață, toc, opțiuni și cotă de TVA. O estimare clară, prezentată ca atare, nu o cifră aruncată.",
+          "alt": "Rezumatul ofertei cu valoare fără TVA, TVA și total estimat"
+        },
+        {
+          "label": "În platforma dumneavoastră",
+          "title": "Cererea ajunge la dumneavoastră, completă",
+          "body": "Contact, dimensiuni, material, sticlă, finisaj și total pe o singură fișă. Răspundeți pe WhatsApp cu un clic, sunați, tipăriți PDF-ul sau transformați cererea în ofertă.",
+          "alt": "O cerere primită în platforma OneSpec, cu date de contact, detalii de preț și produse"
+        }
+      ],
+      "tryLive": "Încercați ca un client al dumneavoastră",
+      "tryDemo": "Explorați platforma în demo",
+      "videoLabel": "Filmul de prezentare OneSpec",
+      "videoCaption": "Filmul de prezentare OneSpec.",
+      "optionsTitle": "Ce poate alege clientul dumneavoastră",
+      "optionsSubtitle": "Opțiunile și prețurile sunt cele din lista dumneavoastră: arătați doar ce vindeți. Clientul alege traseul ghidat, în câțiva pași, sau vede toate opțiunile.",
+      "options": [
+        {
+          "title": "Material și profil",
+          "body": "PVC, lemn sau aluminiu, cu număr de camere și sistem de profil."
+        },
+        {
+          "title": "Dimensiuni și cantitate",
+          "body": "Lățime, înălțime, bucăți și număr de canate, cu limitele tehnice semnalate."
+        },
+        {
+          "title": "Deschiderea fiecărui canat",
+          "body": "Fix, batant, oscilo-batant sau culisant, cu partea de deschidere."
+        },
+        {
+          "title": "Sticlă",
+          "body": "Dublă sau triplă: întâi grosimea, apoi compoziția, cu o recomandare după dimensiuni."
+        },
+        {
+          "title": "Culori și finisaje",
+          "body": "Mostre de culori RAL și decoruri lemn, și bicolor: exteriorul diferit de interior."
+        },
+        {
+          "title": "Feronerie și mâner",
+          "body": "Marca și culoarea feroneriei, înălțimea mânerului."
+        },
+        {
+          "title": "Plase de insecte",
+          "body": "Cu balamale, cu arc, plisate și celelalte tipuri din lista dumneavoastră."
+        },
+        {
+          "title": "Montaj",
+          "body": "Cu sau fără montaj, la prețul stabilit de dumneavoastră."
+        },
+        {
+          "title": "TVA și stimulente",
+          "body": "Cota corectă de TVA și, în Italia, Ecobonusul în calcul."
+        },
+        {
+          "title": "Desen tehnic interactiv",
+          "body": "Vedere din interior și din exterior, cotă pentru fiecare canat, modificări cu o atingere."
+        },
+        {
+          "title": "Mai multe produse într-o cerere",
+          "body": "Ferestre și uși de balcon în aceeași cerere."
+        },
+        {
+          "title": "Trimisă cu un clic",
+          "body": "Clientul lasă numele și datele de contact, iar cererea ajunge în platforma dumneavoastră."
+        }
+      ]
+    },
+    "setup": {
+      "kicker": "Cum ajunge online",
+      "title": "De la lista de prețuri la site-ul dumneavoastră în patru pași",
+      "subtitle": "Fără dezvoltare: pregătiți configuratorul în platformă și îl lipiți în site-ul dumneavoastră."
     },
     "blocks": [
       {
@@ -909,13 +942,30 @@
       }
     ],
     "dashboard": {
-      "title": "Dashboard-ul din care controlezi totul",
-      "subtitle": "Solicitari primite, produse cele mai configurate, valoarea medie a ofertei. De aici actualizezi listele de preturi si regulile, iar modificarile sunt live oriunde e instalat widget-ul."
-    },
-    "midCta": {
-      "title": "Mai putin timp cu curiosii, mai mult timp cu clientii pregatiti",
-      "subtitle": "Configuratorul colecteaza dimensiuni, materiale si buget inainte sa raspunzi la telefon. Cine iti scrie dupa ce a configurat s-a decis deja sa cumpere.",
-      "button": "Vezi planurile"
+      "kicker": "După cerere",
+      "title": "Panoul din care controlați totul",
+      "subtitle": "Deschideți platforma și vedeți dintr-o privire câte persoane au deschis configuratorul, câte v-au scris și cât valorează lucrările. Este ecranul real, cu datele de exemplu din demo.",
+      "windowLabel": "Platforma OneSpec · Prezentare generală",
+      "alt": "Prezentarea generală a platformei OneSpec cu deschideri ale widgetului, cereri, conversie, valoare câștigată, utilizarea planului și logistică",
+      "callouts": [
+        {
+          "title": "Cine vine și cine scrie",
+          "body": "Deschideri ale configuratorului, cereri primite și procentul de vizitatori care devin cereri."
+        },
+        {
+          "title": "Cât valorează lucrările",
+          "body": "Valoarea ofertelor câștigate și valoarea medie, în perioada aleasă."
+        },
+        {
+          "title": "Planul sub control",
+          "body": "Ofertele lunii, configuratoarele active și membrii echipei față de limitele planului."
+        },
+        {
+          "title": "Materiale și livrări",
+          "body": "Livrările săptămânii, materialul primit și cel din stoc."
+        }
+      ],
+      "cta": "Explorați panoul în demo"
     },
     "support": {
       "title": "Asistenta inclusa in fiecare plan",
@@ -943,6 +993,12 @@
           "color": "#1d1d1f"
         }
       ]
+    },
+    "finalCta": {
+      "title": "Finalul îl scrieți dumneavoastră",
+      "subtitle": "Data viitoare când un client vă cere un preț la ora 22, îi răspunde site-ul dumneavoastră. A doua zi dimineață găsiți o cerere completă și sunați pe cineva care a văzut deja prețul.",
+      "button": "Vedeți planurile",
+      "demo": "Încercați demo"
     }
   },
   "legal": {
@@ -974,160 +1030,7 @@
     "widgetCaption": "ce vede clientul final pe site-ul tău: alege, configurează și îți trimite cererea.",
     "showroomLabel": "Configurator Showroom",
     "showroomCaption": "instrumentul echipei tale: ofertă instantanee cu TVA, facilități și plata în rate.",
-    "videoTitle": "OneSpec în acțiune",
-    "videoSubtitle": "Un minut ca să vezi cum OneSpec transformă site-ul și showroom-ul tău într-o mașină de oferte.",
-    "note": "Ambele demo-uri sunt interactive, dar nu trimit nimic: creează-ți contul pentru a primi cereri reale.",
     "noteSingle": "Demo-ul este interactiv, dar nu trimite nimic: creează-ți contul pentru a primi cereri reale."
-  },
-  "platformShowcase": {
-    "ariaLabel": "Previzualizare a paginii Cereri din platforma onespec",
-    "tenant": "Serramenti Demo",
-    "group": "Vânzări",
-    "nav": [
-      "Prezentare generală",
-      "Configuratoare",
-      "Cereri",
-      "Statistici",
-      "Oferte (B2B)",
-      "Clienți"
-    ],
-    "title": "Cereri",
-    "subtitle": "Oferte primite prin widget-uri",
-    "export": "Exportă CSV",
-    "search": "Caută după nume, email sau companie...",
-    "tabs": [
-      "Toate",
-      "Noi",
-      "Contactate",
-      "Ofertă trimisă"
-    ],
-    "statuses": {
-      "new": "Noi",
-      "contacted": "Contactate",
-      "quoted": "Ofertă trimisă",
-      "won": "Câștigate"
-    },
-    "sla": "răspunde în mai puțin de 5 minute",
-    "total": "Total orientativ",
-    "call": "Sună",
-    "requests": [
-      {
-        "name": "Marco Rossi",
-        "company": "Rossi Construcții",
-        "product": "Fereastră PVC · 2 canate",
-        "size": "1400×1500",
-        "sashes": 2,
-        "door": false,
-        "value": "2.480 €",
-        "status": "new",
-        "time": "acum 4 min",
-        "specs": [
-          [
-            "Material",
-            "PVC, 5 camere"
-          ],
-          [
-            "Geam",
-            "Dublu · Ug 1,1"
-          ],
-          [
-            "Culoare",
-            "Alb"
-          ],
-          [
-            "Feronerie",
-            "Oscilo-batant"
-          ]
-        ]
-      },
-      {
-        "name": "Laura Conti",
-        "company": "Birou Arhitecți Conti",
-        "product": "Ușă balcon lemn · 1 canat",
-        "size": "900×2200",
-        "sashes": 1,
-        "door": true,
-        "value": "4.150 €",
-        "status": "new",
-        "time": "acum 18 min",
-        "specs": [
-          [
-            "Material",
-            "Lemn, stejar"
-          ],
-          [
-            "Geam",
-            "Triplu · Ug 0,6"
-          ],
-          [
-            "Culoare",
-            "Nuc"
-          ],
-          [
-            "Feronerie",
-            "Batant"
-          ]
-        ]
-      },
-      {
-        "name": "Giorgio Ferri",
-        "company": "Ferri Imobiliare",
-        "product": "Fereastră aluminiu · 3 canate",
-        "size": "2100×1400",
-        "sashes": 3,
-        "door": false,
-        "value": "5.620 €",
-        "status": "contacted",
-        "time": "acum 2 h",
-        "specs": [
-          [
-            "Material",
-            "Aluminiu cu RPT"
-          ],
-          [
-            "Geam",
-            "Triplu · Ug 0,7"
-          ],
-          [
-            "Culoare",
-            "RAL 7016"
-          ],
-          [
-            "Feronerie",
-            "Oscilo-batant"
-          ]
-        ]
-      },
-      {
-        "name": "Anna Greco",
-        "company": "Persoană fizică",
-        "product": "Fereastră PVC · 1 canat",
-        "size": "900×1200",
-        "sashes": 1,
-        "door": false,
-        "value": "1.120 €",
-        "status": "quoted",
-        "time": "ieri",
-        "specs": [
-          [
-            "Material",
-            "PVC, 7 camere"
-          ],
-          [
-            "Geam",
-            "Dublu · Ug 1,0"
-          ],
-          [
-            "Culoare",
-            "Alb"
-          ],
-          [
-            "Feronerie",
-            "Oscilo-batant"
-          ]
-        ]
-      }
-    ]
   },
   "notFound": {
     "title": "Pagina nu a fost găsită",

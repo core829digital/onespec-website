@@ -13,7 +13,6 @@ import { Link } from "@/i18n/navigation";
 import { Reveal, RevealGroup, RevealItem } from "@/components/reveal";
 import { Hero } from "@/components/ui/hero";
 import { DemoConfigurators } from "@/components/showcase/demo-configurators";
-import { PresentationVideo } from "@/components/showcase/presentation-video";
 import { IframeExplainer } from "@/components/showcase/iframe-explainer";
 import { RequestsMockup } from "@/components/showcase/requests-mockup";
 import { platformRegister } from "@/lib/site-config";
@@ -29,7 +28,6 @@ const ICONS = {
 };
 
 type FeatureItem = { icon: keyof typeof ICONS; title: string; description: string };
-type StepItem = { n: string; title: string; description: string };
 
 export async function generateMetadata({
   params,
@@ -57,7 +55,6 @@ function HomeContent() {
   const locale = useLocale();
 
   const features = t.raw("features.items") as FeatureItem[];
-  const steps = t.raw("steps.items") as StepItem[];
 
   return (
     <>
@@ -86,10 +83,6 @@ function HomeContent() {
               {td("noteSingle")}
             </p>
           </Reveal>
-
-          <Reveal delay={0.1}>
-            <PresentationVideo />
-          </Reveal>
         </div>
       </section>
 
@@ -103,6 +96,13 @@ function HomeContent() {
             <p className="mt-5 text-balance text-lg leading-relaxed text-[var(--color-text-secondary)]">
               {t("valueProp.body")}
             </p>
+            <Link
+              href="/prodotto"
+              className="mt-7 inline-flex min-h-11 items-center gap-2 text-[15px] font-medium text-[var(--color-mint)] underline-offset-4 hover:underline"
+            >
+              {t("valueProp.link")}
+              <ArrowRight size={16} />
+            </Link>
           </Reveal>
         </div>
       </section>
@@ -164,33 +164,6 @@ function HomeContent() {
           <Reveal delay={0.1} className="mt-12">
             <RequestsMockup />
           </Reveal>
-        </div>
-      </section>
-
-      {/* Come funziona */}
-      <section className="py-24">
-        <div className="container-onespec">
-          <Reveal className="mx-auto max-w-2xl text-center">
-            <h2 className="text-balance text-3xl font-semibold tracking-tight text-[var(--color-text)] sm:text-4xl">
-              {t("steps.title")}
-            </h2>
-          </Reveal>
-
-          <RevealGroup className="mt-14 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
-            {steps.map((s) => (
-              <RevealItem key={s.n}>
-                <span className="font-mono text-[13px] font-semibold text-[var(--color-mint-dark)]">
-                  {s.n}
-                </span>
-                <h3 className="mt-3 text-[16px] font-semibold text-[var(--color-text)]">
-                  {s.title}
-                </h3>
-                <p className="mt-2 text-[14px] leading-relaxed text-[var(--color-text-secondary)]">
-                  {s.description}
-                </p>
-              </RevealItem>
-            ))}
-          </RevealGroup>
         </div>
       </section>
 

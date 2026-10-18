@@ -35,5 +35,11 @@ jobs:
       - name: Lint
         run: npm run lint
 
+      - name: Changelog in every language
+        run: npm run check:changelog
+
+      - name: Legal translations follow the Italian text
+        run: npm run check:legal-i18n
+
       - name: Build
         run: npm run build

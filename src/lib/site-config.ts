@@ -96,11 +96,12 @@ export const FOOTER_AZIENDA_HREFS: Record<(typeof FOOTER_AZIENDA_KEYS)[number], 
   contatti: `mailto:${SITE.email}`,
 };
 
-export const FOOTER_LEGALE_KEYS = ["privacy", "termini", "cookie", "documenti"] as const;
+export const FOOTER_LEGALE_KEYS = ["privacy", "termini", "cookie", "noteLegali", "documenti"] as const;
 export const FOOTER_LEGALE_HREFS: Record<(typeof FOOTER_LEGALE_KEYS)[number], string> = {
   privacy: "/legale/privacy",
   termini: "/legale/termini-di-servizio",
   cookie: "/legale/cookie",
+  noteLegali: "/note-legali",
   documenti: "/legale",
 };
 

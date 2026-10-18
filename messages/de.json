@@ -51,7 +51,8 @@
     "office": "Verwaltung",
     "sales": "Vertrieb",
     "social": "Folge uns",
-    "whatsapp": "WhatsApp"
+    "whatsapp": "WhatsApp",
+    "noteLegali": "Impressum"
   },
   "languageSwitcher": {
     "label": "Sprache"
@@ -281,7 +282,9 @@
         "„OneSpec in Aktion“ mit echten Bildschirmen Schritt für Schritt und der Liste dessen, was der Kunde wählen kann",
         "„Das Dashboard, mit dem Sie alles steuern“ mit dem echten Bildschirm der Plattform, in jeder Sprache",
         "Showroom-Konfigurator nur noch auf der Demo-Seite; wiederholte Abschnitte von der Website entfernt",
-        "Plattform-Demo: Anfragen lassen sich öffnen, die Übersicht zeigt Widget-Aufrufe, Zeitraum in jeder Sprache übersetzt"
+        "Plattform-Demo: Anfragen lassen sich öffnen, die Übersicht zeigt Widget-Aufrufe, Zeitraum in jeder Sprache übersetzt",
+        "Neue Seite „Impressum“ mit den Angaben der CORE829 SRL und dem Geschäftsführer, verlinkt in der Fußzeile",
+        "Rechtliche Dokumente auf Englisch, Französisch, Deutsch, Niederländisch und Rumänisch (verbindlich ist der italienische Text); Datenschutzerklärung um Land und Geburtsdatum ergänzt"
       ]
     },
     {
@@ -1002,11 +1005,15 @@
     }
   },
   "legal": {
-    "notice": "Maßgeblich sind die rechtlichen Dokumente in italienischer Sprache, identisch mit denen der Plattform. Eine juristische Übersetzung in Ihre Sprache ist in Vorbereitung.",
+    "notice": "Dieses Dokument wird auf Italienisch angezeigt, der verbindlichen Fassung: Die Übersetzung wird gerade aktualisiert.",
     "indexTitle": "Rechtliche Dokumente",
     "indexIntro": "Datenschutz, Nutzungs- und Servicebedingungen, Cookies, Betroffenenrechte, Sicherheit und Qualität: dieselben Dokumente wie in der Plattform.",
     "dpaTitle": "Auftragsverarbeitungsvertrag (DPA)",
-    "dpaBody": "Vereinbarung zur Verarbeitung personenbezogener Daten nach Art. 28 DSGVO: wird in der Plattform akzeptiert."
+    "dpaBody": "Vereinbarung zur Verarbeitung personenbezogener Daten nach Art. 28 DSGVO: wird in der Plattform akzeptiert.",
+    "noticeTranslated": "Unverbindliche Übersetzung: Verbindlich ist allein der italienische Text, identisch mit dem der Plattform.",
+    "italianLink": "Italienisches Original lesen",
+    "updated": "Zuletzt aktualisiert: {date}",
+    "pending": "zu ergänzen"
   },
   "colorPicker": {
     "activeColor": "Aktive Farbe:",
@@ -1316,5 +1323,29 @@
     "reject": "Ablehnen",
     "accept": "Akzeptieren",
     "preferences": "Cookie-Einstellungen"
+  },
+  "imprint": {
+    "title": "Impressum",
+    "metaDescription": "Wer onespec.eu betreibt: Unternehmensdaten der CORE829 SRL, Geschäftsführer und Kontakt.",
+    "intro": "OneSpec ist ein digitales Produkt der CORE829 SRL. Hier steht, wer diese Website betreibt und wie Sie uns erreichen.",
+    "rows": {
+      "operator": "Betreiber der Website",
+      "address": "Sitz",
+      "vat": "Steuernummer (CUI)",
+      "register": "Handelsregister",
+      "admin": "Geschäftsführer",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "website": "Website"
+    },
+    "contentTitle": "Verantwortlich für den Inhalt",
+    "contentBody": "{name}, Geschäftsführer der CORE829 SRL, Anschrift wie oben angegeben.",
+    "hostingTitle": "Hosting",
+    "hostingBody": "Die Website wird von Vercel, Inc. (USA) gehostet. Wie wir personenbezogene Daten verarbeiten, erklärt die Datenschutzerklärung.",
+    "rightsTitle": "Urheberrecht",
+    "rightsBody": "Texte, Bilder, Bildschirmfotos und die Marke OneSpec gehören der CORE829 SRL. Eine Vervielfältigung ohne schriftliche Genehmigung ist nicht gestattet.",
+    "moreBefore": "Datenschutzerklärung, Nutzungsbedingungen und Cookie-Richtlinie finden Sie auf der Seite",
+    "moreLink": "Rechtliche Dokumente",
+    "moreAfter": "."
   }
 }

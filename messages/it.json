@@ -51,7 +51,8 @@
     "office": "Amministrazione",
     "sales": "Commerciale",
     "social": "Seguici",
-    "whatsapp": "WhatsApp"
+    "whatsapp": "WhatsApp",
+    "noteLegali": "Note legali"
   },
   "languageSwitcher": {
     "label": "Lingua"
@@ -281,7 +282,9 @@
         "«Guarda OneSpec in azione» con schermate reali passo per passo e l'elenco di ciò che il cliente può scegliere",
         "«La dashboard da cui controlli tutto» con la schermata vera della piattaforma, in ogni lingua",
         "Configuratore Showroom solo nella pagina Demo; tolte dal sito le sezioni ripetute",
-        "Demo della piattaforma: le richieste si aprono, la panoramica mostra le aperture del widget, periodo tradotto in ogni lingua"
+        "Demo della piattaforma: le richieste si aprono, la panoramica mostra le aperture del widget, periodo tradotto in ogni lingua",
+        "Nuova pagina «Note legali» con i dati di CORE829 SRL e l'amministratore, link nel footer",
+        "Documenti legali tradotti in inglese, francese, tedesco, olandese e rumeno (fa fede l'italiano); informativa privacy aggiornata con paese e data di nascita"
       ]
     },
     {
@@ -1006,7 +1009,11 @@
     "indexTitle": "Documenti legali",
     "indexIntro": "Privacy, termini di servizio e di utilizzo, cookie, diritti degli interessati, sicurezza e qualità: gli stessi documenti che trovi dentro la piattaforma.",
     "dpaTitle": "Addendum sul trattamento dei dati (DPA)",
-    "dpaBody": "Accordo per il trattamento dei dati personali ai sensi dell'art. 28 GDPR: si accetta dalla piattaforma."
+    "dpaBody": "Accordo per il trattamento dei dati personali ai sensi dell'art. 28 GDPR: si accetta dalla piattaforma.",
+    "noticeTranslated": "Traduzione di cortesia: fa fede soltanto il testo italiano.",
+    "italianLink": "Leggi l'originale in italiano",
+    "updated": "Ultimo aggiornamento: {date}",
+    "pending": "da completare"
   },
   "colorPicker": {
     "activeColor": "Colore attivo:",
@@ -1316,5 +1323,29 @@
     "reject": "Rifiuta",
     "accept": "Accetta",
     "preferences": "Preferenze cookie"
+  },
+  "imprint": {
+    "title": "Note legali",
+    "metaDescription": "Chi gestisce onespec.eu: dati societari di CORE829 SRL, amministratore e contatti.",
+    "intro": "OneSpec è un prodotto digitale di CORE829 SRL. Qui trovi chi gestisce questo sito e come contattarci.",
+    "rows": {
+      "operator": "Gestore del sito",
+      "address": "Sede legale",
+      "vat": "CUI / Codice fiscale",
+      "register": "Registro del commercio",
+      "admin": "Amministratore",
+      "email": "Email",
+      "phone": "Telefono",
+      "website": "Sito web"
+    },
+    "contentTitle": "Responsabile dei contenuti",
+    "contentBody": "{name}, amministratore di CORE829 SRL, all'indirizzo della sede legale indicato sopra.",
+    "hostingTitle": "Hosting",
+    "hostingBody": "Il sito è ospitato da Vercel, Inc. (Stati Uniti). Come trattiamo i dati personali è spiegato nell'informativa privacy.",
+    "rightsTitle": "Diritti d'autore",
+    "rightsBody": "Testi, immagini, schermate e marchio OneSpec appartengono a CORE829 SRL. Non possono essere riprodotti senza autorizzazione scritta.",
+    "moreBefore": "Informativa privacy, termini di servizio e cookie policy sono nella pagina",
+    "moreLink": "Documenti legali",
+    "moreAfter": "."
   }
 }

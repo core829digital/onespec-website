@@ -51,7 +51,8 @@
     "office": "Administratie",
     "sales": "Verkoop",
     "social": "Volg ons",
-    "whatsapp": "WhatsApp"
+    "whatsapp": "WhatsApp",
+    "noteLegali": "Colofon"
   },
   "languageSwitcher": {
     "label": "Taal"
@@ -281,7 +282,9 @@
         "‘Bekijk OneSpec in actie’ met echte schermen stap voor stap en de lijst van wat de klant kan kiezen",
         "‘Het dashboard waarmee u alles beheert’ met het echte scherm van het platform, in elke taal",
         "Showroom-configurator alleen op de demopagina; herhaalde secties van de site verwijderd",
-        "Platformdemo: aanvragen openen, het overzicht toont widgetweergaven, periode vertaald in elke taal"
+        "Platformdemo: aanvragen openen, het overzicht toont widgetweergaven, periode vertaald in elke taal",
+        "Nieuwe pagina ‘Colofon’ met de gegevens van CORE829 SRL en de bestuurder, link in de footer",
+        "Juridische documenten vertaald in het Engels, Frans, Duits, Nederlands en Roemeens (de Italiaanse tekst is bindend); privacyverklaring aangevuld met land en geboortedatum"
       ]
     },
     {
@@ -1002,11 +1005,15 @@
     }
   },
   "legal": {
-    "notice": "De bindende tekst van de juridische documenten is de Italiaanse, identiek aan die van het platform. Een juridische vertaling in jouw taal is in voorbereiding.",
+    "notice": "Dit document wordt in het Italiaans getoond, de bindende versie: de vertaling wordt bijgewerkt.",
     "indexTitle": "Juridische documenten",
     "indexIntro": "Privacy, servicevoorwaarden en gebruiksvoorwaarden, cookies, rechten van betrokkenen, beveiliging en kwaliteit: dezelfde documenten als in het platform.",
     "dpaTitle": "Verwerkersovereenkomst (DPA)",
-    "dpaBody": "Overeenkomst over de verwerking van persoonsgegevens op grond van art. 28 AVG: wordt in het platform aanvaard."
+    "dpaBody": "Overeenkomst over de verwerking van persoonsgegevens op grond van art. 28 AVG: wordt in het platform aanvaard.",
+    "noticeTranslated": "Vertaling ter informatie: alleen de Italiaanse tekst, gelijk aan die van het platform, is bindend.",
+    "italianLink": "Lees het Italiaanse origineel",
+    "updated": "Laatst bijgewerkt: {date}",
+    "pending": "aan te vullen"
   },
   "colorPicker": {
     "activeColor": "Actieve kleur:",
@@ -1316,5 +1323,29 @@
     "reject": "Weigeren",
     "accept": "Accepteren",
     "preferences": "Cookievoorkeuren"
+  },
+  "imprint": {
+    "title": "Colofon",
+    "metaDescription": "Wie onespec.eu beheert: bedrijfsgegevens van CORE829 SRL, bestuurder en contact.",
+    "intro": "OneSpec is een digitaal product van CORE829 SRL. Hier leest u wie deze website beheert en hoe u ons bereikt.",
+    "rows": {
+      "operator": "Beheerder van de website",
+      "address": "Maatschappelijke zetel",
+      "vat": "Fiscaal nummer (CUI)",
+      "register": "Handelsregister",
+      "admin": "Bestuurder",
+      "email": "E-mail",
+      "phone": "Telefoon",
+      "website": "Website"
+    },
+    "contentTitle": "Verantwoordelijk voor de inhoud",
+    "contentBody": "{name}, bestuurder van CORE829 SRL, op het adres van de zetel hierboven.",
+    "hostingTitle": "Hosting",
+    "hostingBody": "De website wordt gehost door Vercel, Inc. (Verenigde Staten). Hoe we persoonsgegevens verwerken, staat in de privacyverklaring.",
+    "rightsTitle": "Auteursrecht",
+    "rightsBody": "Teksten, afbeeldingen, schermafbeeldingen en het merk OneSpec zijn eigendom van CORE829 SRL. Ze mogen niet worden overgenomen zonder schriftelijke toestemming.",
+    "moreBefore": "De privacyverklaring, servicevoorwaarden en het cookiebeleid staan op de pagina",
+    "moreLink": "Juridische documenten",
+    "moreAfter": "."
   }
 }

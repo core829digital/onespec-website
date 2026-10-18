@@ -2,6 +2,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { Reveal } from "@/components/reveal";
 import { LEGAL_DOCS } from "@/content/legal";
+import { localizedLegalDoc } from "@/content/legal-i18n";
 import { platformUrl } from "@/lib/site-config";
 import type { AppLocale } from "@/i18n/routing";
 
@@ -25,11 +26,11 @@ export default async function LegalIndexPage({ params }: { params: Promise<{ loc
           <p className="mt-4 text-[15px] leading-relaxed text-[var(--color-text-secondary)]">{t("indexIntro")}</p>
           {locale !== "it" && (
             <p className="mt-4 rounded-xl border border-[var(--color-border)] bg-[var(--color-bg-alt)] px-4 py-3 text-[13px] text-[var(--color-text-secondary)]">
-              {t("notice")}
+              {t("noticeTranslated")}
             </p>
           )}
           <ul className="mt-8 divide-y divide-[var(--color-border-subtle)] border-y border-[var(--color-border-subtle)]">
-            {LEGAL_DOCS.map((d) => (
+            {LEGAL_DOCS.map((original) => localizedLegalDoc(original, locale).doc).map((d) => (
               <li key={d.slug}>
                 <Link href={`/legale/${d.slug}`} className="-mx-2 block rounded px-2 py-4 hover:bg-[var(--color-bg-alt)]">
                   <span className="font-medium text-[var(--color-text)]">{d.title}</span>

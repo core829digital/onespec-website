@@ -51,7 +51,8 @@
     "office": "Administrație",
     "sales": "Vânzări",
     "social": "Urmărește-ne",
-    "whatsapp": "WhatsApp"
+    "whatsapp": "WhatsApp",
+    "noteLegali": "Informații legale"
   },
   "languageSwitcher": {
     "label": "Limba"
@@ -281,7 +282,9 @@
         "„OneSpec în acțiune” cu ecrane reale pas cu pas și lista a ce poate alege clientul",
         "„Panoul din care controlați totul” cu ecranul real al platformei, în fiecare limbă",
         "Configuratorul Showroom doar pe pagina Demo; secțiunile repetate au fost scoase de pe site",
-        "Demo platformă: cererile se deschid, prezentarea generală arată deschiderile widgetului, perioada tradusă în fiecare limbă"
+        "Demo platformă: cererile se deschid, prezentarea generală arată deschiderile widgetului, perioada tradusă în fiecare limbă",
+        "Pagină nouă „Informații legale” cu datele CORE829 SRL și administratorul, link în subsol",
+        "Documente legale traduse în engleză, franceză, germană, olandeză și română (face fidă textul italian); politica de confidențialitate actualizată cu țara și data nașterii"
       ]
     },
     {
@@ -1002,11 +1005,15 @@
     }
   },
   "legal": {
-    "notice": "Textul obligatoriu al documentelor legale este cel în limba italiană, identic cu cel al platformei. O traducere juridică în limba ta este în pregătire.",
+    "notice": "Acest document este afișat în italiană, versiunea care face fidă: traducerea lui este în curs de actualizare.",
     "indexTitle": "Documente juridice",
     "indexIntro": "Confidențialitate, termeni de serviciu și de utilizare, cookie-uri, drepturile persoanelor vizate, securitate și calitate: aceleași documente din platformă.",
     "dpaTitle": "Acord de prelucrare a datelor (DPA)",
-    "dpaBody": "Acord privind prelucrarea datelor personale conform art. 28 GDPR: se acceptă din platformă."
+    "dpaBody": "Acord privind prelucrarea datelor personale conform art. 28 GDPR: se acceptă din platformă.",
+    "noticeTranslated": "Traducere de curtoazie: singurul text care face fidă este cel italian, identic cu cel din platformă.",
+    "italianLink": "Citiți originalul în italiană",
+    "updated": "Ultima actualizare: {date}",
+    "pending": "de completat"
   },
   "colorPicker": {
     "activeColor": "Culoare activa:",
@@ -1316,5 +1323,29 @@
     "reject": "Refuz",
     "accept": "Accept",
     "preferences": "Preferințe cookie"
+  },
+  "imprint": {
+    "title": "Informații legale",
+    "metaDescription": "Cine administrează onespec.eu: datele societății CORE829 SRL, administrator și contact.",
+    "intro": "OneSpec este un produs digital al CORE829 SRL. Aici găsiți cine administrează acest site și cum ne puteți contacta.",
+    "rows": {
+      "operator": "Operatorul site-ului",
+      "address": "Sediul social",
+      "vat": "CUI / Cod fiscal",
+      "register": "Registrul comerțului",
+      "admin": "Administrator",
+      "email": "E-mail",
+      "phone": "Telefon",
+      "website": "Site web"
+    },
+    "contentTitle": "Responsabil pentru conținut",
+    "contentBody": "{name}, administrator al CORE829 SRL, la adresa sediului social de mai sus.",
+    "hostingTitle": "Găzduire",
+    "hostingBody": "Site-ul este găzduit de Vercel, Inc. (Statele Unite). Modul în care prelucrăm datele personale este explicat în politica de confidențialitate.",
+    "rightsTitle": "Drepturi de autor",
+    "rightsBody": "Textele, imaginile, capturile de ecran și marca OneSpec aparțin CORE829 SRL. Nu pot fi reproduse fără acord scris.",
+    "moreBefore": "Politica de confidențialitate, termenii serviciului și politica de cookie se află pe pagina",
+    "moreLink": "Documente legale",
+    "moreAfter": "."
   }
 }

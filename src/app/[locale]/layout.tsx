@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { Analytics } from "@vercel/analytics/next";
+import { CookieBanner } from "@/components/cookie-banner";
 import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
 import { Header } from "@/components/header";
@@ -88,9 +88,9 @@ export default async function LocaleLayout({
             <main className="flex-1">{children}</main>
             <Footer />
           </MotionConfig>
+          {/* Cookie/privacy banner; Vercel Web Analytics (page views only, no cookies) runs inside it only after consent. */}
+          <CookieBanner />
         </NextIntlClientProvider>
-        {/* Vercel Web Analytics: page views only, no cookies. */}
-        <Analytics />
       </body>
     </html>
   );

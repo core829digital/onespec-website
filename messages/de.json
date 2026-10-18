@@ -360,6 +360,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.2",
+      "date": "2026-10-18",
+      "title": "Cookie- und Datenschutzbanner auf der Website",
+      "tag": "Neu",
+      "channel": "prodotto",
+      "items": [
+        "Website: Cookie- und Datenschutzbanner beim ersten Besuch, mit gleichwertigem „Akzeptieren“ und „Ablehnen“ sowie „Anpassen“ nach Kategorie",
+        "Cookielose Besuchsstatistiken starten erst nach Einwilligung, auf der Website und in der Plattform; die Wahl ist jederzeit über „Cookie-Einstellungen“ änderbar",
+        "Cookie-Richtlinie aktualisiert: Sprach-Cookie, Besuchsstatistiken und Speicherung der Auswahl"
+      ]
+    },
+    {
       "version": "1.29.1",
       "date": "2026-10-18",
       "title": "Ruhige Demo und eine getreuere Startseite",
@@ -1385,5 +1397,21 @@
         "minutesAgo": 2880
       }
     ]
+  },
+  "cookieBanner": {
+    "title": "Cookies und Datenschutz",
+    "body": "Wir verwenden nur die technische Speicherung, die die Website zum Funktionieren braucht. Mit Ihrer Einwilligung aktivieren wir zusätzlich anonyme, cookielose Besuchsstatistiken (Vercel Web Analytics), um zu erfahren, welche Seiten nützlich sind. Keine Werbung, kein Profiling. Sie können Ihre Wahl jederzeit über den Link „Cookie-Einstellungen“ unten auf der Seite ändern.",
+    "cookiePolicy": "Cookie-Richtlinie",
+    "privacyPolicy": "Datenschutzerklärung",
+    "necessaryTitle": "Notwendig",
+    "necessaryBody": "Gewählte Sprache, Einladungscode und diese Auswahl, nur in Ihrem Browser gespeichert. Ohne sie funktioniert die Website nicht wie vorgesehen.",
+    "alwaysOn": "Immer aktiv",
+    "statisticsTitle": "Besuchsstatistiken",
+    "statisticsBody": "Aggregierte Zählung der besuchten Seiten (Seite, Land, Gerätetyp). Keine Cookies, kein persönliches Profil.",
+    "customise": "Anpassen",
+    "save": "Auswahl speichern",
+    "reject": "Ablehnen",
+    "accept": "Akzeptieren",
+    "preferences": "Cookie-Einstellungen"
   }
 }

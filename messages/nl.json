@@ -360,6 +360,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.2",
+      "date": "2026-10-18",
+      "title": "Cookie- en privacybanner op de site",
+      "tag": "Nieuw",
+      "channel": "prodotto",
+      "items": [
+        "Site: cookie- en privacybanner bij het eerste bezoek, met gelijke „Accepteren” en „Weigeren” en „Aanpassen” per categorie",
+        "Bezoekstatistieken zonder cookies starten pas na toestemming, op de site en in het platform; wijzig je keuze altijd via „Cookievoorkeuren”",
+        "Cookiebeleid bijgewerkt: taalcookie, bezoekstatistieken en opslag van de keuze"
+      ]
+    },
+    {
       "version": "1.29.1",
       "date": "2026-10-18",
       "title": "Rustige demo en een getrouwere homepage",
@@ -1385,5 +1397,21 @@
         "minutesAgo": 2880
       }
     ]
+  },
+  "cookieBanner": {
+    "title": "Cookies en privacy",
+    "body": "We gebruiken alleen de technische opslag die de site nodig heeft om te werken. Met je toestemming zetten we ook anonieme bezoekstatistieken zonder cookies aan (Vercel Web Analytics), om te zien welke pagina's nuttig zijn. Geen advertenties, geen profilering. Je kunt je keuze altijd wijzigen via de link „Cookievoorkeuren” onderaan de pagina.",
+    "cookiePolicy": "Cookiebeleid",
+    "privacyPolicy": "Privacyverklaring",
+    "necessaryTitle": "Noodzakelijk",
+    "necessaryBody": "Gekozen taal, uitnodigingscode en deze keuze, alleen in je browser opgeslagen. Zonder deze werkt de site niet zoals bedoeld.",
+    "alwaysOn": "Altijd aan",
+    "statisticsTitle": "Bezoekstatistieken",
+    "statisticsBody": "Geaggregeerde telling van bezochte pagina's (pagina, land, type apparaat). Geen cookies, geen persoonlijk profiel.",
+    "customise": "Aanpassen",
+    "save": "Keuzes opslaan",
+    "reject": "Weigeren",
+    "accept": "Accepteren",
+    "preferences": "Cookievoorkeuren"
   }
 }

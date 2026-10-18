@@ -360,6 +360,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.2",
+      "date": "2026-10-18",
+      "title": "Cookie and privacy banner on the site",
+      "tag": "New",
+      "channel": "prodotto",
+      "items": [
+        "Site: cookie and privacy banner on the first visit, with equal “Accept” and “Reject” and “Customise” by category",
+        "Cookie-free visit statistics start only after consent, on the site and in the platform; change your choice any time from “Cookie preferences”",
+        "Updated cookie policy: language cookie, visit statistics and how the choice is stored"
+      ]
+    },
+    {
       "version": "1.29.1",
       "date": "2026-10-18",
       "title": "A steady demo and a more faithful home page",
@@ -1385,5 +1397,21 @@
         "minutesAgo": 2880
       }
     ]
+  },
+  "cookieBanner": {
+    "title": "Cookies and privacy",
+    "body": "We only use the technical storage the site needs to work. With your consent we also turn on anonymous, cookie-free visit statistics (Vercel Web Analytics) to learn which pages are useful. No advertising, no profiling. You can change your mind at any time from the “Cookie preferences” link at the bottom of the page.",
+    "cookiePolicy": "Cookie policy",
+    "privacyPolicy": "Privacy policy",
+    "necessaryTitle": "Necessary",
+    "necessaryBody": "Chosen language, invite code and this choice, stored only in your browser. Without them the site does not work as intended.",
+    "alwaysOn": "Always on",
+    "statisticsTitle": "Visit statistics",
+    "statisticsBody": "Aggregated count of the pages visited (page, country, device type). No cookies, no personal profile.",
+    "customise": "Customise",
+    "save": "Save choices",
+    "reject": "Reject",
+    "accept": "Accept",
+    "preferences": "Cookie preferences"
   }
 }

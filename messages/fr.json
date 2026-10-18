@@ -360,6 +360,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.2",
+      "date": "2026-10-18",
+      "title": "Bannière cookies et confidentialité sur le site",
+      "tag": "Nouveau",
+      "channel": "prodotto",
+      "items": [
+        "Site : bannière cookies et confidentialité à la première visite, avec « Accepter » et « Refuser » identiques et « Personnaliser » par catégorie",
+        "Les statistiques de visite (sans cookies) ne démarrent qu'après accord, sur le site et dans la plateforme ; le choix se modifie à tout moment via « Préférences cookies »",
+        "Politique cookies mise à jour : cookie de langue, statistiques de visite et enregistrement du choix"
+      ]
+    },
+    {
       "version": "1.29.1",
       "date": "2026-10-18",
       "title": "Démo stable et page d'accueil plus fidèle",
@@ -1385,5 +1397,21 @@
         "minutesAgo": 2880
       }
     ]
+  },
+  "cookieBanner": {
+    "title": "Cookies et confidentialité",
+    "body": "Nous utilisons uniquement le stockage technique nécessaire au fonctionnement du site. Avec votre accord, nous activons aussi des statistiques de visite anonymes et sans cookies (Vercel Web Analytics) pour savoir quelles pages sont utiles. Aucune publicité, aucun profilage. Vous pouvez changer d'avis à tout moment via le lien « Préférences cookies » en bas de page.",
+    "cookiePolicy": "Politique cookies",
+    "privacyPolicy": "Politique de confidentialité",
+    "necessaryTitle": "Nécessaires",
+    "necessaryBody": "Langue choisie, code d'invitation et ce choix, enregistrés uniquement dans votre navigateur. Sans eux, le site ne fonctionne pas comme prévu.",
+    "alwaysOn": "Toujours actifs",
+    "statisticsTitle": "Statistiques de visite",
+    "statisticsBody": "Comptage agrégé des pages visitées (page, pays, type d'appareil). Aucun cookie, aucun profil personnel.",
+    "customise": "Personnaliser",
+    "save": "Enregistrer mes choix",
+    "reject": "Refuser",
+    "accept": "Accepter",
+    "preferences": "Préférences cookies"
   }
 }

@@ -360,6 +360,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.2",
+      "date": "2026-10-18",
+      "title": "Banner cookie e privacy sul sito",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Sito: banner cookie e privacy alla prima visita, con «Accetta» e «Rifiuta» uguali e «Personalizza» per categoria",
+        "Le statistiche di visita (senza cookie) partono solo dopo il consenso, sia sul sito sia nella piattaforma; la scelta si cambia quando vuoi da «Preferenze cookie»",
+        "Cookie policy aggiornata: cookie della lingua, statistiche di visita e registrazione della scelta"
+      ]
+    },
+    {
       "version": "1.29.1",
       "date": "2026-10-18",
       "title": "Demo senza sfarfallio e home più fedele",
@@ -1385,5 +1397,21 @@
         "minutesAgo": 2880
       }
     ]
+  },
+  "cookieBanner": {
+    "title": "Cookie e privacy",
+    "body": "Usiamo solo l'archiviazione tecnica necessaria al funzionamento del sito. Con il tuo consenso attiviamo anche statistiche di visita anonime e senza cookie (Vercel Web Analytics), per capire quali pagine sono utili. Nessuna pubblicità, nessuna profilazione. Puoi cambiare idea quando vuoi dal link «Preferenze cookie» in fondo alla pagina.",
+    "cookiePolicy": "Cookie policy",
+    "privacyPolicy": "Informativa privacy",
+    "necessaryTitle": "Necessari",
+    "necessaryBody": "Lingua scelta, codice invito e questa scelta, salvati solo nel tuo browser. Senza di essi il sito non funziona come previsto.",
+    "alwaysOn": "Sempre attivi",
+    "statisticsTitle": "Statistiche di visita",
+    "statisticsBody": "Conteggio aggregato delle pagine visitate (pagina, paese, tipo di dispositivo). Nessun cookie, nessun profilo personale.",
+    "customise": "Personalizza",
+    "save": "Salva le scelte",
+    "reject": "Rifiuta",
+    "accept": "Accetta",
+    "preferences": "Preferenze cookie"
   }
 }

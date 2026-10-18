@@ -4,6 +4,7 @@ import { Link } from "@/i18n/navigation";
 import { Logo } from "@/components/logo";
 import { BrandCube } from "@/components/showcase/brand-cube";
 import { SocialLinks } from "@/components/social-links";
+import { CookiePreferencesLink } from "@/components/cookie-banner";
 import { COMPANY, FOUNDERS, platformLogin, platformRegister, platformSupport } from "@/lib/site-config";
 import {
   FOOTER_PRODOTTO_KEYS,
@@ -127,8 +128,9 @@ export function Footer() {
             <span className="font-semibold text-[var(--color-text)]">{t("productOf")}</span>{" "}
             {COMPANY.legalName} · {COMPANY.address} · {t("vat")} {COMPANY.vatId} · {t("register")} {COMPANY.tradeRegister}
           </p>
-          <p className="mt-2 text-[12px] text-[var(--color-text-secondary)]">
-            {t("copyright", { year: new Date().getFullYear() })}
+          <p className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-[12px] text-[var(--color-text-secondary)]">
+            <span>{t("copyright", { year: new Date().getFullYear() })}</span>
+            <CookiePreferencesLink className="underline-offset-2 hover:text-[var(--color-text)] hover:underline" />
           </p>
         </div>
       </div>

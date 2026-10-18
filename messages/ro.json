@@ -360,6 +360,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.2",
+      "date": "2026-10-18",
+      "title": "Banner cookie și confidențialitate pe site",
+      "tag": "Nou",
+      "channel": "prodotto",
+      "items": [
+        "Site: banner cookie și confidențialitate la prima vizită, cu „Accept” și „Refuz” egale și „Personalizează” pe categorii",
+        "Statisticile de vizită (fără cookie-uri) pornesc doar după acord, pe site și în platformă; alegerea se schimbă oricând din „Preferințe cookie”",
+        "Politica de cookie-uri actualizată: cookie-ul de limbă, statisticile de vizită și salvarea alegerii"
+      ]
+    },
+    {
       "version": "1.29.1",
       "date": "2026-10-18",
       "title": "Demo stabil și pagină principală mai fidelă",
@@ -1385,5 +1397,21 @@
         "minutesAgo": 2880
       }
     ]
+  },
+  "cookieBanner": {
+    "title": "Cookie-uri și confidențialitate",
+    "body": "Folosim doar stocarea tehnică necesară pentru funcționarea site-ului. Cu acordul tău activăm și statistici de vizită anonime, fără cookie-uri (Vercel Web Analytics), ca să înțelegem ce pagini sunt utile. Fără publicitate, fără profilare. Îți poți schimba alegerea oricând din linkul „Preferințe cookie” din josul paginii.",
+    "cookiePolicy": "Politica de cookie-uri",
+    "privacyPolicy": "Politica de confidențialitate",
+    "necessaryTitle": "Necesare",
+    "necessaryBody": "Limba aleasă, codul de invitație și această alegere, salvate doar în browserul tău. Fără ele site-ul nu funcționează cum trebuie.",
+    "alwaysOn": "Mereu active",
+    "statisticsTitle": "Statistici de vizită",
+    "statisticsBody": "Numărare agregată a paginilor vizitate (pagină, țară, tip de dispozitiv). Fără cookie-uri, fără profil personal.",
+    "customise": "Personalizează",
+    "save": "Salvează alegerile",
+    "reject": "Refuz",
+    "accept": "Accept",
+    "preferences": "Preferințe cookie"
   }
 }

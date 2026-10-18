@@ -17,7 +17,9 @@
     "accedi": "Connexion",
     "inizia": "Commencer",
     "demo": "Démo",
-    "chiSiamo": "Qui sommes-nous"
+    "chiSiamo": "Qui sommes-nous",
+    "social": "Réseaux sociaux",
+    "menu": "Menu principal"
   },
   "footer": {
     "colProdotto": "Produit",
@@ -59,61 +61,22 @@
     "title": "Le configurateur de menuiseries qui qualifie vos clients a votre place",
     "subtitle": "Un widget a coller sur votre site avec un code iFrame. Devis automatiques, tarifs toujours a jour, votre marque.",
     "ctaPrimary": "Commencer",
-    "ctaSecondary": "Voir le configurateur en direct",
+    "ctaSecondary": "Essayer le configurateur",
     "scroll": "Defiler",
-    "social": "Suivez-nous",
-    "trustTitle": "Conçu par des menuisiers poseurs, pour des menuisiers poseurs",
-    "highlightsAria": "Ce que fait OneSpec",
     "reviewsAria": "Avis clients",
     "reviews": [],
-    "highlights": [
-      {
-        "title": "Prix en temps réel",
-        "text": "sur votre site, calculé sur votre tarif"
-      },
-      {
-        "title": "Demandes complètes",
-        "text": "dimensions, choix et coordonnées inclus"
-      },
-      {
-        "title": "Spam filtré",
-        "text": "et demandes triées par valeur"
-      },
-      {
-        "title": "Devis avec dessin technique",
-        "text": "PDF prêt à envoyer"
-      },
-      {
-        "title": "Signé depuis le téléphone",
-        "text": "le client signe le devis en ligne"
-      },
-      {
-        "title": "Votre tarif",
-        "text": "depuis un CSV ou le tarif standard par zone"
-      },
-      {
-        "title": "Bicolore et finitions",
-        "text": "échantillons de couleurs et décors"
-      },
-      {
-        "title": "Clients et chantiers liés",
-        "text": "de la demande à la pose"
-      },
-      {
-        "title": "6 langues",
-        "text": "IT, EN, FR, DE, NL, RO"
-      },
-      {
-        "title": "Démo sans compte",
-        "text": "essayez-la tout de suite, rien n'est envoyé"
-      }
-    ]
+    "facts": [
+      "Conçu par des menuisiers poseurs, pour des menuisiers poseurs",
+      "6 langues : IT, EN, FR, DE, NL, RO",
+      "Démo sans compte"
+    ],
+    "factsAria": "Pourquoi faire confiance à OneSpec"
   },
   "home": {
     "configurator": {
       "kicker": "Demo interactive",
       "title": "Voici le configurateur. Essayez-le maintenant.",
-      "subtitle": "Deux démos interactives, identiques au produit. Essayez-les côte à côte : le configurateur pour vos clients et celui pour votre équipe. Sur votre site, vous utilisez votre tarif et votre marque."
+      "subtitle": "Voici la démo du configurateur que vos clients trouvent sur votre site : ils configurent la fenêtre, voient le prix et vous recevez une demande déjà complète. Sur votre site, il utilise vos tarifs et votre marque."
     },
     "valueProp": {
       "title": "Chaque jour, vous perdez du temps avec des demandes qui n'aboutissent a rien",
@@ -199,11 +162,9 @@
       ]
     },
     "pricing": {
-      "title": "Vous payez en fonction de ce que le configurateur travaille pour vous",
-      "subtitle": "Sept forfaits, du configurateur de devis sur votre site à la plateforme complète. Inscrivez-vous, choisissez un forfait et payez en quelques minutes.",
-      "piuScelto": "Le plus choisi",
-      "compareLink": "Comparer toutes les formules en detail",
-      "perMonth": "/mois + TVA"
+      "title": "Choisissez le plan qui vous convient",
+      "subtitle": "Du devis en ligne sur votre site à la plateforme complète : tous les plans et les prix sont sur la page dédiée.",
+      "cta": "Voir les plans et les prix"
     },
     "cta": {
       "title": "Mettez onespec sur votre site dès aujourd'hui",
@@ -398,6 +359,20 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.28.0",
+      "date": "2026-10-18",
+      "title": "Démo guidée, accueil plus simple et menu compact",
+      "tag": "Nouveau",
+      "channel": "prodotto",
+      "items": [
+        "Le configurateur de démo est guidé en 3 étapes (type et dimensions, ouvertures et vitrage, profilé et finitions), avec le dessin et le prix toujours visibles ; le mode complet reste disponible",
+        "Showroom : un devis client détaillé, avec une ligne par pièce, remise, TVA, acompte et solde, mensualité et conditions",
+        "Accueil plus simple : un hero essentiel, les prix sur la page dédiée et le film de présentation uniquement sur le site italien",
+        "Menu supérieur compact et toujours visible, avec les icônes TikTok et Instagram",
+        "Démo : chargement qui pouvait rester bloqué corrigé et démarrage beaucoup plus rapide"
+      ]
+    },
     {
       "version": "1.27.0",
       "date": "2026-10-17",
@@ -965,7 +940,8 @@
     "showroomCaption": "l'outil de votre équipe : devis instantané avec TVA, aides et paiement échelonné.",
     "videoTitle": "OneSpec en action",
     "videoSubtitle": "Une minute pour voir comment OneSpec transforme votre site et votre showroom en machine à devis.",
-    "note": "Les deux démos sont interactives mais n'envoient rien : créez votre compte pour recevoir de vraies demandes."
+    "note": "Les deux démos sont interactives mais n'envoient rien : créez votre compte pour recevoir de vraies demandes.",
+    "noteSingle": "La démo est interactive mais n'envoie rien : créez votre compte pour recevoir de vraies demandes."
   },
   "platformShowcase": {
     "ariaLabel": "Aperçu de la page Demandes de la plateforme onespec",
@@ -1187,7 +1163,10 @@
     "loading": "Chargement de la démo…",
     "note": "La démo tourne dans votre navigateur : les données sont réinitialisées à la fermeture de l'onglet, et paiements, vérifications externes et envois réels sont désactivés.",
     "ctaTitle": "Vous aimez ? Créez votre compte.",
-    "cta": "Commencer"
+    "cta": "Commencer",
+    "showroomKicker": "Showroom",
+    "showroomTitle": "Le devis pour qui entre dans votre showroom",
+    "showroomSubtitle": "Configurez les pièces, appliquez la remise et remettez au client un devis détaillé : une ligne par pièce, TVA, acompte et solde, mensualité et conditions. Données d'exemple, rien n'est envoyé."
   },
   "aboutPage": {
     "metaTitle": "Qui sommes-nous",

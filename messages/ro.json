@@ -17,7 +17,9 @@
     "accedi": "Autentificare",
     "inizia": "Începe acum",
     "demo": "Demo",
-    "chiSiamo": "Despre noi"
+    "chiSiamo": "Despre noi",
+    "social": "Rețele sociale",
+    "menu": "Meniu principal"
   },
   "footer": {
     "colProdotto": "Produs",
@@ -59,61 +61,22 @@
     "title": "Configuratorul de tamplarie care iti califica clientii in locul tau",
     "subtitle": "Un widget pe care il incluzi pe site cu un cod iFrame. Oferte automate, lista de preturi mereu actualizata, brandul tau.",
     "ctaPrimary": "Începe acum",
-    "ctaSecondary": "Vezi configuratorul live",
+    "ctaSecondary": "Încearcă configuratorul",
     "scroll": "Deruleaza",
-    "social": "Urmărește-ne",
-    "trustTitle": "Făcut de montatori de tâmplărie, pentru montatori",
-    "highlightsAria": "Ce face OneSpec",
     "reviewsAria": "Recenzii clienți",
     "reviews": [],
-    "highlights": [
-      {
-        "title": "Preț în timp real",
-        "text": "pe site-ul tău, calculat pe lista ta de prețuri"
-      },
-      {
-        "title": "Cereri complete",
-        "text": "dimensiuni, opțiuni și contact incluse"
-      },
-      {
-        "title": "Spam filtrat",
-        "text": "și cereri ordonate după valoare"
-      },
-      {
-        "title": "Ofertă cu desen tehnic",
-        "text": "PDF gata de trimis"
-      },
-      {
-        "title": "Semnătură de pe telefon",
-        "text": "clientul semnează oferta online"
-      },
-      {
-        "title": "Lista ta de prețuri",
-        "text": "din CSV sau lista standard pe zone"
-      },
-      {
-        "title": "Bicolor și finisaje",
-        "text": "mostre de culori și decoruri"
-      },
-      {
-        "title": "Clienți și șantiere legate",
-        "text": "de la cerere la montaj"
-      },
-      {
-        "title": "6 limbi",
-        "text": "IT, EN, FR, DE, NL, RO"
-      },
-      {
-        "title": "Demo fără cont",
-        "text": "încearc-o acum, nu se trimite nimic"
-      }
-    ]
+    "facts": [
+      "Făcut de montatori de tâmplărie, pentru montatori",
+      "6 limbi: IT, EN, FR, DE, NL, RO",
+      "Demo fără cont"
+    ],
+    "factsAria": "De ce să ai încredere în OneSpec"
   },
   "home": {
     "configurator": {
       "kicker": "Demo interactiv",
       "title": "Acesta este configuratorul. Incearca-l acum.",
-      "subtitle": "Două demo-uri interactive, identice cu produsul. Încearcă-le alăturat: configuratorul pentru clienții tăi și cel pentru echipa ta. Pe site-ul tău folosești lista ta de prețuri și marca ta."
+      "subtitle": "Aceasta este demo-ul configuratorului pe care clienții tăi îl găsesc pe site-ul tău: configurează fereastra, văd prețul și primești o cerere deja completă. Pe site-ul tău folosește lista ta de prețuri și brandul tău."
     },
     "valueProp": {
       "title": "In fiecare zi pierzi timp cu solicitari care nu duc nicaieri",
@@ -199,11 +162,9 @@
       ]
     },
     "pricing": {
-      "title": "Platesti in functie de cat munceste configuratorul pentru tine",
-      "subtitle": "Șapte planuri, de la calculatorul de oferte de pe site-ul tău până la platforma completă. Înregistrează-te, alege planul și plătești în câteva minute.",
-      "piuScelto": "Cel mai ales",
-      "compareLink": "Compara toate planurile in detaliu",
-      "perMonth": "/lună + TVA"
+      "title": "Alege planul potrivit pentru tine",
+      "subtitle": "De la instrumentul de ofertare de pe site-ul tău până la platforma completă: toate planurile și prețurile sunt pe pagina dedicată.",
+      "cta": "Vezi planurile și prețurile"
     },
     "cta": {
       "title": "Adu onespec pe site-ul tău chiar azi",
@@ -398,6 +359,20 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.28.0",
+      "date": "2026-10-18",
+      "title": "Demo ghidat, pagină principală mai simplă și meniu compact",
+      "tag": "Nou",
+      "channel": "prodotto",
+      "items": [
+        "Configuratorul demo este acum ghidat în 3 pași (tip și dimensiuni, deschideri și geam, profil și finisaje), cu desenul și prețul mereu la vedere; modul complet rămâne disponibil",
+        "Showroom: o ofertă detaliată pentru client, cu o linie pe piesă, reducere, TVA, avans și rest, rată și condiții",
+        "Pagină principală mai simplă: un hero esențial, prețurile pe pagina dedicată și filmul de prezentare doar pe site-ul în italiană",
+        "Meniu de sus compact și mereu vizibil, cu iconițele TikTok și Instagram",
+        "Demo: încărcarea care putea rămâne blocată a fost reparată, iar pornirea este mult mai rapidă"
+      ]
+    },
     {
       "version": "1.27.0",
       "date": "2026-10-17",
@@ -965,7 +940,8 @@
     "showroomCaption": "instrumentul echipei tale: ofertă instantanee cu TVA, facilități și plata în rate.",
     "videoTitle": "OneSpec în acțiune",
     "videoSubtitle": "Un minut ca să vezi cum OneSpec transformă site-ul și showroom-ul tău într-o mașină de oferte.",
-    "note": "Ambele demo-uri sunt interactive, dar nu trimit nimic: creează-ți contul pentru a primi cereri reale."
+    "note": "Ambele demo-uri sunt interactive, dar nu trimit nimic: creează-ți contul pentru a primi cereri reale.",
+    "noteSingle": "Demo-ul este interactiv, dar nu trimite nimic: creează-ți contul pentru a primi cereri reale."
   },
   "platformShowcase": {
     "ariaLabel": "Previzualizare a paginii Cereri din platforma onespec",
@@ -1187,7 +1163,10 @@
     "loading": "Se încarcă demo-ul…",
     "note": "Demo-ul rulează în browserul tău: datele se resetează la închiderea filei, iar plățile, verificările externe și trimiterile reale sunt dezactivate.",
     "ctaTitle": "Îți place? Creează-ți contul.",
-    "cta": "Începe acum"
+    "cta": "Începe acum",
+    "showroomKicker": "Showroom",
+    "showroomTitle": "Oferta pentru cine intră în showroom-ul tău",
+    "showroomSubtitle": "Configurează piesele, aplică reducerea și oferă clientului o ofertă detaliată: o linie pe piesă, TVA, avans și rest, rată și condiții. Date de exemplu, nu se trimite nimic."
   },
   "aboutPage": {
     "metaTitle": "Despre noi",

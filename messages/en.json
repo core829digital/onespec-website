@@ -17,7 +17,9 @@
     "accedi": "Log in",
     "inizia": "Get started",
     "demo": "Demo",
-    "chiSiamo": "About us"
+    "chiSiamo": "About us",
+    "social": "Social media",
+    "menu": "Main menu"
   },
   "footer": {
     "colProdotto": "Product",
@@ -59,61 +61,22 @@
     "title": "The window & door configurator that qualifies your leads for you",
     "subtitle": "A widget you embed on your site with an iFrame code. Automatic quotes, an always-current price list, your brand.",
     "ctaPrimary": "Get started",
-    "ctaSecondary": "See the live configurator",
+    "ctaSecondary": "Try the configurator",
     "scroll": "Scroll",
-    "social": "Follow us",
-    "trustTitle": "Built by window installers, for window installers",
-    "highlightsAria": "What OneSpec does",
     "reviewsAria": "Customer reviews",
     "reviews": [],
-    "highlights": [
-      {
-        "title": "Real-time price",
-        "text": "on your site, calculated on your price list"
-      },
-      {
-        "title": "Complete requests",
-        "text": "sizes, choices and contacts included"
-      },
-      {
-        "title": "Spam filtered",
-        "text": "and requests sorted by value"
-      },
-      {
-        "title": "Quote with technical drawing",
-        "text": "PDF ready to send"
-      },
-      {
-        "title": "Signed from the phone",
-        "text": "the customer signs the quote online"
-      },
-      {
-        "title": "Your price list",
-        "text": "from CSV or the standard list by area"
-      },
-      {
-        "title": "Two-colour and finishes",
-        "text": "colour and woodgrain swatches"
-      },
-      {
-        "title": "Customers and job sites linked",
-        "text": "from request to installation"
-      },
-      {
-        "title": "6 languages",
-        "text": "IT, EN, FR, DE, NL, RO"
-      },
-      {
-        "title": "Demo without an account",
-        "text": "try it now, nothing is sent"
-      }
-    ]
+    "facts": [
+      "Built by window installers, for window installers",
+      "6 languages: IT, EN, FR, DE, NL, RO",
+      "Demo without an account"
+    ],
+    "factsAria": "Why trust OneSpec"
   },
   "home": {
     "configurator": {
       "kicker": "Interactive demo",
       "title": "This is the configurator. Try it now.",
-      "subtitle": "Two interactive demos, identical to the product. Try them side by side: the configurator for your customers and the one for your team. On your site you use your own price list and brand."
+      "subtitle": "This is the demo of the configurator your customers find on your site: they configure the window, see the price and you receive a complete request. On your site it uses your price list and your brand."
     },
     "valueProp": {
       "title": "Every day you lose time on requests that go nowhere",
@@ -199,11 +162,9 @@
       ]
     },
     "pricing": {
-      "title": "You pay based on how hard the configurator works for you",
-      "subtitle": "Seven plans, from the quote tool on your website to the complete platform. Sign up, pick a plan and pay in minutes.",
-      "piuScelto": "Most popular",
-      "compareLink": "Compare all plans in detail",
-      "perMonth": "/month + VAT"
+      "title": "Choose the plan that fits you",
+      "subtitle": "From the quote tool on your site to the complete platform: all plans and prices are on the dedicated page.",
+      "cta": "See plans and prices"
     },
     "cta": {
       "title": "Bring onespec to your website today",
@@ -398,6 +359,20 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.28.0",
+      "date": "2026-10-18",
+      "title": "Guided demo, a simpler home page and a compact menu",
+      "tag": "New",
+      "channel": "prodotto",
+      "items": [
+        "The demo configurator is now guided in 3 steps (type and size, openings and glass, profile and finish), with the drawing and the price always in view; the full mode is still there",
+        "Showroom: a detailed customer quote, with a line per piece, discount, VAT, deposit and balance, instalment and terms",
+        "A simpler home page: an essential hero, prices on the dedicated page, and the presentation film only on the Italian site",
+        "Compact top menu that stays visible, with the TikTok and Instagram icons",
+        "Demo: fixed the loading that could stay stuck, and a much faster start"
+      ]
+    },
     {
       "version": "1.27.0",
       "date": "2026-10-17",
@@ -965,7 +940,8 @@
     "showroomCaption": "your team's tool: instant quote with VAT, incentives and instalments.",
     "videoTitle": "See OneSpec in action",
     "videoSubtitle": "One minute to see how OneSpec turns your website and showroom into a quoting machine.",
-    "note": "Both demos are interactive but send nothing: create your account to receive real requests."
+    "note": "Both demos are interactive but send nothing: create your account to receive real requests.",
+    "noteSingle": "The demo is interactive but sends nothing: create your account to receive real requests."
   },
   "platformShowcase": {
     "ariaLabel": "Preview of the Requests page of the onespec platform",
@@ -1187,7 +1163,10 @@
     "loading": "Loading demo…",
     "note": "The demo runs in your browser: data resets when you close the tab, and payments, external checks and real sending are turned off.",
     "ctaTitle": "Like it? Create your account.",
-    "cta": "Get started"
+    "cta": "Get started",
+    "showroomKicker": "Showroom",
+    "showroomTitle": "The quote for whoever walks into your showroom",
+    "showroomSubtitle": "Configure the pieces, apply the discount and hand the customer a detailed quote: a line per piece, VAT, deposit and balance, instalment and terms. Sample data, nothing is sent."
   },
   "aboutPage": {
     "metaTitle": "About us",

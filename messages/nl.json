@@ -17,7 +17,9 @@
     "accedi": "Inloggen",
     "inizia": "Nu starten",
     "demo": "Demo",
-    "chiSiamo": "Over ons"
+    "chiSiamo": "Over ons",
+    "social": "Sociale media",
+    "menu": "Hoofdmenu"
   },
   "footer": {
     "colProdotto": "Product",
@@ -59,61 +61,22 @@
     "title": "De kozijnconfigurator die uw klanten voor u kwalificeert",
     "subtitle": "Een widget die u met een iFrame-code op uw site plaatst. Automatische offertes, altijd actuele prijslijst, uw merk.",
     "ctaPrimary": "Nu starten",
-    "ctaSecondary": "Bekijk de live configurator",
+    "ctaSecondary": "Probeer de configurator",
     "scroll": "Scroll",
-    "social": "Volg ons",
-    "trustTitle": "Gemaakt door kozijnmonteurs, voor kozijnmonteurs",
-    "highlightsAria": "Wat OneSpec doet",
     "reviewsAria": "Klantbeoordelingen",
     "reviews": [],
-    "highlights": [
-      {
-        "title": "Prijs in realtime",
-        "text": "op je site, berekend op je prijslijst"
-      },
-      {
-        "title": "Complete aanvragen",
-        "text": "maten, keuzes en contactgegevens erbij"
-      },
-      {
-        "title": "Spam gefilterd",
-        "text": "en aanvragen gesorteerd op waarde"
-      },
-      {
-        "title": "Offerte met technische tekening",
-        "text": "pdf klaar om te versturen"
-      },
-      {
-        "title": "Ondertekenen met de telefoon",
-        "text": "de klant tekent de offerte online"
-      },
-      {
-        "title": "Jouw prijslijst",
-        "text": "via csv of de standaardlijst per regio"
-      },
-      {
-        "title": "Tweekleurig en afwerkingen",
-        "text": "kleur- en decorstalen"
-      },
-      {
-        "title": "Klanten en projecten gekoppeld",
-        "text": "van aanvraag tot montage"
-      },
-      {
-        "title": "6 talen",
-        "text": "IT, EN, FR, DE, NL, RO"
-      },
-      {
-        "title": "Demo zonder account",
-        "text": "probeer meteen, er wordt niets verstuurd"
-      }
-    ]
+    "facts": [
+      "Gemaakt door kozijnmonteurs, voor kozijnmonteurs",
+      "6 talen: IT, EN, FR, DE, NL, RO",
+      "Demo zonder account"
+    ],
+    "factsAria": "Waarom OneSpec vertrouwen"
   },
   "home": {
     "configurator": {
       "kicker": "Interactieve demo",
       "title": "Dit is de configurator. Probeer hem nu.",
-      "subtitle": "Twee interactieve demo's, identiek aan het product. Probeer ze naast elkaar: de configurator voor je klanten en die voor je team. Op je site gebruik je je eigen prijslijst en merk."
+      "subtitle": "Dit is de demo van de configurator die uw klanten op uw site vinden: ze configureren het raam, zien de prijs en u ontvangt een complete aanvraag. Op uw site gebruikt hij uw prijslijst en uw merk."
     },
     "valueProp": {
       "title": "Elke dag verliest u tijd aan aanvragen die nergens toe leiden",
@@ -199,11 +162,9 @@
       ]
     },
     "pricing": {
-      "title": "U betaalt naar gelang hoeveel de configurator voor u werkt",
-      "subtitle": "Zeven abonnementen, van de offertetool op je website tot het complete platform. Registreer, kies een abonnement en betaal in een paar minuten.",
-      "piuScelto": "Meest gekozen",
-      "compareLink": "Vergelijk alle plannen in detail",
-      "perMonth": "/maand excl. btw"
+      "title": "Kies het plan dat bij u past",
+      "subtitle": "Van de offertetool op uw site tot het complete platform: alle plannen en prijzen staan op de speciale pagina.",
+      "cta": "Bekijk plannen en prijzen"
     },
     "cta": {
       "title": "Zet onespec vandaag nog op je website",
@@ -398,6 +359,20 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.28.0",
+      "date": "2026-10-18",
+      "title": "Begeleide demo, eenvoudiger startpagina en compact menu",
+      "tag": "Nieuw",
+      "channel": "prodotto",
+      "items": [
+        "De democonfigurator is nu begeleid in 3 stappen (type en maten, openingen en glas, profiel en afwerking), met tekening en prijs altijd in beeld; de volledige modus blijft beschikbaar",
+        "Showroom: een gedetailleerde klantofferte met een regel per stuk, korting, btw, aanbetaling en restant, termijn en voorwaarden",
+        "Eenvoudiger startpagina: een beknopte hero, prijzen op de speciale pagina en de presentatiefilm alleen op de Italiaanse site",
+        "Compact bovenmenu dat zichtbaar blijft, met de iconen van TikTok en Instagram",
+        "Demo: het laden dat kon blijven hangen is opgelost en de start is veel sneller"
+      ]
+    },
     {
       "version": "1.27.0",
       "date": "2026-10-17",
@@ -965,7 +940,8 @@
     "showroomCaption": "het gereedschap van je team: directe offerte met btw, subsidies en termijnbetaling.",
     "videoTitle": "OneSpec in actie",
     "videoSubtitle": "Eén minuut om te zien hoe OneSpec je website en showroom verandert in een offertemachine.",
-    "note": "Beide demo's zijn interactief maar versturen niets: maak je account aan om echte aanvragen te ontvangen."
+    "note": "Beide demo's zijn interactief maar versturen niets: maak je account aan om echte aanvragen te ontvangen.",
+    "noteSingle": "De demo is interactief maar verstuurt niets: maak uw account aan om echte aanvragen te ontvangen."
   },
   "platformShowcase": {
     "ariaLabel": "Voorbeeld van de pagina Aanvragen van het onespec-platform",
@@ -1187,7 +1163,10 @@
     "loading": "Demo laden…",
     "note": "De demo draait in je browser: de data wordt gewist als je het tabblad sluit, en betalingen, externe controles en echt verzenden staan uit.",
     "ctaTitle": "Bevalt het? Maak je account aan.",
-    "cta": "Begin nu"
+    "cta": "Begin nu",
+    "showroomKicker": "Showroom",
+    "showroomTitle": "De offerte voor wie uw showroom binnenstapt",
+    "showroomSubtitle": "Configureer de stukken, geef de korting en overhandig de klant een gedetailleerde offerte: een regel per stuk, btw, aanbetaling en restant, termijn en voorwaarden. Voorbeeldgegevens, er wordt niets verstuurd."
   },
   "aboutPage": {
     "metaTitle": "Over ons",

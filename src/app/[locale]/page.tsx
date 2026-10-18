@@ -16,7 +16,7 @@ import { DemoConfigurators } from "@/components/showcase/demo-configurators";
 import { PresentationVideo } from "@/components/showcase/presentation-video";
 import { IframeExplainer } from "@/components/showcase/iframe-explainer";
 import { DashboardMockup } from "@/components/showcase/dashboard-mockup";
-import { PRICING_TIERS_META, platformRegister, SITE } from "@/lib/site-config";
+import { platformRegister } from "@/lib/site-config";
 import type { AppLocale } from "@/i18n/routing";
 
 const ICONS = {
@@ -30,12 +30,6 @@ const ICONS = {
 
 type FeatureItem = { icon: keyof typeof ICONS; title: string; description: string };
 type StepItem = { n: string; title: string; description: string };
-type PricingCopy = {
-  id: string;
-  name: string;
-  description: string;
-  cta: string;
-};
 
 export async function generateMetadata({
   params,
@@ -60,12 +54,10 @@ export default async function Home({
 function HomeContent() {
   const t = useTranslations("home");
   const td = useTranslations("demoConfigurators");
-  const tRoot = useTranslations();
   const locale = useLocale();
 
   const features = t.raw("features.items") as FeatureItem[];
   const steps = t.raw("steps.items") as StepItem[];
-  const pricingCopy = tRoot.raw("pricingTiers") as PricingCopy[];
 
   return (
     <>
@@ -73,7 +65,7 @@ function HomeContent() {
       <Hero />
 
       {/* Configuratore live */}
-      <section className="bg-[var(--color-bg)] pt-20 pb-24">
+      <section id="configuratore" className="scroll-mt-24 bg-[var(--color-bg)] pt-16 pb-24">
         <div className="container-onespec">
           <Reveal className="mx-auto max-w-2xl text-center">
             <span className="inline-flex items-center gap-1.5 rounded-full bg-[var(--color-mint-light)] px-3 py-1 text-[11px] font-semibold uppercase tracking-wide text-[var(--color-mint-dark)]">
@@ -89,19 +81,13 @@ function HomeContent() {
           </Reveal>
 
           <Reveal delay={0.1} className="mt-12">
-            <DemoConfigurators />
+            <DemoConfigurators kinds={["widget"]} />
             <p className="mx-auto mt-6 max-w-2xl text-center text-[12px] text-[var(--color-text-secondary)]">
-              {td("note")}
+              {td("noteSingle")}
             </p>
           </Reveal>
 
-          <Reveal delay={0.1} className="mx-auto mt-20 max-w-4xl">
-            <h3 className="text-balance text-center text-2xl font-semibold tracking-tight text-[var(--color-text)] sm:text-3xl">
-              {td("videoTitle")}
-            </h3>
-            <p className="mx-auto mb-8 mt-3 max-w-xl text-balance text-center text-[15px] leading-relaxed text-[var(--color-text-secondary)]">
-              {td("videoSubtitle")}
-            </p>
+          <Reveal delay={0.1}>
             <PresentationVideo />
           </Reveal>
         </div>
@@ -208,67 +194,21 @@ function HomeContent() {
         </div>
       </section>
 
-      {/* Prezzi */}
-      <section className="border-t border-[var(--color-border-subtle)] py-24">
+      {/* Prezzi: i piani e i prezzi stanno nella pagina dedicata */}
+      <section className="border-t border-[var(--color-border-subtle)] py-20">
         <div className="container-onespec">
           <Reveal className="mx-auto max-w-2xl text-center">
             <h2 className="text-balance text-3xl font-semibold tracking-tight text-[var(--color-text)] sm:text-4xl">
               {t("pricing.title")}
             </h2>
-            <p className="mt-4 text-[15px] text-[var(--color-text-secondary)]">
+            <p className="mt-4 text-balance text-[15px] leading-relaxed text-[var(--color-text-secondary)]">
               {t("pricing.subtitle")}
             </p>
-          </Reveal>
-
-          <RevealGroup className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
-            {PRICING_TIERS_META.map((meta, i) => {
-              const copy = pricingCopy[i];
-              const enterprise = meta.id === "enterprise";
-              return (
-                <RevealItem
-                  key={meta.id}
-                  className={
-                    meta.highlighted
-                      ? "flex flex-col rounded-3xl border-2 border-[var(--color-mint)] bg-[var(--color-bg)] p-7"
-                      : "flex flex-col rounded-3xl border border-[var(--color-border-subtle)] bg-[var(--color-bg)] p-7"
-                  }
-                >
-                  {meta.highlighted && (
-                    <span className="inline-block w-fit rounded-full bg-[var(--color-mint-light)] px-3 py-1 text-[11px] font-semibold text-[var(--color-mint-dark)]">
-                      {t("pricing.piuScelto")}
-                    </span>
-                  )}
-                  <h3 className="mt-3 text-[18px] font-semibold text-[var(--color-text)]">{copy.name}</h3>
-                  <p className="mt-1 flex items-baseline gap-1.5">
-                    <span className="text-3xl font-semibold tracking-tight text-[var(--color-text)]">
-                      {new Intl.NumberFormat(locale, {
-                        style: "currency",
-                        currency: "EUR",
-                        minimumFractionDigits: Number.isInteger(meta.monthly) ? 0 : 2,
-                      }).format(meta.monthly)}
-                    </span>
-                    <span className="text-[12px] text-[var(--color-text-secondary)]">{t("pricing.perMonth")}</span>
-                  </p>
-                  <p className="mt-3 flex-1 text-[13px] leading-relaxed text-[var(--color-text-secondary)]">
-                    {copy.description}
-                  </p>
-                  <a
-                    href={enterprise ? `mailto:${SITE.email}` : platformRegister(locale)}
-                    className="mt-6 inline-flex cursor-pointer items-center justify-center rounded-full border border-[var(--color-border)] px-4 py-2.5 text-[13px] font-medium text-[var(--color-text)] transition-colors hover:bg-[var(--color-bg-alt)]"
-                  >
-                    {copy.cta}
-                  </a>
-                </RevealItem>
-              );
-            })}
-          </RevealGroup>
-
-          <Reveal className="mt-10 text-center">
             <Link
               href="/prezzi"
-              className="inline-flex cursor-pointer items-center gap-2 text-[15px] font-medium text-[var(--color-mint-dark)] hover:underline"
+              className="mt-8 inline-flex cursor-pointer items-center gap-2 rounded-full border border-[var(--color-border)] px-6 py-3.5 text-[15px] font-medium text-[var(--color-text)] transition-colors hover:bg-[var(--color-bg-alt)]"
             >
-              {t("pricing.compareLink")}
+              {t("pricing.cta")}
               <ArrowRight size={16} />
             </Link>
           </Reveal>

@@ -102,13 +102,7 @@ function ProdottoContent() {
             </p>
           </Reveal>
 
-          <Reveal delay={0.1} className="mx-auto mt-20 max-w-4xl">
-            <h3 className="text-balance text-center text-2xl font-semibold tracking-tight text-[var(--color-text)] sm:text-3xl">
-              {td("videoTitle")}
-            </h3>
-            <p className="mx-auto mb-8 mt-3 max-w-xl text-balance text-center text-[15px] leading-relaxed text-[var(--color-text-secondary)]">
-              {td("videoSubtitle")}
-            </p>
+          <Reveal delay={0.1}>
             <PresentationVideo />
           </Reveal>
         </div>

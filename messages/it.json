@@ -17,7 +17,9 @@
     "accedi": "Accedi",
     "inizia": "Inizia ora",
     "demo": "Demo",
-    "chiSiamo": "Chi siamo"
+    "chiSiamo": "Chi siamo",
+    "social": "Social",
+    "menu": "Menu principale"
   },
   "footer": {
     "colProdotto": "Prodotto",
@@ -59,61 +61,22 @@
     "title": "Il configuratore di infissi che qualifica i clienti al posto tuo",
     "subtitle": "Un widget da incollare sul tuo sito con un codice iFrame. Preventivi automatici, listino sempre aggiornato, il tuo brand.",
     "ctaPrimary": "Inizia ora",
-    "ctaSecondary": "Vedi il configuratore live",
+    "ctaSecondary": "Prova il configuratore",
     "scroll": "Scorri",
-    "social": "Seguici",
-    "trustTitle": "Fatto da serramentisti per serramentisti",
-    "highlightsAria": "Cosa fa OneSpec",
     "reviewsAria": "Recensioni dei clienti",
     "reviews": [],
-    "highlights": [
-      {
-        "title": "Prezzo in tempo reale",
-        "text": "sul tuo sito, calcolato sul tuo listino"
-      },
-      {
-        "title": "Richieste complete",
-        "text": "misure, scelte e contatti già dentro"
-      },
-      {
-        "title": "Spam filtrato",
-        "text": "e richieste ordinate per valore"
-      },
-      {
-        "title": "Preventivo con disegno tecnico",
-        "text": "PDF pronto da inviare"
-      },
-      {
-        "title": "Firma dal telefono",
-        "text": "il cliente firma il preventivo online"
-      },
-      {
-        "title": "Il tuo listino",
-        "text": "da CSV o standard per zona Nord, Centro, Sud"
-      },
-      {
-        "title": "Bicolore e finiture",
-        "text": "campioni di colori e decori"
-      },
-      {
-        "title": "Clienti e cantieri collegati",
-        "text": "dalla richiesta alla posa"
-      },
-      {
-        "title": "6 lingue",
-        "text": "IT, EN, FR, DE, NL, RO"
-      },
-      {
-        "title": "Demo senza account",
-        "text": "provala subito, non si invia nulla"
-      }
-    ]
+    "facts": [
+      "Fatto da serramentisti per serramentisti",
+      "6 lingue: IT, EN, FR, DE, NL, RO",
+      "Demo senza account"
+    ],
+    "factsAria": "Perché fidarsi di OneSpec"
   },
   "home": {
     "configurator": {
       "kicker": "Demo interattiva",
       "title": "Questo è il configuratore. Provalo adesso.",
-      "subtitle": "Due demo interattive, le stesse del prodotto. Provale affiancate: il configuratore per i tuoi clienti e quello per il tuo team. Sul tuo sito usi il tuo listino e il tuo marchio."
+      "subtitle": "Questa è la demo del configuratore che i tuoi clienti trovano sul tuo sito: configurano la finestra, vedono il prezzo e ti arriva una richiesta già completa. Sul tuo sito usi il tuo listino e il tuo marchio."
     },
     "valueProp": {
       "title": "Ogni giorno perdi tempo con richieste che non portano a niente",
@@ -199,11 +162,9 @@
       ]
     },
     "pricing": {
-      "title": "Paghi in base a quanto il configuratore lavora per te",
-      "subtitle": "Sette piani, dal preventivatore sul tuo sito alla piattaforma completa. Registrati, scegli il piano e paga in pochi minuti.",
-      "piuScelto": "Più scelto",
-      "compareLink": "Confronta tutti i piani in dettaglio",
-      "perMonth": "/mese + IVA"
+      "title": "Scegli il piano giusto per te",
+      "subtitle": "Dal preventivatore sul tuo sito alla piattaforma completa: tutti i piani e i prezzi sono nella pagina dedicata.",
+      "cta": "Vedi piani e prezzi"
     },
     "cta": {
       "title": "Porta onespec sul tuo sito oggi",
@@ -398,6 +359,20 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.28.0",
+      "date": "2026-10-18",
+      "title": "Demo guidata, home più semplice e menu compatto",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Configuratore demo guidato in 3 passi (tipo e misure, aperture e vetro, profilo e finiture), con disegno e prezzo sempre in vista; la modalità completa resta disponibile",
+        "Showroom: preventivo dettagliato per il cliente, con una voce per pezzo, sconto, IVA, acconto e saldo, rata e condizioni",
+        "Home più semplice: hero essenziale, prezzi nella pagina dedicata e video di presentazione solo nel sito in italiano",
+        "Menu in alto compatto e sempre visibile, con le icone di TikTok e Instagram",
+        "Demo: risolto il caricamento che poteva restare bloccato e avvio molto più rapido"
+      ]
+    },
     {
       "version": "1.27.0",
       "date": "2026-10-17",
@@ -965,7 +940,8 @@
     "showroomCaption": "lo strumento del tuo team: preventivo istantaneo con IVA, agevolazioni e rateizzazione.",
     "videoTitle": "Guarda OneSpec in azione",
     "videoSubtitle": "Un minuto per capire come OneSpec trasforma il tuo sito e il tuo showroom in una macchina da preventivi.",
-    "note": "Entrambe le demo sono interattive ma non inviano nulla: per ricevere richieste reali crea il tuo account."
+    "note": "Entrambe le demo sono interattive ma non inviano nulla: per ricevere richieste reali crea il tuo account.",
+    "noteSingle": "La demo è interattiva ma non invia nulla: per ricevere richieste reali crea il tuo account."
   },
   "platformShowcase": {
     "ariaLabel": "Anteprima della pagina Richieste della piattaforma onespec",
@@ -1187,7 +1163,10 @@
     "loading": "Caricamento demo…",
     "note": "La demo gira nel tuo browser: i dati si azzerano alla chiusura della scheda, e pagamenti, verifiche esterne e invii reali sono disattivati.",
     "ctaTitle": "Ti piace? Crea il tuo account.",
-    "cta": "Inizia ora"
+    "cta": "Inizia ora",
+    "showroomKicker": "Showroom",
+    "showroomTitle": "Il preventivo per chi entra nel tuo showroom",
+    "showroomSubtitle": "Configura i pezzi, applica lo sconto e consegna al cliente un preventivo dettagliato: voci per pezzo, IVA, acconto e saldo, rata e condizioni. Dati di esempio, nulla viene inviato."
   },
   "aboutPage": {
     "metaTitle": "Chi siamo",

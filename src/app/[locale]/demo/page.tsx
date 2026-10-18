@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
 import { Reveal } from "@/components/reveal";
 import { PlatformDemo } from "@/components/showcase/platform-demo";
+import { DemoConfigurators } from "@/components/showcase/demo-configurators";
 import { platformRegister } from "@/lib/site-config";
 import type { AppLocale } from "@/i18n/routing";
 
@@ -38,6 +39,21 @@ function DemoContent() {
       <section className="pb-16">
         <div className="container-onespec">
           <PlatformDemo />
+        </div>
+      </section>
+      <section id="showroom" className="scroll-mt-24 pb-24">
+        <div className="container-onespec">
+          <Reveal className="mx-auto max-w-2xl text-center">
+            <span className="inline-flex items-center gap-1.5 rounded-full bg-[var(--color-mint-light)] px-3 py-1 text-[11px] font-semibold uppercase tracking-wide text-[var(--color-mint-dark)]">
+              <span className="h-1.5 w-1.5 rounded-full bg-[var(--color-mint-dark)]" />
+              {t("showroomKicker")}
+            </span>
+            <h2 className="mt-5 text-balance text-3xl font-semibold tracking-tight text-[var(--color-text)] sm:text-4xl">{t("showroomTitle")}</h2>
+            <p className="mx-auto mt-4 max-w-xl text-balance text-[15px] leading-relaxed text-[var(--color-text-secondary)]">{t("showroomSubtitle")}</p>
+          </Reveal>
+          <Reveal delay={0.1} className="mt-12">
+            <DemoConfigurators kinds={["showroom"]} />
+          </Reveal>
         </div>
       </section>
       <section className="pb-24">

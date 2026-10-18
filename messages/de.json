@@ -17,7 +17,9 @@
     "accedi": "Anmelden",
     "inizia": "Jetzt starten",
     "demo": "Demo",
-    "chiSiamo": "Über uns"
+    "chiSiamo": "Über uns",
+    "social": "Soziale Medien",
+    "menu": "Hauptmenü"
   },
   "footer": {
     "colProdotto": "Produkt",
@@ -59,61 +61,22 @@
     "title": "Der Fenster- und Türkonfigurator, der Ihre Kunden für Sie qualifiziert",
     "subtitle": "Ein Widget, das Sie mit einem iFrame-Code auf Ihrer Website einbetten. Automatische Angebote, stets aktuelle Preisliste, Ihre Marke.",
     "ctaPrimary": "Jetzt starten",
-    "ctaSecondary": "Konfigurator live ansehen",
+    "ctaSecondary": "Konfigurator ausprobieren",
     "scroll": "Scrollen",
-    "social": "Folge uns",
-    "trustTitle": "Von Fensterbauern für Fensterbauer",
-    "highlightsAria": "Was OneSpec macht",
     "reviewsAria": "Kundenbewertungen",
     "reviews": [],
-    "highlights": [
-      {
-        "title": "Preis in Echtzeit",
-        "text": "auf deiner Website, nach deiner Preisliste"
-      },
-      {
-        "title": "Vollständige Anfragen",
-        "text": "Maße, Auswahl und Kontakt inklusive"
-      },
-      {
-        "title": "Spam gefiltert",
-        "text": "und Anfragen nach Wert sortiert"
-      },
-      {
-        "title": "Angebot mit technischer Zeichnung",
-        "text": "PDF fertig zum Versand"
-      },
-      {
-        "title": "Unterschrift per Handy",
-        "text": "der Kunde unterschreibt online"
-      },
-      {
-        "title": "Deine Preisliste",
-        "text": "per CSV oder Standardliste nach Region"
-      },
-      {
-        "title": "Zweifarbig und Dekore",
-        "text": "Farb- und Dekormuster"
-      },
-      {
-        "title": "Kunden und Baustellen verknüpft",
-        "text": "von der Anfrage bis zur Montage"
-      },
-      {
-        "title": "6 Sprachen",
-        "text": "IT, EN, FR, DE, NL, RO"
-      },
-      {
-        "title": "Demo ohne Konto",
-        "text": "sofort testen, nichts wird gesendet"
-      }
-    ]
+    "facts": [
+      "Von Fensterbauern für Fensterbauer",
+      "6 Sprachen: IT, EN, FR, DE, NL, RO",
+      "Demo ohne Konto"
+    ],
+    "factsAria": "Warum OneSpec vertrauen"
   },
   "home": {
     "configurator": {
       "kicker": "Interaktive Demo",
       "title": "Das ist der Konfigurator. Probieren Sie ihn jetzt aus.",
-      "subtitle": "Zwei interaktive Demos, identisch mit dem Produkt. Probieren Sie sie nebeneinander aus: der Konfigurator für Ihre Kunden und der für Ihr Team. Auf Ihrer Website nutzen Sie Ihre Preisliste und Ihre Marke."
+      "subtitle": "Das ist die Demo des Konfigurators, den Ihre Kunden auf Ihrer Website finden: Sie konfigurieren das Fenster, sehen den Preis und Sie erhalten eine vollständige Anfrage. Auf Ihrer Website nutzt er Ihre Preisliste und Ihre Marke."
     },
     "valueProp": {
       "title": "Jeden Tag verlieren Sie Zeit mit Anfragen, die zu nichts führen",
@@ -199,11 +162,9 @@
       ]
     },
     "pricing": {
-      "title": "Sie zahlen danach, wie viel der Konfigurator für Sie arbeitet",
-      "subtitle": "Sieben Tarife, vom Angebotsrechner auf Ihrer Website bis zur kompletten Plattform. Registrieren, Tarif wählen und in wenigen Minuten bezahlen.",
-      "piuScelto": "Am beliebtesten",
-      "compareLink": "Alle Pläne im Detail vergleichen",
-      "perMonth": "/Monat zzgl. MwSt."
+      "title": "Wählen Sie den passenden Plan",
+      "subtitle": "Vom Angebotstool auf Ihrer Website bis zur kompletten Plattform: alle Pläne und Preise finden Sie auf der eigenen Seite.",
+      "cta": "Pläne und Preise ansehen"
     },
     "cta": {
       "title": "Bringen Sie onespec noch heute auf Ihre Website",
@@ -398,6 +359,20 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.28.0",
+      "date": "2026-10-18",
+      "title": "Geführte Demo, einfachere Startseite und kompaktes Menü",
+      "tag": "Neu",
+      "channel": "prodotto",
+      "items": [
+        "Der Demo-Konfigurator ist jetzt in 3 Schritten geführt (Typ und Maße, Öffnungen und Glas, Profil und Oberfläche), mit Zeichnung und Preis immer im Blick; der vollständige Modus bleibt verfügbar",
+        "Showroom: ein detailliertes Kundenangebot mit einer Zeile pro Position, Rabatt, MwSt., Anzahlung und Rest, Rate und Bedingungen",
+        "Einfachere Startseite: ein schlanker Hero, die Preise auf der eigenen Seite und der Präsentationsfilm nur auf der italienischen Seite",
+        "Kompaktes, stets sichtbares Menü oben, mit den Symbolen von TikTok und Instagram",
+        "Demo: ein Ladevorgang, der hängen bleiben konnte, ist behoben, und der Start ist deutlich schneller"
+      ]
+    },
     {
       "version": "1.27.0",
       "date": "2026-10-17",
@@ -965,7 +940,8 @@
     "showroomCaption": "das Werkzeug Ihres Teams: Sofortangebot mit MwSt., Förderungen und Ratenzahlung.",
     "videoTitle": "OneSpec in Aktion",
     "videoSubtitle": "Eine Minute, um zu sehen, wie OneSpec Ihre Website und Ihren Showroom in eine Angebotsmaschine verwandelt.",
-    "note": "Beide Demos sind interaktiv, senden aber nichts: Erstellen Sie Ihr Konto, um echte Anfragen zu erhalten."
+    "note": "Beide Demos sind interaktiv, senden aber nichts: Erstellen Sie Ihr Konto, um echte Anfragen zu erhalten.",
+    "noteSingle": "Die Demo ist interaktiv, sendet aber nichts: Erstellen Sie Ihr Konto, um echte Anfragen zu erhalten."
   },
   "platformShowcase": {
     "ariaLabel": "Vorschau der Seite Anfragen der onespec-Plattform",
@@ -1187,7 +1163,10 @@
     "loading": "Demo wird geladen…",
     "note": "Die Demo läuft in Ihrem Browser: Die Daten werden beim Schließen des Tabs zurückgesetzt; Zahlungen, externe Prüfungen und echter Versand sind deaktiviert.",
     "ctaTitle": "Gefällt es Ihnen? Erstellen Sie Ihr Konto.",
-    "cta": "Jetzt starten"
+    "cta": "Jetzt starten",
+    "showroomKicker": "Showroom",
+    "showroomTitle": "Das Angebot für jeden, der Ihren Showroom betritt",
+    "showroomSubtitle": "Konfigurieren Sie die Positionen, gewähren Sie den Rabatt und übergeben Sie dem Kunden ein detailliertes Angebot: eine Zeile pro Position, MwSt., Anzahlung und Rest, Rate und Bedingungen. Beispieldaten, nichts wird gesendet."
   },
   "aboutPage": {
     "metaTitle": "Über uns",

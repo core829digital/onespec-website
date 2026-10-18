@@ -16,10 +16,10 @@ type Kind = "widget" | "showroom";
  * product, static catalogue, nothing is ever sent). They are framed from the
  * platform origin and report their height through validated postMessage.
  */
-export function DemoConfigurators() {
+export function DemoConfigurators({ kinds = ["widget", "showroom"] }: { kinds?: Kind[] }) {
   const t = useTranslations("demoConfigurators");
   const locale = useLocale();
-  const [heights, setHeights] = useState<Record<Kind, number>>({ widget: 900, showroom: 1400 });
+  const [heights, setHeights] = useState<Record<Kind, number>>({ widget: 980, showroom: 1400 });
   const [loaded, setLoaded] = useState<Record<Kind, boolean>>({ widget: false, showroom: false });
 
   useEffect(() => {
@@ -35,9 +35,12 @@ export function DemoConfigurators() {
         else window.scrollBy({ top: dy });
         return;
       }
-      if (!d || d.type !== "onespec:resize" || typeof d.height !== "number" || !Number.isFinite(d.height)) return;
+      if (!d || (d.type !== "onespec:resize" && d.type !== "onespec:ready")) return;
       const kind: Kind | null = d.publicId === "DEMO000000" ? "widget" : d.publicId === "DEMOSHOWROOM" ? "showroom" : null;
       if (!kind) return;
+      // The demo announcing itself is the surest sign it is up: the iframe's own load event can fire before React attaches onLoad.
+      setLoaded((l) => (l[kind] ? l : { ...l, [kind]: true }));
+      if (d.type !== "onespec:resize" || typeof d.height !== "number" || !Number.isFinite(d.height)) return;
       const h = Math.min(MAX_HEIGHT, Math.max(MIN_HEIGHT, Math.ceil(d.height)));
       setHeights((prev) => (prev[kind] === h ? prev : { ...prev, [kind]: h }));
     }
@@ -45,13 +48,15 @@ export function DemoConfigurators() {
     return () => window.removeEventListener("message", onMessage);
   }, []);
 
-  const panes: Array<{ kind: Kind; label: string; caption: string; url: string }> = [
+  const allPanes: Array<{ kind: Kind; label: string; caption: string; url: string }> = [
     { kind: "widget", label: t("widgetLabel"), caption: t("widgetCaption"), url: `${DEMO_ORIGIN}/demo/widget` },
     { kind: "showroom", label: t("showroomLabel"), caption: t("showroomCaption"), url: `${DEMO_ORIGIN}/demo/showroom` },
   ];
 
+  const panes = allPanes.filter((p) => kinds.includes(p.kind));
+
   return (
-    <div className="grid items-start gap-6 lg:grid-cols-2">
+    <div className={panes.length > 1 ? "grid items-start gap-6 lg:grid-cols-2" : "mx-auto max-w-[1180px]"}>
       {panes.map((p) => (
         <figure key={p.kind} className="min-w-0">
           <div className="overflow-hidden rounded-3xl border border-[var(--color-border-subtle)] bg-[var(--color-bg-alt)] shadow-[0_30px_80px_-30px_rgba(0,0,0,0.35)]">

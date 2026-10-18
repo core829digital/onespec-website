@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useSyncExternalStore } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { ArrowSquareOut, DeviceMobile, DeviceTablet, Desktop } from "@phosphor-icons/react";
 import { DEMO_PLATFORM_URL } from "@/lib/site-config";
@@ -18,6 +18,12 @@ type DeviceId = (typeof DEVICES)[number]["id"];
  */
 export function PlatformDemo() {
   const t = useTranslations("platformDemo");
+  // The frame is mounted after hydration: a frame that finishes loading before React attaches onLoad would leave the loading card up forever.
+  const hydrated = useSyncExternalStore(
+    () => () => {},
+    () => true,
+    () => false,
+  );
   const locale = useLocale();
   const [device, setDevice] = useState<DeviceId>("desktop");
   const [loaded, setLoaded] = useState(false);
@@ -62,7 +68,11 @@ export function PlatformDemo() {
                 <span className="text-[13px] text-[var(--color-text-secondary)]">{t("loading")}</span>
               </div>
             )}
-            <iframe src={src} title={t("label")} loading="lazy" onLoad={() => setLoaded(true)} className="block h-[78vh] min-h-[560px] w-full border-0" />
+            {hydrated ? (
+              <iframe src={src} title={t("label")} loading="lazy" onLoad={() => setLoaded(true)} className="block h-[78vh] min-h-[560px] w-full border-0" />
+            ) : (
+              <div className="h-[78vh] min-h-[560px] w-full" />
+            )}
           </div>
         </div>
       </div>

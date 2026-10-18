@@ -134,7 +134,7 @@
     },
     "dashboard": {
       "title": "Les devis arrivent, vous les voyez en temps reel",
-      "subtitle": "Chaque demande generee par le configurateur arrive immediatement dans le tableau de bord : combien en arrivent, pour quels produits, et comment la valeur moyenne augmente mois apres mois."
+      "subtitle": "Chaque demande du configurateur apparaît aussitôt dans la page Demandes, avec client, coordonnées, montant et statut : vous la filtrez, l'ouvrez et la suivez jusqu'au devis."
     },
     "steps": {
       "title": "De la liste de prix au devis en direct en quatre etapes",
@@ -359,6 +359,18 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.29.1",
+      "date": "2026-10-18",
+      "title": "Démo stable et page d'accueil plus fidèle",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Démo : correction du scintillement continu du tableau de bord, surtout sur téléphone",
+        "Accueil : la section sur les demandes montre désormais la vraie page Demandes de la plateforme, avec filtres, statuts et actions",
+        "Plateforme en allemand, néerlandais et roumain : traduction des derniers textes restés en anglais (statuts des demandes, notifications)"
+      ]
+    },
     {
       "version": "1.29.0",
       "date": "2026-10-18",
@@ -1280,5 +1292,98 @@
       "primary": "Créer votre compte",
       "secondary": "Voir la démo"
     }
+  },
+  "requestsMockup": {
+    "ariaLabel": "Aperçu de la page Demandes de la plateforme onespec : chaque devis arrivé du configurateur, avec client, montant et statut",
+    "windowLabel": "platform.onespec.eu · Demandes",
+    "sample": "Données d'exemple",
+    "title": "Demandes",
+    "subtitle": "Devis reçus depuis les widgets",
+    "export": "Exporter en CSV",
+    "filters": [
+      "Toutes",
+      "Nouvelles",
+      "Contactées",
+      "Devis envoyé",
+      "Gagnées",
+      "Perdues",
+      "Spam"
+    ],
+    "search": "Rechercher par nom, email ou entreprise...",
+    "sort": "Plus récentes",
+    "cols": {
+      "client": "Client",
+      "email": "Email",
+      "phone": "Téléphone",
+      "company": "Entreprise",
+      "value": "Valeur",
+      "status": "Statut",
+      "date": "Date"
+    },
+    "open": "Ouvrir",
+    "status": {
+      "new": "Nouvelle",
+      "contacted": "Contactée",
+      "quoted": "Devis envoyé",
+      "won": "Gagnée",
+      "lost": "Perdue",
+      "spam": "Spam"
+    },
+    "rows": [
+      {
+        "name": "Julien Moreau",
+        "email": "julien.moreau@orange.fr",
+        "phone": "+33 6 12 34 56 78",
+        "company": "",
+        "cents": 1224880,
+        "status": "new",
+        "minutesAgo": 2
+      },
+      {
+        "name": "Camille Laurent",
+        "email": "camille.laurent@gmail.com",
+        "phone": "+33 6 23 45 67 89",
+        "company": "",
+        "cents": 431348,
+        "status": "new",
+        "minutesAgo": 14
+      },
+      {
+        "name": "Thomas Girard",
+        "email": "t.girard@girard-renov.fr",
+        "phone": "+33 6 34 56 78 90",
+        "company": "Girard Rénovation",
+        "cents": 531121,
+        "status": "contacted",
+        "minutesAgo": 60
+      },
+      {
+        "name": "Léa Fontaine",
+        "email": "lea.fontaine@free.fr",
+        "phone": "+33 6 45 67 89 01",
+        "company": "",
+        "cents": 320060,
+        "status": "quoted",
+        "minutesAgo": 180
+      },
+      {
+        "name": "Hugo Lefèvre",
+        "email": "hugo.lefevre@icloud.com",
+        "phone": "+33 6 56 78 90 12",
+        "company": "",
+        "cents": 1230879,
+        "status": "won",
+        "minutesAgo": 1440
+      },
+      {
+        "name": "Manon Garnier",
+        "email": "manon.garnier@gmail.com",
+        "phone": "+33 6 67 89 01 23",
+        "company": "",
+        "cents": 205765,
+        "status": "lost",
+        "minutesAgo": 2880
+      }
+    ]
   }
 }

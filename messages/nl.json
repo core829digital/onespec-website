@@ -134,7 +134,7 @@
     },
     "dashboard": {
       "title": "De offertes komen binnen, u ziet ze in realtime",
-      "subtitle": "Elke aanvraag die de configurator genereert komt direct in het dashboard terecht: hoeveel er binnenkomen, van welke producten, en hoe de gemiddelde waarde maand na maand groeit."
+      "subtitle": "Elke aanvraag uit de configurator verschijnt meteen op de pagina Aanvragen, met klant, contactgegevens, waarde en status: filteren, openen en opvolgen tot de offerte."
     },
     "steps": {
       "title": "Van prijslijst naar live offerte in vier stappen",
@@ -359,6 +359,18 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.29.1",
+      "date": "2026-10-18",
+      "title": "Rustige demo en een getrouwere homepage",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Demo: het constante flikkeren van het dashboard verholpen, vooral op de telefoon",
+        "Home: de sectie over aanvragen toont nu de echte pagina Aanvragen van het platform, met filters, statussen en acties",
+        "Platform in het Duits, Nederlands en Roemeens: de laatste nog Engelse teksten vertaald (aanvraagstatussen, meldingen)"
+      ]
+    },
     {
       "version": "1.29.0",
       "date": "2026-10-18",
@@ -1280,5 +1292,98 @@
       "primary": "Account aanmaken",
       "secondary": "Demo bekijken"
     }
+  },
+  "requestsMockup": {
+    "ariaLabel": "Voorbeeld van de pagina Aanvragen van het onespec-platform: elke offerte uit de configurator, met klant, waarde en status",
+    "windowLabel": "platform.onespec.eu · Aanvragen",
+    "sample": "Voorbeeldgegevens",
+    "title": "Aanvragen",
+    "subtitle": "Offertes ontvangen via de widgets",
+    "export": "Exporteer CSV",
+    "filters": [
+      "Alle",
+      "Nieuw",
+      "Benaderd",
+      "Offerte verzonden",
+      "Gewonnen",
+      "Verloren",
+      "Spam"
+    ],
+    "search": "Zoek op naam, e-mail of bedrijf...",
+    "sort": "Meest recent",
+    "cols": {
+      "client": "Klant",
+      "email": "E-mail",
+      "phone": "Telefoon",
+      "company": "Bedrijf",
+      "value": "Waarde",
+      "status": "Status",
+      "date": "Datum"
+    },
+    "open": "Openen",
+    "status": {
+      "new": "Nieuw",
+      "contacted": "Gecontacteerd",
+      "quoted": "Offerte verzonden",
+      "won": "Gewonnen",
+      "lost": "Verloren",
+      "spam": "Spam"
+    },
+    "rows": [
+      {
+        "name": "Daan de Vries",
+        "email": "daan.devries@ziggo.nl",
+        "phone": "+31 6 12345678",
+        "company": "",
+        "cents": 1224880,
+        "status": "new",
+        "minutesAgo": 2
+      },
+      {
+        "name": "Sanne Jansen",
+        "email": "sanne.jansen@gmail.com",
+        "phone": "+31 6 23456789",
+        "company": "",
+        "cents": 431348,
+        "status": "new",
+        "minutesAgo": 14
+      },
+      {
+        "name": "Bram Visser",
+        "email": "b.visser@vissebouw.nl",
+        "phone": "+31 6 34567890",
+        "company": "Visser Bouw",
+        "cents": 531121,
+        "status": "contacted",
+        "minutesAgo": 60
+      },
+      {
+        "name": "Lotte Bakker",
+        "email": "lotte.bakker@kpnmail.nl",
+        "phone": "+31 6 45678901",
+        "company": "",
+        "cents": 320060,
+        "status": "quoted",
+        "minutesAgo": 180
+      },
+      {
+        "name": "Thijs Smit",
+        "email": "thijs.smit@icloud.com",
+        "phone": "+31 6 56789012",
+        "company": "",
+        "cents": 1230879,
+        "status": "won",
+        "minutesAgo": 1440
+      },
+      {
+        "name": "Emma Mulder",
+        "email": "emma.mulder@gmail.com",
+        "phone": "+31 6 67890123",
+        "company": "",
+        "cents": 205765,
+        "status": "lost",
+        "minutesAgo": 2880
+      }
+    ]
   }
 }

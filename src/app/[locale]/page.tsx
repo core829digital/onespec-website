@@ -15,7 +15,7 @@ import { Hero } from "@/components/ui/hero";
 import { DemoConfigurators } from "@/components/showcase/demo-configurators";
 import { PresentationVideo } from "@/components/showcase/presentation-video";
 import { IframeExplainer } from "@/components/showcase/iframe-explainer";
-import { DashboardMockup } from "@/components/showcase/dashboard-mockup";
+import { RequestsMockup } from "@/components/showcase/requests-mockup";
 import { platformRegister } from "@/lib/site-config";
 import type { AppLocale } from "@/i18n/routing";
 
@@ -162,7 +162,7 @@ function HomeContent() {
           </Reveal>
 
           <Reveal delay={0.1} className="mt-12">
-            <DashboardMockup />
+            <RequestsMockup />
           </Reveal>
         </div>
       </section>

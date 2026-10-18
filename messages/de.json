@@ -134,7 +134,7 @@
     },
     "dashboard": {
       "title": "Die Angebote kommen an, Sie sehen sie in Echtzeit",
-      "subtitle": "Jede vom Konfigurator generierte Anfrage landet sofort im Dashboard: wie viele eingehen, aus welchen Produkten, und wie der durchschnittliche Wert Monat für Monat wächst."
+      "subtitle": "Jede Anfrage aus dem Konfigurator erscheint sofort auf der Seite Anfragen, mit Kunde, Kontaktdaten, Wert und Status: filtern, öffnen und bis zum Angebot verfolgen."
     },
     "steps": {
       "title": "Von der Preisliste zum Live-Angebot in vier Schritten",
@@ -359,6 +359,18 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.29.1",
+      "date": "2026-10-18",
+      "title": "Ruhige Demo und eine getreuere Startseite",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Demo: das ständige Flackern des Dashboards behoben, vor allem auf dem Handy",
+        "Startseite: der Abschnitt zu Anfragen zeigt jetzt die echte Seite Anfragen der Plattform, mit Filtern, Status und Aktionen",
+        "Plattform auf Deutsch, Niederländisch und Rumänisch: die letzten noch englischen Texte übersetzt (Anfragestatus, Benachrichtigungen)"
+      ]
+    },
     {
       "version": "1.29.0",
       "date": "2026-10-18",
@@ -1280,5 +1292,98 @@
       "primary": "Konto erstellen",
       "secondary": "Demo ansehen"
     }
+  },
+  "requestsMockup": {
+    "ariaLabel": "Vorschau der Seite Anfragen der onespec-Plattform: jede über den Konfigurator eingegangene Anfrage mit Kunde, Wert und Status",
+    "windowLabel": "platform.onespec.eu · Anfragen",
+    "sample": "Beispieldaten",
+    "title": "Anfragen",
+    "subtitle": "Über die Widgets erhaltene Angebote",
+    "export": "CSV exportieren",
+    "filters": [
+      "Alle",
+      "Neu",
+      "Kontaktiert",
+      "Angebot gesendet",
+      "Gewonnen",
+      "Verloren",
+      "Spam"
+    ],
+    "search": "Suche nach Name, E-Mail oder Firma...",
+    "sort": "Neueste",
+    "cols": {
+      "client": "Kunde",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "company": "Firma",
+      "value": "Wert",
+      "status": "Status",
+      "date": "Datum"
+    },
+    "open": "Öffnen",
+    "status": {
+      "new": "Neu",
+      "contacted": "Kontaktiert",
+      "quoted": "Angebot gesendet",
+      "won": "Gewonnen",
+      "lost": "Verloren",
+      "spam": "Spam"
+    },
+    "rows": [
+      {
+        "name": "Lukas Schneider",
+        "email": "lukas.schneider@web.de",
+        "phone": "+49 151 2345 6789",
+        "company": "",
+        "cents": 1224880,
+        "status": "new",
+        "minutesAgo": 2
+      },
+      {
+        "name": "Anna Fischer",
+        "email": "anna.fischer@gmx.de",
+        "phone": "+49 160 3456 7890",
+        "company": "",
+        "cents": 431348,
+        "status": "new",
+        "minutesAgo": 14
+      },
+      {
+        "name": "Jonas Weber",
+        "email": "j.weber@weber-bau.de",
+        "phone": "+49 170 4567 8901",
+        "company": "Weber Bau GmbH",
+        "cents": 531121,
+        "status": "contacted",
+        "minutesAgo": 60
+      },
+      {
+        "name": "Lena Wagner",
+        "email": "lena.wagner@t-online.de",
+        "phone": "+49 152 5678 9012",
+        "company": "",
+        "cents": 320060,
+        "status": "quoted",
+        "minutesAgo": 180
+      },
+      {
+        "name": "Felix Becker",
+        "email": "felix.becker@icloud.com",
+        "phone": "+49 171 6789 0123",
+        "company": "",
+        "cents": 1230879,
+        "status": "won",
+        "minutesAgo": 1440
+      },
+      {
+        "name": "Marie Hoffmann",
+        "email": "marie.hoffmann@gmail.com",
+        "phone": "+49 162 7890 1234",
+        "company": "",
+        "cents": 205765,
+        "status": "lost",
+        "minutesAgo": 2880
+      }
+    ]
   }
 }

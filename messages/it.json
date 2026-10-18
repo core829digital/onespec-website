@@ -134,7 +134,7 @@
     },
     "dashboard": {
       "title": "I preventivi arrivano, tu li vedi in tempo reale",
-      "subtitle": "Ogni richiesta generata dal configuratore finisce subito nella dashboard: quante ne arrivano, da quali prodotti, e come cresce il valore medio mese dopo mese."
+      "subtitle": "Ogni richiesta del configuratore compare subito nella pagina Richieste, con cliente, contatti, valore e stato: la filtri, la apri e la segui fino al preventivo."
     },
     "steps": {
       "title": "Da listino a preventivo live in quattro passaggi",
@@ -359,6 +359,18 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.29.1",
+      "date": "2026-10-18",
+      "title": "Demo senza sfarfallio e home più fedele",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Demo: risolto lo sfarfallio continuo della dashboard, soprattutto su telefono",
+        "Home: la sezione sulle richieste mostra ora la vera pagina Richieste della piattaforma, con filtri, stati e azioni",
+        "Piattaforma in tedesco, olandese e rumeno: tradotti gli ultimi testi rimasti in inglese (stati delle richieste, notifiche)"
+      ]
+    },
     {
       "version": "1.29.0",
       "date": "2026-10-18",
@@ -1280,5 +1292,98 @@
       "primary": "Crea il tuo account",
       "secondary": "Guarda la demo"
     }
+  },
+  "requestsMockup": {
+    "ariaLabel": "Anteprima della pagina Richieste della piattaforma onespec: ogni preventivo arrivato dal configuratore, con cliente, valore e stato",
+    "windowLabel": "platform.onespec.eu · Richieste",
+    "sample": "Dati di esempio",
+    "title": "Richieste",
+    "subtitle": "Preventivi ricevuti dai widget",
+    "export": "Esporta CSV",
+    "filters": [
+      "Tutte",
+      "Nuove",
+      "Contattate",
+      "Preventivo inviato",
+      "Vinte",
+      "Perse",
+      "Spam"
+    ],
+    "search": "Cerca per nome, email o azienda...",
+    "sort": "Più recenti",
+    "cols": {
+      "client": "Cliente",
+      "email": "Email",
+      "phone": "Telefono",
+      "company": "Azienda",
+      "value": "Valore",
+      "status": "Stato",
+      "date": "Data"
+    },
+    "open": "Apri",
+    "status": {
+      "new": "Nuova",
+      "contacted": "Contattata",
+      "quoted": "Preventivo inviato",
+      "won": "Vinta",
+      "lost": "Persa",
+      "spam": "Spam"
+    },
+    "rows": [
+      {
+        "name": "Simone Lombardi",
+        "email": "simone.lombardi@libero.it",
+        "phone": "+39 340 536 8853",
+        "company": "",
+        "cents": 1224880,
+        "status": "new",
+        "minutesAgo": 2
+      },
+      {
+        "name": "Alessia Bianchi",
+        "email": "alessia.bianchi@gmail.com",
+        "phone": "+39 329 450 9268",
+        "company": "",
+        "cents": 431348,
+        "status": "new",
+        "minutesAgo": 14
+      },
+      {
+        "name": "Stefano Ferri",
+        "email": "s.ferri@ferricostruzioni.it",
+        "phone": "+39 331 800 7534",
+        "company": "Ferri Costruzioni",
+        "cents": 531121,
+        "status": "contacted",
+        "minutesAgo": 60
+      },
+      {
+        "name": "Valentina Colombo",
+        "email": "valentina.colombo@libero.it",
+        "phone": "+39 330 201 8843",
+        "company": "",
+        "cents": 320060,
+        "status": "quoted",
+        "minutesAgo": 180
+      },
+      {
+        "name": "Luca Caruso",
+        "email": "luca.caruso@icloud.com",
+        "phone": "+39 340 141 1803",
+        "company": "",
+        "cents": 1230879,
+        "status": "won",
+        "minutesAgo": 1440
+      },
+      {
+        "name": "Marco Ferri",
+        "email": "marco.ferri@gmail.com",
+        "phone": "+39 346 354 8452",
+        "company": "",
+        "cents": 205765,
+        "status": "lost",
+        "minutesAgo": 2880
+      }
+    ]
   }
 }

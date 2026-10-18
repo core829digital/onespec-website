@@ -134,7 +134,7 @@
     },
     "dashboard": {
       "title": "Quotes come in, you see them in real time",
-      "subtitle": "Every request the configurator generates lands straight in the dashboard: how many come in, from which products, and how the average value grows month after month."
+      "subtitle": "Every configurator request shows up at once on the Requests page, with customer, contact details, value and status: filter it, open it and follow it through to the quote."
     },
     "steps": {
       "title": "From price list to a live quote in four steps",
@@ -359,6 +359,18 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.29.1",
+      "date": "2026-10-18",
+      "title": "A steady demo and a more faithful home page",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Demo: fixed the constant flicker of the dashboard, especially on phones",
+        "Home: the requests section now shows the platform's real Requests page, with filters, statuses and actions",
+        "Platform in German, Dutch and Romanian: translated the last texts still in English (request statuses, notifications)"
+      ]
+    },
     {
       "version": "1.29.0",
       "date": "2026-10-18",
@@ -1280,5 +1292,98 @@
       "primary": "Create your account",
       "secondary": "Watch the demo"
     }
+  },
+  "requestsMockup": {
+    "ariaLabel": "Preview of the onespec platform's Requests page: every quote that came in from the configurator, with customer, value and status",
+    "windowLabel": "platform.onespec.eu · Requests",
+    "sample": "Sample data",
+    "title": "Requests",
+    "subtitle": "Quotes received from the widgets",
+    "export": "Export CSV",
+    "filters": [
+      "All",
+      "New",
+      "Contacted",
+      "Quote sent",
+      "Won",
+      "Lost",
+      "Spam"
+    ],
+    "search": "Search by name, email or company...",
+    "sort": "Most recent",
+    "cols": {
+      "client": "Customer",
+      "email": "Email",
+      "phone": "Phone",
+      "company": "Company",
+      "value": "Value",
+      "status": "Status",
+      "date": "Date"
+    },
+    "open": "Open",
+    "status": {
+      "new": "New",
+      "contacted": "Contacted",
+      "quoted": "Quote sent",
+      "won": "Won",
+      "lost": "Lost",
+      "spam": "Spam"
+    },
+    "rows": [
+      {
+        "name": "Oliver Bennett",
+        "email": "oliver.bennett@gmail.com",
+        "phone": "+44 7700 900123",
+        "company": "",
+        "cents": 1224880,
+        "status": "new",
+        "minutesAgo": 2
+      },
+      {
+        "name": "Emma Clarke",
+        "email": "emma.clarke@outlook.com",
+        "phone": "+44 7700 900456",
+        "company": "",
+        "cents": 431348,
+        "status": "new",
+        "minutesAgo": 14
+      },
+      {
+        "name": "James Walker",
+        "email": "j.walker@walkerbuild.co.uk",
+        "phone": "+44 7700 900789",
+        "company": "Walker Build",
+        "cents": 531121,
+        "status": "contacted",
+        "minutesAgo": 60
+      },
+      {
+        "name": "Sophie Turner",
+        "email": "sophie.turner@gmail.com",
+        "phone": "+44 7700 900321",
+        "company": "",
+        "cents": 320060,
+        "status": "quoted",
+        "minutesAgo": 180
+      },
+      {
+        "name": "Harry Evans",
+        "email": "harry.evans@icloud.com",
+        "phone": "+44 7700 900654",
+        "company": "",
+        "cents": 1230879,
+        "status": "won",
+        "minutesAgo": 1440
+      },
+      {
+        "name": "Grace Hughes",
+        "email": "grace.hughes@gmail.com",
+        "phone": "+44 7700 900987",
+        "company": "",
+        "cents": 205765,
+        "status": "lost",
+        "minutesAgo": 2880
+      }
+    ]
   }
 }

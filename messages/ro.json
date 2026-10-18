@@ -134,7 +134,7 @@
     },
     "dashboard": {
       "title": "Ofertele ajung, tu le vezi in timp real",
-      "subtitle": "Fiecare solicitare generata de configurator ajunge imediat in dashboard: cate ajung, din ce produse, si cum creste valoarea medie luna de luna."
+      "subtitle": "Fiecare cerere din configurator apare imediat în pagina Cereri, cu client, date de contact, valoare și status: o filtrezi, o deschizi și o urmărești până la ofertă."
     },
     "steps": {
       "title": "De la lista de preturi la oferta live in patru pasi",
@@ -359,6 +359,18 @@
     }
   ],
   "changelog": [
+    {
+      "version": "1.29.1",
+      "date": "2026-10-18",
+      "title": "Demo stabil și pagină principală mai fidelă",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Demo: rezolvată pâlpâirea continuă a panoului, mai ales pe telefon",
+        "Acasă: secțiunea despre cereri arată acum pagina reală Cereri din platformă, cu filtre, statusuri și acțiuni",
+        "Platforma în germană, olandeză și română: traduse ultimele texte rămase în engleză (statusurile cererilor, notificări)"
+      ]
+    },
     {
       "version": "1.29.0",
       "date": "2026-10-18",
@@ -1280,5 +1292,98 @@
       "primary": "Creează-ți contul",
       "secondary": "Vezi demo-ul"
     }
+  },
+  "requestsMockup": {
+    "ariaLabel": "Previzualizare a paginii Cereri din platforma onespec: fiecare ofertă venită din configurator, cu client, valoare și status",
+    "windowLabel": "platform.onespec.eu · Cereri",
+    "sample": "Date de exemplu",
+    "title": "Cereri",
+    "subtitle": "Oferte primite prin widget-uri",
+    "export": "Exportă CSV",
+    "filters": [
+      "Toate",
+      "Noi",
+      "Contactate",
+      "Ofertă trimisă",
+      "Câștigate",
+      "Pierdute",
+      "Spam"
+    ],
+    "search": "Caută după nume, email sau companie...",
+    "sort": "Cele mai recente",
+    "cols": {
+      "client": "Client",
+      "email": "Email",
+      "phone": "Telefon",
+      "company": "Companie",
+      "value": "Valoare",
+      "status": "Stare",
+      "date": "Data"
+    },
+    "open": "Deschide",
+    "status": {
+      "new": "Nouă",
+      "contacted": "Contactată",
+      "quoted": "Ofertă trimisă",
+      "won": "Câștigată",
+      "lost": "Pierdută",
+      "spam": "Spam"
+    },
+    "rows": [
+      {
+        "name": "Andrei Popescu",
+        "email": "andrei.popescu@yahoo.com",
+        "phone": "+40 721 234 567",
+        "company": "",
+        "cents": 1224880,
+        "status": "new",
+        "minutesAgo": 2
+      },
+      {
+        "name": "Ioana Ionescu",
+        "email": "ioana.ionescu@gmail.com",
+        "phone": "+40 732 345 678",
+        "company": "",
+        "cents": 431348,
+        "status": "new",
+        "minutesAgo": 14
+      },
+      {
+        "name": "Mihai Stan",
+        "email": "m.stan@stanconstruct.ro",
+        "phone": "+40 743 456 789",
+        "company": "Stan Construct",
+        "cents": 531121,
+        "status": "contacted",
+        "minutesAgo": 60
+      },
+      {
+        "name": "Elena Dumitru",
+        "email": "elena.dumitru@yahoo.com",
+        "phone": "+40 754 567 890",
+        "company": "",
+        "cents": 320060,
+        "status": "quoted",
+        "minutesAgo": 180
+      },
+      {
+        "name": "Radu Georgescu",
+        "email": "radu.georgescu@icloud.com",
+        "phone": "+40 765 678 901",
+        "company": "",
+        "cents": 1230879,
+        "status": "won",
+        "minutesAgo": 1440
+      },
+      {
+        "name": "Maria Constantin",
+        "email": "maria.constantin@gmail.com",
+        "phone": "+40 776 789 012",
+        "company": "",
+        "cents": 205765,
+        "status": "lost",
+        "minutesAgo": 2880
+      }
+    ]
   }
 }

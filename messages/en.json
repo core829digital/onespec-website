@@ -360,6 +360,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.0",
+      "date": "2026-10-18",
+      "title": "Guided path in customer widgets too",
+      "tag": "New",
+      "channel": "prodotto",
+      "items": [
+        "The 3-step guided configurator is now available in every widget: visitors switch between “Guided” and “Full” with one tap",
+        "Dealers choose what shows first: just add data-mode=\"guided\" to the embed script (or ?mode=guided to the link)",
+        "Cleaner visit statistics: demo pages and embedded widgets are not counted, and links carrying secret codes are not recorded"
+      ]
+    },
+    {
       "version": "1.28.0",
       "date": "2026-10-18",
       "title": "Guided demo, a simpler home page and a compact menu",

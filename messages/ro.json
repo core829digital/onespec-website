@@ -360,6 +360,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.0",
+      "date": "2026-10-18",
+      "title": "Parcurs ghidat și în widgeturile clienților",
+      "tag": "Nou",
+      "channel": "prodotto",
+      "items": [
+        "Configuratorul ghidat în 3 pași este acum disponibil în fiecare widget: vizitatorul trece între „Ghidat” și „Complet” cu o atingere",
+        "Montatorul alege ce apare primul: adaugă data-mode=\"guided\" în scriptul de încorporare (sau ?mode=guided la link)",
+        "Statistici de vizită mai curate: paginile demo și widgeturile încorporate nu sunt numărate, iar linkurile cu coduri secrete nu sunt înregistrate"
+      ]
+    },
+    {
       "version": "1.28.0",
       "date": "2026-10-18",
       "title": "Demo ghidat, pagină principală mai simplă și meniu compact",

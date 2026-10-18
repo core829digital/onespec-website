@@ -360,6 +360,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.0",
+      "date": "2026-10-18",
+      "title": "Begeleid traject ook in de widgets van klanten",
+      "tag": "Nieuw",
+      "channel": "prodotto",
+      "items": [
+        "De begeleide configurator in 3 stappen is nu in elke widget beschikbaar: bezoekers wisselen met één tik tussen „Begeleid” en „Volledig”",
+        "De installateur kiest wat eerst verschijnt: voeg gewoon data-mode=\"guided\" toe aan het insluitscript (of ?mode=guided aan de link)",
+        "Schonere bezoekstatistieken: demopagina's en ingesloten widgets tellen niet mee, en links met geheime codes worden niet vastgelegd"
+      ]
+    },
+    {
       "version": "1.28.0",
       "date": "2026-10-18",
       "title": "Begeleide demo, eenvoudiger startpagina en compact menu",

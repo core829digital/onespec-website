@@ -360,6 +360,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.0",
+      "date": "2026-10-18",
+      "title": "Percorso guidato anche nei widget dei clienti",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Il configuratore guidato in 3 passi è ora disponibile in ogni widget: il visitatore passa da «Guidata» a «Completa» con un tocco",
+        "Il montatore sceglie cosa mostrare per primo: basta aggiungere data-mode=\"guided\" allo script di incorporamento (o ?mode=guided al link)",
+        "Statistiche di visita più pulite: le pagine demo e i widget incorporati non vengono conteggiati, e i link con codici segreti non vengono registrati"
+      ]
+    },
+    {
       "version": "1.28.0",
       "date": "2026-10-18",
       "title": "Demo guidata, home più semplice e menu compatto",

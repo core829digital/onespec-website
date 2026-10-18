@@ -360,6 +360,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.0",
+      "date": "2026-10-18",
+      "title": "Geführter Weg auch in den Widgets der Kunden",
+      "tag": "Neu",
+      "channel": "prodotto",
+      "items": [
+        "Der geführte Konfigurator in 3 Schritten ist jetzt in jedem Widget verfügbar: Besucher wechseln mit einem Tipp zwischen „Geführt“ und „Vollständig“",
+        "Der Fensterbauer wählt, was zuerst erscheint: einfach data-mode=\"guided\" zum Einbettungsskript hinzufügen (oder ?mode=guided zum Link)",
+        "Sauberere Besuchsstatistiken: Demo-Seiten und eingebettete Widgets werden nicht gezählt, und Links mit geheimen Codes werden nicht erfasst"
+      ]
+    },
+    {
       "version": "1.28.0",
       "date": "2026-10-18",
       "title": "Geführte Demo, einfachere Startseite und kompaktes Menü",

@@ -70,8 +70,9 @@ export function Hero() {
   const facts = t.raw("facts") as string[];
   const reviews = (t.raw("reviews") as Review[]) ?? [];
 
+  // La sezione sale sotto l'header fluttuante (alto 4.25rem): l'animazione copre tutta la sezione, senza fascia vuota in cima.
   return (
-    <section className="relative flex min-h-[min(calc(100svh-4.25rem),640px)] w-full flex-col overflow-hidden bg-[var(--color-bg-inverse)]">
+    <section className="relative -mt-[4.25rem] flex min-h-[560px] w-full sm:min-h-[min(100svh,720px)] flex-col overflow-hidden bg-[var(--color-bg-inverse)] pt-[4.25rem]">
       <ShaderBackground className="absolute inset-0" />
 
       {/* Velo scuro al centro: il testo resta leggibile su qualunque fase dello shader. */}
@@ -81,8 +82,8 @@ export function Hero() {
       />
       {/* Scurisce il basso per agganciare la sezione successiva. */}
       <div
-        className="pointer-events-none absolute inset-x-0 bottom-0 h-1/3"
-        style={{ background: "linear-gradient(to bottom, rgba(10,11,13,0) 0%, rgba(10,11,13,0.8) 60%, var(--color-bg) 100%)" }}
+        className="pointer-events-none absolute inset-x-0 bottom-0 h-24"
+        style={{ background: "linear-gradient(to bottom, rgba(10,11,13,0) 0%, var(--color-bg) 100%)" }}
       />
 
       <div className="relative z-10 flex w-full flex-1 items-center justify-center px-6 py-16 sm:py-20">

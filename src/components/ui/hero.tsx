@@ -72,7 +72,7 @@ export function Hero() {
 
   // La sezione sale sotto l'header fluttuante (alto 4.25rem): l'animazione copre tutta la sezione, senza fascia vuota in cima.
   return (
-    <section className="relative -mt-[4.25rem] flex min-h-[560px] w-full sm:min-h-[min(100svh,720px)] flex-col overflow-hidden bg-[var(--color-bg-inverse)] pt-[4.25rem]">
+    <section className="relative -mt-[4.25rem] flex min-h-[100svh] w-full flex-col overflow-hidden bg-[var(--color-bg-inverse)] pt-[4.25rem]">
       <ShaderBackground className="absolute inset-0" />
 
       {/* Velo scuro al centro: il testo resta leggibile su qualunque fase dello shader. */}

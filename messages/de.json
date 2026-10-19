@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.12",
+      "date": "2026-10-19",
+      "title": "Anfragen: Konfigurator und Herkunftswebsite",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Jede Anfrage zeigt, aus welchem Konfigurator sie stammt, in der Anfragenliste und auf der Anfrageseite",
+        "Bei Anfragen über das Widget auf der Website eines Kunden erscheint auch die Seite, von der sie gesendet wurde",
+        "Beides ist auch im CSV-Export enthalten und durchsuchbar"
+      ]
+    },
+    {
       "version": "1.29.11",
       "date": "2026-10-19",
       "title": "Anmeldung mit Zwei-Schritt-Verifizierung: Abfrage des Codes",

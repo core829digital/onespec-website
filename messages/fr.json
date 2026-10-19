@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.12",
+      "date": "2026-10-19",
+      "title": "Demandes : configurateur et site de provenance",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Chaque demande indique de quel configurateur elle provient, dans la liste des demandes et sur la fiche de la demande",
+        "Pour les demandes envoyées depuis le widget sur le site d'un client, la page du site d'où elle a été envoyée apparaît aussi",
+        "Les deux informations figurent aussi dans l'export CSV et peuvent être recherchées"
+      ]
+    },
+    {
       "version": "1.29.11",
       "date": "2026-10-19",
       "title": "Connexion avec vérification en deux étapes : demande du code",

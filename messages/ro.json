@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.12",
+      "date": "2026-10-19",
+      "title": "Cereri: configuratorul și site-ul de proveniență",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Fiecare cerere arată din ce configurator a venit, în lista Cereri și pe pagina cererii",
+        "Pentru cererile din widgetul de pe site-ul unui client apare și pagina site-ului de pe care au fost trimise",
+        "Ambele informații apar și în exportul CSV și pot fi căutate"
+      ]
+    },
+    {
       "version": "1.29.11",
       "date": "2026-10-19",
       "title": "Autentificare în doi pași: solicitarea codului",

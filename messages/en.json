@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.12",
+      "date": "2026-10-19",
+      "title": "Requests: configurator and source website",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Each request shows which configurator it came from, in the Requests list and on the request page",
+        "Requests from the widget on a customer's website also show the page of the site they were sent from",
+        "Both are in the CSV export too and can be searched"
+      ]
+    },
+    {
       "version": "1.29.11",
       "date": "2026-10-19",
       "title": "Sign-in with two-step verification: asking for the code",

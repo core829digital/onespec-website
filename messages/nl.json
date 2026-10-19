@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.12",
+      "date": "2026-10-19",
+      "title": "Aanvragen: configurator en website van herkomst",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Elke aanvraag toont uit welke configurator ze komt, in de lijst met aanvragen en op de aanvraagpagina",
+        "Bij aanvragen via de widget op de website van een klant staat ook de pagina van de site waarvandaan ze is verstuurd",
+        "Beide staan ook in de CSV-export en zijn doorzoekbaar"
+      ]
+    },
+    {
       "version": "1.29.11",
       "date": "2026-10-19",
       "title": "Inloggen met verificatie in twee stappen: vragen om de code",

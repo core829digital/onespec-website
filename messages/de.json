@@ -272,6 +272,19 @@
   ],
   "changelog": [
     {
+      "version": "1.29.4",
+      "date": "2026-10-19",
+      "title": "Empfehlungsprogramm steuerlich korrekt",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Programmbedingungen vervollständigt: Fassung gültig ab 19. Oktober 2026 und steuerliche Behandlung der Prämie (Rechnung, MwSt. im Reverse-Charge-Verfahren, rumänische Quellensteuer und Ansässigkeitsbescheinigung)",
+        "Geldprämien werden erst nach Prüfung der Unterlagen ausgezahlt; Guthaben auf das Abonnement bleibt ohne Unterlagen",
+        "E-Mail in 6 Sprachen mit den nötigen Unterlagen; auf der Seite Einladen & sparen zeigt die Prämie „Unterlagen senden“",
+        "Datenschutzerklärung um die Daten des Empfehlungsprogramms ergänzt; Übersetzungen angeglichen"
+      ]
+    },
+    {
       "version": "1.29.3",
       "date": "2026-10-18",
       "title": "Produktseite als Geschichte, zuverlässigere Demo",
@@ -1089,7 +1102,7 @@
       "Die Prämie wird nach der ersten echten Zahlung des eingeladenen Unternehmens und 30 Tagen ohne Rückerstattung oder Anfechtung fällig.",
       "Höchstens 10 Prämien pro 12 Monate und Konto.",
       "Einladungen zwischen Konten derselben Person oder desselben Unternehmens oder mit derselben Zahlungskarte geben keinen Anspruch auf die Prämie.",
-      "Eine Geldprämie ist eine Vergütung für die Empfehlung: die steuerliche Behandlung liegt beim Empfänger."
+      "Die Geldprämie vergütet eine Vermittlungsleistung: Dafür brauchen wir Ihre Rechnung an CORE829 SRL und, falls Ihr Unternehmen nicht in Rumänien ansässig ist, die Ansässigkeitsbescheinigung. Guthaben auf das Abonnement erfordert keine Unterlagen. Details in den Programmbedingungen."
     ],
     "legalPrefix": "Lesen Sie die",
     "legalLink": "Regeln des Einladungsprogramms"

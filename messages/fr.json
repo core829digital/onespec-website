@@ -272,6 +272,19 @@
   ],
   "changelog": [
     {
+      "version": "1.29.4",
+      "date": "2026-10-19",
+      "title": "Programme de parrainage conforme aux règles fiscales",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Règlement du parrainage complété : version en vigueur depuis le 19 octobre 2026 et traitement fiscal de la récompense (facture, TVA en autoliquidation, retenue roumaine et certificat de résidence fiscale)",
+        "La récompense en argent n'est versée qu'après vérification des documents ; le crédit sur l'abonnement reste sans document",
+        "E-mail en 6 langues indiquant quoi envoyer ; sur la page Inviter et économiser, la récompense affiche « Documents à envoyer »",
+        "Politique de confidentialité mise à jour avec les données du programme ; traductions alignées"
+      ]
+    },
+    {
       "version": "1.29.3",
       "date": "2026-10-18",
       "title": "Page Produit racontée comme une histoire, démo plus fiable",
@@ -1089,7 +1102,7 @@
       "La récompense est acquise après le premier vrai paiement de l'entreprise invitée et 30 jours sans remboursement ni contestation.",
       "10 récompenses maximum par période de 12 mois et par compte.",
       "Les invitations entre comptes d'une même personne ou entreprise, ou avec la même carte de paiement, ne donnent pas droit à la récompense.",
-      "Une récompense en argent est une rémunération de la recommandation : le traitement fiscal incombe à celui qui la reçoit."
+      "La récompense en argent rémunère un service d'apport d'affaires : pour la recevoir, il faut votre facture au nom de CORE829 SRL et, si votre société n'est pas établie en Roumanie, son certificat de résidence fiscale. Le crédit sur l'abonnement ne demande aucun document. Détails dans le règlement."
     ],
     "legalPrefix": "Lisez le",
     "legalLink": "règlement du programme d'invitation"

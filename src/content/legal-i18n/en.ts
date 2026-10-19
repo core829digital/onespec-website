@@ -43,6 +43,7 @@ export const EN: LegalI18nSet = {
           "Support: subject, text and attachments (images or PDF) of the tickets you open from the platform, category, status, any rating from 1 to 5, our team's replies and the internal processing notes (not visible to you).",
           "«Contact us» page (for those who cannot sign in): name, email address and message you enter, chosen topic, language and hash of the IP address (the plain IP is not stored) used to limit abuse.",
           "Activity log (audit log) of administrative actions and sensitive operations, including actions on tickets (identifiers and type of action, without the text of messages).",
+          "Invite programme: invite code, linked accounts, invite status and reward amount; for money rewards, the Stripe Connect account identifier and the tax documents sent (invoice and certificate of tax residence).",
         ],
       },
       {
@@ -54,6 +55,7 @@ export const EN: LegalI18nSet = {
           "Emails about tickets (new reply, ticket resolved) are service messages linked to your request, not marketing messages; you can turn them off in the notification preferences.",
           "Sending product and marketing communications — consent (Art. 6(1)(a)), which can be withdrawn from the Account page.",
           "Tax and accounting obligations relating to paid subscriptions — legal obligation (Art. 6(1)(c)).",
+          "Invite programme — performance of the accepted rules (Art. 6(1)(b)); checking and keeping the tax documents of money rewards — legal obligation (Art. 6(1)(c)); anti-abuse checks — legitimate interest (Art. 6(1)(f)).",
         ],
       },
       {
@@ -379,7 +381,7 @@ export const EN: LegalI18nSet = {
         h: "What the programme is",
         p: [
           "The «Invite and save» programme lets a OneSpec customer organisation (the «inviter») invite another company (the «invitee») through its personal code or link. The programme is a commercial initiative of OneSpec, may be activated, changed or suspended at any time and concerns professional (B2B) customers only.",
-          "Draft awaiting legal review: [[revisione legale del regolamento]].",
+          "Version of the rules: in force from 19 October 2026, approved by the director of CORE829 SRL; later changes are published on this page with the new date and do not apply to rewards already earned.",
         ],
       },
       {
@@ -401,13 +403,18 @@ export const EN: LegalI18nSet = {
         h: "How the reward is paid",
         p: [
           "The owner of the organisation chooses between two methods: credit on the Stripe balance, which reduces the next OneSpec invoices, or a cash transfer through Stripe Connect to the account linked by the inviter. Cash payment requires completing the identity verification required by Stripe.",
-          "Credit cannot be converted into money. Any tax aspects of the cash reward (invoicing, withholdings, VAT) are the inviter's responsibility, unless the law provides otherwise: [[trattamento fiscale del premio, da definire con il commercialista]].",
+          "Credit cannot be converted into money: it is a discount on the inviter's OneSpec subscriptions, deducted from the next invoices issued by CORE829 SRL, and needs no documents.",
+          "The money reward is the consideration for a business referral service provided by the inviter to CORE829 SRL. When it matures, OneSpec asks the inviter by email for: (a) the invoice for the reward made out to CORE829 SRL, Str. Mihai Eminescu 10, Roman, România, CUI/CIF RO54616345; (b) if the inviter is not based in Romania, the certificate of tax residence issued by the tax authority of its country and valid for the year of payment. The documents are sent to office@core829.net; the transfer leaves only after they have been checked.",
+          "VAT: if the inviter is established in another EU Member State, the service is deemed supplied in Romania and the invoice is issued without VAT, stating the reverse charge (Articles 44 and 196 of Directive 2006/112/EC); the tax is accounted for by CORE829 SRL. If the inviter is established in Romania and VAT-registered, the invoice shows Romanian VAT; if not registered, it is issued without VAT. If the inviter is established outside the EU, the invoice follows the rules of its country. In all cases the reward amount, calculated as above, is the total paid by CORE829 SRL, including any VAT the inviter must charge.",
+          "Withholding tax: for referral fees paid to non-resident companies, Romanian law provides for a withholding tax (Article 223 of the Romanian Fiscal Code, currently 16%), which does not apply or is reduced under the double taxation treaty between Romania and the inviter's country, if the inviter provides the certificate of tax residence. Without a valid certificate OneSpec does not make the transfer; the inviter can always choose credit.",
+          "Income tax: the reward is business income of the inviter and must be declared under the rules of its country. OneSpec does not provide tax advice: for its own situation the inviter should consult its own adviser.",
+          "Timing: the transfer is made within 30 days of the documents being checked. If the complete documents do not arrive within 90 days of the end of the waiting period, the money reward expires; until then the inviter can switch to credit, which is granted without documents.",
         ],
       },
       {
         h: "Revocation of the reward",
         p: [
-          "If within 60 days of the qualifying payment the invitee obtains a refund or opens a dispute, the reward already granted is revoked: the credit is reversed from the Stripe balance or the transfer is cancelled through a transfer reversal.",
+          "If within 60 days of the qualifying payment the invitee obtains a refund or opens a dispute, the reward already granted is revoked: the credit is reversed from the Stripe balance or the transfer is cancelled through a transfer reversal. If the money reward had already been invoiced, the inviter issues the corresponding credit note.",
         ],
       },
       {

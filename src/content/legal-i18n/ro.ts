@@ -43,6 +43,7 @@ export const RO: LegalI18nSet = {
           "Asistență: subiectul, textul și atașamentele (imagini sau PDF) ale tichetelor pe care le deschideți din platformă, categoria, starea, eventuala evaluare de la 1 la 5, răspunsurile echipei noastre și notele interne de lucru (nevizibile pentru dumneavoastră).",
           "Pagina „Contactați-ne” (pentru cine nu se poate autentifica): numele, adresa de e-mail și mesajul introduse, subiectul ales, limba și hash-ul adresei IP (IP-ul în clar nu este păstrat), folosit pentru limitarea abuzurilor.",
           "Registrul de activitate (audit log) al acțiunilor administrative și al operațiunilor sensibile, inclusiv acțiunile pe tichete (identificatori și tipul acțiunii, fără textul mesajelor).",
+          "Programul de invitații: codul de invitație, conturile legate, starea invitației și valoarea recompensei; pentru recompensele în bani, identificatorul contului Stripe Connect și documentele fiscale trimise (factura și certificatul de rezidență fiscală).",
         ],
       },
       {
@@ -54,6 +55,7 @@ export const RO: LegalI18nSet = {
           "E-mailurile despre tichete (răspuns nou, tichet rezolvat) sunt comunicări de serviciu legate de solicitarea dumneavoastră, nu comunicări comerciale; le puteți dezactiva din preferințele de notificare.",
           "Trimiterea de comunicări despre produs și comerciale — consimțământ (art. 6 alin. 1 lit. a), care poate fi retras din pagina Cont.",
           "Obligații fiscale și contabile legate de abonamentele plătite — obligație legală (art. 6 alin. 1 lit. c).",
+          "Programul de invitații — executarea regulamentului acceptat (art. 6 alin. 1 lit. b); verificarea și păstrarea documentelor fiscale ale recompenselor în bani — obligație legală (art. 6 alin. 1 lit. c); controale anti-abuz — interes legitim (art. 6 alin. 1 lit. f).",
         ],
       },
       {
@@ -379,7 +381,7 @@ export const RO: LegalI18nSet = {
         h: "Ce este programul",
         p: [
           "Programul „Invită și economisește” permite unei organizații client OneSpec („invitatorul”) să invite o altă firmă („invitatul”) prin codul sau linkul personal. Programul este o inițiativă comercială a OneSpec, poate fi activat, modificat sau suspendat oricând și privește exclusiv clienții profesioniști (B2B).",
-          "Proiect în așteptarea revizuirii juridice: [[revisione legale del regolamento]].",
+          "Versiunea regulamentului: în vigoare din 19 octombrie 2026, aprobată de administratorul CORE829 SRL; modificările ulterioare sunt publicate pe această pagină cu noua dată și nu se aplică recompenselor deja câștigate.",
         ],
       },
       {
@@ -401,13 +403,18 @@ export const RO: LegalI18nSet = {
         h: "Cum se plătește recompensa",
         p: [
           "Proprietarul organizației alege între două modalități: credit pe soldul Stripe, care reduce următoarele facturi OneSpec, sau transfer în bani prin Stripe Connect în contul conectat de invitator. Plata în bani necesită finalizarea verificării de identitate cerute de Stripe.",
-          "Creditul nu poate fi convertit în bani. Eventualele aspecte fiscale ale recompensei în bani (facturare, rețineri, TVA) sunt în sarcina invitatorului, cu excepția unor dispoziții legale contrare: [[trattamento fiscale del premio, da definire con il commercialista]].",
+          "Creditul nu poate fi convertit în bani: este o reducere la abonamentele OneSpec ale invitatorului, scăzută din facturile următoare emise de CORE829 SRL, și nu necesită documente.",
+          "Recompensa în bani este contravaloarea unui serviciu de recomandare comercială prestat de invitator către CORE829 SRL. Când este câștigată, OneSpec îi cere invitatorului prin e-mail: (a) factura pentru recompensă emisă către CORE829 SRL, Str. Mihai Eminescu 10, Roman, România, CUI/CIF RO54616345; (b) dacă invitatorul nu are sediul în România, certificatul de rezidență fiscală eliberat de autoritatea fiscală din țara sa, valabil pentru anul plății. Documentele se trimit la office@core829.net; transferul pleacă doar după verificarea lor.",
+          "TVA: dacă invitatorul are sediul în alt stat membru UE, serviciul se consideră prestat în România, iar factura se emite fără TVA, cu mențiunea taxării inverse (art. 44 și 196 din Directiva 2006/112/CE); taxa este achitată de CORE829 SRL. Dacă invitatorul are sediul în România și este înregistrat în scopuri de TVA, factura include TVA; dacă nu este înregistrat, se emite fără TVA. Dacă invitatorul are sediul în afara UE, factura respectă regulile țării sale. În toate cazurile, valoarea recompensei, calculată ca mai sus, este totalul plătit de CORE829 SRL, inclusiv eventuala TVA pe care invitatorul trebuie să o factureze.",
+          "Impozit reținut la sursă: pentru comisioanele de recomandare plătite societăților nerezidente, legea română prevede un impozit reținut la sursă (art. 223 din Codul fiscal, în prezent 16%), care nu se aplică sau se reduce în baza convenției de evitare a dublei impuneri dintre România și țara invitatorului, dacă acesta prezintă certificatul de rezidență fiscală. Fără un certificat valabil OneSpec nu efectuează transferul; invitatorul poate alege oricând creditul.",
+          "Impozit pe profit/venit: recompensa este un venit din activitatea invitatorului și se declară conform regulilor țării sale. OneSpec nu oferă consultanță fiscală: pentru situația sa, invitatorul se adresează propriului consultant.",
+          "Termene: transferul se face în 30 de zile de la verificarea documentelor. Dacă documentele complete nu ajung în 90 de zile de la sfârșitul perioadei de așteptare, recompensa în bani expiră; până la acea dată invitatorul poate trece la credit, acordat fără documente.",
         ],
       },
       {
         h: "Revocarea recompensei",
         p: [
-          "Dacă în 60 de zile de la plata calificantă invitatul obține o rambursare sau deschide o contestație, recompensa deja acordată este revocată: creditul este stornat din soldul Stripe sau transferul este anulat prin stornarea acestuia.",
+          "Dacă în 60 de zile de la plata calificantă invitatul obține o rambursare sau deschide o contestație, recompensa deja acordată este revocată: creditul este stornat din soldul Stripe sau transferul este anulat prin stornarea acestuia. Dacă recompensa în bani fusese deja facturată, invitatorul emite factura de stornare corespunzătoare.",
         ],
       },
       {

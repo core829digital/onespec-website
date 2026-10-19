@@ -272,6 +272,19 @@
   ],
   "changelog": [
     {
+      "version": "1.29.4",
+      "date": "2026-10-19",
+      "title": "Uitnodigingsprogramma in orde met de fiscale regels",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Reglement vervolledigd: versie van kracht sinds 19 oktober 2026 en fiscale behandeling van de beloning (factuur, btw verlegd, Roemeense bronheffing en fiscaal woonplaatsattest)",
+        "Een beloning in geld wordt pas betaald na controle van de documenten; tegoed op het abonnement blijft zonder documenten",
+        "E-mail in 6 talen met wat u moet sturen; op de pagina Nodig uit en bespaar toont de beloning ‘Documenten te sturen’",
+        "Privacyverklaring aangevuld met de gegevens van het programma; vertalingen afgestemd"
+      ]
+    },
+    {
       "version": "1.29.3",
       "date": "2026-10-18",
       "title": "Productpagina als verhaal, betrouwbaardere demo",
@@ -1089,7 +1102,7 @@
       "De beloning wordt verdiend na de eerste echte betaling van het uitgenodigde bedrijf en 30 dagen zonder terugbetaling of betwisting.",
       "Maximaal 10 beloningen per 12 maanden per account.",
       "Uitnodigingen tussen accounts van dezelfde persoon of hetzelfde bedrijf, of met dezelfde betaalkaart, geven geen recht op een beloning.",
-      "Een beloning in geld is een vergoeding voor de aanbeveling: de fiscale behandeling is voor de ontvanger."
+      "De beloning in geld vergoedt een aanbrengdienst: daarvoor is uw factuur aan CORE829 SRL nodig en, als uw bedrijf niet in Roemenië gevestigd is, het fiscaal woonplaatsattest. Tegoed op het abonnement vraagt geen documenten. Details in het reglement."
     ],
     "legalPrefix": "Lees het",
     "legalLink": "reglement van het uitnodigingsprogramma"

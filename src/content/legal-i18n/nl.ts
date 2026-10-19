@@ -43,6 +43,7 @@ export const NL: LegalI18nSet = {
           "Ondersteuning: onderwerp, tekst en bijlagen (afbeeldingen of pdf) van de tickets die u in het platform opent, categorie, status, eventuele beoordeling van 1 tot 5, de antwoorden van ons team en de interne verwerkingsnotities (niet zichtbaar voor u).",
           "Pagina ‘Contact’ (voor wie niet kan inloggen): naam, e-mailadres en bericht dat u invoert, gekozen onderwerp, taal en hash van het IP-adres (het IP-adres zelf wordt niet bewaard) om misbruik te beperken.",
           "Activiteitenlogboek (auditlog) van administratieve handelingen en gevoelige bewerkingen, inclusief handelingen op tickets (identificatoren en soort handeling, zonder de tekst van berichten).",
+          "Uitnodigingsprogramma: uitnodigingscode, gekoppelde accounts, status van de uitnodiging en bedrag van de beloning; voor beloningen in geld de identificator van de Stripe Connect-rekening en de verzonden fiscale documenten (factuur en fiscaal woonplaatsattest).",
         ],
       },
       {
@@ -54,6 +55,7 @@ export const NL: LegalI18nSet = {
           "E-mails over tickets (nieuw antwoord, ticket opgelost) zijn serviceberichten bij uw verzoek, geen commerciële berichten; u kunt ze uitschakelen in de meldingsvoorkeuren.",
           "Verzenden van productinformatie en commerciële berichten — toestemming (art. 6.1.a), in te trekken via de pagina Account.",
           "Fiscale en boekhoudkundige verplichtingen bij betaalde abonnementen — wettelijke verplichting (art. 6.1.c).",
+          "Uitnodigingsprogramma — uitvoering van het aanvaarde reglement (art. 6.1.b); controle en bewaring van de fiscale documenten van beloningen in geld — wettelijke verplichting (art. 6.1.c); controles tegen misbruik — gerechtvaardigd belang (art. 6.1.f).",
         ],
       },
       {
@@ -379,7 +381,7 @@ export const NL: LegalI18nSet = {
         h: "Wat het programma is",
         p: [
           "Met het programma ‘Uitnodigen en besparen’ kan een klantorganisatie van OneSpec (de ‘uitnodiger’) een ander bedrijf (de ‘genodigde’) uitnodigen via haar persoonlijke code of link. Het programma is een commercieel initiatief van OneSpec, kan op elk moment worden geactiveerd, gewijzigd of opgeschort en is uitsluitend bedoeld voor professionele klanten (B2B).",
-          "Ontwerp in afwachting van juridische toetsing: [[revisione legale del regolamento]].",
+          "Versie van het reglement: van kracht sinds 19 oktober 2026, goedgekeurd door de bestuurder van CORE829 SRL; latere wijzigingen worden op deze pagina gepubliceerd met de nieuwe datum en gelden niet voor reeds verdiende beloningen.",
         ],
       },
       {
@@ -401,13 +403,18 @@ export const NL: LegalI18nSet = {
         h: "Hoe de beloning wordt uitbetaald",
         p: [
           "De eigenaar van de organisatie kiest tussen twee manieren: tegoed op het Stripe-saldo, dat de volgende facturen van OneSpec verlaagt, of een overschrijving in geld via Stripe Connect naar de rekening die de uitnodiger heeft gekoppeld. Uitbetaling in geld vereist het voltooien van de identiteitsverificatie die Stripe vraagt.",
-          "Tegoed kan niet in geld worden omgezet. Eventuele fiscale aspecten van de beloning in geld (facturatie, inhoudingen, btw) zijn voor rekening van de uitnodiger, tenzij de wet anders bepaalt: [[trattamento fiscale del premio, da definire con il commercialista]].",
+          "Tegoed kan niet in geld worden omgezet: het is een korting op de OneSpec-abonnementen van de uitnodiger, afgetrokken van de volgende facturen van CORE829 SRL, en er zijn geen documenten voor nodig.",
+          "De beloning in geld is de vergoeding voor een commerciële aanbrengdienst die de uitnodiger aan CORE829 SRL levert. Wanneer ze verdiend is, vraagt OneSpec de uitnodiger per e-mail: (a) de factuur voor de beloning op naam van CORE829 SRL, Str. Mihai Eminescu 10, Roman, România, CUI/CIF RO54616345; (b) als de uitnodiger niet in Roemenië gevestigd is, het fiscaal woonplaatsattest afgegeven door de belastingdienst van zijn land en geldig voor het jaar van betaling. De documenten worden gestuurd naar office@core829.net; de overschrijving vertrekt pas na controle ervan.",
+          "Btw: als de uitnodiger in een andere EU-lidstaat gevestigd is, wordt de dienst geacht in Roemenië te zijn verricht en wordt de factuur zonder btw uitgereikt, met vermelding van de verlegging (‘reverse charge’, artikelen 44 en 196 van Richtlijn 2006/112/EG); de belasting wordt voldaan door CORE829 SRL. Als de uitnodiger in Roemenië gevestigd is en voor btw geregistreerd, vermeldt de factuur Roemeense btw; zo niet, wordt ze zonder btw uitgereikt. Als de uitnodiger buiten de EU gevestigd is, volgt de factuur de regels van zijn land. In alle gevallen is het zoals hierboven berekende bedrag van de beloning het totaal dat CORE829 SRL betaalt, inclusief eventuele btw die de uitnodiger moet aanrekenen.",
+          "Bronheffing: voor aanbrengvergoedingen aan niet-ingezeten vennootschappen voorziet de Roemeense wet in een bronheffing (artikel 223 van het Roemeense belastingwetboek, momenteel 16%), die niet van toepassing is of wordt verlaagd op grond van het belastingverdrag tussen Roemenië en het land van de uitnodiger, als die het fiscaal woonplaatsattest voorlegt. Zonder geldig attest doet OneSpec de overschrijving niet; de uitnodiger kan altijd voor tegoed kiezen.",
+          "Inkomstenbelasting: de beloning is een bedrijfsinkomen van de uitnodiger en moet worden aangegeven volgens de regels van zijn land. OneSpec geeft geen fiscaal advies: voor zijn eigen situatie raadpleegt de uitnodiger zijn eigen adviseur.",
+          "Termijnen: de overschrijving gebeurt binnen 30 dagen na controle van de documenten. Als de volledige documenten niet binnen 90 dagen na het einde van de wachtperiode binnenkomen, vervalt de beloning in geld; tot die datum kan de uitnodiger overstappen op tegoed, dat zonder documenten wordt toegekend.",
         ],
       },
       {
         h: "Intrekking van de beloning",
         p: [
-          "Als de genodigde binnen 60 dagen na de kwalificerende betaling een terugbetaling krijgt of een betwisting opent, wordt de reeds toegekende beloning ingetrokken: het tegoed wordt van het Stripe-saldo teruggeboekt of de overschrijving wordt geannuleerd via terugboeking van de transfer.",
+          "Als de genodigde binnen 60 dagen na de kwalificerende betaling een terugbetaling krijgt of een betwisting opent, wordt de reeds toegekende beloning ingetrokken: het tegoed wordt van het Stripe-saldo teruggeboekt of de overschrijving wordt geannuleerd via terugboeking van de transfer. Als de beloning in geld al gefactureerd was, reikt de uitnodiger de bijbehorende creditnota uit.",
         ],
       },
       {

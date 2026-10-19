@@ -16,15 +16,15 @@ import { RO } from "./ro";
  * translations are brought up to date and these markers are moved.
  */
 export const LEGAL_I18N_SOURCE = {
-  values: "bjiipv",
+  values: "15dy2lh",
   docs: {
-    privacy: "2026-10-18",
+    privacy: "2026-10-19",
     "termini-di-servizio": "2026-10-12",
     "termini-di-utilizzo": "2026-09-02",
     cookie: "2026-10-18",
     gdpr: "2026-10-12",
     sicurezza: "2026-09-02",
-    "regolamento-inviti": "2026-10-02",
+    "regolamento-inviti": "2026-10-19",
     qualita: "2026-09-02",
   } as Record<string, string>,
 };

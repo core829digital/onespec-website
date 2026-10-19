@@ -43,6 +43,7 @@ export const DE: LegalI18nSet = {
           "Support: Betreff, Text und Anhänge (Bilder oder PDF) der Tickets, die Sie in der Plattform eröffnen, Kategorie, Status, etwaige Bewertung von 1 bis 5, die Antworten unseres Teams und die internen Bearbeitungsnotizen (für Sie nicht sichtbar).",
           "Seite „Kontakt“ (für alle, die sich nicht anmelden können): Name, E-Mail-Adresse und Nachricht, die Sie eingeben, gewähltes Thema, Sprache und Hash der IP-Adresse (die IP im Klartext wird nicht gespeichert), der zur Missbrauchsbegrenzung dient.",
           "Aktivitätsprotokoll (Audit-Log) der administrativen Aktionen und sensiblen Vorgänge, einschließlich Aktionen an Tickets (Kennungen und Art der Aktion, ohne den Text der Nachrichten).",
+          "Empfehlungsprogramm: Einladungscode, verknüpfte Konten, Status der Einladung und Höhe der Prämie; bei Geldprämien die Kennung des Stripe-Connect-Kontos und die übermittelten Steuerunterlagen (Rechnung und Ansässigkeitsbescheinigung).",
         ],
       },
       {
@@ -54,6 +55,7 @@ export const DE: LegalI18nSet = {
           "E-Mails zu Tickets (neue Antwort, Ticket gelöst) sind Servicemitteilungen zu Ihrer Anfrage, keine Werbung; Sie können sie in den Benachrichtigungseinstellungen deaktivieren.",
           "Versand von Produkt- und Werbemitteilungen — Einwilligung (Art. 6 Abs. 1 lit. a), über die Seite Konto widerrufbar.",
           "Steuerliche und buchhalterische Pflichten im Zusammenhang mit kostenpflichtigen Abonnements — rechtliche Verpflichtung (Art. 6 Abs. 1 lit. c).",
+          "Empfehlungsprogramm — Erfüllung der akzeptierten Bedingungen (Art. 6 Abs. 1 lit. b); Prüfung und Aufbewahrung der Steuerunterlagen zu Geldprämien — rechtliche Verpflichtung (Art. 6 Abs. 1 lit. c); Kontrollen gegen Missbrauch — berechtigtes Interesse (Art. 6 Abs. 1 lit. f).",
         ],
       },
       {
@@ -379,7 +381,7 @@ export const DE: LegalI18nSet = {
         h: "Was das Programm ist",
         p: [
           "Das Programm „Einladen und sparen“ ermöglicht einer Kundenorganisation von OneSpec (dem „Werber“), ein anderes Unternehmen (den „Geworbenen“) über den persönlichen Code oder Link einzuladen. Das Programm ist eine kommerzielle Initiative von OneSpec, kann jederzeit aktiviert, geändert oder ausgesetzt werden und richtet sich ausschließlich an gewerbliche Kunden (B2B).",
-          "Entwurf in Erwartung rechtlicher Prüfung: [[revisione legale del regolamento]].",
+          "Fassung der Bedingungen: gültig ab 19. Oktober 2026, vom Geschäftsführer der CORE829 SRL genehmigt; spätere Änderungen werden auf dieser Seite mit dem neuen Datum veröffentlicht und gelten nicht für bereits entstandene Prämien.",
         ],
       },
       {
@@ -401,13 +403,18 @@ export const DE: LegalI18nSet = {
         h: "Wie die Prämie ausgezahlt wird",
         p: [
           "Der Inhaber der Organisation wählt zwischen zwei Möglichkeiten: Guthaben auf dem Stripe-Saldo, das die nächsten OneSpec-Rechnungen verringert, oder eine Geldüberweisung über Stripe Connect auf das vom Werber verknüpfte Konto. Die Auszahlung in Geld erfordert den Abschluss der von Stripe verlangten Identitätsprüfung.",
-          "Guthaben kann nicht in Geld umgewandelt werden. Etwaige steuerliche Aspekte der Geldprämie (Rechnungsstellung, Quellensteuer, MwSt.) trägt der Werber, sofern gesetzlich nichts anderes bestimmt ist: [[trattamento fiscale del premio, da definire con il commercialista]].",
+          "Guthaben kann nicht in Geld umgewandelt werden: Es ist ein Rabatt auf die OneSpec-Abonnements des Werbers, der von den nächsten Rechnungen der CORE829 SRL abgezogen wird, und erfordert keine Unterlagen.",
+          "Die Geldprämie ist die Gegenleistung für eine Vermittlungsleistung, die der Werber gegenüber der CORE829 SRL erbringt. Wenn sie fällig wird, bittet OneSpec den Werber per E-Mail um: (a) die Rechnung über die Prämie an CORE829 SRL, Str. Mihai Eminescu 10, Roman, România, CUI/CIF RO54616345; (b) falls der Werber nicht in Rumänien ansässig ist, die von der Steuerbehörde seines Landes ausgestellte, für das Jahr der Zahlung gültige Ansässigkeitsbescheinigung. Die Unterlagen werden an office@core829.net gesendet; die Überweisung erfolgt erst nach ihrer Prüfung.",
+          "Umsatzsteuer: Ist der Werber in einem anderen EU-Mitgliedstaat ansässig, gilt die Leistung als in Rumänien erbracht und die Rechnung wird ohne MwSt. mit Hinweis auf die Steuerschuldnerschaft des Leistungsempfängers (Reverse Charge, Art. 44 und 196 der Richtlinie 2006/112/EG) ausgestellt; die Steuer schuldet die CORE829 SRL. Ist der Werber in Rumänien ansässig und für die MwSt. registriert, weist die Rechnung die rumänische MwSt. aus; ist er nicht registriert, wird sie ohne MwSt. ausgestellt. Ist der Werber außerhalb der EU ansässig, folgt die Rechnung den Regeln seines Landes. In jedem Fall ist der wie oben berechnete Prämienbetrag der von der CORE829 SRL gezahlte Gesamtbetrag, einschließlich einer etwaigen MwSt., die der Werber berechnen muss.",
+          "Quellensteuer: Für Vermittlungsvergütungen an nicht ansässige Gesellschaften sieht das rumänische Recht eine Quellensteuer vor (Art. 223 des rumänischen Steuergesetzbuchs, derzeit 16 %), die nach dem Doppelbesteuerungsabkommen zwischen Rumänien und dem Land des Werbers entfällt oder sich verringert, wenn dieser die Ansässigkeitsbescheinigung vorlegt. Ohne gültige Bescheinigung nimmt OneSpec keine Überweisung vor; der Werber kann jederzeit das Guthaben wählen.",
+          "Ertragsteuer: Die Prämie ist ein betrieblicher Ertrag des Werbers und nach den Regeln seines Landes zu erklären. OneSpec leistet keine Steuerberatung: Zu seiner eigenen Situation wendet sich der Werber an seinen Berater.",
+          "Fristen: Die Überweisung erfolgt innerhalb von 30 Tagen nach Prüfung der Unterlagen. Gehen die vollständigen Unterlagen nicht innerhalb von 90 Tagen nach Ende der Wartezeit ein, verfällt die Geldprämie; bis dahin kann der Werber zum Guthaben wechseln, das ohne Unterlagen gewährt wird.",
         ],
       },
       {
         h: "Widerruf der Prämie",
         p: [
-          "Erhält der Geworbene innerhalb von 60 Tagen nach der qualifizierenden Zahlung eine Erstattung oder eröffnet er eine Anfechtung, wird die bereits gewährte Prämie widerrufen: Das Guthaben wird vom Stripe-Saldo zurückgebucht oder die Überweisung durch Stornierung des Transfers rückgängig gemacht.",
+          "Erhält der Geworbene innerhalb von 60 Tagen nach der qualifizierenden Zahlung eine Erstattung oder eröffnet er eine Anfechtung, wird die bereits gewährte Prämie widerrufen: Das Guthaben wird vom Stripe-Saldo zurückgebucht oder die Überweisung durch Stornierung des Transfers rückgängig gemacht. Wurde die Geldprämie bereits in Rechnung gestellt, stellt der Werber die entsprechende Gutschrift (Rechnungskorrektur) aus.",
         ],
       },
       {

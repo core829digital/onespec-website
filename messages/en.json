@@ -272,6 +272,19 @@
   ],
   "changelog": [
     {
+      "version": "1.29.4",
+      "date": "2026-10-19",
+      "title": "Invite programme in line with tax rules",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Invite rules completed: version in force from 19 October 2026 and tax treatment of the reward (invoice, VAT under the reverse charge, Romanian withholding tax and certificate of tax residence)",
+        "A money reward is paid only after the documents are checked; credit on the subscription still needs no documents",
+        "Email in 6 languages saying what to send; on the Invite & save page the reward shows «Documents to send»",
+        "Privacy policy updated with the invite programme data; translations aligned"
+      ]
+    },
+    {
       "version": "1.29.3",
       "date": "2026-10-18",
       "title": "Product page as a story, more reliable demo",
@@ -1089,7 +1102,7 @@
       "The reward matures after the invited company's first real payment and 30 days without refunds or disputes.",
       "At most 10 rewards every 12 months per account.",
       "Invitations between accounts of the same person or company, or using the same payment card, do not earn a reward.",
-      "A cash reward is a fee for the referral: tax treatment is the recipient's responsibility."
+      "A money reward is the payment for a referral service: to receive it you send your invoice to CORE829 SRL and, if your company is not based in Romania, its certificate of tax residence. Credit on your subscription needs no documents. Details in the programme rules."
     ],
     "legalPrefix": "Read the",
     "legalLink": "invitation programme rules"

@@ -43,6 +43,7 @@ export const FR: LegalI18nSet = {
           "Assistance : objet, texte et pièces jointes (images ou PDF) des tickets que vous ouvrez depuis la plateforme, catégorie, statut, éventuelle note de 1 à 5, réponses de notre équipe et notes internes de traitement (non visibles pour vous).",
           "Page « Nous contacter » (pour ceux qui ne parviennent pas à se connecter) : nom, adresse e-mail et message que vous saisissez, sujet choisi, langue et hash de l'adresse IP (l'IP en clair n'est pas conservée) utilisé pour limiter les abus.",
           "Journal d'activité (audit log) des actions administratives et des opérations sensibles, y compris les actions sur les tickets (identifiants et type d'action, sans le texte des messages).",
+          "Programme de parrainage : code d'invitation, comptes liés, statut de l'invitation et montant de la récompense ; pour les récompenses en argent, l'identifiant du compte Stripe Connect et les documents fiscaux envoyés (facture et certificat de résidence fiscale).",
         ],
       },
       {
@@ -54,6 +55,7 @@ export const FR: LegalI18nSet = {
           "Les e-mails relatifs aux tickets (nouvelle réponse, ticket résolu) sont des messages de service liés à votre demande, non des communications commerciales ; vous pouvez les désactiver dans les préférences de notification.",
           "Envoi de communications sur le produit et commerciales — consentement (art. 6.1.a), révocable depuis la page Compte.",
           "Obligations fiscales et comptables liées aux abonnements payants — obligation légale (art. 6.1.c).",
+          "Programme de parrainage — exécution du règlement accepté (art. 6.1.b) ; vérification et conservation des documents fiscaux des récompenses en argent — obligation légale (art. 6.1.c) ; contrôles anti-abus — intérêt légitime (art. 6.1.f).",
         ],
       },
       {
@@ -379,7 +381,7 @@ export const FR: LegalI18nSet = {
         h: "Présentation du programme",
         p: [
           "Le programme « Invitez et économisez » permet à une organisation cliente de OneSpec (le « parrain ») d'inviter une autre entreprise (le « filleul ») au moyen de son code ou lien personnel. Le programme est une initiative commerciale de OneSpec, peut être activé, modifié ou suspendu à tout moment et concerne exclusivement des clients professionnels (B2B).",
-          "Projet en attente de revue juridique : [[revisione legale del regolamento]].",
+          "Version du règlement : en vigueur depuis le 19 octobre 2026, approuvée par l'administrateur de CORE829 SRL ; les modifications ultérieures sont publiées sur cette page avec la nouvelle date et ne s'appliquent pas aux récompenses déjà acquises.",
         ],
       },
       {
@@ -401,13 +403,18 @@ export const FR: LegalI18nSet = {
         h: "Comment la récompense est versée",
         p: [
           "Le propriétaire de l'organisation choisit entre deux modalités : un crédit sur le solde Stripe, qui réduit les prochaines factures de OneSpec, ou un virement en argent via Stripe Connect sur le compte relié par le parrain. Le paiement en argent nécessite de compléter la vérification d'identité demandée par Stripe.",
-          "Le crédit n'est pas convertible en argent. Les éventuels aspects fiscaux de la récompense en argent (facturation, retenues, TVA) sont à la charge du parrain, sauf disposition légale contraire : [[trattamento fiscale del premio, da definire con il commercialista]].",
+          "Le crédit n'est pas convertible en argent : c'est une remise sur les abonnements OneSpec du parrain, déduite des factures suivantes émises par CORE829 SRL, et il ne nécessite aucun document.",
+          "La récompense en argent est la contrepartie d'un service d'apport d'affaires rendu par le parrain à CORE829 SRL. Lorsqu'elle est acquise, OneSpec demande au parrain par e-mail : (a) la facture de la récompense au nom de CORE829 SRL, Str. Mihai Eminescu 10, Roman, România, CUI/CIF RO54616345 ; (b) si le parrain n'est pas établi en Roumanie, le certificat de résidence fiscale délivré par l'administration fiscale de son pays et valable pour l'année du paiement. Les documents sont envoyés à office@core829.net ; le virement ne part qu'après leur vérification.",
+          "TVA : si le parrain est établi dans un autre État membre de l'UE, la prestation est réputée rendue en Roumanie et la facture est émise sans TVA, avec la mention de l'autoliquidation (« reverse charge », articles 44 et 196 de la directive 2006/112/CE) ; la taxe est acquittée par CORE829 SRL. Si le parrain est établi en Roumanie et immatriculé à la TVA, la facture mentionne la TVA roumaine ; s'il n'est pas immatriculé, elle est émise sans TVA. Si le parrain est établi hors de l'UE, la facture suit les règles de son pays. Dans tous les cas, le montant de la récompense, calculé comme indiqué ci-dessus, est le total payé par CORE829 SRL, y compris l'éventuelle TVA que le parrain doit facturer.",
+          "Retenue à la source : pour les commissions d'apport d'affaires versées à des sociétés non résidentes, la loi roumaine prévoit une retenue à la source (article 223 du Code fiscal roumain, actuellement 16 %), qui ne s'applique pas ou est réduite en vertu de la convention fiscale entre la Roumanie et le pays du parrain, si celui-ci présente le certificat de résidence fiscale. Sans certificat valide, OneSpec n'effectue pas le virement ; le parrain peut toujours choisir le crédit.",
+          "Impôt sur le revenu : la récompense est un produit de l'activité du parrain et doit être déclarée selon les règles de son pays. OneSpec ne fournit pas de conseil fiscal : pour sa propre situation, le parrain s'adresse à son conseiller.",
+          "Délais : le virement est effectué dans les 30 jours suivant la vérification des documents. Si les documents complets n'arrivent pas dans les 90 jours suivant la fin de la période d'attente, la récompense en argent expire ; jusqu'à cette date, le parrain peut passer au crédit, accordé sans document.",
         ],
       },
       {
         h: "Révocation de la récompense",
         p: [
-          "Si, dans les 60 jours suivant le paiement qualifiant, le filleul obtient un remboursement ou ouvre une contestation, la récompense déjà accordée est révoquée : le crédit est contre-passé sur le solde Stripe ou le virement est annulé par l'annulation du transfert.",
+          "Si, dans les 60 jours suivant le paiement qualifiant, le filleul obtient un remboursement ou ouvre une contestation, la récompense déjà accordée est révoquée : le crédit est contre-passé sur le solde Stripe ou le virement est annulé par l'annulation du transfert. Si la récompense en argent avait déjà été facturée, le parrain émet l'avoir correspondant.",
         ],
       },
       {

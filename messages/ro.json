@@ -272,6 +272,19 @@
   ],
   "changelog": [
     {
+      "version": "1.29.4",
+      "date": "2026-10-19",
+      "title": "Programul de invitații conform regulilor fiscale",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Regulamentul completat: versiune în vigoare din 19 octombrie 2026 și tratamentul fiscal al recompensei (factură, TVA cu taxare inversă, impozit reținut la sursă și certificat de rezidență fiscală)",
+        "Recompensa în bani se plătește doar după verificarea documentelor; creditul pe abonament rămâne fără documente",
+        "E-mail în 6 limbi care indică ce trebuie trimis; pe pagina Invită și economisește recompensa arată „Documente de trimis”",
+        "Politica de confidențialitate actualizată cu datele programului; traduceri aliniate"
+      ]
+    },
+    {
       "version": "1.29.3",
       "date": "2026-10-18",
       "title": "Pagina Produs ca o poveste, demo mai fiabil",
@@ -1089,7 +1102,7 @@
       "Recompensa se câștigă după prima plată reală a companiei invitate și 30 de zile fără rambursări sau contestații.",
       "Cel mult 10 recompense la fiecare 12 luni pentru un cont.",
       "Invitațiile între conturi ale aceleiași persoane sau companii, sau cu același card de plată, nu dau dreptul la recompensă.",
-      "O recompensă în bani este o remunerație pentru recomandare: tratamentul fiscal revine celui care o primește."
+      "Recompensa în bani este plata unui serviciu de recomandare: pentru a o primi este necesară factura dumneavoastră către CORE829 SRL și, dacă firma nu are sediul în România, certificatul de rezidență fiscală. Creditul pe abonament nu necesită documente. Detalii în regulament."
     ],
     "legalPrefix": "Citește",
     "legalLink": "regulamentul programului de invitații"

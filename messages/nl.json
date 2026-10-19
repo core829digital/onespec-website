@@ -272,6 +272,17 @@
   ],
   "changelog": [
     {
+      "version": "1.29.9",
+      "date": "2026-10-19",
+      "title": "Widget: offerteaanvragen vanaf de sites van klanten",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "De botcontrole van de ingesloten configurator startte met een ongeldige instelling en offerteaanvragen werden geweigerd: hij start nu correct en de aanvragen komen binnen",
+        "Als Cloudflare de bezoeker om bevestiging vraagt, verschijnt er onderaan de widget een klein vak in plaats van de aanvraag zonder uitleg te blokkeren"
+      ]
+    },
+    {
       "version": "1.29.8",
       "date": "2026-10-19",
       "title": "Inloggen met verificatie in twee stappen",

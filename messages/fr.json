@@ -272,6 +272,17 @@
   ],
   "changelog": [
     {
+      "version": "1.29.9",
+      "date": "2026-10-19",
+      "title": "Widget : envoi des devis depuis les sites des clients",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Le contrôle anti-robot du configurateur intégré démarrait avec un réglage invalide et les demandes de devis étaient refusées : il démarre désormais correctement et les demandes arrivent",
+        "Si Cloudflare demande une confirmation au visiteur, un petit cadre apparaît en bas du widget au lieu de bloquer l'envoi sans explication"
+      ]
+    },
+    {
       "version": "1.29.8",
       "date": "2026-10-19",
       "title": "Connexion avec vérification en deux étapes",

@@ -272,6 +272,17 @@
   ],
   "changelog": [
     {
+      "version": "1.29.9",
+      "date": "2026-10-19",
+      "title": "Widget: Angebotsanfragen von Kunden-Websites",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Die Bot-Prüfung des eingebetteten Konfigurators startete mit einer ungültigen Einstellung und Angebotsanfragen wurden abgelehnt: Sie startet jetzt korrekt und die Anfragen kommen an",
+        "Fragt Cloudflare den Besucher nach einer Bestätigung, erscheint unten im Widget ein kleines Feld, statt die Anfrage ohne Erklärung zu blockieren"
+      ]
+    },
+    {
       "version": "1.29.8",
       "date": "2026-10-19",
       "title": "Anmeldung mit Zwei-Schritt-Verifizierung",

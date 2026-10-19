@@ -272,6 +272,17 @@
   ],
   "changelog": [
     {
+      "version": "1.29.9",
+      "date": "2026-10-19",
+      "title": "Widget: invio dei preventivi dai siti dei clienti",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Il controllo anti-bot del configuratore incorporato partiva con un'impostazione non valida e le richieste di preventivo venivano rifiutate: ora parte correttamente e le richieste arrivano",
+        "Se Cloudflare chiede una conferma al visitatore, compare un piccolo riquadro in basso nel widget invece di bloccare l'invio senza spiegazione"
+      ]
+    },
+    {
       "version": "1.29.8",
       "date": "2026-10-19",
       "title": "Accesso con verifica in due passaggi",

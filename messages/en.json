@@ -272,6 +272,17 @@
   ],
   "changelog": [
     {
+      "version": "1.29.9",
+      "date": "2026-10-19",
+      "title": "Widget: quote requests from customers' sites",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "The embedded configurator's bot check started with an invalid setting and quote requests were refused: it now starts correctly and requests come through",
+        "If Cloudflare asks the visitor to confirm, a small box appears at the bottom of the widget instead of blocking the request without explanation"
+      ]
+    },
+    {
       "version": "1.29.8",
       "date": "2026-10-19",
       "title": "Sign-in with two-step verification",

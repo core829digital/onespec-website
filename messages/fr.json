@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.13",
+      "date": "2026-10-19",
+      "title": "E-mail de nouvelle demande : configurateur et page de provenance",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "L'e-mail « Nouvelle demande de devis » indique dans l'objet le configurateur d'où vient la demande",
+        "L'e-mail affiche aussi la page du site du client d'où elle a été envoyée, avec le lien",
+        "La notification dans la plateforme indique le configurateur"
+      ]
+    },
+    {
       "version": "1.29.12",
       "date": "2026-10-19",
       "title": "Demandes : configurateur et site de provenance",

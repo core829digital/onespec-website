@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.13",
+      "date": "2026-10-19",
+      "title": "New request e-mail: configurator and source page",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "The \"New quote request\" e-mail names the configurator the request came from in its subject",
+        "The e-mail also shows the page of the customer's website it was sent from, with a link",
+        "The in-app notification names the configurator"
+      ]
+    },
+    {
       "version": "1.29.12",
       "date": "2026-10-19",
       "title": "Requests: configurator and source website",

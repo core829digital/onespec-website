@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.13",
+      "date": "2026-10-19",
+      "title": "Email di nuova richiesta: configuratore e pagina di provenienza",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "L'email \"Nuova richiesta preventivo\" riporta nell'oggetto il configuratore da cui è arrivata la richiesta",
+        "Nel testo dell'email compare anche la pagina del sito del cliente da cui è stata inviata, con il link",
+        "La notifica nella piattaforma indica il configuratore"
+      ]
+    },
+    {
       "version": "1.29.12",
       "date": "2026-10-19",
       "title": "Richieste: configuratore e sito di provenienza",

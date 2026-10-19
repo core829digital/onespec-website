@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.13",
+      "date": "2026-10-19",
+      "title": "Email pentru cerere nouă: configuratorul și pagina de proveniență",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Emailul „Cerere nouă de ofertă” arată în subiect configuratorul din care a venit cererea",
+        "Emailul arată și pagina site-ului clientului de pe care a fost trimisă, cu link",
+        "Notificarea din platformă indică configuratorul"
+      ]
+    },
+    {
       "version": "1.29.12",
       "date": "2026-10-19",
       "title": "Cereri: configuratorul și site-ul de proveniență",

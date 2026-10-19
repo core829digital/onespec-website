@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.13",
+      "date": "2026-10-19",
+      "title": "E-Mail zu neuen Anfragen: Konfigurator und Herkunftsseite",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Die E-Mail „Neue Angebotsanfrage“ nennt im Betreff den Konfigurator, aus dem die Anfrage stammt",
+        "Die E-Mail zeigt auch die Seite der Kunden-Website, von der sie gesendet wurde, mit Link",
+        "Die Benachrichtigung in der Plattform nennt den Konfigurator"
+      ]
+    },
+    {
       "version": "1.29.12",
       "date": "2026-10-19",
       "title": "Anfragen: Konfigurator und Herkunftswebsite",

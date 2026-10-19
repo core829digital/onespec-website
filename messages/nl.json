@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.13",
+      "date": "2026-10-19",
+      "title": "E-mail bij nieuwe aanvraag: configurator en pagina van herkomst",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "De e-mail \"Nieuwe offerteaanvraag\" vermeldt in het onderwerp de configurator waaruit de aanvraag komt",
+        "De e-mail toont ook de pagina van de website van de klant waarvandaan ze is verstuurd, met link",
+        "De melding in het platform vermeldt de configurator"
+      ]
+    },
+    {
       "version": "1.29.12",
       "date": "2026-10-19",
       "title": "Aanvragen: configurator en website van herkomst",

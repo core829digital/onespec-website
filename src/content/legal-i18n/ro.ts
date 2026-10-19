@@ -158,6 +158,14 @@ export const RO: LegalI18nSet = {
         ],
       },
       {
+        h: "Coduri promoționale",
+        p: [
+          "OneSpec poate oferi, pentru perioade și în cantități limitate, coduri promoționale care se introduc pe pagina de plată. Condițiile fiecărui cod (reducerea, planurile vizate, numărul maxim de utilizări și eventuala dată de expirare) sunt cele comunicate împreună cu codul și aplicate de sistemul de plată în momentul achiziției; după epuizarea utilizărilor disponibile sau după data de expirare, codul nu mai este valabil.",
+          "Cu excepția cazului în care se indică altfel, un cod promoțional: este valabil doar pentru prima achiziție a unui abonament nou și o singură dată pentru fiecare Client; se aplică doar primei facturi a planurilor cu facturare lunară, iar de la factura următoare se aplică prețul de listă în vigoare; nu este valabil pentru planul Enterprise și nici pentru facturarea anuală; nu se cumulează cu reducerea programului de invitații; nu are valoare bănească, nu este transmisibil și nu dă dreptul la rambursări sau credite.",
+          "TVA, acolo unde este datorată, se calculează la suma redusă. OneSpec poate refuza sau retrage o reducere obținută cu încălcarea acestor condiții, de exemplu prin deschiderea mai multor conturi pentru aceeași organizație.",
+        ],
+      },
+      {
         h: "Utilizare acceptabilă",
         p: [
           "Clientul se obligă să nu utilizeze serviciul pentru activități ilicite, să nu încerce să eludeze limitele tehnice, de securitate sau limitele de utilizare ale planului său și să nu încarce conținut asupra căruia nu deține drepturi. Clientul păstrează în siguranță datele de autentificare și codurile de recuperare ale verificării în doi pași, pe care vă recomandăm să o activați pentru toate persoanele cu acces la platformă.",
@@ -387,7 +395,7 @@ export const RO: LegalI18nSet = {
       {
         h: "Avantaje",
         p: [
-          "Invitatul primește o reducere de 10% la prima factură a abonamentului plătit, calculată la prețul de listă al planului și al ciclului alese.",
+          "Invitatul primește o reducere de 10% la prima factură a abonamentului plătit, calculată la prețul de listă al planului și al ciclului alese. Reducerea nu se cumulează cu codurile promoționale.",
           "Invitatorul primește o recompensă egală cu 10% din prețul de listă, fără TVA, al planului și al ciclului de facturare cumpărate efectiv de invitat (anualul se calculează ca zece rate lunare). Recompensa se acordă o singură dată pentru fiecare cont invitat.",
           "Planul Enterprise, gestionat comercial, este exclus din programul automat.",
         ],
@@ -396,6 +404,7 @@ export const RO: LegalI18nSet = {
         h: "Când se câștigă recompensa",
         p: [
           "Recompensa se câștigă doar după prima plată reală a invitatului și după trecerea a 30 de zile, cu condiția ca între timp plata să nu fi fost rambursată sau contestată și ca abonamentul invitatului să fie în regulă.",
+          "O plată redusă printr-un cod promoțional nu se consideră prima plată reală: recompensa se câștigă începând cu prima plată ulterioară efectuată fără cod promoțional (vezi «Coduri promoționale» în Termenii serviciului).",
           "Fiecare invitator poate primi cel mult 10 recompense în 12 luni consecutive. Dacă invitatorul nu este eligibil în 90 de zile de la sfârșitul perioadei de așteptare, invitația expiră fără recompensă.",
         ],
       },

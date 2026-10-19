@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.5",
+      "date": "2026-10-19",
+      "title": "Coduri promoționale la facturarea lunară",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Secțiune nouă «Coduri promoționale» în Termenii serviciului: un cod per client, doar la prima factură lunară, nu este valabil pentru Enterprise sau facturarea anuală, nu se cumulează cu reducerea din programul de invitații",
+        "Plata anuală nu mai afișează câmpul pentru codul promoțional",
+        "Programul de invitații: o primă plată redusă printr-un cod promoțional nu generează recompensa, care se câștigă de la următoarea plată la preț întreg"
+      ]
+    },
+    {
       "version": "1.29.4",
       "date": "2026-10-19",
       "title": "Programul de invitații conform regulilor fiscale",

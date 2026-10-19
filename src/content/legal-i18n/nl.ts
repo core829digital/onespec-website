@@ -158,6 +158,14 @@ export const NL: LegalI18nSet = {
         ],
       },
       {
+        h: "Promotiecodes",
+        p: [
+          "OneSpec kan, voor beperkte perioden en in beperkte aantallen, promotiecodes aanbieden die op de betaalpagina worden ingevoerd. De voorwaarden van elke code (korting, betrokken abonnementen, maximaal aantal keer inwisselen en eventuele vervaldatum) zijn die welke samen met de code worden meegedeeld en door het betaalsysteem bij de aankoop worden toegepast; zodra het beschikbare aantal is opgebruikt of de vervaldatum is verstreken, is de code niet meer geldig.",
+          "Tenzij anders vermeld, geldt een promotiecode alleen voor de eerste aankoop van een nieuw abonnement en slechts één keer per Klant; geldt hij alleen voor de eerste factuur van maandelijks gefactureerde abonnementen, terwijl vanaf de volgende factuur de geldende catalogusprijs van toepassing is; geldt hij niet voor het Enterprise-abonnement of voor jaarlijkse facturering; is hij niet te combineren met de korting van het uitnodigingsprogramma; heeft hij geen geldwaarde, is hij niet overdraagbaar en geeft hij geen recht op terugbetaling of tegoed.",
+          "De btw wordt, waar verschuldigd, berekend over het verlaagde bedrag. OneSpec kan een korting weigeren of intrekken die in strijd met deze voorwaarden is verkregen, bijvoorbeeld door meerdere accounts voor dezelfde organisatie te openen.",
+        ],
+      },
+      {
         h: "Aanvaardbaar gebruik",
         p: [
           "De Klant verbindt zich ertoe de dienst niet te gebruiken voor onrechtmatige activiteiten, niet te proberen technische of beveiligingslimieten of de gebruikslimieten van zijn abonnement te omzeilen en geen inhoud te uploaden waarop hij geen rechten heeft. De Klant bewaart zijn inloggegevens en de herstelcodes van de verificatie in twee stappen zorgvuldig; we raden aan die verificatie in te schakelen voor iedereen met toegang tot het platform.",
@@ -387,7 +395,7 @@ export const NL: LegalI18nSet = {
       {
         h: "Voordelen",
         p: [
-          "De genodigde krijgt 10% korting op de eerste factuur van het betaalde abonnement, berekend op de catalogusprijs van het gekozen abonnement en de gekozen cyclus.",
+          "De genodigde krijgt 10% korting op de eerste factuur van het betaalde abonnement, berekend op de catalogusprijs van het gekozen abonnement en de gekozen cyclus. De korting is niet te combineren met promotiecodes.",
           "De uitnodiger krijgt een beloning van 10% van de catalogusprijs, exclusief btw, van het abonnement en de factuurcyclus die de genodigde daadwerkelijk koopt (jaarlijks wordt berekend als tien maandbedragen). De beloning is voor elk uitgenodigd account maar één keer verschuldigd.",
           "Het commercieel beheerde Enterprise-abonnement is uitgesloten van het automatische programma.",
         ],
@@ -396,6 +404,7 @@ export const NL: LegalI18nSet = {
         h: "Wanneer de beloning wordt verdiend",
         p: [
           "De beloning wordt pas verdiend na de eerste echte betaling van de genodigde en na 30 dagen, op voorwaarde dat de betaling intussen niet is terugbetaald of betwist en dat het abonnement van de genodigde in orde is.",
+          "Een betaling die met een promotiecode is verlaagd, telt niet als eerste echte betaling: de beloning wordt verdiend vanaf de eerstvolgende betaling zonder promotiecode (zie «Promotiecodes» in de Servicevoorwaarden).",
           "Elke uitnodiger kan maximaal 10 beloningen ontvangen in 12 opeenvolgende maanden. Als de uitnodiger binnen 90 dagen na het einde van de wachtperiode niet in aanmerking komt, vervalt de uitnodiging zonder beloning.",
         ],
       },

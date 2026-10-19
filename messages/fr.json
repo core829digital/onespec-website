@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.5",
+      "date": "2026-10-19",
+      "title": "Codes promotionnels sur la facturation mensuelle",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Nouvelle section « Codes promotionnels » dans les Conditions de service : un code par client, uniquement sur la première facture mensuelle, non valable pour Enterprise ni pour l'annuel, non cumulable avec la réduction de parrainage",
+        "Le paiement annuel n'affiche plus le champ du code promotionnel",
+        "Programme de parrainage : un premier paiement réduit par un code promotionnel ne donne pas droit à la récompense, acquise à partir du paiement suivant au prix plein"
+      ]
+    },
+    {
       "version": "1.29.4",
       "date": "2026-10-19",
       "title": "Programme de parrainage conforme aux règles fiscales",

@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.5",
+      "date": "2026-10-19",
+      "title": "Aktionscodes bei monatlicher Abrechnung",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Neuer Abschnitt „Aktionscodes“ in den Nutzungsbedingungen: ein Code pro Kunde, nur für die erste Monatsrechnung, nicht für Enterprise oder jährliche Abrechnung, nicht mit dem Einladungsrabatt kombinierbar",
+        "Die jährliche Zahlung zeigt kein Feld für Aktionscodes mehr",
+        "Einladungsprogramm: Eine durch einen Aktionscode reduzierte erste Zahlung löst keine Prämie aus; sie entsteht ab der nächsten Zahlung zum vollen Preis"
+      ]
+    },
+    {
       "version": "1.29.4",
       "date": "2026-10-19",
       "title": "Empfehlungsprogramm steuerlich korrekt",

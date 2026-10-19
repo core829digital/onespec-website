@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.5",
+      "date": "2026-10-19",
+      "title": "Codici promozionali sul pagamento mensile",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Nuova sezione «Codici promozionali» nei Termini di servizio: un codice per cliente, solo sulla prima fattura mensile, non vale per Enterprise né per l'annuale, non si somma allo sconto inviti",
+        "Il pagamento annuale non mostra più il campo del codice promozionale",
+        "Programma inviti: un primo pagamento ridotto da un codice promozionale non fa maturare il premio, che matura dal primo pagamento successivo a prezzo pieno"
+      ]
+    },
+    {
       "version": "1.29.4",
       "date": "2026-10-19",
       "title": "Programma inviti in regola con le norme fiscali",

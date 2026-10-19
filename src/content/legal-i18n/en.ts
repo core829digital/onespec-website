@@ -158,6 +158,14 @@ export const EN: LegalI18nSet = {
         ],
       },
       {
+        h: "Promotion codes",
+        p: [
+          "OneSpec may offer, for limited periods and in limited quantities, promotion codes to be entered on the payment page. The conditions of each code (discount, plans covered, maximum number of redemptions and any expiry date) are those communicated with the code and applied by the payment system at the time of purchase; once the available redemptions are used up or the expiry date has passed, the code is no longer valid.",
+          "Unless stated otherwise, a promotion code: is valid only for the first purchase of a new subscription and only once per Customer; applies only to the first invoice of plans billed monthly, while the list price in force applies from the following invoice; is not valid for the Enterprise plan or for yearly billing; cannot be combined with the invite programme discount; has no cash value, is not transferable and gives no right to refunds or credits.",
+          "VAT, where due, is calculated on the discounted amount. OneSpec may refuse or withdraw a discount obtained in breach of these conditions, for example by opening several accounts for the same organisation.",
+        ],
+      },
+      {
         h: "Acceptable use",
         p: [
           "The Customer undertakes not to use the service for unlawful activities, not to attempt to circumvent technical or security limits or the usage limits of its plan, and not to upload content for which it does not hold the rights. The Customer keeps its credentials and the two-step verification recovery codes safe; we recommend enabling two-step verification for everyone with access to the platform.",
@@ -387,7 +395,7 @@ export const EN: LegalI18nSet = {
       {
         h: "Benefits",
         p: [
-          "The invitee gets a 10% discount on the first invoice of the paid subscription, calculated on the list price of the chosen plan and cycle.",
+          "The invitee gets a 10% discount on the first invoice of the paid subscription, calculated on the list price of the chosen plan and cycle. The discount cannot be combined with promotion codes.",
           "The inviter gets a reward equal to 10% of the list price, excluding VAT, of the plan and billing cycle actually purchased by the invitee (yearly is calculated as ten monthly payments). The reward is due only once for each invited account.",
           "The Enterprise plan, managed commercially, is excluded from the automatic programme.",
         ],
@@ -396,6 +404,7 @@ export const EN: LegalI18nSet = {
         h: "When the reward is earned",
         p: [
           "The reward is earned only after the invitee's first real payment and after 30 days have passed, provided that in the meantime the payment has not been refunded or disputed and that the invitee's subscription is in good standing.",
+          "A payment reduced by a promotion code does not count as the first real payment: the reward is earned from the first following payment made without a promotion code (see «Promotion codes» in the Terms of service).",
           "Each inviter can receive at most 10 rewards in 12 consecutive months. If the inviter is not eligible within 90 days of the end of the waiting period, the invite expires without a reward.",
         ],
       },

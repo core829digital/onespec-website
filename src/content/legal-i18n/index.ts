@@ -19,7 +19,7 @@ export const LEGAL_I18N_SOURCE = {
   values: "15dy2lh",
   docs: {
     privacy: "2026-10-19",
-    "termini-di-servizio": "2026-10-12",
+    "termini-di-servizio": "2026-10-19",
     "termini-di-utilizzo": "2026-09-02",
     cookie: "2026-10-18",
     gdpr: "2026-10-12",

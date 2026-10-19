@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.5",
+      "date": "2026-10-19",
+      "title": "Promotion codes on monthly billing",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "New «Promotion codes» section in the Terms of service: one code per customer, first monthly invoice only, not valid for Enterprise or yearly billing, not combinable with the invite discount",
+        "Yearly checkout no longer shows the promotion code field",
+        "Invite programme: a first payment reduced by a promotion code does not earn the reward, which is earned from the next full-price payment"
+      ]
+    },
+    {
       "version": "1.29.4",
       "date": "2026-10-19",
       "title": "Invite programme in line with tax rules",

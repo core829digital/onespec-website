@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.5",
+      "date": "2026-10-19",
+      "title": "Promotiecodes bij maandelijkse facturering",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Nieuwe sectie «Promotiecodes» in de Servicevoorwaarden: één code per klant, alleen op de eerste maandfactuur, niet geldig voor Enterprise of jaarlijkse facturering, niet te combineren met de uitnodigingskorting",
+        "De jaarlijkse betaling toont geen veld voor een promotiecode meer",
+        "Uitnodigingsprogramma: een eerste betaling met promotiecode levert geen beloning op; die wordt verdiend vanaf de volgende betaling tegen de volle prijs"
+      ]
+    },
+    {
       "version": "1.29.4",
       "date": "2026-10-19",
       "title": "Uitnodigingsprogramma in orde met de fiscale regels",

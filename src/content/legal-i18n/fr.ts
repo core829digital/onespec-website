@@ -158,6 +158,14 @@ export const FR: LegalI18nSet = {
         ],
       },
       {
+        h: "Codes promotionnels",
+        p: [
+          "OneSpec peut proposer, pour des périodes et en quantités limitées, des codes promotionnels à saisir sur la page de paiement. Les conditions de chaque code (réduction, forfaits concernés, nombre maximal d'utilisations et éventuelle date d'expiration) sont celles communiquées avec le code et appliquées par le système de paiement au moment de l'achat ; une fois les utilisations disponibles épuisées ou la date d'expiration dépassée, le code n'est plus valable.",
+          "Sauf indication contraire, un code promotionnel : n'est valable que pour le premier achat d'un nouvel abonnement et une seule fois par Client ; s'applique uniquement à la première facture des forfaits facturés mensuellement, le prix catalogue en vigueur s'appliquant dès la facture suivante ; n'est valable ni pour le forfait Enterprise ni pour la facturation annuelle ; ne se cumule pas avec la réduction du programme de parrainage ; n'a aucune valeur monétaire, n'est pas cessible et ne donne droit à aucun remboursement ni crédit.",
+          "La TVA, lorsqu'elle est due, est calculée sur le montant réduit. OneSpec peut refuser ou retirer une réduction obtenue en violation de ces conditions, par exemple en ouvrant plusieurs comptes pour la même organisation.",
+        ],
+      },
+      {
         h: "Utilisation acceptable",
         p: [
           "Le Client s'engage à ne pas utiliser le service pour des activités illicites, à ne pas tenter de contourner les limites techniques, de sécurité ou d'utilisation de son forfait et à ne pas téléverser de contenus dont il ne détient pas les droits. Le Client conserve en lieu sûr ses identifiants et les codes de récupération de la vérification en deux étapes, que nous recommandons d'activer pour toutes les personnes ayant accès à la plateforme.",
@@ -387,7 +395,7 @@ export const FR: LegalI18nSet = {
       {
         h: "Avantages",
         p: [
-          "Le filleul bénéficie d'une réduction de 10 % sur la première facture de l'abonnement payant, calculée sur le prix catalogue du forfait et du cycle choisis.",
+          "Le filleul bénéficie d'une réduction de 10 % sur la première facture de l'abonnement payant, calculée sur le prix catalogue du forfait et du cycle choisis. La réduction ne se cumule pas avec les codes promotionnels.",
           "Le parrain obtient une récompense égale à 10 % du prix catalogue, hors TVA, du forfait et du cycle de facturation effectivement achetés par le filleul (l'annuel est calculé comme dix mensualités). La récompense n'est due qu'une seule fois par compte filleul.",
           "Le forfait Enterprise, géré commercialement, est exclu du programme automatique.",
         ],
@@ -396,6 +404,7 @@ export const FR: LegalI18nSet = {
         h: "Quand la récompense est acquise",
         p: [
           "La récompense n'est acquise qu'après le premier paiement réel du filleul et après 30 jours, à condition que dans l'intervalle le paiement n'ait été ni remboursé ni contesté et que l'abonnement du filleul soit en règle.",
+          "Un paiement réduit par un code promotionnel ne compte pas comme premier paiement réel : la récompense est acquise à partir du premier paiement suivant effectué sans code promotionnel (voir « Codes promotionnels » dans les Conditions de service).",
           "Chaque parrain peut recevoir au maximum 10 récompenses sur 12 mois consécutifs. Si le parrain n'est pas éligible dans les 90 jours suivant la fin de la période d'attente, l'invitation expire sans récompense.",
         ],
       },

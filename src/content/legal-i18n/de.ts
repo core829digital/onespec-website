@@ -158,6 +158,14 @@ export const DE: LegalI18nSet = {
         ],
       },
       {
+        h: "Aktionscodes",
+        p: [
+          "OneSpec kann für begrenzte Zeiträume und in begrenzter Anzahl Aktionscodes anbieten, die auf der Zahlungsseite eingegeben werden. Es gelten die mit dem Code mitgeteilten Bedingungen (Rabatt, betroffene Tarife, maximale Anzahl an Einlösungen und gegebenenfalls Ablaufdatum), die das Zahlungssystem beim Kauf anwendet; sind die verfügbaren Einlösungen aufgebraucht oder ist das Ablaufdatum überschritten, ist der Code nicht mehr gültig.",
+          "Sofern nicht anders angegeben, gilt ein Aktionscode nur für den ersten Kauf eines neuen Abonnements und nur einmal pro Kunde; er gilt nur für die erste Rechnung von monatlich abgerechneten Tarifen, ab der folgenden Rechnung gilt der jeweils gültige Listenpreis; er gilt weder für den Enterprise-Tarif noch für die jährliche Abrechnung; er ist nicht mit dem Rabatt des Einladungsprogramms kombinierbar; er hat keinen Geldwert, ist nicht übertragbar und begründet keinen Anspruch auf Erstattungen oder Guthaben.",
+          "Die MwSt. wird, soweit geschuldet, auf den rabattierten Betrag berechnet. OneSpec kann einen Rabatt, der unter Verstoß gegen diese Bedingungen erlangt wurde, etwa durch die Eröffnung mehrerer Konten für dieselbe Organisation, verweigern oder widerrufen.",
+        ],
+      },
+      {
         h: "Zulässige Nutzung",
         p: [
           "Der Kunde verpflichtet sich, den Dienst nicht für rechtswidrige Tätigkeiten zu nutzen, nicht zu versuchen, technische oder sicherheitsbezogene Grenzen oder die Nutzungsgrenzen seines Tarifs zu umgehen, und keine Inhalte hochzuladen, an denen er keine Rechte hat. Der Kunde bewahrt seine Zugangsdaten und die Wiederherstellungscodes der Zwei-Faktor-Verifizierung sicher auf; wir empfehlen, diese für alle Personen mit Zugang zur Plattform zu aktivieren.",
@@ -387,7 +395,7 @@ export const DE: LegalI18nSet = {
       {
         h: "Vorteile",
         p: [
-          "Der Geworbene erhält 10 % Rabatt auf die erste Rechnung des kostenpflichtigen Abonnements, berechnet auf den Listenpreis des gewählten Tarifs und Zyklus.",
+          "Der Geworbene erhält 10 % Rabatt auf die erste Rechnung des kostenpflichtigen Abonnements, berechnet auf den Listenpreis des gewählten Tarifs und Zyklus. Der Rabatt ist nicht mit Aktionscodes kombinierbar.",
           "Der Werber erhält eine Prämie in Höhe von 10 % des Listenpreises ohne MwSt. des vom Geworbenen tatsächlich gekauften Tarifs und Abrechnungszyklus (jährlich wird als zehn Monatsbeträge berechnet). Die Prämie steht für jedes geworbene Konto nur einmal zu.",
           "Der kommerziell betreute Enterprise-Tarif ist vom automatischen Programm ausgeschlossen.",
         ],
@@ -396,6 +404,7 @@ export const DE: LegalI18nSet = {
         h: "Wann die Prämie entsteht",
         p: [
           "Die Prämie entsteht erst nach der ersten tatsächlichen Zahlung des Geworbenen und nach Ablauf von 30 Tagen, sofern die Zahlung in der Zwischenzeit weder erstattet noch angefochten wurde und das Abonnement des Geworbenen ordnungsgemäß ist.",
+          "Eine durch einen Aktionscode reduzierte Zahlung gilt nicht als erste tatsächliche Zahlung: Die Prämie entsteht ab der ersten folgenden Zahlung ohne Aktionscode (siehe „Aktionscodes“ in den Nutzungsbedingungen des Dienstes).",
           "Jeder Werber kann in 12 aufeinanderfolgenden Monaten höchstens 10 Prämien erhalten. Ist der Werber innerhalb von 90 Tagen nach Ende der Wartezeit nicht berechtigt, verfällt die Einladung ohne Prämie.",
         ],
       },

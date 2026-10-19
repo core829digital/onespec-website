@@ -272,6 +272,19 @@
   ],
   "changelog": [
     {
+      "version": "1.29.7",
+      "date": "2026-10-19",
+      "title": "Zuverlässige Anmeldung und Passwort-Zurücksetzung",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Konten, die vor dem 9. Oktober mit Großbuchstaben in der E-Mail angelegt wurden, können sich wieder anmelden und das Passwort zurücksetzen; die Adresse wird automatisch korrigiert",
+        "Eine erneute Registrierung mit einer bereits verwendeten Adresse legt kein zweites Konto mehr an",
+        "Nach dem Zurücksetzen des Passworts gelangen Sie direkt zum Dashboard",
+        "Eine Anfrage zum Zurücksetzen für eine nicht registrierte Adresse erhält die übliche Antwort, ohne zu verraten, ob das Konto existiert"
+      ]
+    },
+    {
       "version": "1.29.6",
       "date": "2026-10-19",
       "title": "Eingebettetes Widget: Scrollen funktioniert immer",

@@ -272,6 +272,19 @@
   ],
   "changelog": [
     {
+      "version": "1.29.7",
+      "date": "2026-10-19",
+      "title": "Betrouwbaar inloggen en wachtwoord herstellen",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Accounts die vóór 9 oktober zijn aangemaakt met hoofdletters in het e-mailadres kunnen weer inloggen en hun wachtwoord herstellen; het adres wordt automatisch gecorrigeerd",
+        "Opnieuw registreren met een adres dat al in gebruik is, maakt geen tweede account meer aan",
+        "Na het herstellen van het wachtwoord komt u direct in het dashboard",
+        "Een herstelverzoek voor een niet-geregistreerd adres krijgt het gebruikelijke antwoord, zonder te verraden of het account bestaat"
+      ]
+    },
+    {
       "version": "1.29.6",
       "date": "2026-10-19",
       "title": "Ingesloten widget: scrollen werkt altijd",

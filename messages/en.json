@@ -272,6 +272,19 @@
   ],
   "changelog": [
     {
+      "version": "1.29.7",
+      "date": "2026-10-19",
+      "title": "Reliable sign-in and password reset",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Accounts created before 9 October with capital letters in the e-mail can sign in and reset their password again; the address is fixed automatically",
+        "Signing up again with an address already in use no longer creates a second account",
+        "After resetting the password you go straight to the dashboard",
+        "A reset request for an unregistered address gets the usual answer, without revealing whether the account exists"
+      ]
+    },
+    {
       "version": "1.29.6",
       "date": "2026-10-19",
       "title": "Embedded widget: scrolling always works",

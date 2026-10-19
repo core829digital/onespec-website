@@ -272,6 +272,19 @@
   ],
   "changelog": [
     {
+      "version": "1.29.7",
+      "date": "2026-10-19",
+      "title": "Accesso e ripristino password affidabili",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Gli account creati prima del 9 ottobre con lettere maiuscole nell'email tornano ad accedere e a reimpostare la password; l'indirizzo viene sistemato in automatico",
+        "Una nuova registrazione con un'email già usata non crea più un secondo account",
+        "Dopo il ripristino della password si entra direttamente nella dashboard",
+        "Richiesta di ripristino per un'email non registrata: stessa risposta di sempre, senza rivelare se l'account esiste"
+      ]
+    },
+    {
       "version": "1.29.6",
       "date": "2026-10-19",
       "title": "Widget incorporato: lo scroll funziona sempre",

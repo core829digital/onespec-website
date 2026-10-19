@@ -272,6 +272,19 @@
   ],
   "changelog": [
     {
+      "version": "1.29.7",
+      "date": "2026-10-19",
+      "title": "Autentificare și resetare parolă fiabile",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Conturile create înainte de 9 octombrie cu majuscule în e-mail se pot autentifica și își pot reseta parola din nou; adresa este corectată automat",
+        "O nouă înregistrare cu o adresă deja folosită nu mai creează un al doilea cont",
+        "După resetarea parolei intri direct în dashboard",
+        "O cerere de resetare pentru o adresă neînregistrată primește răspunsul obișnuit, fără a dezvălui dacă contul există"
+      ]
+    },
+    {
       "version": "1.29.6",
       "date": "2026-10-19",
       "title": "Widget încorporat: derularea funcționează mereu",

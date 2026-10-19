@@ -272,6 +272,19 @@
   ],
   "changelog": [
     {
+      "version": "1.29.7",
+      "date": "2026-10-19",
+      "title": "Connexion et réinitialisation du mot de passe fiables",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Les comptes créés avant le 9 octobre avec des majuscules dans l'e-mail peuvent de nouveau se connecter et réinitialiser leur mot de passe ; l'adresse est corrigée automatiquement",
+        "Une nouvelle inscription avec une adresse déjà utilisée ne crée plus de second compte",
+        "Après la réinitialisation du mot de passe, vous arrivez directement sur le tableau de bord",
+        "Une demande de réinitialisation pour une adresse non inscrite reçoit la réponse habituelle, sans révéler si le compte existe"
+      ]
+    },
+    {
       "version": "1.29.6",
       "date": "2026-10-19",
       "title": "Widget intégré : le défilement fonctionne toujours",

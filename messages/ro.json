@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.11",
+      "date": "2026-10-19",
+      "title": "Autentificare în doi pași: solicitarea codului",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "După parola corectă, pagina de autentificare cere întotdeauna codul din aplicația de autentificare, în loc să se oprească cu o eroare",
+        "Dacă codul din aplicație este greșit, mesajul se referă la cod și nu mai spune „date de autentificare invalide”",
+        "La resetarea parolei, codul din aplicație lipsă este cerut fără a pierde codul primit pe e-mail"
+      ]
+    },
+    {
       "version": "1.29.10",
       "date": "2026-10-19",
       "title": "Autentificare mai simplă și mai sigură",

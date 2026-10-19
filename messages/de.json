@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.11",
+      "date": "2026-10-19",
+      "title": "Anmeldung mit Zwei-Schritt-Verifizierung: Abfrage des Codes",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Nach dem richtigen Passwort fragt die Anmeldeseite immer nach dem Code der Authenticator-App, statt mit einem Fehler abzubrechen",
+        "Ist der App-Code falsch, bezieht sich die Meldung auf den Code und nicht mehr auf „ungültige Zugangsdaten“",
+        "Beim Zurücksetzen des Passworts wird ein fehlender App-Code abgefragt, ohne den per E-Mail erhaltenen Code zu verlieren"
+      ]
+    },
+    {
       "version": "1.29.10",
       "date": "2026-10-19",
       "title": "Einfachere, zuverlässigere Anmeldung",

@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.11",
+      "date": "2026-10-19",
+      "title": "Connexion avec vérification en deux étapes : demande du code",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Après le bon mot de passe, la page de connexion demande toujours le code de l'application d'authentification, au lieu de s'arrêter sur une erreur",
+        "Si le code de l'application est faux, le message parle du code et n'indique plus « identifiants non valides »",
+        "Sur la page de réinitialisation, le code de l'application manquant est demandé sans perdre le code reçu par e-mail"
+      ]
+    },
+    {
       "version": "1.29.10",
       "date": "2026-10-19",
       "title": "Connexion plus simple et plus fiable",

@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.11",
+      "date": "2026-10-19",
+      "title": "Sign-in with two-step verification: asking for the code",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "After the right password the sign-in page always asks for the authenticator app code, instead of stopping with an error",
+        "If the app code is wrong, the message is about the code and no longer says \"invalid credentials\"",
+        "On the password reset page, a missing app code is asked for without losing the code received by e-mail"
+      ]
+    },
+    {
       "version": "1.29.10",
       "date": "2026-10-19",
       "title": "Simpler, more reliable sign-in",

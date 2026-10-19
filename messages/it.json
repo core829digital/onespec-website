@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.11",
+      "date": "2026-10-19",
+      "title": "Accesso con verifica in due passaggi: richiesta del codice",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Dopo la password corretta la pagina di accesso chiede sempre il codice dell'app di autenticazione, invece di fermarsi con un errore",
+        "Se il codice dell'app è sbagliato, il messaggio parla del codice e non più di \"credenziali non valide\"",
+        "Nel ripristino della password, se manca il codice dell'app viene chiesto senza perdere il codice ricevuto per email"
+      ]
+    },
+    {
       "version": "1.29.10",
       "date": "2026-10-19",
       "title": "Accesso più semplice e affidabile",

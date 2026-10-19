@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.11",
+      "date": "2026-10-19",
+      "title": "Inloggen met verificatie in twee stappen: vragen om de code",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Na het juiste wachtwoord vraagt de inlogpagina altijd om de code van de authenticator-app, in plaats van te stoppen met een fout",
+        "Als de app-code fout is, gaat de melding over de code en niet meer over \"ongeldige inloggegevens\"",
+        "Bij het herstellen van het wachtwoord wordt een ontbrekende app-code gevraagd zonder de per e-mail ontvangen code te verliezen"
+      ]
+    },
+    {
       "version": "1.29.10",
       "date": "2026-10-19",
       "title": "Eenvoudiger en betrouwbaarder inloggen",

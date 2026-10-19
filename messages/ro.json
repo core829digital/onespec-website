@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.6",
+      "date": "2026-10-19",
+      "title": "Widget încorporat: derularea funcționează mereu",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Cu mouse-ul, pagina derulează și peste configurator: un strat transparent dispare la primul clic și revine când ieși din cadru",
+        "Când site-ul pune configuratorul într-un cadru fix (Wix și similare), widgetul se adaptează cadrului și derulează în interior în loc să fie tăiat",
+        "La capătul configuratorului derularea continuă în pagina site-ului, iar înălțimea scade când un pas devine mai scurt"
+      ]
+    },
+    {
       "version": "1.29.5",
       "date": "2026-10-19",
       "title": "Coduri promoționale la facturarea lunară",

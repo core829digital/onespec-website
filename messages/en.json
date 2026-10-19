@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.6",
+      "date": "2026-10-19",
+      "title": "Embedded widget: scrolling always works",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "With a mouse the page scrolls over the configurator too: a transparent layer goes away on the first click and comes back when you leave the frame",
+        "When the site puts the configurator inside a fixed box (Wix and similar) the widget fits the box and scrolls inside it instead of being cut off",
+        "At the end of the configurator the scroll carries on in the website, and the height shrinks when a step gets shorter"
+      ]
+    },
+    {
       "version": "1.29.5",
       "date": "2026-10-19",
       "title": "Promotion codes on monthly billing",

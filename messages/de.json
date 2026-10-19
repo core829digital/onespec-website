@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.6",
+      "date": "2026-10-19",
+      "title": "Eingebettetes Widget: Scrollen funktioniert immer",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Mit der Maus scrollt die Seite auch über dem Konfigurator: Eine transparente Ebene verschwindet beim ersten Klick und kehrt zurück, wenn Sie den Rahmen verlassen",
+        "Setzt die Website den Konfigurator in einen festen Rahmen (Wix und Ähnliche), passt sich das Widget an und scrollt darin, statt abgeschnitten zu werden",
+        "Am Ende des Konfigurators scrollt die Website weiter, und die Höhe schrumpft, wenn ein Schritt kürzer wird"
+      ]
+    },
+    {
       "version": "1.29.5",
       "date": "2026-10-19",
       "title": "Aktionscodes bei monatlicher Abrechnung",

@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.6",
+      "date": "2026-10-19",
+      "title": "Widget incorporato: lo scroll funziona sempre",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Con il mouse la pagina scorre anche sopra il configuratore: una pellicola trasparente si toglie al primo clic e torna quando esci dal riquadro",
+        "Se il sito mette il configuratore dentro un riquadro fisso (Wix e simili) il widget si adatta al riquadro e scorre al suo interno, invece di essere tagliato",
+        "Arrivati in fondo al configuratore lo scroll continua nella pagina del sito, e l'altezza si riduce quando un passaggio diventa più corto"
+      ]
+    },
+    {
       "version": "1.29.5",
       "date": "2026-10-19",
       "title": "Codici promozionali sul pagamento mensile",

@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.6",
+      "date": "2026-10-19",
+      "title": "Ingesloten widget: scrollen werkt altijd",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Met een muis scrolt de pagina ook boven de configurator: een transparante laag verdwijnt bij de eerste klik en komt terug als u het kader verlaat",
+        "Als de site de configurator in een vast kader zet (Wix en vergelijkbaar), past de widget zich aan en scrolt hij erin in plaats van te worden afgesneden",
+        "Onderaan de configurator scrolt de pagina van de site verder, en de hoogte krimpt wanneer een stap korter wordt"
+      ]
+    },
+    {
       "version": "1.29.5",
       "date": "2026-10-19",
       "title": "Promotiecodes bij maandelijkse facturering",

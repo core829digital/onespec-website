@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.6",
+      "date": "2026-10-19",
+      "title": "Widget intégré : le défilement fonctionne toujours",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "À la souris, la page défile aussi au-dessus du configurateur : un voile transparent disparaît au premier clic et revient quand vous quittez le cadre",
+        "Quand le site place le configurateur dans un cadre fixe (Wix et similaires), le widget s'adapte au cadre et défile à l'intérieur au lieu d'être coupé",
+        "Arrivé au bas du configurateur, le défilement continue dans la page du site, et la hauteur se réduit quand une étape devient plus courte"
+      ]
+    },
+    {
       "version": "1.29.5",
       "date": "2026-10-19",
       "title": "Codes promotionnels sur la facturation mensuelle",

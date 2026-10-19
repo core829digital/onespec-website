@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.10",
+      "date": "2026-10-19",
+      "title": "Connexion plus simple et plus fiable",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Le navigateur reconnaît les champs e-mail et mot de passe : les identifiants enregistrés se remplissent tout seuls sur la page de connexion",
+        "Sur la page de réinitialisation, le code reçu par e-mail se saisit avec le clavier numérique et se remplit tout seul sur téléphone",
+        "La demande du code de l'application d'authentification est toujours reconnue, sans afficher à tort « identifiants non valides »"
+      ]
+    },
+    {
       "version": "1.29.9",
       "date": "2026-10-19",
       "title": "Widget : envoi des devis depuis les sites des clients",

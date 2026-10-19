@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.10",
+      "date": "2026-10-19",
+      "title": "Accesso più semplice e affidabile",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Email e password vengono riconosciute dal browser: le credenziali salvate si compilano da sole nella pagina di accesso",
+        "Nel ripristino della password il codice ricevuto per email si inserisce con la tastiera numerica e si compila da solo sul telefono",
+        "La richiesta del codice dell'app di autenticazione viene riconosciuta in ogni caso, senza mostrare per errore \"credenziali non valide\""
+      ]
+    },
+    {
       "version": "1.29.9",
       "date": "2026-10-19",
       "title": "Widget: invio dei preventivi dai siti dei clienti",

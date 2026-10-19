@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.10",
+      "date": "2026-10-19",
+      "title": "Eenvoudiger en betrouwbaarder inloggen",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "De browser herkent de velden e-mail en wachtwoord: opgeslagen inloggegevens worden op de inlogpagina vanzelf ingevuld",
+        "Bij het herstellen van het wachtwoord typ je de per e-mail ontvangen code met het numerieke toetsenbord en op de telefoon wordt hij vanzelf ingevuld",
+        "Het verzoek om de code van de authenticator-app wordt altijd herkend, zonder ten onrechte \"ongeldige inloggegevens\" te tonen"
+      ]
+    },
+    {
       "version": "1.29.9",
       "date": "2026-10-19",
       "title": "Widget: offerteaanvragen vanaf de sites van klanten",

@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.10",
+      "date": "2026-10-19",
+      "title": "Einfachere, zuverlässigere Anmeldung",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Der Browser erkennt die Felder E-Mail und Passwort: gespeicherte Zugangsdaten werden auf der Anmeldeseite automatisch ausgefüllt",
+        "Beim Zurücksetzen des Passworts wird der per E-Mail erhaltene Code mit dem Ziffernblock eingegeben und auf dem Handy automatisch ausgefüllt",
+        "Die Abfrage des Codes aus der Authenticator-App wird immer erkannt, ohne fälschlich „ungültige Zugangsdaten“ anzuzeigen"
+      ]
+    },
+    {
       "version": "1.29.9",
       "date": "2026-10-19",
       "title": "Widget: Angebotsanfragen von Kunden-Websites",

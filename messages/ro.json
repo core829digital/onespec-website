@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.10",
+      "date": "2026-10-19",
+      "title": "Autentificare mai simplă și mai sigură",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Browserul recunoaște câmpurile e-mail și parolă: datele salvate se completează singure pe pagina de autentificare",
+        "La resetarea parolei, codul primit pe e-mail se introduce cu tastatura numerică și se completează singur pe telefon",
+        "Solicitarea codului din aplicația de autentificare este recunoscută întotdeauna, fără a afișa din greșeală „date de autentificare invalide”"
+      ]
+    },
+    {
       "version": "1.29.9",
       "date": "2026-10-19",
       "title": "Widget: trimiterea cererilor de ofertă de pe site-urile clienților",

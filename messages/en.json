@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.29.10",
+      "date": "2026-10-19",
+      "title": "Simpler, more reliable sign-in",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "The browser recognises the e-mail and password fields: saved credentials fill in by themselves on the sign-in page",
+        "On the password reset page the code received by e-mail is typed with the numeric keypad and fills in by itself on phones",
+        "The request for the authenticator app code is always recognised, without wrongly showing \"invalid credentials\""
+      ]
+    },
+    {
       "version": "1.29.9",
       "date": "2026-10-19",
       "title": "Widget: quote requests from customers' sites",

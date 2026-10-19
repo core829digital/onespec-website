@@ -272,6 +272,17 @@
   ],
   "changelog": [
     {
+      "version": "1.29.8",
+      "date": "2026-10-19",
+      "title": "Connexion avec vérification en deux étapes",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Avec la vérification en deux étapes activée, après le mot de passe la page de connexion demande le code de l'application (Google Authenticator) au lieu d'afficher « identifiants non valides »",
+        "Messages clairs aussi lors de la réinitialisation : code de l'application requis ou erroné, mot de passe trop faible, contrôle anti-robot"
+      ]
+    },
+    {
       "version": "1.29.7",
       "date": "2026-10-19",
       "title": "Connexion et réinitialisation du mot de passe fiables",

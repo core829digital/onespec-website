@@ -272,6 +272,17 @@
   ],
   "changelog": [
     {
+      "version": "1.29.8",
+      "date": "2026-10-19",
+      "title": "Autentificare cu verificare în doi pași",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Cu verificarea în doi pași activă, după parolă pagina de autentificare cere codul aplicației (Google Authenticator) în loc să afișeze «date de autentificare invalide»",
+        "Mesaje clare și la resetarea parolei: cod din aplicație necesar sau greșit, parolă prea slabă, verificare anti-bot"
+      ]
+    },
+    {
       "version": "1.29.7",
       "date": "2026-10-19",
       "title": "Autentificare și resetare parolă fiabile",

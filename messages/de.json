@@ -272,6 +272,17 @@
   ],
   "changelog": [
     {
+      "version": "1.29.8",
+      "date": "2026-10-19",
+      "title": "Anmeldung mit Zwei-Schritt-Verifizierung",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Bei aktiver Zwei-Schritt-Verifizierung fragt die Anmeldeseite nach dem Passwort den App-Code (Google Authenticator) ab, statt „ungültige Anmeldedaten“ anzuzeigen",
+        "Klare Meldungen auch beim Zurücksetzen des Passworts: App-Code erforderlich oder falsch, Passwort zu schwach, Bot-Prüfung"
+      ]
+    },
+    {
       "version": "1.29.7",
       "date": "2026-10-19",
       "title": "Zuverlässige Anmeldung und Passwort-Zurücksetzung",

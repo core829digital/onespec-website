@@ -272,6 +272,17 @@
   ],
   "changelog": [
     {
+      "version": "1.29.8",
+      "date": "2026-10-19",
+      "title": "Sign-in with two-step verification",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "With two-step verification on, after the password the sign-in page asks for the app code (Google Authenticator) instead of saying «invalid credentials»",
+        "Clear messages in the password reset too: app code required or wrong, password too weak, bot check"
+      ]
+    },
+    {
       "version": "1.29.7",
       "date": "2026-10-19",
       "title": "Reliable sign-in and password reset",

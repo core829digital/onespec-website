@@ -272,6 +272,17 @@
   ],
   "changelog": [
     {
+      "version": "1.29.8",
+      "date": "2026-10-19",
+      "title": "Accesso con verifica in due passaggi",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Con la verifica in due passaggi attiva, dopo la password la pagina di accesso chiede il codice dell'app (Google Authenticator) invece di dire «credenziali non valide»",
+        "Messaggi chiari anche nel ripristino password: codice dell'app richiesto o errato, password troppo debole, controllo anti-bot"
+      ]
+    },
+    {
       "version": "1.29.7",
       "date": "2026-10-19",
       "title": "Accesso e ripristino password affidabili",

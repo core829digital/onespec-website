@@ -272,6 +272,17 @@
   ],
   "changelog": [
     {
+      "version": "1.29.8",
+      "date": "2026-10-19",
+      "title": "Inloggen met verificatie in twee stappen",
+      "tag": "Fix",
+      "channel": "prodotto",
+      "items": [
+        "Met verificatie in twee stappen ingeschakeld vraagt de inlogpagina na het wachtwoord de code van de app (Google Authenticator) in plaats van «ongeldige inloggegevens» te tonen",
+        "Duidelijke meldingen ook bij het herstellen van het wachtwoord: app-code vereist of onjuist, wachtwoord te zwak, botcontrole"
+      ]
+    },
+    {
       "version": "1.29.7",
       "date": "2026-10-19",
       "title": "Betrouwbaar inloggen en wachtwoord herstellen",

@@ -272,6 +272,24 @@
   ],
   "changelog": [
     {
+      "version": "1.30.0",
+      "date": "2026-10-27",
+      "title": "3D-Darstellung im Vollbild: realistische Küche, animiertes Zubehör und richtige Einbaureihenfolge",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Die 3D-Darstellung öffnet im Vollbild mit einem animierten schwebenden Menü: Farbe, Beschläge, Glas, Profil, Flügelaufteilung, Öffnungen und Zubehör, dazu eine Zurück-Taste",
+        "Das Fenster sitzt in einer realistischen Küche (Backofen, Kochfeld mit Pfanne, Spüle, Kaffeemaschine, Kühlschrank, Tisch) mit Landschaft vor dem Fenster; Ansicht von innen und von außen",
+        "Zubehör wird wirklich gezeichnet und animiert: Insektenschutz (auch Plissee), der sich öffnet und schließt, Rollladenkasten mit Revisionsklappe, Rollladen zwischen zwei Führungsschienen mit Gurt, Klappladen mit Lamellen",
+        "Die Einbaureihenfolge stimmt: Fenster in der Wand, Insektenschutz, Rollladen aus dem Kasten, Klappladen zuletzt",
+        "Kippfenster korrigiert: es schließt immer zuerst, bevor es von offen auf gekippt wechselt",
+        "Farbtexturen, Gläser (Low-E, dreifach, satiniert) und Profile (PVC, Holz, Aluminium) entsprechen der Konfiguration",
+        "Aufmaß per Foto mit bekannter Referenz (Vormessung) und 3D-Fenster über dem Foto des Raums",
+        "Verfügbar auf der Seite 3D-Darstellung und in allen Konfiguratoren: Widget, geführter Konfigurator, Showroom und Angebot; auch im Vollbild in Widgets auf Kundenwebsites",
+        "Entwickelt für Smartphone, Tablet und installierte App: Fingergesten, geräteabhängige Qualität und eine klare Meldung, wenn 3D nicht unterstützt wird"
+      ]
+    },
+    {
       "version": "1.29.13",
       "date": "2026-10-19",
       "title": "E-Mail zu neuen Anfragen: Konfigurator und Herkunftsseite",

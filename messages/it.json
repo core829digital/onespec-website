@@ -272,6 +272,24 @@
   ],
   "changelog": [
     {
+      "version": "1.30.0",
+      "date": "2026-10-27",
+      "title": "Render 3D a schermo intero: cucina realistica, accessori animati e posa corretta",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Il render 3D si apre a schermo intero con un menu flottante animato: Colore, Ferramenta, Vetro, Profilo, Configurazione ante, Aperture e Accessori, più il pulsante Indietro",
+        "La finestra è inserita in una cucina realistica (forno, piano cottura con padella, lavello, macchina del caffè, frigorifero, tavolo) con un paesaggio fuori dalla finestra; vista da dentro e da fuori",
+        "Accessori disegnati e animati davvero: zanzariera (anche plissettata) che si apre e si chiude, cassonetto con ispezione, avvolgibile tra due guide con cinghia, persiana a lamelle",
+        "Ordine di posa rispettato: finestra nel muro, zanzariera, avvolgibile dal cassonetto, persiana per ultima",
+        "Vasistas corretto: si chiude sempre prima di passare da aperto a ribalta",
+        "Texture dei colori, vetri (basso emissivo, triplo, satinato) e profili (PVC, legno, alluminio) fedeli alla configurazione",
+        "Rilievo delle misure da foto con un riferimento noto (pre-misura) e finestra 3D sovrapposta alla foto della stanza",
+        "Disponibile nella pagina Render 3D e in tutti i configuratori: widget, configuratore guidato, Showroom e preventivo; a schermo intero anche nei widget incorporati nei siti dei clienti",
+        "Pensato per telefono, tablet e app installata: gesti con le dita, qualità che si adatta al dispositivo e messaggio chiaro se il 3D non è supportato"
+      ]
+    },
+    {
       "version": "1.29.13",
       "date": "2026-10-19",
       "title": "Email di nuova richiesta: configuratore e pagina di provenienza",

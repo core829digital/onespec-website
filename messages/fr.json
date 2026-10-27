@@ -272,6 +272,24 @@
   ],
   "changelog": [
     {
+      "version": "1.30.0",
+      "date": "2026-10-27",
+      "title": "Rendu 3D plein écran : cuisine réaliste, accessoires animés et ordre de pose correct",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Le rendu 3D s'ouvre en plein écran avec un menu flottant animé : Couleur, Quincaillerie, Vitrage, Profilé, Configuration des vantaux, Ouvertures et Accessoires, avec un bouton Retour",
+        "La fenêtre est placée dans une cuisine réaliste (four, plaque avec poêle, évier, machine à café, réfrigérateur, table) avec un paysage dehors ; vue de l'intérieur et de l'extérieur",
+        "Accessoires vraiment dessinés et animés : moustiquaire (plissée aussi) qui s'ouvre et se ferme, coffre avec trappe de visite, volet roulant entre deux coulisses avec sa sangle, volet à lames",
+        "L'ordre de pose est respecté : fenêtre dans le mur, moustiquaire, volet roulant depuis le coffre, volet à lames en dernier",
+        "Oscillant corrigé : il se ferme toujours avant de passer de l'ouverture à l'oscillation",
+        "Textures des couleurs, vitrages (faible émissivité, triple, satiné) et profilés (PVC, bois, aluminium) fidèles à la configuration",
+        "Relevé des mesures à partir d'une photo avec une référence connue (pré-mesure) et fenêtre 3D superposée à la photo de la pièce",
+        "Disponible sur la page Rendu 3D et dans tous les configurateurs : widget, configurateur guidé, Showroom et devis ; plein écran aussi dans les widgets intégrés aux sites des clients",
+        "Pensé pour téléphone, tablette et application installée : gestes au doigt, qualité adaptée à l'appareil et message clair si la 3D n'est pas prise en charge"
+      ]
+    },
+    {
       "version": "1.29.13",
       "date": "2026-10-19",
       "title": "E-mail de nouvelle demande : configurateur et page de provenance",

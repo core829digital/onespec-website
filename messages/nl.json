@@ -272,6 +272,24 @@
   ],
   "changelog": [
     {
+      "version": "1.30.0",
+      "date": "2026-10-27",
+      "title": "3D-weergave op volledig scherm: realistische keuken, geanimeerde accessoires en juiste plaatsingsvolgorde",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "De 3D-weergave opent op volledig scherm met een geanimeerd zwevend menu: Kleur, Beslag, Glas, Profiel, Vleugelindeling, Openingen en Accessoires, plus een Terug-knop",
+        "Het raam zit in een realistische keuken (oven, kookplaat met pan, spoelbak, koffiemachine, koelkast, tafel) met een landschap buiten; weergave van binnen en van buiten",
+        "Accessoires worden echt getekend en geanimeerd: hor (ook plissé) die opent en sluit, rolluikkast met inspectieluik, rolluik tussen twee geleiders met trekband, lamellenluik",
+        "De plaatsingsvolgorde klopt: raam in de muur, hor, rolluik uit de kast, lamellenluik als laatste",
+        "Kiepraam gecorrigeerd: het sluit altijd eerst voordat het van open naar kiep gaat",
+        "Kleurtexturen, glas (lage emissie, drievoudig, satijn) en profielen (PVC, hout, aluminium) komen overeen met de configuratie",
+        "Opmeten vanaf een foto met een bekende referentie (voormeting) en het 3D-raam over de foto van de ruimte",
+        "Beschikbaar op de pagina 3D-weergave en in alle configurators: widget, begeleide configurator, Showroom en offerte; ook op volledig scherm in widgets op websites van klanten",
+        "Gemaakt voor telefoon, tablet en geïnstalleerde app: vingergebaren, kwaliteit die zich aan het apparaat aanpast en een duidelijke melding als 3D niet wordt ondersteund"
+      ]
+    },
+    {
       "version": "1.29.13",
       "date": "2026-10-19",
       "title": "E-mail bij nieuwe aanvraag: configurator en pagina van herkomst",

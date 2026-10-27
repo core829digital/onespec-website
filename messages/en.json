@@ -272,6 +272,24 @@
   ],
   "changelog": [
     {
+      "version": "1.30.0",
+      "date": "2026-10-27",
+      "title": "Full-screen 3D render: realistic kitchen, animated accessories and correct fitting order",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "The 3D render opens full screen with an animated floating menu: Colour, Hardware, Glass, Profile, Leaf layout, Openings and Accessories, plus a Back button",
+        "The window sits in a realistic kitchen (oven, hob with a pan, sink, coffee machine, fridge, table) with a landscape outside; view from inside and from outside",
+        "Accessories are really drawn and animated: mosquito net (pleated too) that opens and closes, shutter box with inspection lid, roller shutter between two guides with its pull belt, louvre shutter",
+        "The fitting order is respected: window in the wall, mosquito net, roller shutter from the box, louvre shutter last",
+        "Tilt-only (vasistas) fixed: it always closes first before going from open to tilted",
+        "Colour textures, glass (low-E, triple, satin) and profiles (PVC, wood, aluminium) match the configuration",
+        "Measuring from a photo with a known reference (pre-measure) and the 3D window laid over the photo of the room",
+        "Available on the Render 3D page and in every configurator: widget, guided configurator, Showroom and quote; full screen also in widgets embedded on customers' websites",
+        "Built for phones, tablets and the installed app: finger gestures, quality that adapts to the device and a clear message when 3D is not supported"
+      ]
+    },
+    {
       "version": "1.29.13",
       "date": "2026-10-19",
       "title": "New request e-mail: configurator and source page",

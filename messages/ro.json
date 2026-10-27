@@ -272,6 +272,24 @@
   ],
   "changelog": [
     {
+      "version": "1.30.0",
+      "date": "2026-10-27",
+      "title": "Randare 3D pe tot ecranul: bucătărie realistă, accesorii animate și ordine corectă de montaj",
+      "tag": "Nuovo",
+      "channel": "prodotto",
+      "items": [
+        "Randarea 3D se deschide pe tot ecranul cu un meniu plutitor animat: Culoare, Feronerie, Geam, Profil, Configurația canaturilor, Deschideri și Accesorii, plus butonul Înapoi",
+        "Fereastra este așezată într-o bucătărie realistă (cuptor, plită cu tigaie, chiuvetă, espressor, frigider, masă) cu un peisaj în afara ferestrei; vedere din interior și din exterior",
+        "Accesorii desenate și animate cu adevărat: plasă de țânțari (și plisată) care se deschide și se închide, cutie de rulou cu capac de inspecție, rulou între două ghidaje cu cureaua sa, jaluzea cu lamele",
+        "Ordinea de montaj este respectată: fereastra în zid, plasa de țânțari, rulou din cutie, jaluzeaua la final",
+        "Oscilobatant corectat: se închide mereu întâi, înainte de a trece de la deschis la basculat",
+        "Texturi de culoare, geamuri (low-E, triplu, satinat) și profile (PVC, lemn, aluminiu) fidele configurației",
+        "Relevare a dimensiunilor din fotografie cu o referință cunoscută (pre-măsurătoare) și fereastra 3D suprapusă peste fotografia camerei",
+        "Disponibil în pagina Randare 3D și în toate configuratoarele: widget, configurator ghidat, Showroom și ofertă; pe tot ecranul și în widgeturile încorporate în site-urile clienților",
+        "Gândit pentru telefon, tabletă și aplicația instalată: gesturi cu degetele, calitate adaptată dispozitivului și un mesaj clar dacă 3D nu este acceptat"
+      ]
+    },
+    {
       "version": "1.29.13",
       "date": "2026-10-19",
       "title": "Email pentru cerere nouă: configuratorul și pagina de proveniență",

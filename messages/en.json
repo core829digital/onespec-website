@@ -272,6 +272,17 @@
   ],
   "changelog": [
     {
+      "version": "1.31.1",
+      "date": "2026-10-27",
+      "title": "3D render: more reliable start on Android and tablets",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Fixed the false “WebGL 2 needed” error shown on several Android devices: the 3D now asks for graphics more gently, with several attempts, and retries by itself",
+        "If it still cannot start, the message explains what to do and there is a Try again button"
+      ]
+    },
+    {
       "version": "1.31.0",
       "date": "2026-10-27",
       "title": "Faster, more faithful 3D render: 45° corners, new rooms, corners detected from the photo",

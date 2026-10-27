@@ -272,6 +272,17 @@
   ],
   "changelog": [
     {
+      "version": "1.31.1",
+      "date": "2026-10-27",
+      "title": "Randare 3D: pornire mai fiabilă pe Android și tablete",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Am corectat falsa eroare „e nevoie de WebGL 2” de pe mai multe dispozitive Android: 3D cere acum grafica mai delicat, cu mai multe încercări, și reîncearcă singur",
+        "Dacă tot nu pornește, mesajul explică ce de făcut și există butonul Reîncearcă"
+      ]
+    },
+    {
       "version": "1.31.0",
       "date": "2026-10-27",
       "title": "Randare 3D mai rapidă și mai fidelă: colțuri la 45°, camere noi, colțuri detectate din fotografie",

@@ -272,6 +272,17 @@
   ],
   "changelog": [
     {
+      "version": "1.31.1",
+      "date": "2026-10-27",
+      "title": "Rendu 3D : démarrage plus fiable sur Android et tablettes",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Correction de la fausse erreur « WebGL 2 requis » sur plusieurs appareils Android : la 3D demande désormais le graphisme plus délicatement, avec plusieurs essais, et réessaie seule",
+        "Si elle ne démarre toujours pas, le message explique quoi faire et un bouton Réessayer est disponible"
+      ]
+    },
+    {
       "version": "1.31.0",
       "date": "2026-10-27",
       "title": "Rendu 3D plus rapide et plus fidèle : angles à 45°, nouvelles pièces, coins détectés sur la photo",

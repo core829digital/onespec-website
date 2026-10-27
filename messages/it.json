@@ -272,6 +272,17 @@
   ],
   "changelog": [
     {
+      "version": "1.31.1",
+      "date": "2026-10-27",
+      "title": "Render 3D: avvio più affidabile su Android e tablet",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Corretto il falso errore «serve WebGL 2» che compariva su vari dispositivi Android: il 3D ora chiede la grafica in modo più delicato, con più tentativi, e riprova da solo",
+        "Se proprio non parte, il messaggio spiega cosa fare e c'è il pulsante Riprova"
+      ]
+    },
+    {
       "version": "1.31.0",
       "date": "2026-10-27",
       "title": "Render 3D più veloce e più fedele: angoli a 45°, nuovi ambienti, angoli rilevati dalla foto",

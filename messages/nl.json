@@ -272,6 +272,21 @@
   ],
   "changelog": [
     {
+      "version": "1.31.0",
+      "date": "2026-10-27",
+      "title": "Sneller, getrouwer 3D-render: hoeken van 45°, nieuwe ruimtes, hoeken herkend uit de foto",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Prestaties: de 3D-render past zich aan het apparaat aan (dynamische resolutie, geen zware antialiasing op tablets, statische schaduwen) en herstelt zichzelf als het apparaat de graphics stopt",
+        "Kozijn en vleugels met op 45° gelaste hoeken in de 3D-render en de technische tekening",
+        "Draaikip met draaivleugel: de greep zit alleen op de hoofdvleugel",
+        "Nieuwe ruimtes: woonkamer en slaapkamer (balkondeuren) en badkamer (klein raam), naast de keuken",
+        "Hor achter het raam, in de juiste volgorde, en afwerkingen op alle onderdelen",
+        "Vanuit de foto: de vier hoeken starten bij de automatisch herkende contour, altijd aanpasbaar"
+      ]
+    },
+    {
       "version": "1.30.0",
       "date": "2026-10-27",
       "title": "3D-weergave op volledig scherm: realistische keuken, geanimeerde accessoires en juiste plaatsingsvolgorde",

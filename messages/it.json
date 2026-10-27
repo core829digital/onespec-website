@@ -272,6 +272,21 @@
   ],
   "changelog": [
     {
+      "version": "1.31.0",
+      "date": "2026-10-27",
+      "title": "Render 3D più veloce e più fedele: angoli a 45°, nuovi ambienti, angoli rilevati dalla foto",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Prestazioni: il render 3D si adatta al dispositivo (risoluzione dinamica, niente antialiasing pesante sui tablet, ombre statiche) e si riprende da solo se il dispositivo interrompe la grafica",
+        "Telaio e ante con angoli saldati a 45° nel render 3D e nel disegno tecnico",
+        "Anta-ribalta con battente: la maniglia è solo sull'anta principale",
+        "Nuovi ambienti: soggiorno e camera matrimoniale (porte balcone) e bagno (finestra piccola), oltre alla cucina",
+        "Zanzariera dietro la finestra, nell'ordine corretto, e finiture applicate a tutti i componenti",
+        "Dalla foto: i quattro angoli partono dal contorno rilevato automaticamente, sempre modificabili"
+      ]
+    },
+    {
       "version": "1.30.0",
       "date": "2026-10-27",
       "title": "Render 3D a schermo intero: cucina realistica, accessori animati e posa corretta",

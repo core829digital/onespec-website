@@ -272,6 +272,21 @@
   ],
   "changelog": [
     {
+      "version": "1.31.0",
+      "date": "2026-10-27",
+      "title": "Faster, more faithful 3D render: 45° corners, new rooms, corners detected from the photo",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Performance: the 3D render adapts to the device (dynamic resolution, no heavy antialiasing on tablets, static shadows) and recovers by itself if the device stops the graphics",
+        "Frame and sashes with 45° welded corners in the 3D render and in the technical drawing",
+        "Tilt-and-turn with casement: the handle is only on the main sash",
+        "New rooms: living room and master bedroom (balcony doors) and bathroom (small window), besides the kitchen",
+        "Insect screen behind the window, in the right order, and finishes applied to every component",
+        "From the photo: the four corners start from the automatically detected outline, always editable"
+      ]
+    },
+    {
       "version": "1.30.0",
       "date": "2026-10-27",
       "title": "Full-screen 3D render: realistic kitchen, animated accessories and correct fitting order",

@@ -272,6 +272,21 @@
   ],
   "changelog": [
     {
+      "version": "1.31.0",
+      "date": "2026-10-27",
+      "title": "Randare 3D mai rapidă și mai fidelă: colțuri la 45°, camere noi, colțuri detectate din fotografie",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Performanță: randarea 3D se adaptează dispozitivului (rezoluție dinamică, fără antialiasing greu pe tablete, umbre statice) și își revine singură dacă dispozitivul oprește grafica",
+        "Toc și canaturi cu colțuri sudate la 45° în randarea 3D și în desenul tehnic",
+        "Oscilobatant cu canat batant: mânerul este doar pe canatul principal",
+        "Camere noi: living și dormitor (uși de balcon) și baie (fereastră mică), pe lângă bucătărie",
+        "Plasă de țânțari în spatele ferestrei, în ordinea corectă, și finisaje aplicate tuturor componentelor",
+        "Din fotografie: cele patru colțuri pornesc de la conturul detectat automat, mereu editabile"
+      ]
+    },
+    {
       "version": "1.30.0",
       "date": "2026-10-27",
       "title": "Randare 3D pe tot ecranul: bucătărie realistă, accesorii animate și ordine corectă de montaj",

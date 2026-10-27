@@ -272,6 +272,21 @@
   ],
   "changelog": [
     {
+      "version": "1.31.0",
+      "date": "2026-10-27",
+      "title": "Rendu 3D plus rapide et plus fidèle : angles à 45°, nouvelles pièces, coins détectés sur la photo",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Performances : le rendu 3D s'adapte à l'appareil (résolution dynamique, pas d'anticrénelage lourd sur tablette, ombres statiques) et reprend seul si l'appareil interrompt le graphisme",
+        "Cadre et ouvrants avec angles soudés à 45° dans le rendu 3D et le dessin technique",
+        "Oscillo-battant avec battant : la poignée n'est que sur l'ouvrant principal",
+        "Nouvelles pièces : salon et chambre parentale (portes-fenêtres) et salle de bain (petite fenêtre), en plus de la cuisine",
+        "Moustiquaire derrière la fenêtre, dans le bon ordre, et finitions appliquées à tous les composants",
+        "Depuis la photo : les quatre coins partent du contour détecté automatiquement, toujours modifiables"
+      ]
+    },
+    {
       "version": "1.30.0",
       "date": "2026-10-27",
       "title": "Rendu 3D plein écran : cuisine réaliste, accessoires animés et ordre de pose correct",

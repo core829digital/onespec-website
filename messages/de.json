@@ -272,6 +272,21 @@
   ],
   "changelog": [
     {
+      "version": "1.31.0",
+      "date": "2026-10-27",
+      "title": "Schnelleres, treueres 3D-Rendering: 45°-Ecken, neue Räume, Ecken aus dem Foto erkannt",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Leistung: Das 3D-Rendering passt sich dem Gerät an (dynamische Auflösung, kein schweres Antialiasing auf Tablets, statische Schatten) und erholt sich selbst, wenn das Gerät die Grafik beendet",
+        "Rahmen und Flügel mit auf 45° verschweißten Ecken im 3D-Rendering und in der technischen Zeichnung",
+        "Dreh-Kipp mit Drehflügel: Der Griff sitzt nur am Hauptflügel",
+        "Neue Räume: Wohnzimmer und Schlafzimmer (Balkontüren) und Bad (kleines Fenster), zusätzlich zur Küche",
+        "Insektenschutz hinter dem Fenster, in der richtigen Reihenfolge, und Oberflächen auf allen Bauteilen",
+        "Aus dem Foto: Die vier Ecken starten an der automatisch erkannten Kontur, jederzeit anpassbar"
+      ]
+    },
+    {
       "version": "1.30.0",
       "date": "2026-10-27",
       "title": "3D-Darstellung im Vollbild: realistische Küche, animiertes Zubehör und richtige Einbaureihenfolge",

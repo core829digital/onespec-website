@@ -272,6 +272,19 @@
   ],
   "changelog": [
     {
+      "version": "1.31.3",
+      "date": "2026-10-29",
+      "title": "3D render: audit fixes (scene recovery, phone toolbar, configurator choice)",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Fixed a case where, after a start-up retry on Android, the scene could stay empty",
+        "The 3D now comes back correctly when the device gives the graphics back",
+        "Top bar and navigation arrows no longer overlap on phones and in landscape; the close button has the right touch area",
+        "On the 3D render page, with several configurators you choose the configurator first and then open the 3D"
+      ]
+    },
+    {
       "version": "1.31.2",
       "date": "2026-10-29",
       "title": "3D render: light mode and smoothness on modest devices",

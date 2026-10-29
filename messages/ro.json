@@ -272,6 +272,19 @@
   ],
   "changelog": [
     {
+      "version": "1.31.3",
+      "date": "2026-10-29",
+      "title": "Randare 3D: corecturi din audit (refacerea scenei, bara pe telefon, alegerea configuratorului)",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Am corectat un caz în care, după o nouă încercare de pornire pe Android, scena putea rămâne goală",
+        "3D revine corect când dispozitivul returnează grafica",
+        "Bara de sus și săgețile de navigare nu se mai suprapun pe telefon și în orizontal; butonul de închidere are zona de atingere corectă",
+        "Pe pagina Render 3D, cu mai multe configuratoare se alege întâi configuratorul și apoi se deschide 3D"
+      ]
+    },
+    {
       "version": "1.31.2",
       "date": "2026-10-29",
       "title": "Randare 3D: mod ușor și fluiditate pe dispozitive modeste",

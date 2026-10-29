@@ -272,6 +272,19 @@
   ],
   "changelog": [
     {
+      "version": "1.31.3",
+      "date": "2026-10-29",
+      "title": "Rendu 3D : corrections de l'audit (reprise de la scène, barre sur téléphone, choix du configurateur)",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Correction d'un cas où, après une nouvelle tentative de démarrage sur Android, la scène pouvait rester vide",
+        "La 3D reprend correctement quand l'appareil rend le graphisme",
+        "La barre du haut et les flèches de navigation ne se chevauchent plus sur téléphone et en paysage ; le bouton de fermeture a la bonne zone de toucher",
+        "Sur la page Rendu 3D, avec plusieurs configurateurs on choisit d'abord le configurateur puis on ouvre la 3D"
+      ]
+    },
+    {
       "version": "1.31.2",
       "date": "2026-10-29",
       "title": "Rendu 3D : mode léger et fluidité sur les appareils modestes",

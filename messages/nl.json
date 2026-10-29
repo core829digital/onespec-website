@@ -272,6 +272,19 @@
   ],
   "changelog": [
     {
+      "version": "1.31.3",
+      "date": "2026-10-29",
+      "title": "3D-render: correcties uit de audit (herstel van de scène, balk op telefoon, keuze van de configurator)",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Een geval opgelost waarin de scène na een nieuwe startpoging op Android leeg kon blijven",
+        "Het 3D komt nu correct terug wanneer het apparaat de graphics teruggeeft",
+        "Bovenbalk en navigatiepijlen overlappen niet meer op telefoons en in liggende stand; de sluitknop heeft het juiste aanraakvlak",
+        "Op de 3D-pagina kies je bij meerdere configurators eerst de configurator en open je daarna het 3D"
+      ]
+    },
+    {
       "version": "1.31.2",
       "date": "2026-10-29",
       "title": "3D-render: lichte modus en vloeiendheid op eenvoudige apparaten",

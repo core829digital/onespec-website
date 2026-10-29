@@ -272,6 +272,19 @@
   ],
   "changelog": [
     {
+      "version": "1.31.3",
+      "date": "2026-10-29",
+      "title": "Render 3D: correzioni dall'audit (ripristino della scena, barra su telefono, scelta del configuratore)",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Corretto un caso in cui, dopo un nuovo tentativo di avvio su Android, la scena poteva restare vuota",
+        "Il 3D ora riparte correttamente quando il dispositivo restituisce la grafica",
+        "Barra in alto e frecce di navigazione non si sovrappongono più su telefono e in orizzontale; il pulsante di chiusura ha l'area di tocco corretta",
+        "Nella pagina Render 3D, con più configuratori si sceglie prima il configuratore e poi si apre il 3D"
+      ]
+    },
+    {
       "version": "1.31.2",
       "date": "2026-10-29",
       "title": "Render 3D: modalità leggera e fluidità sui dispositivi più modesti",

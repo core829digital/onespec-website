@@ -272,6 +272,19 @@
   ],
   "changelog": [
     {
+      "version": "1.31.3",
+      "date": "2026-10-29",
+      "title": "3D-Rendering: Korrekturen aus dem Audit (Szenen-Wiederherstellung, Leiste am Handy, Konfigurator-Auswahl)",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Ein Fall behoben, in dem die Szene nach einem erneuten Startversuch auf Android leer bleiben konnte",
+        "Das 3D kehrt jetzt korrekt zurück, wenn das Gerät die Grafik wieder freigibt",
+        "Obere Leiste und Navigationspfeile überlappen sich auf Handys und im Querformat nicht mehr; die Schließen-Schaltfläche hat die richtige Tippfläche",
+        "Auf der 3D-Seite wählt man bei mehreren Konfiguratoren zuerst den Konfigurator und öffnet dann das 3D"
+      ]
+    },
+    {
       "version": "1.31.2",
       "date": "2026-10-29",
       "title": "3D-Rendering: Leichtmodus und Flüssigkeit auf einfachen Geräten",

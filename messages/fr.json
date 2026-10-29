@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.31.2",
+      "date": "2026-10-29",
+      "title": "Rendu 3D : mode léger et fluidité sur les appareils modestes",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "La 3D choisit seule son niveau de détail selon l'appareil et le réduit si elle n'est pas assez fluide",
+        "Nouveau mode léger (bouton ⚡) : moins de détails, démarrage plus rapide et moins de mémoire, pour tablettes et téléphones anciens",
+        "Le choix est mémorisé sur l'appareil"
+      ]
+    },
+    {
       "version": "1.31.1",
       "date": "2026-10-27",
       "title": "Rendu 3D : démarrage plus fiable sur Android et tablettes",

@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.31.2",
+      "date": "2026-10-29",
+      "title": "Render 3D: modalità leggera e fluidità sui dispositivi più modesti",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Il 3D sceglie da solo il livello di dettaglio in base al dispositivo e scende di livello se non è abbastanza fluido",
+        "Nuova modalità leggera (pulsante ⚡): meno dettagli, avvio più rapido e meno memoria, per tablet e telefoni datati",
+        "La scelta resta memorizzata sul dispositivo"
+      ]
+    },
+    {
       "version": "1.31.1",
       "date": "2026-10-27",
       "title": "Render 3D: avvio più affidabile su Android e tablet",

@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.31.2",
+      "date": "2026-10-29",
+      "title": "3D-Rendering: Leichtmodus und Flüssigkeit auf einfachen Geräten",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Das 3D wählt den Detailgrad passend zum Gerät und schaltet herunter, wenn es nicht flüssig genug läuft",
+        "Neuer Leichtmodus (⚡-Schaltfläche): weniger Details, schnellerer Start und weniger Speicher, für ältere Tablets und Handys",
+        "Die Auswahl wird auf dem Gerät gespeichert"
+      ]
+    },
+    {
       "version": "1.31.1",
       "date": "2026-10-27",
       "title": "3D-Rendering: zuverlässigerer Start auf Android und Tablets",

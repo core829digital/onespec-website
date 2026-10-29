@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.31.2",
+      "date": "2026-10-29",
+      "title": "3D render: light mode and smoothness on modest devices",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "The 3D picks its level of detail from the device and steps down if it is not smooth enough",
+        "New light mode (⚡ button): less detail, faster start and less memory, for older tablets and phones",
+        "The choice is remembered on the device"
+      ]
+    },
+    {
       "version": "1.31.1",
       "date": "2026-10-27",
       "title": "3D render: more reliable start on Android and tablets",

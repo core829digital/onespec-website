@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.31.2",
+      "date": "2026-10-29",
+      "title": "Randare 3D: mod ușor și fluiditate pe dispozitive modeste",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "3D alege singur nivelul de detaliu după dispozitiv și îl reduce dacă nu e destul de fluid",
+        "Mod ușor nou (butonul ⚡): mai puține detalii, pornire mai rapidă și mai puțină memorie, pentru tablete și telefoane mai vechi",
+        "Alegerea este reținută pe dispozitiv"
+      ]
+    },
+    {
       "version": "1.31.1",
       "date": "2026-10-27",
       "title": "Randare 3D: pornire mai fiabilă pe Android și tablete",

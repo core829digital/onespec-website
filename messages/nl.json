@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.31.2",
+      "date": "2026-10-29",
+      "title": "3D-render: lichte modus en vloeiendheid op eenvoudige apparaten",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Het 3D kiest zelf het detailniveau op basis van het apparaat en schakelt terug als het niet vloeiend genoeg is",
+        "Nieuwe lichte modus (⚡-knop): minder details, snellere start en minder geheugen, voor oudere tablets en telefoons",
+        "De keuze wordt op het apparaat onthouden"
+      ]
+    },
+    {
       "version": "1.31.1",
       "date": "2026-10-27",
       "title": "3D-render: betrouwbaardere start op Android en tablets",

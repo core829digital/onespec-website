@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.31.4",
+      "date": "2026-11-01",
+      "title": "Widget încorporat: fără blocări neașteptate pe site-urile clienților",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Dacă baza de date are o ezitare, widgetul nu mai este blocat pe site-ul clientului: se folosește ultima autorizare validă și verificarea se repetă imediat",
+        "Domeniile adăugate funcționează în aproximativ un minut",
+        "Editorul precizează acum că, fără domenii autorizate, widgetul nu apare pe niciun site extern"
+      ]
+    },
+    {
       "version": "1.31.3",
       "date": "2026-10-29",
       "title": "Randare 3D: corecturi din audit (refacerea scenei, bara pe telefon, alegerea configuratorului)",

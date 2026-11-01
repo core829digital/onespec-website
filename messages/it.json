@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.31.4",
+      "date": "2026-11-01",
+      "title": "Widget incorporato: niente più blocchi improvvisi sui siti dei clienti",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Se il database ha un'esitazione momentanea, il widget non viene più bloccato sul sito del cliente: si usa l'ultima autorizzazione valida e il controllo si ripete subito",
+        "I domini appena aggiunti funzionano entro circa un minuto",
+        "Chiarito nell'editor che, senza domini autorizzati, il widget non compare su nessun sito esterno"
+      ]
+    },
+    {
       "version": "1.31.3",
       "date": "2026-10-29",
       "title": "Render 3D: correzioni dall'audit (ripristino della scena, barra su telefono, scelta del configuratore)",

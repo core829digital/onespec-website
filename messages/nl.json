@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.31.4",
+      "date": "2026-11-01",
+      "title": "Ingesloten widget: geen plotselinge blokkades meer op klantsites",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Heeft de database even een haperingetje, dan wordt de widget op de klantsite niet meer geblokkeerd: de laatste geldige autorisatie wordt gebruikt en de controle meteen herhaald",
+        "Nieuw toegevoegde domeinen werken binnen ongeveer een minuut",
+        "De editor vermeldt nu dat de widget zonder geautoriseerde domeinen op geen enkele externe site verschijnt"
+      ]
+    },
+    {
       "version": "1.31.3",
       "date": "2026-10-29",
       "title": "3D-render: correcties uit de audit (herstel van de scène, balk op telefoon, keuze van de configurator)",

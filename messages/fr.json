@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.31.4",
+      "date": "2026-11-01",
+      "title": "Widget intégré : fini les blocages soudains sur les sites des clients",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Si la base de données a un à-coup, le widget n'est plus bloqué sur le site du client : la dernière autorisation valide est utilisée et le contrôle est refait aussitôt",
+        "Les domaines ajoutés fonctionnent en environ une minute",
+        "L'éditeur précise que, sans domaine autorisé, le widget n'apparaît sur aucun site externe"
+      ]
+    },
+    {
       "version": "1.31.3",
       "date": "2026-10-29",
       "title": "Rendu 3D : corrections de l'audit (reprise de la scène, barre sur téléphone, choix du configurateur)",

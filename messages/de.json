@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.31.4",
+      "date": "2026-11-01",
+      "title": "Eingebettetes Widget: keine plötzlichen Sperren mehr auf Kundenseiten",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "Hat die Datenbank kurz einen Aussetzer, wird das Widget auf der Kundenseite nicht mehr blockiert: Es gilt die letzte gültige Freigabe und die Prüfung wird sofort wiederholt",
+        "Neu hinzugefügte Domains funktionieren nach etwa einer Minute",
+        "Der Editor weist darauf hin, dass das Widget ohne freigegebene Domains auf keiner externen Website erscheint"
+      ]
+    },
+    {
       "version": "1.31.3",
       "date": "2026-10-29",
       "title": "3D-Rendering: Korrekturen aus dem Audit (Szenen-Wiederherstellung, Leiste am Handy, Konfigurator-Auswahl)",

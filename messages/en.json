@@ -272,6 +272,18 @@
   ],
   "changelog": [
     {
+      "version": "1.31.4",
+      "date": "2026-11-01",
+      "title": "Embedded widget: no more sudden blocks on customers' sites",
+      "tag": "Miglioramento",
+      "channel": "prodotto",
+      "items": [
+        "If the database hiccups for a moment, the widget is no longer blocked on the customer's site: the last valid authorisation is used and the check is repeated at once",
+        "Newly added domains work within about a minute",
+        "The editor now says that, with no authorised domains, the widget appears on no external site"
+      ]
+    },
+    {
       "version": "1.31.3",
       "date": "2026-10-29",
       "title": "3D render: audit fixes (scene recovery, phone toolbar, configurator choice)",
